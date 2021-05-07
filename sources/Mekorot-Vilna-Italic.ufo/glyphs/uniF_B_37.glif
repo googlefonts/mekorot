@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB37" format="2">
+  <advance width="559"/>
+  <unicode hex="FB37"/>
+  <outline>
+    <contour>
+      <point x="366.566" y="338" type="curve"/>
+      <point x="366.701" y="338.5" type="line"/>
+      <point x="387.701" y="338.5"/>
+      <point x="400.146" y="321.5"/>
+      <point x="394.519" y="300.5" type="curve" smooth="yes"/>
+      <point x="388.892" y="279.5"/>
+      <point x="367.337" y="262.5"/>
+      <point x="346.337" y="262.5" type="curve" smooth="yes"/>
+      <point x="325.337" y="262.5"/>
+      <point x="312.892" y="279.5"/>
+      <point x="318.519" y="300.5" type="curve" smooth="yes"/>
+      <point x="324.146" y="321.5"/>
+      <point x="345.701" y="338.5"/>
+    </contour>
+    <contour>
+      <point x="276.031" y="440.5" type="line"/>
+      <point x="257.548" y="427.5"/>
+      <point x="239.85" y="402.5"/>
+      <point x="231.759" y="383.5" type="curve" smooth="yes"/>
+      <point x="208.558" y="330.5"/>
+      <point x="197.246" y="243.5"/>
+      <point x="192.083" y="220.5" type="curve" smooth="yes"/>
+      <point x="177.13" y="153.5"/>
+      <point x="168.465" y="102.5"/>
+      <point x="110.101" y="26.5" type="curve" smooth="yes"/>
+      <point x="76.3105" y="-17.5"/>
+      <point x="48.3828" y="-13.5"/>
+      <point x="62.3682" y="27.5" type="curve" smooth="yes"/>
+      <point x="93.4121" y="113.5"/>
+      <point x="105.849" y="193.5"/>
+      <point x="127.533" y="259.5" type="curve" smooth="yes"/>
+      <point x="143.126" y="306.5"/>
+      <point x="164.543" y="371.5"/>
+      <point x="231.031" y="440.5" type="curve"/>
+      <point x="167.979" y="451.5"/>
+      <point x="176.965" y="492.5"/>
+      <point x="178.859" y="514.5" type="curve" smooth="yes"/>
+      <point x="180.97" y="548.5"/>
+      <point x="204.1" y="597.5"/>
+      <point x="227.406" y="628.5" type="curve" smooth="yes"/>
+      <point x="244.301" y="650.5"/>
+      <point x="255.033" y="649.5"/>
+      <point x="259.21" y="631.5" type="curve" smooth="yes"/>
+      <point x="266.832" y="596.5"/>
+      <point x="302.903" y="600.5"/>
+      <point x="340.903" y="600.5" type="curve" smooth="yes"/>
+      <point x="611.903" y="600.5" type="line" smooth="yes"/>
+      <point x="671.903" y="600.5"/>
+      <point x="668.989" y="563.5"/>
+      <point x="659.271" y="523.5" type="curve" smooth="yes"/>
+      <point x="650.357" y="486.5"/>
+      <point x="634.175" y="448.5"/>
+      <point x="587.3" y="441.5" type="curve" smooth="yes"/>
+      <point x="573.764" y="439.5"/>
+      <point x="571.28" y="426.5"/>
+      <point x="571.28" y="426.5" type="curve"/>
+      <point x="565.15" y="377.5"/>
+      <point x="557.403" y="210.5"/>
+      <point x="548.666" y="155.5" type="curve" smooth="yes"/>
+      <point x="545.771" y="133.5"/>
+      <point x="531.766" y="77.5"/>
+      <point x="488.493" y="20.5" type="curve" smooth="yes"/>
+      <point x="461.579" y="-16.5"/>
+      <point x="427.454" y="-9.5"/>
+      <point x="437.833" y="25.5" type="curve" smooth="yes"/>
+      <point x="539.28" y="426.5" type="line" smooth="yes"/>
+      <point x="543.031" y="440.5"/>
+      <point x="536.031" y="440.5"/>
+      <point x="528.031" y="440.5" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>262</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>440</integer>
+            <key>width</key>
+            <integer>160</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>319</integer>
+            <key>width</key>
+            <integer>76</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

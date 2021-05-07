@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB29" format="2">
+  <advance width="605"/>
+  <unicode hex="FB29"/>
+  <outline>
+    <contour>
+      <point x="117.27" y="314.5" type="line"/>
+      <point x="325.27" y="314.5" type="line"/>
+      <point x="381.271" y="523.5" type="line"/>
+      <point x="504.271" y="523.5" type="line"/>
+      <point x="448.27" y="314.5" type="line"/>
+      <point x="656.27" y="314.5" type="line"/>
+      <point x="623.312" y="191.5" type="line"/>
+      <point x="84.3125" y="191.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>192</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

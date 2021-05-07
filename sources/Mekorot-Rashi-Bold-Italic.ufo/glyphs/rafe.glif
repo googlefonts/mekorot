@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rafe" format="2">
+  <advance width="465"/>
+  <outline>
+    <contour>
+      <point x="44.7217" y="628.056" type="line"/>
+      <point x="375.277" y="628.056" type="line"/>
+      <point x="423.89" y="469.583" type="line"/>
+      <point x="90.417" y="469.583" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>470</integer>
+            <key>width</key>
+            <integer>158</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

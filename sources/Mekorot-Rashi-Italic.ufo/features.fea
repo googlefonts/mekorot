@@ -1,0 +1,18 @@
+
+
+@GDEF_Simple = [\exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenright \parenleft \asterisk \plus \comma \Amacron \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \amacron \Abreve \abreve \bracketright 
+	\backslash \bracketleft \Aogonek \hyphen \aogonek \Cacute \cacute \Ccircumflex 
+	\ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat 
+	\dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent \edotaccent \Eogonek 
+	\eogonek \Ecaron \ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve \braceright 
+	\braceleft \Gdotaccent \space \gdotaccent \Gcommaaccent \gcommaaccent 
+	\Hcircumflex ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

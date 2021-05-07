@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii57673" format="2">
+  <advance width="266"/>
+  <unicode hex="05D9"/>
+  <outline>
+    <contour>
+      <point x="229" y="419" type="curve" smooth="yes"/>
+      <point x="223" y="390"/>
+      <point x="206" y="357"/>
+      <point x="182" y="324" type="curve" smooth="yes"/>
+      <point x="173" y="312"/>
+      <point x="161" y="295"/>
+      <point x="150" y="304" type="curve" smooth="yes"/>
+      <point x="137" y="314"/>
+      <point x="146" y="335"/>
+      <point x="151" y="344" type="curve" smooth="yes"/>
+      <point x="166" y="371"/>
+      <point x="178" y="390"/>
+      <point x="162" y="415" type="curve" smooth="yes"/>
+      <point x="148" y="436"/>
+      <point x="127" y="433"/>
+      <point x="100" y="445" type="curve" smooth="yes"/>
+      <point x="76" y="456"/>
+      <point x="53" y="473"/>
+      <point x="38" y="508" type="curve" smooth="yes"/>
+      <point x="29" y="530"/>
+      <point x="28" y="562"/>
+      <point x="30" y="579" type="curve" smooth="yes"/>
+      <point x="33" y="604"/>
+      <point x="39" y="619"/>
+      <point x="49" y="631" type="curve" smooth="yes"/>
+      <point x="69" y="654"/>
+      <point x="79" y="646"/>
+      <point x="91" y="626" type="curve" smooth="yes"/>
+      <point x="104" y="606"/>
+      <point x="118" y="598"/>
+      <point x="145" y="592" type="curve" smooth="yes"/>
+      <point x="170" y="587"/>
+      <point x="200" y="571"/>
+      <point x="216" y="541" type="curve" smooth="yes"/>
+      <point x="239" y="500"/>
+      <point x="237" y="458"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>304</integer>
+            <key>width</key>
+            <integer>327</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>30</integer>
+            <key>width</key>
+            <integer>199</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

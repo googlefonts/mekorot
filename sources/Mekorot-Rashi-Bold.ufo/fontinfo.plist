@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Mekorot-Rashi</string>
+    <key>styleName</key>
+    <string>Bold</string>
+    <key>styleMapFamilyName</key>
+    <string>Rashi font bold </string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>3</integer>
+    <key>copyright</key>
+    <string>Based on the Rashi font from the "Makor" (http://www.ctan.org/tex-archive/language/hebrew/makor/) set.
+Licensed under lppl (http://www.latex-project.org/lppl/lppl-1.3c.txt).</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>openTypeHeadCreated</key>
+    <string>2008/11/24 11:17:23</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1000</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-345</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 0.003</string>
+    <key>postscriptFontName</key>
+    <string>Mekorot-Rashi-Bold</string>
+    <key>postscriptFullName</key>
+    <string>Rashi font bold </string>
+    <key>postscriptWeightName</key>
+    <string>Bold</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-20</integer>
+      <integer>0</integer>
+      <integer>929</integer>
+      <integer>942</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>129</integer>
+      <integer>141</integer>
+      <integer>168</integer>
+      <integer>209</integer>
+      <integer>226</integer>
+      <integer>275</integer>
+      <integer>280</integer>
+      <integer>295</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>139</integer>
+      <integer>146</integer>
+      <integer>158</integer>
+      <integer>197</integer>
+      <integer>204</integer>
+      <integer>209</integer>
+      <integer>213</integer>
+      <integer>261</integer>
+      <integer>290</integer>
+      <integer>322</integer>
+      <integer>366</integer>
+      <integer>1004</integer>
+    </array>
+    <key>postscriptForceBold</key>
+    <true/>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

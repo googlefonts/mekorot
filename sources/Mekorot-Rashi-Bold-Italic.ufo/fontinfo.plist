@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Mekorot-Rashi</string>
+    <key>styleName</key>
+    <string>Italic</string>
+    <key>styleMapFamilyName</key>
+    <string>Rashi font bold italic</string>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>copyright</key>
+    <string>Based on the Rashi font from the "Makor" (http://www.ctan.org/tex-archive/language/hebrew/makor/) set.
+Licensed under lppl (http://www.latex-project.org/lppl/lppl-1.3c.txt).</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>-15</real>
+    <key>note</key>
+    <string>2008-11-23: Created.</string>
+    <key>openTypeHeadCreated</key>
+    <string>2008/11/23 16:37:31</string>
+    <key>openTypeHheaAscender</key>
+    <integer>997</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-342</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>90</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.000</string>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>500</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>PfEd</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>3</integer>
+    </array>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>800</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-200</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>90</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>997</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>342</integer>
+    <key>postscriptFontName</key>
+    <string>Mekorot-Rashi-Bold-Italic</string>
+    <key>postscriptFullName</key>
+    <string>Rashi font bold italic</string>
+    <key>postscriptWeightName</key>
+    <string>Bold</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

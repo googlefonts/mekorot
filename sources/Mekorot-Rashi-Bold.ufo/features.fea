@@ -1,0 +1,18 @@
+
+
+@GDEF_Simple = [\exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenright \parenleft \asterisk \plus \comma \rafe \period \slash 
+	\zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon \less 
+	\equal \greater \question \at \holam \enc-89 \enc-90 \bracketright \backslash 
+	\bracketleft \circumflex \hyphen \afii57664 \afii57665 \afii57666 \afii57667 
+	\afii57668 \afii57669 \afii57670 \afii57671 \afii57672 \afii57673 \afii57674 
+	\afii57675 \afii57676 \afii57677 \afii57678 \afii57679 \afii57680 \afii57681 
+	\afii57682 \afii57683 \afii57684 \afii57685 \afii57686 \afii57687 \afii57688 
+	\afii57689 \afii57690 \braceright \braceleft \nullchar \space \afii57716 
+	\afii57717 \afii57718 \uniFB1D ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

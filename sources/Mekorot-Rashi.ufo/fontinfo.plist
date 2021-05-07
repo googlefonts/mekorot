@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Mekorot-Rashi</string>
+    <key>styleName</key>
+    <string>Rashi</string>
+    <key>styleMapFamilyName</key>
+    <string>Rashi font </string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>3</integer>
+    <key>copyright</key>
+    <string>Based on the Rashi font from the "Makor" (http://www.ctan.org/tex-archive/language/hebrew/makor/) set.
+Licensed under lppl (http://www.latex-project.org/lppl/lppl-1-3c.html).</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>openTypeHeadCreated</key>
+    <string>2008/11/24 10:02:12</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1000</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-345</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 0.003</string>
+    <key>postscriptFontName</key>
+    <string>Mekorot-Rashi</string>
+    <key>postscriptFullName</key>
+    <string>Rashi font </string>
+    <key>postscriptWeightName</key>
+    <string>Medium</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-20</integer>
+      <integer>0</integer>
+      <integer>926</integer>
+      <integer>942</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>55</integer>
+      <integer>69</integer>
+      <integer>101</integer>
+      <integer>108</integer>
+      <integer>119</integer>
+      <integer>220</integer>
+      <integer>226</integer>
+      <integer>235</integer>
+      <integer>239</integer>
+      <integer>245</integer>
+      <integer>475</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>77</integer>
+      <integer>83</integer>
+      <integer>98</integer>
+      <integer>106</integer>
+      <integer>119</integer>
+      <integer>140</integer>
+      <integer>195</integer>
+      <integer>205</integer>
+      <integer>250</integer>
+      <integer>316</integer>
+      <integer>353</integer>
+      <integer>440</integer>
+    </array>
+    <key>postscriptBlueShift</key>
+    <integer>18</integer>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

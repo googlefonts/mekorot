@@ -3,6 +3,9 @@ FONTLOG for the Mekorot fonts
 ChangeLog
 
 
+7 May 2021 (Eli Heuer)
+- Add UFO sources generated with FontForge
+
 5 May 2021 (Eli Heuer)
 - Start of the Fontlog
 
