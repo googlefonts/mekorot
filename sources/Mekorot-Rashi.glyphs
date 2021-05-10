@@ -1,0 +1,781 @@
+{
+.appVersion = "3058";
+.formatVersion = 3;
+date = "2021-05-10 22:39:37 +0000";
+familyName = "New Font";
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = "alef-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1488;
+},
+{
+glyphname = "alefpatah-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64302;
+},
+{
+glyphname = "alefqamats-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64303;
+},
+{
+glyphname = "alefdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64304;
+},
+{
+glyphname = "bet-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1489;
+},
+{
+glyphname = "betdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64305;
+},
+{
+glyphname = "gimel-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1490;
+},
+{
+glyphname = "gimeldagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64306;
+},
+{
+glyphname = "dalet-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1491;
+},
+{
+glyphname = "daletdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64307;
+},
+{
+glyphname = "he-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1492;
+},
+{
+glyphname = "hedagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64308;
+},
+{
+glyphname = "vav-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1493;
+},
+{
+glyphname = "vavdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64309;
+},
+{
+glyphname = "vavholam-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64331;
+},
+{
+glyphname = "zayin-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1494;
+},
+{
+glyphname = "zayindagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64310;
+},
+{
+glyphname = "het-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1495;
+},
+{
+glyphname = "tet-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1496;
+},
+{
+glyphname = "tetdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64312;
+},
+{
+glyphname = "yod-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1497;
+},
+{
+glyphname = "yoddagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64313;
+},
+{
+glyphname = "kafFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1498;
+},
+{
+glyphname = "kafdageshFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64314;
+},
+{
+glyphname = "kaf-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1499;
+},
+{
+glyphname = "kafdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64315;
+},
+{
+glyphname = "lamed-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1500;
+},
+{
+glyphname = "lameddagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64316;
+},
+{
+glyphname = "memFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1501;
+},
+{
+glyphname = "mem-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1502;
+},
+{
+glyphname = "memdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64318;
+},
+{
+glyphname = "nunFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1503;
+},
+{
+glyphname = "nun-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1504;
+},
+{
+glyphname = "nundagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64320;
+},
+{
+glyphname = "samekh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1505;
+},
+{
+glyphname = "samekhdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64321;
+},
+{
+glyphname = "ayin-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1506;
+},
+{
+glyphname = "peFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1507;
+},
+{
+glyphname = "pedageshFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64323;
+},
+{
+glyphname = "pe-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1508;
+},
+{
+glyphname = "pedagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64324;
+},
+{
+glyphname = "tsadiFinal-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1509;
+},
+{
+glyphname = "tsadi-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1510;
+},
+{
+glyphname = "tsadidagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64326;
+},
+{
+glyphname = "qof-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1511;
+},
+{
+glyphname = "qofdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64327;
+},
+{
+glyphname = "resh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1512;
+},
+{
+glyphname = "reshdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64328;
+},
+{
+glyphname = "shin-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1513;
+},
+{
+glyphname = "shinshindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64298;
+},
+{
+glyphname = "shinsindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64299;
+},
+{
+glyphname = "shindageshshindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64300;
+},
+{
+glyphname = "shindageshsindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64301;
+},
+{
+glyphname = "shindagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64329;
+},
+{
+glyphname = "tav-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1514;
+},
+{
+glyphname = "tavdagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 64330;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = m01;
+width = 200;
+}
+);
+unicode = 32;
+},
+{
+glyphname = "maqaf-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1470;
+},
+{
+glyphname = "shindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1473;
+},
+{
+glyphname = "sheva-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1456;
+},
+{
+glyphname = "hatafsegol-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1457;
+},
+{
+glyphname = "hatafpatah-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1458;
+},
+{
+glyphname = "hatafqamats-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1459;
+},
+{
+glyphname = "hiriq-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1460;
+},
+{
+glyphname = "tsere-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1461;
+},
+{
+glyphname = "segol-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1462;
+},
+{
+glyphname = "patah-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1463;
+},
+{
+glyphname = "qamats-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1464;
+},
+{
+glyphname = "holam-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1465;
+},
+{
+glyphname = "holamhaser-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1466;
+},
+{
+glyphname = "qubuts-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1467;
+},
+{
+glyphname = "dagesh-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1468;
+},
+{
+glyphname = "sindot-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1474;
+},
+{
+glyphname = "qamatsqatan-hb";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1479;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
