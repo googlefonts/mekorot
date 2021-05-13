@@ -1,6 +1,8 @@
 # Mekorot
 A Hebrew/Latin typeface in the Rashi style. Originally this project was part of an attempt to create a free version of the Hebrew Talmud, as PDF files, while keeping the original page's shape (known as 'Tzurat Hadaf'). This repository has been adapted from a previous [Sourceforge archive](http://mekorot.sourceforge.net).
 
+![Glyphs screenshot at commit aa76a5b](documentation/screenshot/glyphs-screenshot-at-commit-aa76a5b.png)
+
 פרוייקט מקורות נוסד במקור כדי ליצור כלי שיוכל להציג דפי גמרא (למשל), בתור טקסט, אך תוך שמירה על 'צורת הדף'.
 
 ברבות הימים, הסתבר לי שאין שום צורך בכלי שכזה. היכולת הזו קיימת כבר בפורמטים רבים, וצריך רק לנצל אותה.
