@@ -7,6 +7,16 @@ name = Weight;
 tag = wght;
 }
 );
+customParameters = (
+{
+name = "Variable Font Origin";
+value = m01;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
 date = "2021-05-10 22:39:37 +0000";
 familyName = "Mekorot Rashi";
 fontMaster = (
@@ -16761,6 +16771,30 @@ type = "cap height";
 },
 {
 type = "x-height";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2021 The Mekorot Project Authors";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
 }
 );
 unitsPerEm = 1000;
