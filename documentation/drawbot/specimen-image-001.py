@@ -38,13 +38,13 @@ def new_page():
 
 # MAIN
 new_page()
-font("fonts/MekorotRashi-Regular.ttf")
+font("fonts/Mekorot-Rashi-Regular.ttf")
 #grid() # Toggle for grid view
 fill(1)
 stroke(None)
 fontSize(M*1.3)
 text("ABCDEFGHIJKLMNO", (M*2.5, M*5))
-text("ה", (M*2.5, M*4))
+text("בחםסעפףצץקרשתאָ", (M*2.5, M*4))
 
 stroke(1)
 strokeWidth(2)
@@ -54,14 +54,14 @@ font("Helvetica")
 fontSize(24)
 stroke(None)
 
-text("Mekorot Rashi Version 2.0", (M*2.5, H-(M*1.5)))
+text("fonts/ttf/Mekorot-Rashi-Regular.ttf Version 2.0", (M*2.5, H-(M*1.5)))
 
 text("4.", (W-M*3.25, H-(M*1.5)))
 text("1K", (W-M*3, H-(M*1.5)))
 
-text("OFL v1.1", (W-M*4.65, (M*1.15)))
+text("2021", (W-M*4.65, (M*1.15)))
 
-text("Engineered by Eli Heuer", (M*2.5, (M*1.15)))
+text("SIL OPEN FONT LICENSE Version 1.1", (M*2.5, (M*1.15)))
 
-saveImage("documentation/drawbot/specimen-001.png")
+saveImage("specimen-001.png")
 print("Drawbot: Done :-)")
