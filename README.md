@@ -3,7 +3,7 @@ A Hebrew/Latin typeface in the Rashi style. Originally this project was part of 
 
 In 2021 the source file outlines were redrawn by Eli Heuer and paired with Latin glyphs for inclusion in the Google Fonts catalog.
 
-![Glyphs screenshot at commit aa76a5b](documentation/screenshots/glyphs-screenshot-at-commit-aa76a5b.png)
+![Basic specimen 001](documentation/drawbot/specimen-001.png)
 
 פרוייקט מקורות נוסד במקור כדי ליצור כלי שיוכל להציג דפי גמרא (למשל), בתור טקסט, אך תוך שמירה על 'צורת הדף'.
 
