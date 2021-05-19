@@ -38,30 +38,30 @@ def new_page():
 
 # MAIN
 new_page()
-font("fonts/Mekorot-Rashi-Regular.ttf")
+font("fonts/ttf/Mekorot-Rashi-Regular.ttf")
 #grid() # Toggle for grid view
 fill(1)
 stroke(None)
 fontSize(M*1.3)
-text("ABCDEFGHIJKLMNO", (M*2.5, M*5))
-text("בחםסעפףצץקרשתאָ", (M*2.5, M*4))
+text("אבּבגהוזחטיכּכךּךלמםנן", (M*2.45, M*5))
+text("סעפּפףצץקרשׁשׂתּת", (M*4.45, M*3.5))
+text("װײױ", (M*11.33, M*2))
 
-stroke(1)
-strokeWidth(2)
-line((M*2.5, H-M), (W-(M*2.5), H-M))
-line((M*2.5, M), (W-(M*2.5), M))
-font("Helvetica")
-fontSize(24)
-stroke(None)
+#stroke(1)
+#strokeWidth(2)
+#line((M*2.5, H-M), (W-(M*2.5), H-M))
+#line((M*2.5, M), (W-(M*2.5), M))
+#font("Helvetica")
+#fontSize(24)
+#stroke(None)
+#
+#text("Mekorot-Rashi-Regular.ttf Version 2.0", (M*2.5, H-(M*1.5)))
+#
+#text("15.2k", (W-M*3.42, H-(M*1.5)))
+#
+#text("2021", (W-M*3.27, (M*1.15)))
+#
+#text("SIL OPEN FONT LICENSE Version 1.1", (M*2.5, (M*1.15)))
 
-text("fonts/ttf/Mekorot-Rashi-Regular.ttf Version 2.0", (M*2.5, H-(M*1.5)))
-
-text("4.", (W-M*3.25, H-(M*1.5)))
-text("1K", (W-M*3, H-(M*1.5)))
-
-text("2021", (W-M*4.65, (M*1.15)))
-
-text("SIL OPEN FONT LICENSE Version 1.1", (M*2.5, (M*1.15)))
-
-saveImage("specimen-001.png")
+saveImage("documentation/drawbot/specimen-001.png")
 print("Drawbot: Done :-)")
