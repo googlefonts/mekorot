@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reshWide-hb" format="2">
+	<advance width="501"/>
+	<unicode hex="FB27"/>
+	<outline>
+		<component base="resh-hb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.25,0.25,0.25,1</string>
+		</dict>
+	</lib>
+</glyph>

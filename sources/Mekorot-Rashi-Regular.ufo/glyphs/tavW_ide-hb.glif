@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tavWide-hb" format="2">
+	<advance width="580"/>
+	<unicode hex="FB28"/>
+	<outline>
+		<component base="tav-hb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.25,0.25,0.25,1</string>
+		</dict>
+	</lib>
+</glyph>

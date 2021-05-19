@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reshdagesh-hb" format="2">
+	<advance width="501"/>
+	<unicode hex="FB48"/>
+	<outline>
+		<component base="resh-hb"/>
+		<component base="dagesh-hb" xOffset="270" yOffset="12"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

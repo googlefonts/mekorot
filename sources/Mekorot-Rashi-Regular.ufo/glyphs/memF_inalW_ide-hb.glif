@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="memFinalWide-hb" format="2">
+	<advance width="580"/>
+	<unicode hex="FB26"/>
+	<outline>
+		<component base="memFinal-hb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.25,0.25,0.25,1</string>
+		</dict>
+	</lib>
+</glyph>
