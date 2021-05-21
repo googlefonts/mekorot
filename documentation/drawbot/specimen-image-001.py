@@ -1,9 +1,13 @@
 # RENDER THIS DOCUMENT WITH DRAWBOT: http://www.drawbot.com
+# FONTS USED: Input Mono Compressed -- https://input.djr.com
+# COMPRESSED WITH: https://github.com/kornelski/pngquant
+# $ brew install pngquant
+# $ pngquant image.png
 from drawBot import *
 import math
 
 #[W]IDTH,[H]EIGHT,[M]ARGIN,[F]RAMES
-W,H,M,F = 1024,512,64,64
+W,H,M,F = 2048,2048,128,1
 
 # DRAWS A GRID
 def grid():
@@ -16,10 +20,12 @@ def grid():
         polygon((M+stpX, M),
                 (M+stpX, H-M))
         stpX += incX
-    for y in range(13):
+    for y in range(29):
         polygon((M, M+stpY),
                 (W-M, M+stpY))
         stpY += incY
+    polygon( (W/2, 0), (W/2, H) )
+    polygon( (0, H/2), (W, H/2) )
 
 # REMAP INPUT RANGE TO VF AXIS RANGE
 # (E.G. SINE WAVE(-1,1) to WGHT(100,900))
@@ -43,25 +49,37 @@ font("fonts/ttf/Mekorot-Rashi-Regular.ttf")
 fill(1)
 stroke(None)
 fontSize(M*1.3)
-text("אבּבגהוזחטיכּכךּךלמםנן", (M*2.45, M*5))
-text("סעפּפףצץקרשׁשׂתּת", (M*4.45, M*3.5))
-text("װײױ", (M*11.33, M*2))
+text("אבּבגדהוזחטיכּכךּך", (M*3.6, M*13))
+text("למםנןסעפּפףצץ", (M*4.2, M*11.5))
+text("קרשׁשׂתּת", (M*5.75, M*10))
+fontSize(M*0.5)
+text("abcdefghijklmnopqrstuvwxyz", (M*4.75, M*9))
+text("ABCDEFJHIJKLMNOPQRSTUVWXYZ", (M*3.5, M*8.5))
+fontSize(M*1.23)
+#text("װײױ", (M*11, M*9))
+text("אָלֶף בֵּית בֵית גִּימֵל דָּלֶת הֵא", (M*1.7, M*6.5))
+text("וָו זַיִן חֵית טֵית יוֹד כַּף כַף לָמֶד", (M*1, M*5))
+text("מֵם נוּן סָמֶך עַיִן פֵּה פֵה", (M*3.5, M*3.5))
+text("צַדִי קוֹף רֵישׁ שִׁין שִׂין תּו תָו", (M*2.3, M*2))
+text("", (M*2.8, M*2.5))
+#אבּבגדוזחטכּךּלממנסעפּפףצץקר
+fill(0.5)
+stroke(0.5)
+strokeWidth(2)
+line( (M, H-M), (W-M, H-M) )
+line( (M, M), (W-M, M) )
+font("Input Mono Compressed")
+fontSize(24)
+stroke(None)
 
-#stroke(1)
-#strokeWidth(2)
-#line((M*2.5, H-M), (W-(M*2.5), H-M))
-#line((M*2.5, M), (W-(M*2.5), M))
-#font("Helvetica")
-#fontSize(24)
-#stroke(None)
-#
-#text("Mekorot-Rashi-Regular.ttf Version 2.0", (M*2.5, H-(M*1.5)))
-#
-#text("15.2k", (W-M*3.42, H-(M*1.5)))
-#
-#text("2021", (W-M*3.27, (M*1.15)))
-#
-#text("SIL OPEN FONT LICENSE Version 1.1", (M*2.5, (M*1.15)))
+text("fonts/ttf/Mekorot-Rashi-Regular.ttf Version 2.0", (M, H-(M*1.25)))
+
+text("15.2k", (M*14.5, H-(M*1.25)))
+
+text("https://github.com/googlefonts/mekorot @ commit 3950a2c", (M, (M*1.15)))
+
+text("SIL OPEN FONT LICENSE Version 1.1, 2021", (M*11.1, (M*1.15)))
+
 
 saveImage("documentation/drawbot/specimen-001.png")
 print("Drawbot: Done :-)")
