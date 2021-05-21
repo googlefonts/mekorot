@@ -152,13 +152,60 @@
 		<string>vavyod-hb</string>
 		<string>yodyod-hb</string>
 		<string>space</string>
+		<string>nunhafukha-hb</string>
+		<string>paseq-hb</string>
+		<string>sofpasuq-hb</string>
+		<string>maqaf-hb</string>
+		<string>alternativeplus-hb</string>
 		<string>shindot-hb</string>
+		<string>etnahtaleft-hb</string>
+		<string>segolta-hb</string>
+		<string>shalshelet-hb</string>
+		<string>zaqefqatan-hb</string>
+		<string>zaqefgadol-hb</string>
+		<string>tipehaleft-hb</string>
+		<string>reviamugrash-hb</string>
+		<string>zarqa-hb</string>
+		<string>pashta-hb</string>
+		<string>yetiv-hb</string>
+		<string>tevirleft-hb</string>
+		<string>gereshaccent-hb</string>
+		<string>gereshmuqdam-hb</string>
+		<string>gershayimaccent-hb</string>
+		<string>qarneypara-hb</string>
+		<string>telishagedola-hb</string>
+		<string>pazer-hb</string>
+		<string>atnahhafukh-hb</string>
+		<string>munahleft-hb</string>
+		<string>mahapakhleft-hb</string>
+		<string>merkhaleft-hb</string>
+		<string>merkhakefulaleft-hb</string>
+		<string>darga-hb</string>
+		<string>qadma-hb</string>
+		<string>telishaqetana-hb</string>
+		<string>yerahbenyomoleft-hb</string>
+		<string>ole-hb</string>
+		<string>iluy-hb</string>
+		<string>dehi-hb</string>
+		<string>zinor-hb</string>
+		<string>masoracircle-hb</string>
+		<string>sheva-hb</string>
+		<string>hatafsegol-hb</string>
+		<string>hatafpatah-hb</string>
+		<string>hatafqamats-hb</string>
+		<string>hiriq-hb</string>
+		<string>tsere-hb</string>
+		<string>segol-hb</string>
 		<string>patah-hb</string>
 		<string>qamats-hb</string>
 		<string>holam-hb</string>
+		<string>holamhaser-hb</string>
+		<string>qubuts-hb</string>
 		<string>dagesh-hb</string>
+		<string>siluqleft-hb</string>
 		<string>sindot-hb</string>
 		<string>qamatsqatan-hb</string>
+		<string>judeospanishvarika-hb</string>
 	</array>
 	<key>public.postscriptNames</key>
 	<dict>
@@ -172,6 +219,10 @@
 		<string>uniFB2E</string>
 		<key>alefqamats-hb</key>
 		<string>uniFB2F</string>
+		<key>alternativeplus-hb</key>
+		<string>uniFB29</string>
+		<key>atnahhafukh-hb</key>
+		<string>uni05A2</string>
 		<key>ayin-hb</key>
 		<string>uni05E2</string>
 		<key>ayinaltone-hb</key>
@@ -188,10 +239,28 @@
 		<string>uniFB22</string>
 		<key>daletdagesh-hb</key>
 		<string>uniFB33</string>
+		<key>darga-hb</key>
+		<string>uni05A7</string>
+		<key>dehi-hb</key>
+		<string>uni05AD</string>
+		<key>etnahtaleft-hb</key>
+		<string>uni0591</string>
+		<key>gereshaccent-hb</key>
+		<string>uni059C</string>
+		<key>gereshmuqdam-hb</key>
+		<string>uni059D</string>
+		<key>gershayimaccent-hb</key>
+		<string>uni059E</string>
 		<key>gimel-hb</key>
 		<string>uni05D2</string>
 		<key>gimeldagesh-hb</key>
 		<string>uniFB32</string>
+		<key>hatafpatah-hb</key>
+		<string>uni05B2</string>
+		<key>hatafqamats-hb</key>
+		<string>uni05B3</string>
+		<key>hatafsegol-hb</key>
+		<string>uni05B1</string>
 		<key>he-hb</key>
 		<string>uni05D4</string>
 		<key>heWide-hb</key>
@@ -200,8 +269,16 @@
 		<string>uniFB34</string>
 		<key>het-hb</key>
 		<string>uni05D7</string>
+		<key>hiriq-hb</key>
+		<string>uni05B4</string>
 		<key>holam-hb</key>
 		<string>uni05B9</string>
+		<key>holamhaser-hb</key>
+		<string>uni05BA</string>
+		<key>iluy-hb</key>
+		<string>uni05AC</string>
+		<key>judeospanishvarika-hb</key>
+		<string>uniFB1E</string>
 		<key>kaf-hb</key>
 		<string>uni05DB</string>
 		<key>kafFinal-hb</key>
@@ -218,6 +295,12 @@
 		<string>uniFB25</string>
 		<key>lameddagesh-hb</key>
 		<string>uniFB3C</string>
+		<key>mahapakhleft-hb</key>
+		<string>uni05A4</string>
+		<key>maqaf-hb</key>
+		<string>uni05BE</string>
+		<key>masoracircle-hb</key>
+		<string>uni05AF</string>
 		<key>mem-hb</key>
 		<string>uni05DE</string>
 		<key>memFinal-hb</key>
@@ -226,14 +309,30 @@
 		<string>uniFB26</string>
 		<key>memdagesh-hb</key>
 		<string>uniFB3E</string>
+		<key>merkhakefulaleft-hb</key>
+		<string>uni05A6</string>
+		<key>merkhaleft-hb</key>
+		<string>uni05A5</string>
+		<key>munahleft-hb</key>
+		<string>uni05A3</string>
 		<key>nun-hb</key>
 		<string>uni05E0</string>
 		<key>nunFinal-hb</key>
 		<string>uni05DF</string>
 		<key>nundagesh-hb</key>
 		<string>uniFB40</string>
+		<key>nunhafukha-hb</key>
+		<string>uni05C6</string>
+		<key>ole-hb</key>
+		<string>uni05AB</string>
+		<key>paseq-hb</key>
+		<string>uni05C0</string>
+		<key>pashta-hb</key>
+		<string>uni0599</string>
 		<key>patah-hb</key>
 		<string>uni05B7</string>
+		<key>pazer-hb</key>
+		<string>uni05A1</string>
 		<key>pe-hb</key>
 		<string>uni05E4</string>
 		<key>peFinal-hb</key>
@@ -242,24 +341,40 @@
 		<string>uniFB44</string>
 		<key>pedageshFinal-hb</key>
 		<string>uniFB43</string>
+		<key>qadma-hb</key>
+		<string>uni05A8</string>
 		<key>qamats-hb</key>
 		<string>uni05B8</string>
 		<key>qamatsqatan-hb</key>
 		<string>uni05C7</string>
+		<key>qarneypara-hb</key>
+		<string>uni059F</string>
 		<key>qof-hb</key>
 		<string>uni05E7</string>
 		<key>qofdagesh-hb</key>
 		<string>uniFB47</string>
+		<key>qubuts-hb</key>
+		<string>uni05BB</string>
 		<key>resh-hb</key>
 		<string>uni05E8</string>
 		<key>reshWide-hb</key>
 		<string>uniFB27</string>
 		<key>reshdagesh-hb</key>
 		<string>uniFB48</string>
+		<key>reviamugrash-hb</key>
+		<string>uni0597</string>
 		<key>samekh-hb</key>
 		<string>uni05E1</string>
 		<key>samekhdagesh-hb</key>
 		<string>uniFB41</string>
+		<key>segol-hb</key>
+		<string>uni05B6</string>
+		<key>segolta-hb</key>
+		<string>uni0592</string>
+		<key>shalshelet-hb</key>
+		<string>uni0593</string>
+		<key>sheva-hb</key>
+		<string>uni05B0</string>
 		<key>shin-hb</key>
 		<string>uni05E9</string>
 		<key>shindagesh-hb</key>
@@ -274,24 +389,38 @@
 		<string>uniFB2A</string>
 		<key>shinsindot-hb</key>
 		<string>uniFB2B</string>
+		<key>siluqleft-hb</key>
+		<string>uni05BD</string>
 		<key>sindot-hb</key>
 		<string>uni05C2</string>
+		<key>sofpasuq-hb</key>
+		<string>uni05C3</string>
 		<key>tav-hb</key>
 		<string>uni05EA</string>
 		<key>tavWide-hb</key>
 		<string>uniFB28</string>
 		<key>tavdagesh-hb</key>
 		<string>uniFB4A</string>
+		<key>telishagedola-hb</key>
+		<string>uni05A0</string>
+		<key>telishaqetana-hb</key>
+		<string>uni05A9</string>
 		<key>tet-hb</key>
 		<string>uni05D8</string>
 		<key>tetdagesh-hb</key>
 		<string>uniFB38</string>
+		<key>tevirleft-hb</key>
+		<string>uni059B</string>
+		<key>tipehaleft-hb</key>
+		<string>uni0596</string>
 		<key>tsadi-hb</key>
 		<string>uni05E6</string>
 		<key>tsadiFinal-hb</key>
 		<string>uni05E5</string>
 		<key>tsadidagesh-hb</key>
 		<string>uniFB46</string>
+		<key>tsere-hb</key>
+		<string>uni05B5</string>
 		<key>vav-hb</key>
 		<string>uni05D5</string>
 		<key>vavdagesh-hb</key>
@@ -302,6 +431,10 @@
 		<string>uni05F0</string>
 		<key>vavyod-hb</key>
 		<string>uni05F1</string>
+		<key>yerahbenyomoleft-hb</key>
+		<string>uni05AA</string>
+		<key>yetiv-hb</key>
+		<string>uni059A</string>
 		<key>yod-hb</key>
 		<string>uni05D9</string>
 		<key>yoddagesh-hb</key>
@@ -312,10 +445,18 @@
 		<string>uni05F2</string>
 		<key>yodyodpatah-hb</key>
 		<string>uniFB1F</string>
+		<key>zaqefgadol-hb</key>
+		<string>uni0595</string>
+		<key>zaqefqatan-hb</key>
+		<string>uni0594</string>
+		<key>zarqa-hb</key>
+		<string>uni0598</string>
 		<key>zayin-hb</key>
 		<string>uni05D6</string>
 		<key>zayindagesh-hb</key>
 		<string>uniFB36</string>
+		<key>zinor-hb</key>
+		<string>uni05AE</string>
 	</dict>
 </dict>
 </plist>

@@ -66,6 +66,10 @@
 	<string>alefpatah-hb.glif</string>
 	<key>alefqamats-hb</key>
 	<string>alefqamats-hb.glif</string>
+	<key>alternativeplus-hb</key>
+	<string>alternativeplus-hb.glif</string>
+	<key>atnahhafukh-hb</key>
+	<string>atnahhafukh-hb.glif</string>
 	<key>ayin-hb</key>
 	<string>ayin-hb.glif</string>
 	<key>ayinaltone-hb</key>
@@ -88,18 +92,36 @@
 	<string>daletW_ide-hb.glif</string>
 	<key>daletdagesh-hb</key>
 	<string>daletdagesh-hb.glif</string>
+	<key>darga-hb</key>
+	<string>darga-hb.glif</string>
+	<key>dehi-hb</key>
+	<string>dehi-hb.glif</string>
 	<key>e</key>
 	<string>e.glif</string>
+	<key>etnahtaleft-hb</key>
+	<string>etnahtaleft-hb.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
 	<key>g</key>
 	<string>g.glif</string>
+	<key>gereshaccent-hb</key>
+	<string>gereshaccent-hb.glif</string>
+	<key>gereshmuqdam-hb</key>
+	<string>gereshmuqdam-hb.glif</string>
+	<key>gershayimaccent-hb</key>
+	<string>gershayimaccent-hb.glif</string>
 	<key>gimel-hb</key>
 	<string>gimel-hb.glif</string>
 	<key>gimeldagesh-hb</key>
 	<string>gimeldagesh-hb.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>hatafpatah-hb</key>
+	<string>hatafpatah-hb.glif</string>
+	<key>hatafqamats-hb</key>
+	<string>hatafqamats-hb.glif</string>
+	<key>hatafsegol-hb</key>
+	<string>hatafsegol-hb.glif</string>
 	<key>he-hb</key>
 	<string>he-hb.glif</string>
 	<key>heWide-hb</key>
@@ -108,12 +130,20 @@
 	<string>hedagesh-hb.glif</string>
 	<key>het-hb</key>
 	<string>het-hb.glif</string>
+	<key>hiriq-hb</key>
+	<string>hiriq-hb.glif</string>
 	<key>holam-hb</key>
 	<string>holam-hb.glif</string>
+	<key>holamhaser-hb</key>
+	<string>holamhaser-hb.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
+	<key>iluy-hb</key>
+	<string>iluy-hb.glif</string>
 	<key>j</key>
 	<string>j.glif</string>
+	<key>judeospanishvarika-hb</key>
+	<string>judeospanishvarika-hb.glif</string>
 	<key>k</key>
 	<string>k.glif</string>
 	<key>kaf-hb</key>
@@ -136,6 +166,12 @@
 	<string>lameddagesh-hb.glif</string>
 	<key>m</key>
 	<string>m.glif</string>
+	<key>mahapakhleft-hb</key>
+	<string>mahapakhleft-hb.glif</string>
+	<key>maqaf-hb</key>
+	<string>maqaf-hb.glif</string>
+	<key>masoracircle-hb</key>
+	<string>masoracircle-hb.glif</string>
 	<key>mem-hb</key>
 	<string>mem-hb.glif</string>
 	<key>memFinal-hb</key>
@@ -144,6 +180,12 @@
 	<string>memF_inalW_ide-hb.glif</string>
 	<key>memdagesh-hb</key>
 	<string>memdagesh-hb.glif</string>
+	<key>merkhakefulaleft-hb</key>
+	<string>merkhakefulaleft-hb.glif</string>
+	<key>merkhaleft-hb</key>
+	<string>merkhaleft-hb.glif</string>
+	<key>munahleft-hb</key>
+	<string>munahleft-hb.glif</string>
 	<key>n</key>
 	<string>n.glif</string>
 	<key>nun-hb</key>
@@ -152,12 +194,22 @@
 	<string>nunF_inal-hb.glif</string>
 	<key>nundagesh-hb</key>
 	<string>nundagesh-hb.glif</string>
+	<key>nunhafukha-hb</key>
+	<string>nunhafukha-hb.glif</string>
 	<key>o</key>
 	<string>o.glif</string>
+	<key>ole-hb</key>
+	<string>ole-hb.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
+	<key>paseq-hb</key>
+	<string>paseq-hb.glif</string>
+	<key>pashta-hb</key>
+	<string>pashta-hb.glif</string>
 	<key>patah-hb</key>
 	<string>patah-hb.glif</string>
+	<key>pazer-hb</key>
+	<string>pazer-hb.glif</string>
 	<key>pe-hb</key>
 	<string>pe-hb.glif</string>
 	<key>peFinal-hb</key>
@@ -168,14 +220,20 @@
 	<string>pedageshF_inal-hb.glif</string>
 	<key>q</key>
 	<string>q.glif</string>
+	<key>qadma-hb</key>
+	<string>qadma-hb.glif</string>
 	<key>qamats-hb</key>
 	<string>qamats-hb.glif</string>
 	<key>qamatsqatan-hb</key>
 	<string>qamatsqatan-hb.glif</string>
+	<key>qarneypara-hb</key>
+	<string>qarneypara-hb.glif</string>
 	<key>qof-hb</key>
 	<string>qof-hb.glif</string>
 	<key>qofdagesh-hb</key>
 	<string>qofdagesh-hb.glif</string>
+	<key>qubuts-hb</key>
+	<string>qubuts-hb.glif</string>
 	<key>r</key>
 	<string>r.glif</string>
 	<key>resh-hb</key>
@@ -184,12 +242,22 @@
 	<string>reshW_ide-hb.glif</string>
 	<key>reshdagesh-hb</key>
 	<string>reshdagesh-hb.glif</string>
+	<key>reviamugrash-hb</key>
+	<string>reviamugrash-hb.glif</string>
 	<key>s</key>
 	<string>s.glif</string>
 	<key>samekh-hb</key>
 	<string>samekh-hb.glif</string>
 	<key>samekhdagesh-hb</key>
 	<string>samekhdagesh-hb.glif</string>
+	<key>segol-hb</key>
+	<string>segol-hb.glif</string>
+	<key>segolta-hb</key>
+	<string>segolta-hb.glif</string>
+	<key>shalshelet-hb</key>
+	<string>shalshelet-hb.glif</string>
+	<key>sheva-hb</key>
+	<string>sheva-hb.glif</string>
 	<key>shin-hb</key>
 	<string>shin-hb.glif</string>
 	<key>shindagesh-hb</key>
@@ -204,8 +272,12 @@
 	<string>shinshindot-hb.glif</string>
 	<key>shinsindot-hb</key>
 	<string>shinsindot-hb.glif</string>
+	<key>siluqleft-hb</key>
+	<string>siluqleft-hb.glif</string>
 	<key>sindot-hb</key>
 	<string>sindot-hb.glif</string>
+	<key>sofpasuq-hb</key>
+	<string>sofpasuq-hb.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
 	<key>t</key>
@@ -216,16 +288,26 @@
 	<string>tavW_ide-hb.glif</string>
 	<key>tavdagesh-hb</key>
 	<string>tavdagesh-hb.glif</string>
+	<key>telishagedola-hb</key>
+	<string>telishagedola-hb.glif</string>
+	<key>telishaqetana-hb</key>
+	<string>telishaqetana-hb.glif</string>
 	<key>tet-hb</key>
 	<string>tet-hb.glif</string>
 	<key>tetdagesh-hb</key>
 	<string>tetdagesh-hb.glif</string>
+	<key>tevirleft-hb</key>
+	<string>tevirleft-hb.glif</string>
+	<key>tipehaleft-hb</key>
+	<string>tipehaleft-hb.glif</string>
 	<key>tsadi-hb</key>
 	<string>tsadi-hb.glif</string>
 	<key>tsadiFinal-hb</key>
 	<string>tsadiF_inal-hb.glif</string>
 	<key>tsadidagesh-hb</key>
 	<string>tsadidagesh-hb.glif</string>
+	<key>tsere-hb</key>
+	<string>tsere-hb.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
 	<key>v</key>
@@ -246,6 +328,10 @@
 	<string>x.glif</string>
 	<key>y</key>
 	<string>y.glif</string>
+	<key>yerahbenyomoleft-hb</key>
+	<string>yerahbenyomoleft-hb.glif</string>
+	<key>yetiv-hb</key>
+	<string>yetiv-hb.glif</string>
 	<key>yod-hb</key>
 	<string>yod-hb.glif</string>
 	<key>yoddagesh-hb</key>
@@ -258,9 +344,17 @@
 	<string>yodyodpatah-hb.glif</string>
 	<key>z</key>
 	<string>z.glif</string>
+	<key>zaqefgadol-hb</key>
+	<string>zaqefgadol-hb.glif</string>
+	<key>zaqefqatan-hb</key>
+	<string>zaqefqatan-hb.glif</string>
+	<key>zarqa-hb</key>
+	<string>zarqa-hb.glif</string>
 	<key>zayin-hb</key>
 	<string>zayin-hb.glif</string>
 	<key>zayindagesh-hb</key>
 	<string>zayindagesh-hb.glif</string>
+	<key>zinor-hb</key>
+	<string>zinor-hb.glif</string>
 </dict>
 </plist>
