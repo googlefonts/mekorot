@@ -1,6 +1,10 @@
 {
 .appVersion = "3058";
 .formatVersion = 3;
+DisplayStrings = (
+"אגד",
+" "
+);
 axes = (
 {
 name = Weight;
@@ -4261,7 +4265,7 @@ unicode = 64306;
 {
 color = 5;
 glyphname = "dalet-hb";
-lastChange = "2021-05-17 22:08:15 +0000";
+lastChange = "2021-05-21 00:26:33 +0000";
 layers = (
 {
 anchors = (
@@ -10232,11 +10236,11 @@ unicode = 1522;
 },
 {
 glyphname = space;
-lastChange = "2021-05-17 22:08:15 +0000";
+lastChange = "2021-05-21 02:50:27 +0000";
 layers = (
 {
 layerId = m01;
-width = 200;
+width = 300;
 }
 );
 unicode = 32;
@@ -10568,6 +10572,13 @@ m01 = 1;
 name = Regular;
 }
 );
+kerningRTL = {
+m01 = {
+"gimel-hb" = {
+"dalet-hb" = -80;
+};
+};
+};
 metrics = (
 {
 type = ascender;
