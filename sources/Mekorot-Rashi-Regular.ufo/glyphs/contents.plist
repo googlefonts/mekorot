@@ -68,6 +68,14 @@
 	<string>alefqamats-hb.glif</string>
 	<key>alternativeplus-hb</key>
 	<string>alternativeplus-hb.glif</string>
+	<key>ampersand</key>
+	<string>ampersand.glif</string>
+	<key>asciicircum</key>
+	<string>asciicircum.glif</string>
+	<key>asterisk</key>
+	<string>asterisk.glif</string>
+	<key>at</key>
+	<string>at.glif</string>
 	<key>atnahhafukh-hb</key>
 	<string>atnahhafukh-hb.glif</string>
 	<key>ayin-hb</key>
@@ -76,12 +84,22 @@
 	<string>ayinaltone-hb.glif</string>
 	<key>b</key>
 	<string>b.glif</string>
+	<key>backslash</key>
+	<string>backslash.glif</string>
 	<key>bet-hb</key>
 	<string>bet-hb.glif</string>
 	<key>betdagesh-hb</key>
 	<string>betdagesh-hb.glif</string>
+	<key>bracketleft</key>
+	<string>bracketleft.glif</string>
+	<key>bracketright</key>
+	<string>bracketright.glif</string>
 	<key>c</key>
 	<string>c.glif</string>
+	<key>colon</key>
+	<string>colon.glif</string>
+	<key>comma</key>
+	<string>comma.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
 	<key>dagesh-hb</key>
@@ -96,12 +114,38 @@
 	<string>darga-hb.glif</string>
 	<key>dehi-hb</key>
 	<string>dehi-hb.glif</string>
+	<key>dollar</key>
+	<string>dollar.glif</string>
 	<key>e</key>
 	<string>e.glif</string>
+	<key>eight</key>
+	<string>eight.glif</string>
+	<key>eight.sinf</key>
+	<string>eight.sinf.glif</string>
+	<key>eight.sups</key>
+	<string>eight.sups.glif</string>
+	<key>equal</key>
+	<string>equal.glif</string>
 	<key>etnahtaleft-hb</key>
 	<string>etnahtaleft-hb.glif</string>
+	<key>exclam</key>
+	<string>exclam.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
+	<key>five</key>
+	<string>five.glif</string>
+	<key>five.sinf</key>
+	<string>five.sinf.glif</string>
+	<key>five.sups</key>
+	<string>five.sups.glif</string>
+	<key>four</key>
+	<string>four.glif</string>
+	<key>four.sinf</key>
+	<string>four.sinf.glif</string>
+	<key>four.sups</key>
+	<string>four.sups.glif</string>
+	<key>fraction</key>
+	<string>fraction.glif</string>
 	<key>g</key>
 	<string>g.glif</string>
 	<key>gereshaccent-hb</key>
@@ -114,6 +158,10 @@
 	<string>gimel-hb.glif</string>
 	<key>gimeldagesh-hb</key>
 	<string>gimeldagesh-hb.glif</string>
+	<key>grave</key>
+	<string>grave.glif</string>
+	<key>greater</key>
+	<string>greater.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
 	<key>hatafpatah-hb</key>
@@ -136,6 +184,8 @@
 	<string>holam-hb.glif</string>
 	<key>holamhaser-hb</key>
 	<string>holamhaser-hb.glif</string>
+	<key>hyphen</key>
+	<string>hyphen.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>iluy-hb</key>
@@ -164,6 +214,8 @@
 	<string>lamedW_ide-hb.glif</string>
 	<key>lameddagesh-hb</key>
 	<string>lameddagesh-hb.glif</string>
+	<key>less</key>
+	<string>less.glif</string>
 	<key>m</key>
 	<string>m.glif</string>
 	<key>mahapakhleft-hb</key>
@@ -188,6 +240,14 @@
 	<string>munahleft-hb.glif</string>
 	<key>n</key>
 	<string>n.glif</string>
+	<key>nine</key>
+	<string>nine.glif</string>
+	<key>nine.sinf</key>
+	<string>nine.sinf.glif</string>
+	<key>nine.sups</key>
+	<string>nine.sups.glif</string>
+	<key>numbersign</key>
+	<string>numbersign.glif</string>
 	<key>nun-hb</key>
 	<string>nun-hb.glif</string>
 	<key>nunFinal-hb</key>
@@ -200,8 +260,18 @@
 	<string>o.glif</string>
 	<key>ole-hb</key>
 	<string>ole-hb.glif</string>
+	<key>one</key>
+	<string>one.glif</string>
+	<key>one.sinf</key>
+	<string>one.sinf.glif</string>
+	<key>one.sups</key>
+	<string>one.sups.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
+	<key>parenleft</key>
+	<string>parenleft.glif</string>
+	<key>parenright</key>
+	<string>parenright.glif</string>
 	<key>paseq-hb</key>
 	<string>paseq-hb.glif</string>
 	<key>pashta-hb</key>
@@ -218,6 +288,12 @@
 	<string>pedagesh-hb.glif</string>
 	<key>pedageshFinal-hb</key>
 	<string>pedageshF_inal-hb.glif</string>
+	<key>percent</key>
+	<string>percent.glif</string>
+	<key>period</key>
+	<string>period.glif</string>
+	<key>plus</key>
+	<string>plus.glif</string>
 	<key>q</key>
 	<string>q.glif</string>
 	<key>qadma-hb</key>
@@ -234,6 +310,12 @@
 	<string>qofdagesh-hb.glif</string>
 	<key>qubuts-hb</key>
 	<string>qubuts-hb.glif</string>
+	<key>question</key>
+	<string>question.glif</string>
+	<key>quotedbl</key>
+	<string>quotedbl.glif</string>
+	<key>quotesingle</key>
+	<string>quotesingle.glif</string>
 	<key>r</key>
 	<string>r.glif</string>
 	<key>resh-hb</key>
@@ -254,6 +336,14 @@
 	<string>segol-hb.glif</string>
 	<key>segolta-hb</key>
 	<string>segolta-hb.glif</string>
+	<key>semicolon</key>
+	<string>semicolon.glif</string>
+	<key>seven</key>
+	<string>seven.glif</string>
+	<key>seven.sinf</key>
+	<string>seven.sinf.glif</string>
+	<key>seven.sups</key>
+	<string>seven.sups.glif</string>
 	<key>shalshelet-hb</key>
 	<string>shalshelet-hb.glif</string>
 	<key>sheva-hb</key>
@@ -276,6 +366,14 @@
 	<string>siluqleft-hb.glif</string>
 	<key>sindot-hb</key>
 	<string>sindot-hb.glif</string>
+	<key>six</key>
+	<string>six.glif</string>
+	<key>six.sinf</key>
+	<string>six.sinf.glif</string>
+	<key>six.sups</key>
+	<string>six.sups.glif</string>
+	<key>slash</key>
+	<string>slash.glif</string>
 	<key>sofpasuq-hb</key>
 	<string>sofpasuq-hb.glif</string>
 	<key>space</key>
@@ -298,6 +396,12 @@
 	<string>tetdagesh-hb.glif</string>
 	<key>tevirleft-hb</key>
 	<string>tevirleft-hb.glif</string>
+	<key>three</key>
+	<string>three.glif</string>
+	<key>three.sinf</key>
+	<string>three.sinf.glif</string>
+	<key>three.sups</key>
+	<string>three.sups.glif</string>
 	<key>tipehaleft-hb</key>
 	<string>tipehaleft-hb.glif</string>
 	<key>tsadi-hb</key>
@@ -308,8 +412,16 @@
 	<string>tsadidagesh-hb.glif</string>
 	<key>tsere-hb</key>
 	<string>tsere-hb.glif</string>
+	<key>two</key>
+	<string>two.glif</string>
+	<key>two.sinf</key>
+	<string>two.sinf.glif</string>
+	<key>two.sups</key>
+	<string>two.sups.glif</string>
 	<key>u</key>
 	<string>u.glif</string>
+	<key>underscore</key>
+	<string>underscore.glif</string>
 	<key>v</key>
 	<string>v.glif</string>
 	<key>vav-hb</key>
@@ -354,6 +466,12 @@
 	<string>zayin-hb.glif</string>
 	<key>zayindagesh-hb</key>
 	<string>zayindagesh-hb.glif</string>
+	<key>zero</key>
+	<string>zero.glif</string>
+	<key>zero.sinf</key>
+	<string>zero.sinf.glif</string>
+	<key>zero.sups</key>
+	<string>zero.sups.glif</string>
 	<key>zinor-hb</key>
 	<string>zinor-hb.glif</string>
 </dict>

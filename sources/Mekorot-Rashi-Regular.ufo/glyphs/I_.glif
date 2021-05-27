@@ -2,9 +2,9 @@
 <glyph name="I" format="2">
 	<advance width="390"/>
 	<unicode hex="0049"/>
-	<anchor x="195" y="710" name="top"/>
 	<anchor x="212" y="0" name="right"/>
 	<anchor x="195" y="0" name="bottom"/>
+	<anchor x="195" y="710" name="top"/>
 	<outline>
 		<contour>
 			<point x="70" y="0" type="line"/>

@@ -2,9 +2,9 @@
 <glyph name="O" format="2">
 	<advance width="807"/>
 	<unicode hex="004F"/>
-	<anchor x="391" y="710" name="top"/>
 	<anchor x="431" y="0" name="right"/>
 	<anchor x="417" y="0" name="bottom"/>
+	<anchor x="391" y="710" name="top"/>
 	<outline>
 		<contour>
 			<point x="403" y="-10" type="curve" smooth="yes"/>
