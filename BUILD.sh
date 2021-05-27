@@ -10,7 +10,8 @@ cp master_ttf/Mekorot-Rashi-Regular.ttf fonts/ttf/Mekorot-Rashi-Regular.ttf
 
 echo "**** BUILDING SPECIMENS"
 python3 documentation/drawbot/specimen-image-001.py
-open documentation/drawbot/specimen-001.png
+python3 documentation/drawbot/specimen-image-002.py
+open documentation/drawbot/specimen-002.png
 
 echo "**** REMOVING BUILD DIRECTORIES"
 rm -rf master_ttf
