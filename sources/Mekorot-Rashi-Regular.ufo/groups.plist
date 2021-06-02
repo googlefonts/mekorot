@@ -199,6 +199,14 @@
 	<array>
 		<string>backslash</string>
 	</array>
+	<key>public.kern1.kern_braceleft1</key>
+	<array>
+		<string>braceleft</string>
+	</array>
+	<key>public.kern1.kern_braceright1</key>
+	<array>
+		<string>braceright</string>
+	</array>
 	<key>public.kern1.kern_colon3</key>
 	<array>
 		<string>colon</string>
@@ -208,6 +216,10 @@
 	<array>
 		<string>comma</string>
 	</array>
+	<key>public.kern1.kern_copyright3</key>
+	<array>
+		<string>copyright</string>
+	</array>
 	<key>public.kern1.kern_equal3</key>
 	<array>
 		<string>equal</string>
@@ -216,6 +228,10 @@
 	<array>
 		<string>exclam</string>
 	</array>
+	<key>public.kern1.kern_exclamdown3</key>
+	<array>
+		<string>exclamdown</string>
+	</array>
 	<key>public.kern1.kern_fraction3</key>
 	<array>
 		<string>fraction</string>
@@ -223,6 +239,11 @@
 	<key>public.kern1.kern_greater3</key>
 	<array>
 		<string>greater</string>
+	</array>
+	<key>public.kern1.kern_guillemotleft3</key>
+	<array>
+		<string>guillemotleft</string>
+		<string>guilsinglleft</string>
 	</array>
 	<key>public.kern1.kern_hyphen3</key>
 	<array>
@@ -262,6 +283,10 @@
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
+	</array>
+	<key>public.kern1.kern_registered3</key>
+	<array>
+		<string>registered</string>
 	</array>
 	<key>public.kern1.kern_slash3</key>
 	<array>
@@ -425,6 +450,14 @@
 	<array>
 		<string>backslash</string>
 	</array>
+	<key>public.kern2.kern_braceleft2</key>
+	<array>
+		<string>braceleft</string>
+	</array>
+	<key>public.kern2.kern_braceright2</key>
+	<array>
+		<string>braceright</string>
+	</array>
 	<key>public.kern2.kern_colon3</key>
 	<array>
 		<string>colon</string>
@@ -434,6 +467,10 @@
 	<array>
 		<string>comma</string>
 	</array>
+	<key>public.kern2.kern_copyright3</key>
+	<array>
+		<string>copyright</string>
+	</array>
 	<key>public.kern2.kern_equal3</key>
 	<array>
 		<string>equal</string>
@@ -442,6 +479,10 @@
 	<array>
 		<string>exclam</string>
 	</array>
+	<key>public.kern2.kern_exclamdown3</key>
+	<array>
+		<string>exclamdown</string>
+	</array>
 	<key>public.kern2.kern_fraction3</key>
 	<array>
 		<string>fraction</string>
@@ -449,6 +490,11 @@
 	<key>public.kern2.kern_greater3</key>
 	<array>
 		<string>greater</string>
+	</array>
+	<key>public.kern2.kern_guillemotleft3</key>
+	<array>
+		<string>guillemotleft</string>
+		<string>guilsinglleft</string>
 	</array>
 	<key>public.kern2.kern_hyphen3</key>
 	<array>
@@ -488,6 +534,10 @@
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
+	</array>
+	<key>public.kern2.kern_registered3</key>
+	<array>
+		<string>registered</string>
 	</array>
 	<key>public.kern2.kern_slash3</key>
 	<array>

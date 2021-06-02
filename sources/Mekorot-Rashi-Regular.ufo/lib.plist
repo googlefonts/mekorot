@@ -81,6 +81,7 @@
 		<string>x</string>
 		<string>y</string>
 		<string>z</string>
+		<string>ordfeminine</string>
 		<string>alef-hb</string>
 		<string>alefpatah-hb</string>
 		<string>alefqamats-hb</string>
@@ -192,6 +193,7 @@
 		<string>colon</string>
 		<string>semicolon</string>
 		<string>exclam</string>
+		<string>exclamdown</string>
 		<string>question</string>
 		<string>asterisk</string>
 		<string>numbersign</string>
@@ -201,18 +203,35 @@
 		<string>underscore</string>
 		<string>parenleft</string>
 		<string>parenright</string>
+		<string>braceleft</string>
+		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
+		<string>guillemotleft</string>
+		<string>guilsinglleft</string>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 		<string>alternativeplus-hb</string>
 		<string>at</string>
 		<string>ampersand</string>
+		<string>section</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>degree</string>
+		<string>bar</string>
+		<string>brokenbar</string>
+		<string>cent</string>
+		<string>currency</string>
 		<string>dollar</string>
+		<string>sterling</string>
+		<string>yen</string>
 		<string>plus</string>
 		<string>equal</string>
 		<string>greater</string>
 		<string>less</string>
+		<string>plusminus</string>
+		<string>asciitilde</string>
+		<string>logicalnot</string>
 		<string>asciicircum</string>
 		<string>percent</string>
 		<string>shindot-hb</string>
@@ -264,7 +283,9 @@
 		<string>sindot-hb</string>
 		<string>qamatsqatan-hb</string>
 		<string>judeospanishvarika-hb</string>
+		<string>dieresis</string>
 		<string>grave</string>
+		<string>macron</string>
 	</array>
 	<key>public.postscriptNames</key>
 	<dict>

@@ -72,6 +72,8 @@
 	<string>ampersand.glif</string>
 	<key>asciicircum</key>
 	<string>asciicircum.glif</string>
+	<key>asciitilde</key>
+	<string>asciitilde.glif</string>
 	<key>asterisk</key>
 	<string>asterisk.glif</string>
 	<key>at</key>
@@ -86,20 +88,34 @@
 	<string>b.glif</string>
 	<key>backslash</key>
 	<string>backslash.glif</string>
+	<key>bar</key>
+	<string>bar.glif</string>
 	<key>bet-hb</key>
 	<string>bet-hb.glif</string>
 	<key>betdagesh-hb</key>
 	<string>betdagesh-hb.glif</string>
+	<key>braceleft</key>
+	<string>braceleft.glif</string>
+	<key>braceright</key>
+	<string>braceright.glif</string>
 	<key>bracketleft</key>
 	<string>bracketleft.glif</string>
 	<key>bracketright</key>
 	<string>bracketright.glif</string>
+	<key>brokenbar</key>
+	<string>brokenbar.glif</string>
 	<key>c</key>
 	<string>c.glif</string>
+	<key>cent</key>
+	<string>cent.glif</string>
 	<key>colon</key>
 	<string>colon.glif</string>
 	<key>comma</key>
 	<string>comma.glif</string>
+	<key>copyright</key>
+	<string>copyright.glif</string>
+	<key>currency</key>
+	<string>currency.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
 	<key>dagesh-hb</key>
@@ -112,8 +128,12 @@
 	<string>daletdagesh-hb.glif</string>
 	<key>darga-hb</key>
 	<string>darga-hb.glif</string>
+	<key>degree</key>
+	<string>degree.glif</string>
 	<key>dehi-hb</key>
 	<string>dehi-hb.glif</string>
+	<key>dieresis</key>
+	<string>dieresis.glif</string>
 	<key>dollar</key>
 	<string>dollar.glif</string>
 	<key>e</key>
@@ -130,6 +150,8 @@
 	<string>etnahtaleft-hb.glif</string>
 	<key>exclam</key>
 	<string>exclam.glif</string>
+	<key>exclamdown</key>
+	<string>exclamdown.glif</string>
 	<key>f</key>
 	<string>f.glif</string>
 	<key>five</key>
@@ -162,6 +184,10 @@
 	<string>grave.glif</string>
 	<key>greater</key>
 	<string>greater.glif</string>
+	<key>guillemotleft</key>
+	<string>guillemotleft.glif</string>
+	<key>guilsinglleft</key>
+	<string>guilsinglleft.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
 	<key>hatafpatah-hb</key>
@@ -216,8 +242,12 @@
 	<string>lameddagesh-hb.glif</string>
 	<key>less</key>
 	<string>less.glif</string>
+	<key>logicalnot</key>
+	<string>logicalnot.glif</string>
 	<key>m</key>
 	<string>m.glif</string>
+	<key>macron</key>
+	<string>macron.glif</string>
 	<key>mahapakhleft-hb</key>
 	<string>mahapakhleft-hb.glif</string>
 	<key>maqaf-hb</key>
@@ -266,6 +296,8 @@
 	<string>one.sinf.glif</string>
 	<key>one.sups</key>
 	<string>one.sups.glif</string>
+	<key>ordfeminine</key>
+	<string>ordfeminine.glif</string>
 	<key>p</key>
 	<string>p.glif</string>
 	<key>parenleft</key>
@@ -294,6 +326,8 @@
 	<string>period.glif</string>
 	<key>plus</key>
 	<string>plus.glif</string>
+	<key>plusminus</key>
+	<string>plusminus.glif</string>
 	<key>q</key>
 	<string>q.glif</string>
 	<key>qadma-hb</key>
@@ -318,6 +352,8 @@
 	<string>quotesingle.glif</string>
 	<key>r</key>
 	<string>r.glif</string>
+	<key>registered</key>
+	<string>registered.glif</string>
 	<key>resh-hb</key>
 	<string>resh-hb.glif</string>
 	<key>reshWide-hb</key>
@@ -332,6 +368,8 @@
 	<string>samekh-hb.glif</string>
 	<key>samekhdagesh-hb</key>
 	<string>samekhdagesh-hb.glif</string>
+	<key>section</key>
+	<string>section.glif</string>
 	<key>segol-hb</key>
 	<string>segol-hb.glif</string>
 	<key>segolta-hb</key>
@@ -378,6 +416,8 @@
 	<string>sofpasuq-hb.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
+	<key>sterling</key>
+	<string>sterling.glif</string>
 	<key>t</key>
 	<string>t.glif</string>
 	<key>tav-hb</key>
@@ -440,6 +480,8 @@
 	<string>x.glif</string>
 	<key>y</key>
 	<string>y.glif</string>
+	<key>yen</key>
+	<string>yen.glif</string>
 	<key>yerahbenyomoleft-hb</key>
 	<string>yerahbenyomoleft-hb.glif</string>
 	<key>yetiv-hb</key>
