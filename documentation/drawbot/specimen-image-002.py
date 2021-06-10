@@ -4,9 +4,8 @@
 # $ brew install pngquant
 # $ pngquant image.png
 from drawBot import *
-import math
 
-#[W]IDTH,[H]EIGHT,[M]ARGIN,[F]RAMES
+# W: WIDTH, H: HEIGHT, M: MARGIN, F: FRAMES
 W,H,M,F = 2048,2048,128,1
 
 # DRAWS A GRID
@@ -14,16 +13,16 @@ def grid():
     stroke(1,0,0,0.5)
     strokeWidth(1)
     rect(M, M, W-(M*2), H-(M*2))
-    stpX, stpY = 0, 0
-    incX, incY = M/2, M/2
+    STEP_X, STEP_Y = 0, 0
+    INC_X, INC_Y = M/2, M/2
     for x in range(29):
-        polygon((M+stpX, M),
-                (M+stpX, H-M))
-        stpX += incX
+        polygon((M+STEP_X, M),
+                (M+STEP_X, H-M))
+        STEP_X += INC_X
     for y in range(29):
-        polygon((M, M+stpY),
-                (W-M, M+stpY))
-        stpY += incY
+        polygon((M, M+STEP_Y),
+                (W-M, M+STEP_Y))
+        STEP_Y += INC_Y
     polygon( (W/2, 0), (W/2, H) )
     polygon( (0, H/2), (W, H/2) )
 
@@ -45,49 +44,45 @@ def new_page():
 # MAIN
 new_page()
 font("fonts/ttf/Mekorot-Rashi-Regular.ttf")
-#grid() # Toggle for grid view
+grid() # Toggle for grid view
 fill(1)
 stroke(None)
-fontSize(M*1.3)
-text("אבּבגדהוזחטיכּכךּך", (M*6, M*13))
-text("למםנןסעפּפףצץ",    (M*7, M*11.5))
-text("קרשׁשׂתּת",          (M*10, M*10))
+
+# BLOCK 1
+fontSize(M*1.50)
+BLOCK_1_X = 1
+BLOCK_1_Y = 12.5
+#text("אבּבגדהוזחטיכּכךּךלמםנןסעפּפףצץקרשׁשׂתּת")
+text("אבגדהוזחטיכךלמם",    (M*(BLOCK_1_X+1.4), M*(BLOCK_1_Y-0)))
+text("נןסעפּפףצץקרשׁשׂתּת",      (M*(BLOCK_1_X+2.4), M*(BLOCK_1_Y-2)))
+text("אּאַאָבּגּדּהּוּוֹזּטּיּכּךּלּמּ",             (M*(BLOCK_1_X+1),   M*(BLOCK_1_Y-4)))
+
+# BLOCK 2
 fontSize(M*0.75)
-text("""!"#$%&(')*+,-./0123456789:;`<=>[\]^_?@""", (M*1, M*8))
-text("""ABCDEFJHIJKLMNOPQRSTUVWXYZ""", (M*1, M*7))
-text("""abcdefghijklmnopqrstuvwxyz""", (M*1, M*6))
-text("""{|}~¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿""", (M*1, M*5))
-text("""ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß""", (M*1, M*4))
-text("""àáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿıŒœ""", (M*1, M*3))
-text("""ˆ˚˜–—‘’‚“”„•…‹›⁄⁴€−∕""", (M*1, M*2))
+BLOCK_2_X = 1
+BLOCK_2_Y = 7
+text("""ABCDEFJHIJKLMNOPQRSTUVWXYZ""",                  (M*BLOCK_2_X, M*(BLOCK_2_Y-0)))
+text("""abcdefghijklmnopqrstuvwxyz 0123456789""",       (M*BLOCK_2_X, M*(BLOCK_2_Y-1)))
+text("""ÀÁÂÃÄÅÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÚÛÜÝ""",                  (M*BLOCK_2_X, M*(BLOCK_2_Y-2)))
+text("""àáâãäåèéêëìíîïıñòóôõöøùúûüýÿ ÆæŒœÞþ""",         (M*BLOCK_2_X, M*(BLOCK_2_Y-3)))
+text("""ßðÐÇç!?¡¿@#$%^&*€£¥¢¤¶§( ){ }[ ]|¦¼½¾©®""",     (M*BLOCK_2_X, M*(BLOCK_2_Y-4)))
+text(""":;.‚„,…·'"‘’“”-•<>‹›«»+−×÷=¬±µ~ªº°¹²³⁴/_\–—""", (M*BLOCK_2_X, M*(BLOCK_2_Y-5)))
+#text("`¸¨⁄∕ˆ˚˜´¯")
 
-
-text("", (M*3.5, M*8.25))
-fontSize(M*1.2)
-#fontSize(M*1)
-#text("װײױ", (M*11, M*9))
-#text("אָלֶף בֵּית בֵית גִּימֵל דָּלֶת הֵא", (M*3.2, M*6.5))
-#text("וָו זַיִן חֵית טֵית יוֹד כַּף כַף לָמֶד", (M*1.7, M*5))
-#text("מֵם נוּן סָמֶך עַיִן פֵּה פֵה צַדִי", (M*2.75, M*3.5))
-#text("קוֹף רֵישׁ שִׁין שִׂין תּו תָו", (M*5, M*2))
-#text("", (M*2.8, M*2.5))
-
+# INFO TEXT (MONOSPACE)
 fill(0.5)
 stroke(0.5)
 strokeWidth(2)
-line( (M, H-M), (W-M, H-M) )
-line( (M, M), (W-M, M) )
-font("Input Mono Compressed")
-fontSize(24)
+line((M, H-M), (W-M, H-M))
+line((M, M), (W-M, M))
 stroke(None)
+font("Input Mono Compressed")
+fontSize(32)
+text("Full Character Set", (M*1, H-(M*1.4)))
+text("fonts/ttf/Mekorot-Rashi-Regular.ttf", (M*10.4, H-(M*1.4)))
+text("https://github.com/googlefonts/mekorot @ commit 943a57a", (M, (M*1.3)))
+text("SIL OPEN FONT LICENSE Version 1.1", (M*11.71, (M*1.3)))
 
-text("fonts/ttf/Mekorot-Rashi-Regular.ttf", (M, H-(M*1.25)))
-
-text("2021", (M*14.6, H-(M*1.25)))
-
-text("https://github.com/googlefonts/mekorot @ commit 943a57a", (M, (M*1.15)))
-
-text("SIL OPEN FONT LICENSE Version 1.1", (M*11.71, (M*1.15)))
-
+# SAVE IMAGE
 saveImage("documentation/drawbot/specimen-002.png")
-print("Drawbot: Done :-)")
+print("Drawbot: Done with specimen-002.png")
