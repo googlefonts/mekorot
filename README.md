@@ -5,8 +5,6 @@ In 2021 this project was re-engineered by Eli Heuer for inclusion in the Google 
 
 ![Basic specimen 002](documentation/drawbot/specimen-002.png)
 
-![Basic specimen 001](documentation/drawbot/specimen-001.png)
-
 פרוייקט מקורות נוסד במקור כדי ליצור כלי שיוכל להציג דפי גמרא (למשל), בתור טקסט, אך תוך שמירה על 'צורת הדף'.
 
 ברבות הימים, הסתבר לי שאין שום צורך בכלי שכזה. היכולת הזו קיימת כבר בפורמטים רבים, וצריך רק לנצל אותה.
