@@ -3,6 +3,8 @@ A Hebrew/Latin typeface in the Rashi style. Originally this project was part of 
 
 In 2021 this project was re-engineered by Eli Heuer for inclusion in the Google Fonts catalog.
 
+![Basic specimen 002](documentation/drawbot/specimen-002.png)
+
 ![Basic specimen 001](documentation/drawbot/specimen-001.png)
 
 פרוייקט מקורות נוסד במקור כדי ליצור כלי שיוכל להציג דפי גמרא (למשל), בתור טקסט, אך תוך שמירה על 'צורת הדף'.

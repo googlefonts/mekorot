@@ -44,7 +44,7 @@ def new_page():
 # MAIN
 new_page()
 font("fonts/ttf/Mekorot-Rashi-Regular.ttf")
-grid() # Toggle for grid view
+#grid() # Toggle for grid view
 fill(1)
 stroke(None)
 
@@ -52,10 +52,9 @@ stroke(None)
 fontSize(M*1.50)
 BLOCK_1_X = 1
 BLOCK_1_Y = 12.5
-#text("אבּבגדהוזחטיכּכךּךלמםנןסעפּפףצץקרשׁשׂתּת")
-text("אבגדהוזחטיכךלמם",    (M*(BLOCK_1_X+1.4), M*(BLOCK_1_Y-0)))
-text("נןסעפּפףצץקרשׁשׂתּת",      (M*(BLOCK_1_X+2.4), M*(BLOCK_1_Y-2)))
-text("אּאַאָבּגּדּהּוּוֹזּטּיּכּךּלּמּ",             (M*(BLOCK_1_X+1),   M*(BLOCK_1_Y-4)))
+text("אבגדהוזחטיכךלמםנןסעפ",    (M*(BLOCK_1_X+0.0), M*(BLOCK_1_Y-0)))
+text("ףצץקרשת אּאַאָבּגּדּהּוּוֹזּ טּיּ",   (M*(BLOCK_1_X+0.1), M*(BLOCK_1_Y-2)))
+text("כּךּלּמּנּסּפּףּצּקּרּשׁשׂשּׁשּׂשּתּ",       (M*(BLOCK_1_X+0.7),   M*(BLOCK_1_Y-4)))
 
 # BLOCK 2
 fontSize(M*0.75)
@@ -70,18 +69,18 @@ text(""":;.‚„,…·'"‘’“”-•<>‹›«»+−×÷=¬±µ~ªº°¹²�
 #text("`¸¨⁄∕ˆ˚˜´¯")
 
 # INFO TEXT (MONOSPACE)
-fill(0.5)
-stroke(0.5)
+fill(1)
+stroke(1)
 strokeWidth(2)
 line((M, H-M), (W-M, H-M))
 line((M, M), (W-M, M))
 stroke(None)
 font("Input Mono Compressed")
 fontSize(32)
-text("Full Character Set", (M*1, H-(M*1.4)))
-text("fonts/ttf/Mekorot-Rashi-Regular.ttf", (M*10.4, H-(M*1.4)))
-text("https://github.com/googlefonts/mekorot @ commit 943a57a", (M, (M*1.3)))
-text("SIL OPEN FONT LICENSE Version 1.1", (M*11.71, (M*1.3)))
+text("Character Set", (M*1, H-(M*1.3)))
+text("fonts/ttf/Mekorot-Rashi-Regular.ttf", (M*10.35, H-(M*1.3)))
+text("https://github.com/googlefonts/mekorot @ commit aec76fa", (M, (M*1.1)))
+text("SIL OPEN FONT LICENSE Version 1.1", (M*10.6, (M*1.1)))
 
 # SAVE IMAGE
 saveImage("documentation/drawbot/specimen-002.png")
