@@ -14396,6 +14396,29 @@ unicode = 190;
 },
 {
 color = 5;
+glyphname = CR;
+lastChange = "2021-06-14 11:57:50 +0000";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+unicode = 13;
+},
+{
+color = 5;
+glyphname = .null;
+lastChange = "2021-06-12 04:32:20 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+color = 5;
 glyphname = space;
 lastChange = "2021-06-07 00:43:54 +0000";
 layers = (
@@ -14405,6 +14428,19 @@ width = 300;
 }
 );
 unicode = 32;
+},
+{
+color = 5;
+glyphname = nbspace;
+lastChange = "2021-06-14 13:13:35 +0000";
+layers = (
+{
+layerId = m01;
+width = 300;
+}
+);
+metricWidth = space;
+unicode = 160;
 },
 {
 glyphname = thinspace;
@@ -14760,10 +14796,11 @@ width = 479;
 unicode = 63;
 },
 {
+color = 5;
 glyphname = questiondown;
 kernLeft = kern_questiondown3;
 kernRight = kern_questiondown3;
-lastChange = "2021-06-02 15:37:17 +0000";
+lastChange = "2021-06-12 04:33:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -14828,10 +14865,11 @@ width = 479;
 unicode = 191;
 },
 {
+color = 5;
 glyphname = periodcentered;
 kernLeft = kern_bullet3;
 kernRight = kern_bullet3;
-lastChange = "2021-06-02 15:37:17 +0000";
+lastChange = "2021-06-12 04:33:10 +0000";
 layers = (
 {
 layerId = m01;
@@ -15052,6 +15090,22 @@ width = 375;
 }
 );
 unicode = 45;
+},
+{
+glyphname = softhyphen;
+lastChange = "2021-06-14 13:40:26 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = hyphen;
+}
+);
+width = 375;
+}
+);
+unicode = 173;
 },
 {
 color = 5;
@@ -19042,8 +19096,9 @@ width = 0;
 unicode = 817;
 },
 {
+color = 5;
 glyphname = dieresis;
-lastChange = "2021-06-02 14:12:50 +0000";
+lastChange = "2021-06-14 13:28:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -20451,9 +20506,6 @@ name = Regular;
 );
 kerningRTL = {
 m01 = {
-"gimel-hb" = {
-"dalet-hb" = -80;
-};
 "@MMK_L_kernCap_at3" = {
 "@MMK_R_kern_A3" = -50;
 "@MMK_R_kern_CYR_afii10017" = -50;
@@ -23264,6 +23316,9 @@ fivesuperior = {
 foursuperior = {
 "@MMK_R_kern_comma3" = -70;
 "@MMK_R_kern_period3" = -70;
+};
+"gimel-hb" = {
+"dalet-hb" = -80;
 };
 ninesuperior = {
 "@MMK_R_kern_comma3" = -70;
