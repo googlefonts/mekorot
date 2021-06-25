@@ -50,6 +50,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+25 June 2021 (Eli Heuer) v0.1
+- Add bold master to Glyphs source
+
 23 June 2021 (Eli Heuer) v0.1
 - Updating repo layout to match the Unified Font Repo
 
