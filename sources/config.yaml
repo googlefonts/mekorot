@@ -1,2 +1,5 @@
 sources:
     - Mekorot-Rashi.glyphs
+familyName: Mekorot Rashi
+outputDir: "../fonts"
+
