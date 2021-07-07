@@ -1,5 +1,8 @@
 {
 .appVersion = "3086";
+DisplayStrings = (
+A
+);
 customParameters = (
 {
 name = panose;
@@ -51,7 +54,7 @@ Tag = wght;
 );
 }
 );
-date = "2021-06-27 23:26:37 +0000";
+date = "2021-07-07 04:50:43 +0000";
 familyName = "Mekorot Rashi";
 fontMaster = (
 {
@@ -33766,6 +33769,6 @@ unicode = 02C8;
 }
 );
 unitsPerEm = 1000;
-versionMajor = 21;
+versionMajor = 2;
 versionMinor = 0;
 }
