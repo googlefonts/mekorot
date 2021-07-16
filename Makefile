@@ -1,6 +1,5 @@
-SOURCES=$(shell yq e '.sources.[] | sub("^","sources/")' sources/config.yaml )
-FAMILY=$(shell yq e '.familyName' sources/config.yaml )
-
+SOURCES=$(shell python3 scripts/read-config.py --sources )
+FAMILY=$(shell python3 scripts/read-config.py --family )
 help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
@@ -24,11 +23,11 @@ venv/touchfile: requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
-	. venv/bin/activate; fontbakery check-googlefonts --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
+	. venv/bin/activate; fontbakery check-googlefonts -l WARN --succinct --html fontbakery-report.html --ghmarkdown fontbakery-report.md $(shell find fonts -type f)
 
 proof: venv build.stamp
 	. venv/bin/activate; gftools gen-html proof $(shell find fonts/ttf -type f) -o proof
 
 clean:
 	rm -rf venv
-	find -iname "*.pyc" -delete
+	find . -name "*.pyc" | xargs rm delete
