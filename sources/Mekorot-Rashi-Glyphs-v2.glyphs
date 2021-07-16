@@ -1,8 +1,5 @@
 {
 .appVersion = "3086";
-DisplayStrings = (
-A
-);
 customParameters = (
 {
 name = panose;
