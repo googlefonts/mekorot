@@ -35,6 +35,17 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = "Axis Mappings";
+value = {
+wght = {
+400 = 90;
+500 = 115;
+600 = 135;
+700 = 150;
+};
+};
+},
+{
 name = "Variable Font Origin";
 value = m01;
 },
@@ -49,26 +60,187 @@ value = "https://scripts.sil.org/OFL";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+},
+{
+name = note;
+value = "https://github.com/googlefonts/mekorot";
 }
 );
 date = "2021-07-16 04:59:07 +0000";
 designer = "Dr. Alan Hoenig";
 designerURL = "https://ctan.org/tex-archive/language/hebrew/makor/";
+disablesNiceNames = 1;
 familyName = Mekorot;
 fontMaster = (
 {
 alignmentZones = (
-"{800, 16}",
-"{700, 16}",
-"{500, 16}",
-"{0, -16}",
-"{-200, -16}"
+"{890, 10}",
+"{740, 10}",
+"{660, 10}",
+"{560, 11}",
+"{530, 10}",
+"{450, 10}",
+"{0, -10}",
+"{-230, -10}"
 );
-ascender = 800;
-capHeight = 700;
-descender = -200;
+ascender = 759;
+capHeight = 660;
+customParameters = (
+{
+name = hheaAscender;
+value = 917;
+},
+{
+name = hheaDescender;
+value = -463;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 759;
+},
+{
+name = typoDescender;
+value = -241;
+},
+{
+name = typoLineGap;
+value = 522;
+},
+{
+name = winAscent;
+value = 1059;
+},
+{
+name = winDescent;
+value = 463;
+},
+{
+name = underlinePosition;
+value = -120;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "Master Icon Glyph Name";
+value = m;
+}
+);
+descender = -241;
+horizontalStems = (
+55,
+46
+);
 id = m01;
-xHeight = 500;
+verticalStems = (
+90,
+80
+);
+weightValue = 90;
+xHeight = 450;
+},
+{
+alignmentZones = (
+"{890, 10}",
+"{740, 10}",
+"{660, 10}",
+"{560, 11}",
+"{530, 10}",
+"{450, 10}",
+"{0, -10}",
+"{-230, -10}"
+);
+ascender = 759;
+capHeight = 660;
+customParameters = (
+{
+name = hheaAscender;
+value = 917;
+},
+{
+name = hheaDescender;
+value = -463;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 759;
+},
+{
+name = typoDescender;
+value = -241;
+},
+{
+name = typoLineGap;
+value = 522;
+},
+{
+name = winAscent;
+value = 1059;
+},
+{
+name = winDescent;
+value = 463;
+},
+{
+name = underlinePosition;
+value = -120;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "Master Icon Glyph Name";
+value = m;
+}
+);
+descender = -241;
+horizontalStems = (
+55,
+44
+);
+id = m002;
+verticalStems = (
+150,
+140
+);
+weight = Bold;
+weightValue = 150;
+xHeight = 450;
 }
 );
 glyphs = (
@@ -77,6 +249,10 @@ glyphname = A;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -88,6 +264,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0042;
@@ -97,6 +277,10 @@ glyphname = C;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -108,6 +292,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0044;
@@ -117,6 +305,10 @@ glyphname = E;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -128,6 +320,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0046;
@@ -137,6 +333,10 @@ glyphname = G;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -148,6 +348,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0048;
@@ -157,6 +361,10 @@ glyphname = I;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -168,6 +376,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 004A;
@@ -177,6 +389,10 @@ glyphname = K;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -188,6 +404,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 004C;
@@ -197,6 +417,10 @@ glyphname = M;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -208,6 +432,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 004E;
@@ -217,6 +445,10 @@ glyphname = O;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -228,6 +460,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0050;
@@ -237,6 +473,10 @@ glyphname = Q;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -248,6 +488,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0052;
@@ -257,6 +501,10 @@ glyphname = S;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -268,6 +516,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0054;
@@ -277,6 +529,10 @@ glyphname = U;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -288,6 +544,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0056;
@@ -297,6 +557,10 @@ glyphname = W;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -308,6 +572,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0058;
@@ -317,6 +585,10 @@ glyphname = Y;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -328,6 +600,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 005A;
@@ -337,6 +613,10 @@ glyphname = a;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -348,6 +628,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0062;
@@ -357,6 +641,10 @@ glyphname = c;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -368,6 +656,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0064;
@@ -377,6 +669,10 @@ glyphname = e;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -388,6 +684,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0066;
@@ -397,6 +697,10 @@ glyphname = g;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -408,6 +712,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0068;
@@ -417,6 +725,10 @@ glyphname = i;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -428,6 +740,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 006A;
@@ -437,6 +753,10 @@ glyphname = k;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -448,6 +768,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 006C;
@@ -457,6 +781,10 @@ glyphname = m;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -468,6 +796,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 006E;
@@ -477,6 +809,10 @@ glyphname = o;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -488,6 +824,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0070;
@@ -497,6 +837,10 @@ glyphname = q;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -508,6 +852,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0072;
@@ -517,6 +865,10 @@ glyphname = s;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -528,6 +880,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0074;
@@ -537,6 +893,10 @@ glyphname = u;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -548,6 +908,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0076;
@@ -557,6 +921,10 @@ glyphname = w;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -568,6 +936,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0078;
@@ -578,6 +950,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0079;
@@ -587,6 +963,10 @@ glyphname = z;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -963,9 +1343,7 @@ name = topleft;
 position = "{7, 604}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -1086,7 +1464,6 @@ layerId = m01;
 width = 541;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "alef-hb";
@@ -1097,7 +1474,6 @@ transform = "{1, 0, 0, 1, 245, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 541;
 }
 );
@@ -1121,7 +1497,6 @@ layerId = m01;
 width = 541;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "alef-hb";
@@ -1132,7 +1507,6 @@ transform = "{1, 0, 0, 1, 245, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 541;
 }
 );
@@ -1156,7 +1530,6 @@ layerId = m01;
 width = 541;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "alef-hb";
@@ -1167,7 +1540,6 @@ transform = "{1, 0, 0, 1, 285, 7}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 541;
 }
 );
@@ -1415,9 +1787,7 @@ name = center;
 position = "{130, 335}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -1499,7 +1869,6 @@ layerId = m01;
 width = 465;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "bet-hb";
@@ -1510,7 +1879,6 @@ transform = "{1, 0, 0, 1, 130, 18}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 465;
 }
 );
@@ -1706,9 +2074,7 @@ name = center;
 position = "{126, 315}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -1784,7 +2150,6 @@ layerId = m01;
 width = 402;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "gimel-hb";
@@ -1795,7 +2160,6 @@ transform = "{1, 0, 0, 1, 126, -2}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 402;
 }
 );
@@ -2004,9 +2368,7 @@ name = center;
 position = "{182, 348}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -2079,7 +2441,6 @@ layerId = m01;
 width = 501;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "dalet-hb";
@@ -2090,7 +2451,6 @@ transform = "{1, 0, 0, 1, 182, 31}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 501;
 }
 );
@@ -2369,9 +2729,7 @@ name = center;
 position = "{309, 328}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -2467,7 +2825,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "he-hb";
@@ -2478,7 +2835,6 @@ transform = "{1, 0, 0, 1, 309, 11}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -2660,9 +3016,7 @@ name = topleft;
 position = "{106, 630}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -2720,7 +3074,6 @@ layerId = m01;
 width = 308;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "vav-hb";
@@ -2731,7 +3084,6 @@ transform = "{1, 0, 0, 1, 77, -47}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 308;
 }
 );
@@ -2755,7 +3107,6 @@ layerId = m01;
 width = 308;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "vav-hb";
@@ -2766,7 +3117,6 @@ transform = "{1, 0, 0, 1, 106, 215}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 308;
 }
 );
@@ -2948,9 +3298,7 @@ name = topleft;
 position = "{67, 690}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -3005,7 +3353,6 @@ layerId = m01;
 width = 270;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "zayin-hb";
@@ -3016,7 +3363,6 @@ transform = "{1, 0, 0, 1, 0, -63}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 270;
 }
 );
@@ -3285,9 +3631,7 @@ name = bottom;
 position = "{257, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -3620,9 +3964,7 @@ name = center;
 position = "{364, 327}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -3701,7 +4043,6 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "tet-hb";
@@ -3712,7 +4053,6 @@ transform = "{1, 0, 0, 1, 364, 10}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -3878,9 +4218,7 @@ name = center;
 position = "{45, 368}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -3944,7 +4282,6 @@ layerId = m01;
 width = 270;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "yod-hb";
@@ -3955,7 +4292,6 @@ transform = "{1, 0, 0, 1, 45, 51}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 270;
 }
 );
@@ -4157,9 +4493,7 @@ name = center;
 position = "{154, 317}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -4235,7 +4569,6 @@ layerId = m01;
 width = 465;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "kafFinal-hb";
@@ -4246,7 +4579,6 @@ transform = "{1, 0, 0, 1, 154, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 465;
 }
 );
@@ -4452,9 +4784,7 @@ name = center;
 position = "{192, 329}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -4527,7 +4857,6 @@ layerId = m01;
 width = 465;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "kaf-hb";
@@ -4538,7 +4867,6 @@ transform = "{1, 0, 0, 1, 192, 12}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 465;
 }
 );
@@ -4768,9 +5096,7 @@ name = center;
 position = "{138, 306}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -4852,7 +5178,6 @@ layerId = m01;
 width = 387;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "lamed-hb";
@@ -4863,7 +5188,6 @@ transform = "{1, 0, 0, 1, 138, -11}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 387;
 }
 );
@@ -5064,9 +5388,7 @@ name = bottom;
 position = "{306, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -5408,9 +5730,7 @@ name = center;
 position = "{356, 295}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -5495,7 +5815,6 @@ layerId = m01;
 width = 619;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "mem-hb";
@@ -5506,7 +5825,6 @@ transform = "{1, 0, 0, 1, 356, -22}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 619;
 }
 );
@@ -5684,9 +6002,7 @@ name = bottom;
 position = "{166, -310}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -5902,9 +6218,7 @@ name = center;
 position = "{104, 317}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -5971,7 +6285,6 @@ layerId = m01;
 width = 347;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "nun-hb";
@@ -5982,7 +6295,6 @@ transform = "{1, 0, 0, 1, 104, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 347;
 }
 );
@@ -6247,9 +6559,7 @@ name = center;
 position = "{303, 303}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -6342,7 +6652,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "samekh-hb";
@@ -6353,7 +6662,6 @@ transform = "{1, 0, 0, 1, 303, -14}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -6593,9 +6901,7 @@ name = bottom;
 position = "{276, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -6873,9 +7179,7 @@ name = center;
 position = "{285, 338}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -6948,7 +7252,6 @@ layerId = m01;
 width = 541;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "peFinal-hb";
@@ -6959,7 +7262,6 @@ transform = "{1, 0, 0, 1, 285, 21}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 541;
 }
 );
@@ -7233,9 +7535,7 @@ name = center;
 position = "{338, 316}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -7326,7 +7626,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "pe-hb";
@@ -7337,7 +7636,6 @@ transform = "{1, 0, 0, 1, 338, -1}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -7525,9 +7823,7 @@ name = bottom;
 position = "{196, -300}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -7775,9 +8071,7 @@ name = center;
 position = "{136, 320}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -7853,7 +8147,6 @@ layerId = m01;
 width = 387;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "tsadi-hb";
@@ -7864,7 +8157,6 @@ transform = "{1, 0, 0, 1, 136, 3}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 387;
 }
 );
@@ -8165,9 +8457,7 @@ name = center;
 position = "{311, 290}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -8266,7 +8556,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "qof-hb";
@@ -8277,7 +8566,6 @@ transform = "{1, 0, 0, 1, 311, -27}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -8465,9 +8753,7 @@ name = center;
 position = "{270, 329}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -8537,7 +8823,6 @@ layerId = m01;
 width = 501;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "resh-hb";
@@ -8548,7 +8833,6 @@ transform = "{1, 0, 0, 1, 270, 12}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 501;
 }
 );
@@ -8873,9 +9157,7 @@ name = topright;
 position = "{501, 629}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -8975,7 +9257,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "shin-hb";
@@ -8986,7 +9267,6 @@ transform = "{1, 0, 0, 1, 501, 214}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9010,7 +9290,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "shin-hb";
@@ -9021,7 +9300,6 @@ transform = "{1, 0, 0, 1, 140, 200}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9049,7 +9327,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "shin-hb";
@@ -9064,7 +9341,6 @@ transform = "{1, 0, 0, 1, 501, 214}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9092,7 +9368,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "shin-hb";
@@ -9107,7 +9382,6 @@ transform = "{1, 0, 0, 1, 140, 200}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9131,7 +9405,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "shin-hb";
@@ -9142,7 +9415,6 @@ transform = "{1, 0, 0, 1, 310, 10}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9443,9 +9715,7 @@ name = center;
 position = "{316, 330}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -9548,7 +9818,6 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "tav-hb";
@@ -9559,7 +9828,6 @@ transform = "{1, 0, 0, 1, 316, 13}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9684,14 +9952,12 @@ nodes = (
 width = 270;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "yod-hb";
 }
 );
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -9734,7 +10000,6 @@ layerId = m01;
 width = 540;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "yodyod-hb";
@@ -9745,7 +10010,6 @@ transform = "{1, 0, 0, 1, 278, 246}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 540;
 }
 );
@@ -9765,14 +10029,12 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "ayin-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9792,14 +10054,12 @@ layerId = m01;
 width = 541;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "alef-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 541;
 }
 );
@@ -9819,14 +10079,12 @@ layerId = m01;
 width = 501;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "dalet-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 501;
 }
 );
@@ -9846,14 +10104,12 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "he-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9873,14 +10129,12 @@ layerId = m01;
 width = 465;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "kaf-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 465;
 }
 );
@@ -9900,14 +10154,12 @@ layerId = m01;
 width = 387;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "lamed-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 387;
 }
 );
@@ -9927,14 +10179,12 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "memFinal-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -9954,14 +10204,12 @@ layerId = m01;
 width = 501;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "resh-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 501;
 }
 );
@@ -9981,14 +10229,12 @@ layerId = m01;
 width = 580;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "tav-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 580;
 }
 );
@@ -10012,7 +10258,6 @@ layerId = m01;
 width = 616;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "vav-hb";
@@ -10023,7 +10268,6 @@ name = "vav-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 616;
 }
 );
@@ -10047,7 +10291,6 @@ layerId = m01;
 width = 578;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "vav-hb";
@@ -10058,7 +10301,6 @@ name = "yod-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 578;
 }
 );
@@ -10082,7 +10324,6 @@ layerId = m01;
 width = 540;
 },
 {
-associatedMasterId = m01;
 components = (
 {
 name = "yod-hb";
@@ -10093,7 +10334,6 @@ name = "yod-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 540;
 }
 );
@@ -10105,6 +10345,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0030;
@@ -10114,6 +10358,10 @@ glyphname = one;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10125,6 +10373,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0032;
@@ -10134,6 +10386,10 @@ glyphname = three;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10145,6 +10401,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0034;
@@ -10154,6 +10414,10 @@ glyphname = five;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10165,6 +10429,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0036;
@@ -10174,6 +10442,10 @@ glyphname = seven;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10185,6 +10457,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 0038;
@@ -10194,6 +10470,10 @@ glyphname = nine;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10205,6 +10485,10 @@ layers = (
 {
 layerId = m01;
 width = 200;
+},
+{
+layerId = m002;
+width = 200;
 }
 );
 unicode = 0020;
@@ -10214,6 +10498,10 @@ glyphname = period;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10225,6 +10513,10 @@ layers = (
 {
 layerId = m01;
 width = 600;
+},
+{
+layerId = m002;
+width = 600;
 }
 );
 unicode = 002C;
@@ -10234,6 +10526,10 @@ glyphname = hyphen;
 layers = (
 {
 layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
 width = 600;
 }
 );
@@ -10278,9 +10574,7 @@ name = _topright;
 position = "{0, 415}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -10313,9 +10607,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10329,9 +10621,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10345,9 +10635,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10361,9 +10649,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10377,9 +10663,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10393,9 +10677,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10409,9 +10691,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10425,9 +10705,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10441,9 +10719,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10457,9 +10733,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10473,9 +10747,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10489,9 +10761,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10505,9 +10775,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10521,9 +10789,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10537,9 +10803,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10553,9 +10817,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10569,9 +10831,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10585,9 +10845,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10601,9 +10859,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10617,9 +10873,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10633,9 +10887,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10649,9 +10901,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10665,9 +10915,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10681,9 +10929,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10697,9 +10943,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10713,9 +10957,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10729,9 +10971,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10745,9 +10985,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10761,9 +10999,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10777,9 +11013,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10793,9 +11027,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -10857,9 +11089,7 @@ name = _bottom;
 position = "{1, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -10930,7 +11160,6 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 components = (
 {
 name = "segol-hb";
@@ -10941,7 +11170,6 @@ transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 0;
 }
 );
@@ -10977,7 +11205,6 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 components = (
 {
 name = "patah-hb";
@@ -10989,7 +11216,6 @@ transform = "{1, 0, 0, 1, 160, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 0;
 }
 );
@@ -11024,7 +11250,6 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 components = (
 {
 name = "qamats-hb";
@@ -11035,7 +11260,6 @@ transform = "{1, 0, 0, 1, 270, 0}";
 }
 );
 layerId = m002;
-name = Bold;
 width = 0;
 }
 );
@@ -11080,9 +11304,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11163,9 +11385,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11280,9 +11500,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11392,9 +11610,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11500,9 +11716,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11596,9 +11810,7 @@ name = _topleft;
 position = "{0, 415}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11648,14 +11860,12 @@ name = _topleft;
 position = "{0, 415}";
 }
 );
-associatedMasterId = m01;
 components = (
 {
 name = "holam-hb";
 }
 );
 layerId = m002;
-name = Bold;
 width = 0;
 }
 );
@@ -11669,9 +11879,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -11716,9 +11924,7 @@ name = _center;
 position = "{0, 317}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11751,9 +11957,7 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
@@ -11798,9 +12002,7 @@ name = _topleft;
 position = "{0, 415}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11888,9 +12090,7 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 paths = (
 {
 closed = 1;
@@ -11947,18 +12147,51 @@ layerId = m01;
 width = 600;
 },
 {
-associatedMasterId = m01;
 layerId = m002;
-name = Bold;
 width = 600;
 }
 );
 unicode = FB1E;
 }
 );
+instances = (
+{
+interpolationWeight = 90;
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+},
+{
+interpolationWeight = 110;
+instanceInterpolations = {
+m002 = 0.33333;
+m01 = 0.66667;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationWeight = 130;
+instanceInterpolations = {
+m002 = 0.66667;
+m01 = 0.33333;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+interpolationWeight = 150;
+instanceInterpolations = {
+m002 = 1;
+};
+isBold = 1;
+name = Bold;
+}
+);
 manufacturer = "Eli Heuer";
 manufacturerURL = "https://fonts.google.com/";
 unitsPerEm = 1000;
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
