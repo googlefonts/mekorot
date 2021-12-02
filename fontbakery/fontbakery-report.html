@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>19</td>
+                <td>34</td>
+                <td>528</td>
+                <td>31</td>
+                <td>424</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>2%</td>
+                <td>4%</td>
+                <td>64%</td>
+                <td>4%</td>
+                <td>51%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+[code: unknown]</p>
+</span></li></ul></div></details>
+<h3>Check `Google Fonts Latin Core` glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Checking OS/2 usWeightClass.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/usweightclass&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '575' when it should be '600'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '700' when it should be '800'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '480' when it should be '500'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 usWeightClass is '633' when it should be '700'. [code: bad-value]</p>
+</span></li></ul></div></details>
+<h3>Font has old ttfautohint applied?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]</p>
+</span></li></ul></div></details>
+<h3>Font contains glyphs for whitespace characters?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<ul>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3
+[code: contour-count]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<ul>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3
+[code: contour-count]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<ul>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3
+[code: contour-count]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<ul>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3
+[code: contour-count]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<ul>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: comma	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: eight	Contours detected: 0	Expected: 3</li>
+<li>Glyph name: five	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: four	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: hyphen	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: nine	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: one	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: period	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: seven	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: six	Contours detected: 0	Expected: 1 or 2</li>
+<li>Glyph name: three	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: two	Contours detected: 0	Expected: 1</li>
+<li>Glyph name: zero	Contours detected: 0	Expected: 2 or 3
+[code: contour-count]</li>
+</ul>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.hhea&gt; ⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Checking Vertical Metric Linegaps.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Check mark characters are in GDEF mark glyph class.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+dargahb (U+05A7) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+dargahb (U+05A7) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+dargahb (U+05A7) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+dargahb (U+05A7) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+dargahb (U+05A7) [code: mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️</h2>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>A (U+0041): L&lt;&lt;744.0,-2.0&gt;--&lt;449.0,-3.0&gt;&gt; and T (U+0054): L&lt;&lt;35.0,498.0&gt;--&lt;34.0,646.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>A (U+0041): L&lt;&lt;762.0,-3.0&gt;--&lt;434.0,-5.0&gt;&gt; and T (U+0054): L&lt;&lt;30.0,498.0&gt;--&lt;29.0,646.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>A (U+0041): L&lt;&lt;725.0,-1.0&gt;--&lt;464.0,-2.0&gt;&gt;</li>
+<li>B (U+0042): L&lt;&lt;361.0,0.0&gt;--&lt;64.0,-2.0&gt;&gt; and B (U+0042): L&lt;&lt;63.0,662.0&gt;--&lt;331.0,660.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Mekorot-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<ul>
+<li>A (U+0041): L&lt;&lt;753.0,-2.0&gt;--&lt;442.0,-4.0&gt;&gt; and T (U+0054): L&lt;&lt;33.0,498.0&gt;--&lt;32.0,646.0&gt;&gt; [code: found-semi-vertical]</li>
+</ul>
+</span></li></ul></div></details>
+                    </body>
+                </html>
