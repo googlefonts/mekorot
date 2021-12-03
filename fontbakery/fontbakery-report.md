@@ -124,7 +124,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
@@ -328,7 +327,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: colon	Contours detected: 0	Expected: 2
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
  - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
@@ -550,7 +548,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
@@ -754,7 +751,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: colon	Contours detected: 0	Expected: 2
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
  - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
@@ -976,7 +972,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
@@ -1180,7 +1175,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: colon	Contours detected: 0	Expected: 2
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
  - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
@@ -1402,7 +1396,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
@@ -1606,7 +1599,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: colon	Contours detected: 0	Expected: 2
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
  - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
@@ -1828,7 +1820,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
@@ -2032,7 +2023,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: colon	Contours detected: 0	Expected: 2
- - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
  - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
