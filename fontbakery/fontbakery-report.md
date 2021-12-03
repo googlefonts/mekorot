@@ -5,17 +5,6 @@ Fontbakery version: 0.8.4
 <details>
 <summary><b>[11] Mekorot-SemiBold.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
@@ -57,11 +46,19 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 
 </details>
 <details>
@@ -139,6 +136,20 @@ data. This makes the solution much more portable and universal.</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
+
+* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
+<pre>--- Rationale ---
+Glyphs are either accessible directly through Unicode codepoints or through
+substitution rules. Any glyphs not accessible by either of these means are
+redundant and serve only to increase the font&#x27;s file size.</pre>
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - NULL
+ [code: unreachable-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -154,13 +165,26 @@ alternative ways of constructing glyphs with multiple outlines for each feature
 in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: percent	Contours detected: 0	Expected: 5
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
  - Glyph name: two	Contours detected: 0	Expected: 1
@@ -171,18 +195,290 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: eight	Contours detected: 0	Expected: 3
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: colon	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: uni00B2	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B3	Contours detected: 0	Expected: 1
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B9	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: uni2074	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: colon	Contours detected: 0	Expected: 2
  - Glyph name: comma	Contours detected: 0	Expected: 1
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
  - Glyph name: eight	Contours detected: 0	Expected: 3
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
  - Glyph name: one	Contours detected: 0	Expected: 1
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: plus	Contours detected: 0	Expected: 1
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: six	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: slash	Contours detected: 0	Expected: 1
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: three	Contours detected: 0	Expected: 1
- - Glyph name: two	Contours detected: 0	Expected: 1 
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: two	Contours detected: 0	Expected: 1
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
 
@@ -226,17 +522,6 @@ lines.</pre>
 <details>
 <summary><b>[11] Mekorot-ExtraBold.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
@@ -278,11 +563,19 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 
 </details>
 <details>
@@ -360,6 +653,20 @@ data. This makes the solution much more portable and universal.</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
+
+* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
+<pre>--- Rationale ---
+Glyphs are either accessible directly through Unicode codepoints or through
+substitution rules. Any glyphs not accessible by either of these means are
+redundant and serve only to increase the font&#x27;s file size.</pre>
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - NULL
+ [code: unreachable-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -375,13 +682,26 @@ alternative ways of constructing glyphs with multiple outlines for each feature
 in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: percent	Contours detected: 0	Expected: 5
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
  - Glyph name: two	Contours detected: 0	Expected: 1
@@ -392,18 +712,290 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: eight	Contours detected: 0	Expected: 3
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: colon	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: uni00B2	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B3	Contours detected: 0	Expected: 1
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B9	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: uni2074	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: colon	Contours detected: 0	Expected: 2
  - Glyph name: comma	Contours detected: 0	Expected: 1
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
  - Glyph name: eight	Contours detected: 0	Expected: 3
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
  - Glyph name: one	Contours detected: 0	Expected: 1
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: plus	Contours detected: 0	Expected: 1
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: six	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: slash	Contours detected: 0	Expected: 1
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: three	Contours detected: 0	Expected: 1
- - Glyph name: two	Contours detected: 0	Expected: 1 
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: two	Contours detected: 0	Expected: 1
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
 
@@ -447,17 +1039,6 @@ lines.</pre>
 <details>
 <summary><b>[11] Mekorot-Medium.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
@@ -499,11 +1080,19 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 
 </details>
 <details>
@@ -581,6 +1170,20 @@ data. This makes the solution much more portable and universal.</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
+
+* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
+<pre>--- Rationale ---
+Glyphs are either accessible directly through Unicode codepoints or through
+substitution rules. Any glyphs not accessible by either of these means are
+redundant and serve only to increase the font&#x27;s file size.</pre>
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - NULL
+ [code: unreachable-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -596,13 +1199,26 @@ alternative ways of constructing glyphs with multiple outlines for each feature
 in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: percent	Contours detected: 0	Expected: 5
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
  - Glyph name: two	Contours detected: 0	Expected: 1
@@ -613,18 +1229,290 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: eight	Contours detected: 0	Expected: 3
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: colon	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: uni00B2	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B3	Contours detected: 0	Expected: 1
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B9	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: uni2074	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: colon	Contours detected: 0	Expected: 2
  - Glyph name: comma	Contours detected: 0	Expected: 1
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
  - Glyph name: eight	Contours detected: 0	Expected: 3
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
  - Glyph name: one	Contours detected: 0	Expected: 1
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: plus	Contours detected: 0	Expected: 1
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: six	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: slash	Contours detected: 0	Expected: 1
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: three	Contours detected: 0	Expected: 1
- - Glyph name: two	Contours detected: 0	Expected: 1 
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: two	Contours detected: 0	Expected: 1
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
 
@@ -669,17 +1557,6 @@ lines.</pre>
 <details>
 <summary><b>[9] Mekorot-Regular.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
 
 * [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
@@ -703,11 +1580,19 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 
 </details>
 <details>
@@ -785,6 +1670,20 @@ data. This makes the solution much more portable and universal.</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
+
+* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
+<pre>--- Rationale ---
+Glyphs are either accessible directly through Unicode codepoints or through
+substitution rules. Any glyphs not accessible by either of these means are
+redundant and serve only to increase the font&#x27;s file size.</pre>
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - NULL
+ [code: unreachable-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -800,13 +1699,26 @@ alternative ways of constructing glyphs with multiple outlines for each feature
 in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: percent	Contours detected: 0	Expected: 5
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
  - Glyph name: two	Contours detected: 0	Expected: 1
@@ -817,18 +1729,290 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: eight	Contours detected: 0	Expected: 3
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: colon	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: uni00B2	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B3	Contours detected: 0	Expected: 1
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B9	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: uni2074	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: colon	Contours detected: 0	Expected: 2
  - Glyph name: comma	Contours detected: 0	Expected: 1
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
  - Glyph name: eight	Contours detected: 0	Expected: 3
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
  - Glyph name: one	Contours detected: 0	Expected: 1
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: plus	Contours detected: 0	Expected: 1
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: six	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: slash	Contours detected: 0	Expected: 1
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: three	Contours detected: 0	Expected: 1
- - Glyph name: two	Contours detected: 0	Expected: 1 
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: two	Contours detected: 0	Expected: 1
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
 
@@ -856,17 +2040,6 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 </details>
 <details>
 <summary><b>[11] Mekorot-Bold.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
-
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-<pre>--- Rationale ---
-Google Fonts expects that fonts in its collection support at least the minimal
-set of characters defined in the `GF-latin-core` glyph-set.</pre>
-
-* 🔥 **FAIL** Missing required codepoints: 0x0021 (EXCLAMATION MARK), 0x0022 (QUOTATION MARK), 0x0023 (NUMBER SIGN), 0x0024 (DOLLAR SIGN) and 144 more. [code: missing-codepoints]
-
-</details>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -909,11 +2082,19 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
 
-* [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 
 </details>
 <details>
@@ -991,6 +2172,20 @@ data. This makes the solution much more portable and universal.</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
+
+* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
+<pre>--- Rationale ---
+Glyphs are either accessible directly through Unicode codepoints or through
+substitution rules. Any glyphs not accessible by either of these means are
+redundant and serve only to increase the font&#x27;s file size.</pre>
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+ - NULL
+ [code: unreachable-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -1006,13 +2201,26 @@ alternative ways of constructing glyphs with multiple outlines for each feature
 in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: percent	Contours detected: 0	Expected: 5
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: comma	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
  - Glyph name: two	Contours detected: 0	Expected: 1
@@ -1023,18 +2231,290 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: eight	Contours detected: 0	Expected: 3
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: colon	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: uni00B2	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B3	Contours detected: 0	Expected: 1
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B9	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: uni2074	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: AE	Contours detected: 0	Expected: 2
+ - Glyph name: Aacute	Contours detected: 0	Expected: 3
+ - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Agrave	Contours detected: 0	Expected: 3
+ - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: Atilde	Contours detected: 0	Expected: 3
+ - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Eacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Edieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Egrave	Contours detected: 0	Expected: 2
+ - Glyph name: Eth	Contours detected: 0	Expected: 2
+ - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Iacute	Contours detected: 0	Expected: 2
+ - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Igrave	Contours detected: 0	Expected: 2
+ - Glyph name: Ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: OE	Contours detected: 0	Expected: 2
+ - Glyph name: Oacute	Contours detected: 0	Expected: 3
+ - Glyph name: Ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: Odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: Ograve	Contours detected: 0	Expected: 3
+ - Glyph name: Oslash	Contours detected: 0	Expected: 2 or 3
+ - Glyph name: Otilde	Contours detected: 0	Expected: 3
+ - Glyph name: Thorn	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: Uacute	Contours detected: 0	Expected: 2
+ - Glyph name: Ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: Udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: Ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: Yacute	Contours detected: 0	Expected: 2
+ - Glyph name: aacute	Contours detected: 0	Expected: 3
+ - Glyph name: acircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: acute	Contours detected: 0	Expected: 1
+ - Glyph name: adieresis	Contours detected: 0	Expected: 4
+ - Glyph name: ae	Contours detected: 0	Expected: 3
+ - Glyph name: agrave	Contours detected: 0	Expected: 3
+ - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: aring	Contours detected: 0	Expected: 4
+ - Glyph name: asciicircum	Contours detected: 0	Expected: 1
+ - Glyph name: asciitilde	Contours detected: 0	Expected: 1
+ - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+ - Glyph name: at	Contours detected: 0	Expected: 2
+ - Glyph name: atilde	Contours detected: 0	Expected: 3
+ - Glyph name: backslash	Contours detected: 0	Expected: 1
+ - Glyph name: bar	Contours detected: 0	Expected: 1
+ - Glyph name: braceleft	Contours detected: 0	Expected: 1
+ - Glyph name: braceright	Contours detected: 0	Expected: 1
+ - Glyph name: bracketleft	Contours detected: 0	Expected: 1
+ - Glyph name: bracketright	Contours detected: 0	Expected: 1
+ - Glyph name: brokenbar	Contours detected: 0	Expected: 2
+ - Glyph name: bullet	Contours detected: 0	Expected: 1
+ - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: cedilla	Contours detected: 0	Expected: 1
+ - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: circumflex	Contours detected: 0	Expected: 1
+ - Glyph name: colon	Contours detected: 0	Expected: 2
  - Glyph name: comma	Contours detected: 0	Expected: 1
+ - Glyph name: copyright	Contours detected: 0	Expected: 3
+ - Glyph name: currency	Contours detected: 0	Expected: 2
+ - Glyph name: degree	Contours detected: 0	Expected: 2
+ - Glyph name: dieresis	Contours detected: 0	Expected: 2
+ - Glyph name: divide	Contours detected: 0	Expected: 3
+ - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
+ - Glyph name: dotlessi	Contours detected: 0	Expected: 1
+ - Glyph name: eacute	Contours detected: 0	Expected: 3
+ - Glyph name: ecircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: edieresis	Contours detected: 0	Expected: 4
+ - Glyph name: egrave	Contours detected: 0	Expected: 3
  - Glyph name: eight	Contours detected: 0	Expected: 3
+ - Glyph name: ellipsis	Contours detected: 0	Expected: 3
+ - Glyph name: emdash	Contours detected: 0	Expected: 1
+ - Glyph name: endash	Contours detected: 0	Expected: 1
+ - Glyph name: equal	Contours detected: 0	Expected: 2
+ - Glyph name: eth	Contours detected: 0	Expected: 2
+ - Glyph name: exclam	Contours detected: 0	Expected: 2
+ - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: fraction	Contours detected: 0	Expected: 1
+ - Glyph name: germandbls	Contours detected: 0	Expected: 1
+ - Glyph name: grave	Contours detected: 0	Expected: 1
+ - Glyph name: greater	Contours detected: 0	Expected: 1
+ - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+ - Glyph name: guillemotright	Contours detected: 0	Expected: 2
+ - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+ - Glyph name: guilsinglright	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
+ - Glyph name: iacute	Contours detected: 0	Expected: 2
+ - Glyph name: icircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: idieresis	Contours detected: 0	Expected: 3
+ - Glyph name: igrave	Contours detected: 0	Expected: 2
+ - Glyph name: less	Contours detected: 0	Expected: 1
+ - Glyph name: logicalnot	Contours detected: 0	Expected: 1
+ - Glyph name: macron	Contours detected: 0	Expected: 1
+ - Glyph name: minus	Contours detected: 0	Expected: 1
+ - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: nine	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: ntilde	Contours detected: 0	Expected: 2
+ - Glyph name: numbersign	Contours detected: 0	Expected: 2
+ - Glyph name: oacute	Contours detected: 0	Expected: 3
+ - Glyph name: ocircumflex	Contours detected: 0	Expected: 3
+ - Glyph name: odieresis	Contours detected: 0	Expected: 4
+ - Glyph name: oe	Contours detected: 0	Expected: 3
+ - Glyph name: ograve	Contours detected: 0	Expected: 3
  - Glyph name: one	Contours detected: 0	Expected: 1
+ - Glyph name: onehalf	Contours detected: 0	Expected: 3
+ - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: oslash	Contours detected: 0	Expected: 3
+ - Glyph name: otilde	Contours detected: 0	Expected: 3
+ - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+ - Glyph name: parenleft	Contours detected: 0	Expected: 1
+ - Glyph name: parenright	Contours detected: 0	Expected: 1
+ - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: period	Contours detected: 0	Expected: 1
+ - Glyph name: periodcentered	Contours detected: 0	Expected: 1
+ - Glyph name: plus	Contours detected: 0	Expected: 1
+ - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: question	Contours detected: 0	Expected: 2
+ - Glyph name: questiondown	Contours detected: 0	Expected: 2
+ - Glyph name: quotedbl	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
+ - Glyph name: quotedblright	Contours detected: 0	Expected: 2
+ - Glyph name: quoteleft	Contours detected: 0	Expected: 1
+ - Glyph name: quoteright	Contours detected: 0	Expected: 1
+ - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+ - Glyph name: quotesingle	Contours detected: 0	Expected: 1
+ - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: ring	Contours detected: 0	Expected: 2
+ - Glyph name: section	Contours detected: 0	Expected: 2
+ - Glyph name: semicolon	Contours detected: 0	Expected: 2
  - Glyph name: seven	Contours detected: 0	Expected: 1
  - Glyph name: six	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: slash	Contours detected: 0	Expected: 1
+ - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
+ - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: three	Contours detected: 0	Expected: 1
- - Glyph name: two	Contours detected: 0	Expected: 1 
+ - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
+ - Glyph name: tilde	Contours detected: 0	Expected: 1
+ - Glyph name: two	Contours detected: 0	Expected: 1
+ - Glyph name: uacute	Contours detected: 0	Expected: 2
+ - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
+ - Glyph name: udieresis	Contours detected: 0	Expected: 3
+ - Glyph name: ugrave	Contours detected: 0	Expected: 2
+ - Glyph name: underscore	Contours detected: 0	Expected: 1
+ - Glyph name: uni00B5	Contours detected: 0	Expected: 1
+ - Glyph name: uni2215	Contours detected: 0	Expected: 1
+ - Glyph name: yacute	Contours detected: 0	Expected: 2
+ - Glyph name: ydieresis	Contours detected: 0	Expected: 3
+ - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
 
@@ -1080,8 +2560,8 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 19 | 34 | 528 | 31 | 424 | 0 |
-| 0% | 2% | 3% | 51% | 3% | 41% | 0% |
+| 0 | 14 | 39 | 518 | 31 | 434 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
