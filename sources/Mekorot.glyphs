@@ -92,7 +92,7 @@ alignmentZones = (
 "{0, -10}",
 "{-230, -10}"
 );
-ascender = 759;
+ascender = 760;
 capHeight = 660;
 customParameters = (
 {
@@ -148,7 +148,7 @@ name = "Master Icon Glyph Name";
 value = m;
 }
 );
-descender = -241;
+descender = -240;
 horizontalStems = (
 55,
 46
@@ -172,17 +172,17 @@ alignmentZones = (
 "{0, -10}",
 "{-230, -10}"
 );
-ascender = 759;
+ascender = 760;
 capHeight = 660;
 custom = Extra;
 customParameters = (
 {
 name = hheaAscender;
-value = 917;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -463;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -190,23 +190,23 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 759;
+value = 900;
 },
 {
 name = typoDescender;
-value = -241;
+value = -300;
 },
 {
 name = typoLineGap;
-value = 522;
+value = 0;
 },
 {
 name = winAscent;
-value = 1059;
+value = 1200;
 },
 {
 name = winDescent;
-value = 463;
+value = 300;
 },
 {
 name = underlinePosition;
@@ -229,7 +229,7 @@ name = "Master Icon Glyph Name";
 value = m;
 }
 );
-descender = -241;
+descender = -240;
 horizontalStems = (
 55,
 44
