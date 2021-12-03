@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[11] Mekorot-SemiBold.ttf</b></summary>
+<summary><b>[10] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -502,25 +502,10 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 	 dargahb (U+05A7) [code: mark-chars]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * A (U+0041): L<<744.0,-2.0>--<449.0,-3.0>> and T (U+0054): L<<35.0,498.0>--<34.0,646.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[11] Mekorot-ExtraBold.ttf</b></summary>
+<summary><b>[10] Mekorot-ExtraBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -1019,25 +1004,10 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 	 dargahb (U+05A7) [code: mark-chars]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * A (U+0041): L<<762.0,-3.0>--<434.0,-5.0>> and T (U+0054): L<<30.0,498.0>--<29.0,646.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[11] Mekorot-Medium.ttf</b></summary>
+<summary><b>[10] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -1536,22 +1506,6 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 	 dargahb (U+05A7) [code: mark-chars]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * A (U+0041): L<<725.0,-1.0>--<464.0,-2.0>>
- * B (U+0042): L<<361.0,0.0>--<64.0,-2.0>> and B (U+0042): L<<63.0,662.0>--<331.0,660.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 <details>
@@ -2039,7 +1993,7 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 <br>
 </details>
 <details>
-<summary><b>[11] Mekorot-Bold.ttf</b></summary>
+<summary><b>[10] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -2538,21 +2492,6 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 	 dargahb (U+05A7) [code: mark-chars]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
-
-* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
-<pre>--- Rationale ---
-This check detects line segments which are nearly, but not quite, exactly
-horizontal or vertical. Sometimes such lines are created by design, but often
-they are indicative of a design error.
-This check is disabled for italic styles, which often contain nearly-upright
-lines.</pre>
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * A (U+0041): L<<753.0,-2.0>--<442.0,-4.0>> and T (U+0054): L<<33.0,498.0>--<32.0,646.0>> [code: found-semi-vertical]
-
-</details>
 <br>
 </details>
 
@@ -2560,8 +2499,8 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 39 | 518 | 31 | 434 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 0 | 14 | 35 | 518 | 31 | 438 | 0 |
+| 0% | 1% | 3% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
