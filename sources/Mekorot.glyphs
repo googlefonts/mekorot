@@ -15568,20 +15568,10 @@ unicode = 0039;
 glyphname = onesuperior;
 layers = (
 {
-components = (
-{
-name = one;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = one;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -15594,20 +15584,10 @@ unicode = 00B9;
 glyphname = twosuperior;
 layers = (
 {
-components = (
-{
-name = two;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = two;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -15620,20 +15600,10 @@ unicode = 00B2;
 glyphname = threesuperior;
 layers = (
 {
-components = (
-{
-name = three;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = three;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -15646,20 +15616,10 @@ unicode = 00B3;
 glyphname = foursuperior;
 layers = (
 {
-components = (
-{
-name = four;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = four;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -15846,32 +15806,10 @@ unicode = 003B;
 glyphname = ellipsis;
 layers = (
 {
-components = (
-{
-name = period;
-},
-{
-name = period;
-},
-{
-name = period;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = period;
-},
-{
-name = period;
-},
-{
-name = period;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -16036,20 +15974,10 @@ unicode = 002D;
 glyphname = softhyphen;
 layers = (
 {
-components = (
-{
-name = hyphen;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = hyphen;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -16186,20 +16114,10 @@ unicode = 005D;
 glyphname = quotesinglbase;
 layers = (
 {
-components = (
-{
-name = comma;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = comma;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -16210,26 +16128,10 @@ unicode = 201A;
 glyphname = quotedblbase;
 layers = (
 {
-components = (
-{
-name = comma;
-},
-{
-name = comma;
-}
-);
 layerId = m01;
 width = 600;
 },
 {
-components = (
-{
-name = comma;
-},
-{
-name = comma;
-}
-);
 layerId = m002;
 width = 600;
 }
@@ -17153,20 +17055,6 @@ width = 600;
 }
 );
 unicode = 05A6;
-},
-{
-glyphname = "darga-hb";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 05A7;
 },
 {
 glyphname = "qadma-hb";
