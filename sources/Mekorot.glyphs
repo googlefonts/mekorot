@@ -503,35 +503,7 @@ rightKerningGroup = kern_A3;
 unicode = 0041;
 },
 {
-glyphname = "Æ";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00C6;
-},
-{
-glyphname = "À";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00C0;
-},
-{
-glyphname = "Á";
+glyphname = Aacute;
 layers = (
 {
 layerId = m01;
@@ -545,7 +517,7 @@ width = 600;
 unicode = 00C1;
 },
 {
-glyphname = "Â";
+glyphname = Acircumflex;
 layers = (
 {
 layerId = m01;
@@ -559,21 +531,7 @@ width = 600;
 unicode = 00C2;
 },
 {
-glyphname = "Ã";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00C3;
-},
-{
-glyphname = "Ä";
+glyphname = Adieresis;
 layers = (
 {
 layerId = m01;
@@ -587,7 +545,21 @@ width = 600;
 unicode = 00C4;
 },
 {
-glyphname = "Å";
+glyphname = Agrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00C0;
+},
+{
+glyphname = Aring;
 layers = (
 {
 layerId = m01;
@@ -599,6 +571,34 @@ width = 600;
 }
 );
 unicode = 00C5;
+},
+{
+glyphname = Atilde;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00C3;
+},
+{
+glyphname = AE;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00C6;
 },
 {
 color = 5;
@@ -972,7 +972,7 @@ rightKerningGroup = kern_C1;
 unicode = 0043;
 },
 {
-glyphname = "Ç";
+glyphname = Ccedilla;
 layers = (
 {
 layerId = m01;
@@ -1127,7 +1127,7 @@ rightKerningGroup = kern_O1;
 unicode = 0044;
 },
 {
-glyphname = "Ð";
+glyphname = Eth;
 layers = (
 {
 layerId = m01;
@@ -1473,21 +1473,7 @@ rightKerningGroup = kern_E1;
 unicode = 0045;
 },
 {
-glyphname = "È";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00C8;
-},
-{
-glyphname = "É";
+glyphname = Eacute;
 layers = (
 {
 layerId = m01;
@@ -1501,7 +1487,7 @@ width = 600;
 unicode = 00C9;
 },
 {
-glyphname = "Ê";
+glyphname = Ecircumflex;
 layers = (
 {
 layerId = m01;
@@ -1515,7 +1501,7 @@ width = 600;
 unicode = 00CA;
 },
 {
-glyphname = "Ë";
+glyphname = Edieresis;
 layers = (
 {
 layerId = m01;
@@ -1527,6 +1513,20 @@ width = 600;
 }
 );
 unicode = 00CB;
+},
+{
+glyphname = Egrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00C8;
 },
 {
 color = 5;
@@ -2193,21 +2193,7 @@ rightKerningGroup = kern_H1;
 unicode = 0049;
 },
 {
-glyphname = "Ì";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00CC;
-},
-{
-glyphname = "Í";
+glyphname = Iacute;
 layers = (
 {
 layerId = m01;
@@ -2221,7 +2207,7 @@ width = 600;
 unicode = 00CD;
 },
 {
-glyphname = "Î";
+glyphname = Icircumflex;
 layers = (
 {
 layerId = m01;
@@ -2235,7 +2221,7 @@ width = 600;
 unicode = 00CE;
 },
 {
-glyphname = "Ï";
+glyphname = Idieresis;
 layers = (
 {
 layerId = m01;
@@ -2247,6 +2233,20 @@ width = 600;
 }
 );
 unicode = 00CF;
+},
+{
+glyphname = Igrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00CC;
 },
 {
 color = 5;
@@ -3086,7 +3086,7 @@ rightKerningGroup = kern_N1;
 unicode = 004E;
 },
 {
-glyphname = "Ñ";
+glyphname = Ntilde;
 layers = (
 {
 layerId = m01;
@@ -3217,35 +3217,7 @@ rightKerningGroup = kern_O1;
 unicode = 004F;
 },
 {
-glyphname = "Œ";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 0152;
-},
-{
-glyphname = "Ò";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00D2;
-},
-{
-glyphname = "Ó";
+glyphname = Oacute;
 layers = (
 {
 layerId = m01;
@@ -3259,7 +3231,7 @@ width = 600;
 unicode = 00D3;
 },
 {
-glyphname = "Ô";
+glyphname = Ocircumflex;
 layers = (
 {
 layerId = m01;
@@ -3273,7 +3245,49 @@ width = 600;
 unicode = 00D4;
 },
 {
-glyphname = "Õ";
+glyphname = Odieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00D6;
+},
+{
+glyphname = Ograve;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00D2;
+},
+{
+glyphname = Oslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00D8;
+},
+{
+glyphname = Otilde;
 layers = (
 {
 layerId = m01;
@@ -3287,7 +3301,7 @@ width = 600;
 unicode = 00D5;
 },
 {
-glyphname = "Ö";
+glyphname = OE;
 layers = (
 {
 layerId = m01;
@@ -3298,7 +3312,7 @@ layerId = m002;
 width = 600;
 }
 );
-unicode = 00D6;
+unicode = 0152;
 },
 {
 color = 5;
@@ -3418,7 +3432,7 @@ rightKerningGroup = kern_P1;
 unicode = 0050;
 },
 {
-glyphname = "Þ";
+glyphname = Thorn;
 layers = (
 {
 layerId = m01;
@@ -4213,21 +4227,7 @@ rightKerningGroup = kern_U1;
 unicode = 0055;
 },
 {
-glyphname = "Ù";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00D9;
-},
-{
-glyphname = "Ú";
+glyphname = Uacute;
 layers = (
 {
 layerId = m01;
@@ -4241,7 +4241,7 @@ width = 600;
 unicode = 00DA;
 },
 {
-glyphname = "Û";
+glyphname = Ucircumflex;
 layers = (
 {
 layerId = m01;
@@ -4255,7 +4255,7 @@ width = 600;
 unicode = 00DB;
 },
 {
-glyphname = "Ü";
+glyphname = Udieresis;
 layers = (
 {
 layerId = m01;
@@ -4267,6 +4267,20 @@ width = 600;
 }
 );
 unicode = 00DC;
+},
+{
+glyphname = Ugrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00D9;
 },
 {
 color = 5;
@@ -4983,7 +4997,7 @@ rightKerningGroup = kern_Y3;
 unicode = 0059;
 },
 {
-glyphname = "Ý";
+glyphname = Yacute;
 layers = (
 {
 layerId = m01;
@@ -5140,20 +5154,6 @@ width = 736;
 leftKerningGroup = kern_Z3;
 rightKerningGroup = kern_Z3;
 unicode = 005A;
-},
-{
-glyphname = "Ø";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00D8;
 },
 {
 color = 5;
@@ -5482,35 +5482,7 @@ rightKerningGroup = kernLC_a1;
 unicode = 0061;
 },
 {
-glyphname = "æ";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00E6;
-},
-{
-glyphname = "à";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00E0;
-},
-{
-glyphname = "á";
+glyphname = aacute;
 layers = (
 {
 layerId = m01;
@@ -5524,7 +5496,7 @@ width = 600;
 unicode = 00E1;
 },
 {
-glyphname = "â";
+glyphname = acircumflex;
 layers = (
 {
 layerId = m01;
@@ -5538,21 +5510,7 @@ width = 600;
 unicode = 00E2;
 },
 {
-glyphname = "ã";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00E3;
-},
-{
-glyphname = "ä";
+glyphname = adieresis;
 layers = (
 {
 layerId = m01;
@@ -5566,7 +5524,21 @@ width = 600;
 unicode = 00E4;
 },
 {
-glyphname = "å";
+glyphname = agrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00E0;
+},
+{
+glyphname = aring;
 layers = (
 {
 layerId = m01;
@@ -5578,6 +5550,34 @@ width = 600;
 }
 );
 unicode = 00E5;
+},
+{
+glyphname = atilde;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00E3;
+},
+{
+glyphname = ae;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00E6;
 },
 {
 color = 5;
@@ -5822,7 +5822,7 @@ rightKerningGroup = kernLC_c1;
 unicode = 0063;
 },
 {
-glyphname = "ç";
+glyphname = ccedilla;
 layers = (
 {
 layerId = m01;
@@ -5999,7 +5999,7 @@ rightKerningGroup = kernLC_l1;
 unicode = 0064;
 },
 {
-glyphname = "ð";
+glyphname = eth;
 layers = (
 {
 layerId = m01;
@@ -6164,21 +6164,7 @@ rightKerningGroup = kernLC_e1;
 unicode = 0065;
 },
 {
-glyphname = "è";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00E8;
-},
-{
-glyphname = "é";
+glyphname = eacute;
 layers = (
 {
 layerId = m01;
@@ -6192,7 +6178,7 @@ width = 600;
 unicode = 00E9;
 },
 {
-glyphname = "ê";
+glyphname = ecircumflex;
 layers = (
 {
 layerId = m01;
@@ -6206,7 +6192,7 @@ width = 600;
 unicode = 00EA;
 },
 {
-glyphname = "ë";
+glyphname = edieresis;
 layers = (
 {
 layerId = m01;
@@ -6218,6 +6204,20 @@ width = 600;
 }
 );
 unicode = 00EB;
+},
+{
+glyphname = egrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00E8;
 },
 {
 color = 5;
@@ -6942,7 +6942,7 @@ rightKerningGroup = kernLC_i1;
 unicode = 0069;
 },
 {
-glyphname = "ı";
+glyphname = idotless;
 layers = (
 {
 layerId = m01;
@@ -6956,21 +6956,7 @@ width = 600;
 unicode = 0131;
 },
 {
-glyphname = "ì";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00EC;
-},
-{
-glyphname = "í";
+glyphname = iacute;
 layers = (
 {
 layerId = m01;
@@ -6984,7 +6970,7 @@ width = 600;
 unicode = 00ED;
 },
 {
-glyphname = "î";
+glyphname = icircumflex;
 layers = (
 {
 layerId = m01;
@@ -6998,7 +6984,7 @@ width = 600;
 unicode = 00EE;
 },
 {
-glyphname = "ï";
+glyphname = idieresis;
 layers = (
 {
 layerId = m01;
@@ -7010,6 +6996,20 @@ width = 600;
 }
 );
 unicode = 00EF;
+},
+{
+glyphname = igrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00EC;
 },
 {
 color = 5;
@@ -7953,7 +7953,7 @@ rightKerningGroup = kernLC_n1;
 unicode = 006E;
 },
 {
-glyphname = "ñ";
+glyphname = ntilde;
 layers = (
 {
 layerId = m01;
@@ -8084,35 +8084,7 @@ rightKerningGroup = kernLC_o1;
 unicode = 006F;
 },
 {
-glyphname = "œ";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 0153;
-},
-{
-glyphname = "ò";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00F2;
-},
-{
-glyphname = "ó";
+glyphname = oacute;
 layers = (
 {
 layerId = m01;
@@ -8126,7 +8098,7 @@ width = 600;
 unicode = 00F3;
 },
 {
-glyphname = "ô";
+glyphname = ocircumflex;
 layers = (
 {
 layerId = m01;
@@ -8140,7 +8112,49 @@ width = 600;
 unicode = 00F4;
 },
 {
-glyphname = "õ";
+glyphname = odieresis;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00F6;
+},
+{
+glyphname = ograve;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00F2;
+},
+{
+glyphname = oslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00F8;
+},
+{
+glyphname = otilde;
 layers = (
 {
 layerId = m01;
@@ -8154,7 +8168,7 @@ width = 600;
 unicode = 00F5;
 },
 {
-glyphname = "ö";
+glyphname = oe;
 layers = (
 {
 layerId = m01;
@@ -8165,7 +8179,7 @@ layerId = m002;
 width = 600;
 }
 );
-unicode = 00F6;
+unicode = 0153;
 },
 {
 color = 5;
@@ -8345,7 +8359,7 @@ rightKerningGroup = kernLC_o1;
 unicode = 0070;
 },
 {
-glyphname = "þ";
+glyphname = thorn;
 layers = (
 {
 layerId = m01;
@@ -8794,7 +8808,7 @@ rightKerningGroup = kernLC_s1;
 unicode = 0073;
 },
 {
-glyphname = "ß";
+glyphname = germandbls;
 layers = (
 {
 layerId = m01;
@@ -9118,21 +9132,7 @@ rightKerningGroup = kernLC_u1;
 unicode = 0075;
 },
 {
-glyphname = "ù";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00F9;
-},
-{
-glyphname = "ú";
+glyphname = uacute;
 layers = (
 {
 layerId = m01;
@@ -9146,7 +9146,7 @@ width = 600;
 unicode = 00FA;
 },
 {
-glyphname = "û";
+glyphname = ucircumflex;
 layers = (
 {
 layerId = m01;
@@ -9160,7 +9160,7 @@ width = 600;
 unicode = 00FB;
 },
 {
-glyphname = "ü";
+glyphname = udieresis;
 layers = (
 {
 layerId = m01;
@@ -9172,6 +9172,20 @@ width = 600;
 }
 );
 unicode = 00FC;
+},
+{
+glyphname = ugrave;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00F9;
 },
 {
 color = 5;
@@ -9840,7 +9854,7 @@ rightKerningGroup = kernLC_y3;
 unicode = 0079;
 },
 {
-glyphname = "ý";
+glyphname = yacute;
 layers = (
 {
 layerId = m01;
@@ -9854,7 +9868,7 @@ width = 600;
 unicode = 00FD;
 },
 {
-glyphname = "ÿ";
+glyphname = ydieresis;
 layers = (
 {
 layerId = m01;
@@ -10027,21 +10041,7 @@ rightKerningGroup = kernLC_z3;
 unicode = 007A;
 },
 {
-glyphname = "ø";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00F8;
-},
-{
-glyphname = "ª";
+glyphname = ordfeminine;
 layers = (
 {
 components = (
@@ -10065,7 +10065,7 @@ width = 531;
 unicode = 00AA;
 },
 {
-glyphname = "º";
+glyphname = ordmasculine;
 layers = (
 {
 components = (
@@ -15521,7 +15521,7 @@ width = 600;
 unicode = 0039;
 },
 {
-glyphname = "¹";
+glyphname = onesuperior;
 layers = (
 {
 components = (
@@ -15547,7 +15547,7 @@ rightMetricsKey = one;
 unicode = 00B9;
 },
 {
-glyphname = "²";
+glyphname = twosuperior;
 layers = (
 {
 components = (
@@ -15573,7 +15573,7 @@ rightMetricsKey = two;
 unicode = 00B2;
 },
 {
-glyphname = "³";
+glyphname = threesuperior;
 layers = (
 {
 components = (
@@ -15599,7 +15599,7 @@ rightMetricsKey = three;
 unicode = 00B3;
 },
 {
-glyphname = "⁴";
+glyphname = foursuperior;
 layers = (
 {
 components = (
@@ -15625,7 +15625,7 @@ rightMetricsKey = four;
 unicode = 2074;
 },
 {
-glyphname = "⁄";
+glyphname = fraction;
 layers = (
 {
 layerId = m01;
@@ -15639,7 +15639,7 @@ width = 600;
 unicode = 2044;
 },
 {
-glyphname = "½";
+glyphname = onehalf;
 layers = (
 {
 layerId = m01;
@@ -15653,7 +15653,7 @@ width = 600;
 unicode = 00BD;
 },
 {
-glyphname = "¼";
+glyphname = onequarter;
 layers = (
 {
 layerId = m01;
@@ -15667,7 +15667,7 @@ width = 600;
 unicode = 00BC;
 },
 {
-glyphname = "¾";
+glyphname = threequarters;
 layers = (
 {
 layerId = m01;
@@ -15679,6 +15679,33 @@ width = 600;
 }
 );
 unicode = 00BE;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
 },
 {
 glyphname = space;
@@ -15695,46 +15722,19 @@ width = 200;
 unicode = 0020;
 },
 {
-glyphname = "#";
+glyphname = nbspace;
 layers = (
 {
 layerId = m01;
-width = 600;
+width = 250;
 },
 {
 layerId = m002;
-width = 600;
+width = 200;
 }
 );
-unicode = 0023;
-},
-{
-glyphname = "*";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 002A;
-},
-{
-glyphname = /;
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 002F;
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = period;
@@ -15771,7 +15771,7 @@ width = 600;
 unicode = 002C;
 },
 {
-glyphname = ":";
+glyphname = colon;
 layers = (
 {
 layerId = m01;
@@ -15785,7 +15785,7 @@ width = 600;
 unicode = 003A;
 },
 {
-glyphname = ";";
+glyphname = semicolon;
 layers = (
 {
 layerId = m01;
@@ -15799,7 +15799,7 @@ width = 600;
 unicode = 003B;
 },
 {
-glyphname = "…";
+glyphname = ellipsis;
 layers = (
 {
 components = (
@@ -15835,7 +15835,7 @@ width = 600;
 unicode = 2026;
 },
 {
-glyphname = "!";
+glyphname = exclam;
 layers = (
 {
 layerId = m01;
@@ -15849,7 +15849,7 @@ width = 600;
 unicode = 0021;
 },
 {
-glyphname = "¡";
+glyphname = exclamdown;
 layers = (
 {
 layerId = m01;
@@ -15863,7 +15863,7 @@ width = 600;
 unicode = 00A1;
 },
 {
-glyphname = "?";
+glyphname = question;
 layers = (
 {
 layerId = m01;
@@ -15877,7 +15877,7 @@ width = 600;
 unicode = 003F;
 },
 {
-glyphname = "¿";
+glyphname = questiondown;
 layers = (
 {
 layerId = m01;
@@ -15891,7 +15891,7 @@ width = 600;
 unicode = 00BF;
 },
 {
-glyphname = "·";
+glyphname = periodcentered;
 layers = (
 {
 layerId = m01;
@@ -15905,7 +15905,7 @@ width = 600;
 unicode = 00B7;
 },
 {
-glyphname = "•";
+glyphname = bullet;
 layers = (
 {
 layerId = m01;
@@ -15919,7 +15919,49 @@ width = 600;
 unicode = 2022;
 },
 {
-glyphname = "\";
+glyphname = asterisk;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 002A;
+},
+{
+glyphname = numbersign;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 0023;
+},
+{
+glyphname = slash;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 002F;
+},
+{
+glyphname = backslash;
 layers = (
 {
 layerId = m01;
@@ -15947,7 +15989,31 @@ width = 600;
 unicode = 002D;
 },
 {
-glyphname = "–";
+glyphname = softhyphen;
+layers = (
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = m01;
+width = 600;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00AD;
+},
+{
+glyphname = endash;
 layers = (
 {
 layerId = m01;
@@ -15961,7 +16027,7 @@ width = 600;
 unicode = 2013;
 },
 {
-glyphname = "—";
+glyphname = emdash;
 layers = (
 {
 layerId = m01;
@@ -15975,8 +16041,7 @@ width = 600;
 unicode = 2014;
 },
 {
-export = 0;
-glyphname = _;
+glyphname = underscore;
 layers = (
 {
 layerId = m01;
@@ -15990,7 +16055,7 @@ width = 600;
 unicode = 005F;
 },
 {
-glyphname = "(";
+glyphname = parenleft;
 layers = (
 {
 layerId = m01;
@@ -16004,7 +16069,7 @@ width = 600;
 unicode = 0028;
 },
 {
-glyphname = ")";
+glyphname = parenright;
 layers = (
 {
 layerId = m01;
@@ -16018,7 +16083,7 @@ width = 600;
 unicode = 0029;
 },
 {
-glyphname = "{";
+glyphname = braceleft;
 layers = (
 {
 layerId = m01;
@@ -16032,7 +16097,7 @@ width = 600;
 unicode = 007B;
 },
 {
-glyphname = "}";
+glyphname = braceright;
 layers = (
 {
 layerId = m01;
@@ -16046,7 +16111,7 @@ width = 600;
 unicode = 007D;
 },
 {
-glyphname = "[";
+glyphname = bracketleft;
 layers = (
 {
 layerId = m01;
@@ -16060,7 +16125,7 @@ width = 600;
 unicode = 005B;
 },
 {
-glyphname = "]";
+glyphname = bracketright;
 layers = (
 {
 layerId = m01;
@@ -16074,7 +16139,7 @@ width = 600;
 unicode = 005D;
 },
 {
-glyphname = "‚";
+glyphname = quotesinglbase;
 layers = (
 {
 components = (
@@ -16098,7 +16163,7 @@ width = 600;
 unicode = 201A;
 },
 {
-glyphname = "„";
+glyphname = quotedblbase;
 layers = (
 {
 components = (
@@ -16128,7 +16193,7 @@ width = 600;
 unicode = 201E;
 },
 {
-glyphname = "“";
+glyphname = quotedblleft;
 layers = (
 {
 layerId = m01;
@@ -16142,7 +16207,7 @@ width = 600;
 unicode = 201C;
 },
 {
-glyphname = "”";
+glyphname = quotedblright;
 layers = (
 {
 layerId = m01;
@@ -16156,7 +16221,7 @@ width = 600;
 unicode = 201D;
 },
 {
-glyphname = "‘";
+glyphname = quoteleft;
 layers = (
 {
 layerId = m01;
@@ -16170,7 +16235,7 @@ width = 600;
 unicode = 2018;
 },
 {
-glyphname = "’";
+glyphname = quoteright;
 layers = (
 {
 layerId = m01;
@@ -16184,35 +16249,7 @@ width = 600;
 unicode = 2019;
 },
 {
-glyphname = """;
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 0022;
-},
-{
-glyphname = "'";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 0027;
-},
-{
-glyphname = "«";
+glyphname = guillemetleft;
 layers = (
 {
 layerId = m01;
@@ -16226,7 +16263,7 @@ width = 600;
 unicode = 00AB;
 },
 {
-glyphname = "»";
+glyphname = guillemetright;
 layers = (
 {
 layerId = m01;
@@ -16240,7 +16277,7 @@ width = 600;
 unicode = 00BB;
 },
 {
-glyphname = "‹";
+glyphname = guilsinglleft;
 layers = (
 {
 layerId = m01;
@@ -16254,7 +16291,7 @@ width = 600;
 unicode = 2039;
 },
 {
-glyphname = "›";
+glyphname = guilsinglright;
 layers = (
 {
 layerId = m01;
@@ -16268,7 +16305,35 @@ width = 600;
 unicode = 203A;
 },
 {
-glyphname = "@";
+glyphname = quotedbl;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 0022;
+},
+{
+glyphname = quotesingle;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 0027;
+},
+{
+glyphname = at;
 layers = (
 {
 layerId = m01;
@@ -16282,7 +16347,7 @@ width = 600;
 unicode = 0040;
 },
 {
-glyphname = "&";
+glyphname = ampersand;
 layers = (
 {
 layerId = m01;
@@ -16296,7 +16361,7 @@ width = 600;
 unicode = 0026;
 },
 {
-glyphname = "¶";
+glyphname = paragraph;
 layers = (
 {
 layerId = m01;
@@ -16310,7 +16375,7 @@ width = 600;
 unicode = 00B6;
 },
 {
-glyphname = "§";
+glyphname = section;
 layers = (
 {
 layerId = m01;
@@ -16324,7 +16389,7 @@ width = 600;
 unicode = 00A7;
 },
 {
-glyphname = "©";
+glyphname = copyright;
 layers = (
 {
 layerId = m01;
@@ -16338,7 +16403,7 @@ width = 600;
 unicode = 00A9;
 },
 {
-glyphname = "®";
+glyphname = registered;
 layers = (
 {
 layerId = m01;
@@ -16352,7 +16417,7 @@ width = 600;
 unicode = 00AE;
 },
 {
-glyphname = "°";
+glyphname = degree;
 layers = (
 {
 layerId = m01;
@@ -16366,7 +16431,7 @@ width = 600;
 unicode = 00B0;
 },
 {
-glyphname = "|";
+glyphname = bar;
 layers = (
 {
 layerId = m01;
@@ -16380,7 +16445,7 @@ width = 600;
 unicode = 007C;
 },
 {
-glyphname = "¦";
+glyphname = brokenbar;
 layers = (
 {
 layerId = m01;
@@ -16394,21 +16459,7 @@ width = 600;
 unicode = 00A6;
 },
 {
-glyphname = $;
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 0024;
-},
-{
-glyphname = "¢";
+glyphname = cent;
 layers = (
 {
 layerId = m01;
@@ -16422,21 +16473,7 @@ width = 600;
 unicode = 00A2;
 },
 {
-glyphname = "£";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 00A3;
-},
-{
-glyphname = "¤";
+glyphname = currency;
 layers = (
 {
 layerId = m01;
@@ -16450,7 +16487,7 @@ width = 600;
 unicode = 00A4;
 },
 {
-glyphname = "¥";
+glyphname = dollar;
 layers = (
 {
 layerId = m01;
@@ -16461,10 +16498,10 @@ layerId = m002;
 width = 600;
 }
 );
-unicode = 00A5;
+unicode = 0024;
 },
 {
-glyphname = "€";
+glyphname = euro;
 layers = (
 {
 layerId = m01;
@@ -16478,7 +16515,49 @@ width = 600;
 unicode = 20AC;
 },
 {
-glyphname = "+";
+glyphname = sterling;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00A3;
+},
+{
+glyphname = yen;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 00A5;
+},
+{
+glyphname = divisionslash;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 2215;
+},
+{
+glyphname = plus;
 layers = (
 {
 layerId = m01;
@@ -16492,7 +16571,7 @@ width = 600;
 unicode = 002B;
 },
 {
-glyphname = "−";
+glyphname = minus;
 layers = (
 {
 layerId = m01;
@@ -16506,7 +16585,7 @@ width = 600;
 unicode = 2212;
 },
 {
-glyphname = "×";
+glyphname = multiply;
 layers = (
 {
 layerId = m01;
@@ -16520,7 +16599,7 @@ width = 600;
 unicode = 00D7;
 },
 {
-glyphname = "÷";
+glyphname = divide;
 layers = (
 {
 layerId = m01;
@@ -16534,7 +16613,7 @@ width = 600;
 unicode = 00F7;
 },
 {
-glyphname = "=";
+glyphname = equal;
 layers = (
 {
 layerId = m01;
@@ -16548,7 +16627,7 @@ width = 600;
 unicode = 003D;
 },
 {
-glyphname = ">";
+glyphname = greater;
 layers = (
 {
 layerId = m01;
@@ -16562,7 +16641,7 @@ width = 600;
 unicode = 003E;
 },
 {
-glyphname = "<";
+glyphname = less;
 layers = (
 {
 layerId = m01;
@@ -16576,7 +16655,7 @@ width = 600;
 unicode = 003C;
 },
 {
-glyphname = "±";
+glyphname = plusminus;
 layers = (
 {
 layerId = m01;
@@ -16590,7 +16669,7 @@ width = 600;
 unicode = 00B1;
 },
 {
-glyphname = "~";
+glyphname = asciitilde;
 layers = (
 {
 layerId = m01;
@@ -16604,7 +16683,7 @@ width = 600;
 unicode = 007E;
 },
 {
-glyphname = "¬";
+glyphname = logicalnot;
 layers = (
 {
 layerId = m01;
@@ -16618,7 +16697,7 @@ width = 600;
 unicode = 00AC;
 },
 {
-glyphname = "^";
+glyphname = asciicircum;
 layers = (
 {
 layerId = m01;
@@ -16632,7 +16711,7 @@ width = 600;
 unicode = 005E;
 },
 {
-glyphname = "µ";
+glyphname = micro;
 layers = (
 {
 layerId = m01;
@@ -16646,7 +16725,7 @@ width = 600;
 unicode = 00B5;
 },
 {
-glyphname = "%";
+glyphname = percent;
 layers = (
 {
 layerId = m01;
@@ -16658,20 +16737,6 @@ width = 600;
 }
 );
 unicode = 0025;
-},
-{
-glyphname = "∕";
-layers = (
-{
-layerId = m01;
-width = 600;
-},
-{
-layerId = m002;
-width = 600;
-}
-);
-unicode = 2215;
 },
 {
 glyphname = "shindot-hb";
@@ -18336,7 +18401,7 @@ width = 600;
 unicode = FB1E;
 },
 {
-glyphname = "¨";
+glyphname = dieresis;
 layers = (
 {
 layerId = m01;
@@ -18350,7 +18415,7 @@ width = 600;
 unicode = 00A8;
 },
 {
-glyphname = "`";
+glyphname = grave;
 layers = (
 {
 layerId = m01;
@@ -18364,7 +18429,7 @@ width = 600;
 unicode = 0060;
 },
 {
-glyphname = "´";
+glyphname = acute;
 layers = (
 {
 layerId = m01;
@@ -18378,7 +18443,7 @@ width = 600;
 unicode = 00B4;
 },
 {
-glyphname = "ˆ";
+glyphname = circumflex;
 layers = (
 {
 layerId = m01;
@@ -18392,7 +18457,7 @@ width = 600;
 unicode = 02C6;
 },
 {
-glyphname = "˚";
+glyphname = ring;
 layers = (
 {
 layerId = m01;
@@ -18406,7 +18471,7 @@ width = 600;
 unicode = 02DA;
 },
 {
-glyphname = "˜";
+glyphname = tilde;
 layers = (
 {
 layerId = m01;
@@ -18420,7 +18485,7 @@ width = 600;
 unicode = 02DC;
 },
 {
-glyphname = "¯";
+glyphname = macron;
 layers = (
 {
 layerId = m01;
@@ -18434,7 +18499,7 @@ width = 600;
 unicode = 00AF;
 },
 {
-glyphname = "¸";
+glyphname = cedilla;
 layers = (
 {
 layerId = m01;
