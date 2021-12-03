@@ -1,9 +1,5 @@
 {
 .appVersion = "3086";
-DisplayStrings = (
-Yo,
-","
-);
 copyright = "Copyright 2021 The Mekorot Project Authors (https://github.com/googlefonts/mekorot)";
 customParameters = (
 {
@@ -15731,11 +15727,31 @@ widthMetricsKey = space;
 unicode = 00A0;
 },
 {
+color = 5;
 glyphname = period;
 layers = (
 {
 layerId = m01;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"158 -5 OFFCURVE",
+"186 23 OFFCURVE",
+"186 56 CURVE SMOOTH",
+"186 89 OFFCURVE",
+"158 117 OFFCURVE",
+"125 117 CURVE SMOOTH",
+"92 117 OFFCURVE",
+"64 89 OFFCURVE",
+"64 56 CURVE SMOOTH",
+"64 23 OFFCURVE",
+"92 -5 OFFCURVE",
+"125 -5 CURVE SMOOTH"
+);
+}
+);
+width = 250;
 },
 {
 guideLines = (
@@ -15745,7 +15761,26 @@ showMeasurement = 1;
 }
 );
 layerId = m002;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"158 -5 OFFCURVE",
+"186 23 OFFCURVE",
+"186 56 CURVE SMOOTH",
+"186 89 OFFCURVE",
+"158 117 OFFCURVE",
+"125 117 CURVE SMOOTH",
+"92 117 OFFCURVE",
+"64 89 OFFCURVE",
+"64 56 CURVE SMOOTH",
+"64 23 OFFCURVE",
+"92 -5 OFFCURVE",
+"125 -5 CURVE SMOOTH"
+);
+}
+);
+width = 250;
 }
 );
 unicode = 002E;
