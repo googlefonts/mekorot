@@ -1,5 +1,9 @@
 {
 .appVersion = "3086";
+DisplayStrings = (
+Yo,
+","
+);
 copyright = "Copyright 2021 The Mekorot Project Authors (https://github.com/googlefonts/mekorot)";
 customParameters = (
 {
@@ -15747,15 +15751,78 @@ width = 600;
 unicode = 002E;
 },
 {
+color = 5;
 glyphname = comma;
 layers = (
 {
 layerId = m01;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"130 -203 OFFCURVE",
+"199 -125 OFFCURVE",
+"199 -25 CURVE SMOOTH",
+"199 49 OFFCURVE",
+"150 103 OFFCURVE",
+"108 103 CURVE SMOOTH",
+"67 103 OFFCURVE",
+"27 80 OFFCURVE",
+"27 36 CURVE SMOOTH",
+"27 -3 OFFCURVE",
+"58 -14 OFFCURVE",
+"72 -14 CURVE SMOOTH",
+"103 -14 OFFCURVE",
+"99 0 OFFCURVE",
+"117 0 CURVE SMOOTH",
+"133 0 OFFCURVE",
+"144 -22 OFFCURVE",
+"144 -59 CURVE SMOOTH",
+"144 -140 OFFCURVE",
+"61 -171 OFFCURVE",
+"61 -184 CURVE SMOOTH",
+"61 -196 OFFCURVE",
+"68 -203 OFFCURVE",
+"74 -203 CURVE SMOOTH"
+);
+}
+);
+width = 250;
 },
 {
 layerId = m002;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"130 -203 OFFCURVE",
+"199 -125 OFFCURVE",
+"199 -25 CURVE SMOOTH",
+"199 49 OFFCURVE",
+"150 103 OFFCURVE",
+"108 103 CURVE SMOOTH",
+"67 103 OFFCURVE",
+"27 80 OFFCURVE",
+"27 36 CURVE SMOOTH",
+"27 -3 OFFCURVE",
+"58 -14 OFFCURVE",
+"72 -14 CURVE SMOOTH",
+"103 -14 OFFCURVE",
+"99 0 OFFCURVE",
+"117 0 CURVE SMOOTH",
+"133 0 OFFCURVE",
+"144 -22 OFFCURVE",
+"144 -59 CURVE SMOOTH",
+"144 -140 OFFCURVE",
+"61 -171 OFFCURVE",
+"61 -184 CURVE SMOOTH",
+"61 -196 OFFCURVE",
+"68 -203 OFFCURVE",
+"74 -203 CURVE SMOOTH"
+);
+}
+);
+width = 250;
 }
 );
 unicode = 002C;
@@ -18483,6 +18550,7 @@ m01 = {
 };
 "@MMK_L_kern_Y3" = {
 "@MMK_R_kernLC_a2" = -170;
+"@MMK_R_kernLC_o2" = -190;
 };
 T = {
 "@MMK_R_kernLC_y3" = -190;
