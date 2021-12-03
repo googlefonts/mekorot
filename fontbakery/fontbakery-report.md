@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[10] Mekorot-SemiBold.ttf</b></summary>
+<summary><b>[8] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -46,22 +46,6 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -491,21 +475,10 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 dargahb (U+05A7) [code: mark-chars]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[10] Mekorot-ExtraBold.ttf</b></summary>
+<summary><b>[8] Mekorot-ExtraBold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -548,22 +521,6 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -993,21 +950,10 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 dargahb (U+05A7) [code: mark-chars]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[10] Mekorot-Medium.ttf</b></summary>
+<summary><b>[8] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -1050,22 +996,6 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -1495,21 +1425,10 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 dargahb (U+05A7) [code: mark-chars]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[9] Mekorot-Regular.ttf</b></summary>
+<summary><b>[7] Mekorot-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
 
@@ -1534,22 +1453,6 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -1979,21 +1882,10 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 dargahb (U+05A7) [code: mark-chars]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[10] Mekorot-Bold.ttf</b></summary>
+<summary><b>[8] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -2036,22 +1928,6 @@ take care of their own situation.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -2481,17 +2357,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class.</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-Mark characters should be in the GDEF mark glyph class.</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 dargahb (U+05A7) [code: mark-chars]
-
-</details>
 <br>
 </details>
 
@@ -2499,8 +2364,8 @@ Mark characters should be in the GDEF mark glyph class.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 35 | 518 | 31 | 438 | 0 |
-| 0% | 1% | 3% | 50% | 3% | 42% | 0% |
+| 0 | 9 | 30 | 518 | 31 | 448 | 0 |
+| 0% | 1% | 3% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
