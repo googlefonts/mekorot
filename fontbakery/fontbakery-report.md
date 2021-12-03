@@ -3,25 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[6] Mekorot-SemiBold.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
-<pre>--- Rationale ---
-Google Fonts expects variable fonts, static ttfs and static otfs to have
-differing OS/2 usWeightClass values.
-For Variable Fonts, Thin-Black must be 100-900
-For static ttfs, Thin-Black can be 100-900 or 250-900
-For static otfs, Thin-Black must be 250-900
-If static otfs are set lower than 250, text may appear blurry in legacy Windows
-applications.
-Glyphsapp users can change the usWeightClass value of an instance by adding a
-&#x27;weightClass&#x27; customParameter.</pre>
-
-* 🔥 **FAIL** OS/2 usWeightClass is '575' when it should be '600'. [code: bad-value]
-
-</details>
+<summary><b>[5] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -447,25 +429,7 @@ The following glyphs do not have the recommended number of contours:
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-ExtraBold.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
-<pre>--- Rationale ---
-Google Fonts expects variable fonts, static ttfs and static otfs to have
-differing OS/2 usWeightClass values.
-For Variable Fonts, Thin-Black must be 100-900
-For static ttfs, Thin-Black can be 100-900 or 250-900
-For static otfs, Thin-Black must be 250-900
-If static otfs are set lower than 250, text may appear blurry in legacy Windows
-applications.
-Glyphsapp users can change the usWeightClass value of an instance by adding a
-&#x27;weightClass&#x27; customParameter.</pre>
-
-* 🔥 **FAIL** OS/2 usWeightClass is '700' when it should be '800'. [code: bad-value]
-
-</details>
+<summary><b>[5] Mekorot-ExtraBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -891,25 +855,7 @@ The following glyphs do not have the recommended number of contours:
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-Medium.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
-<pre>--- Rationale ---
-Google Fonts expects variable fonts, static ttfs and static otfs to have
-differing OS/2 usWeightClass values.
-For Variable Fonts, Thin-Black must be 100-900
-For static ttfs, Thin-Black can be 100-900 or 250-900
-For static otfs, Thin-Black must be 250-900
-If static otfs are set lower than 250, text may appear blurry in legacy Windows
-applications.
-Glyphsapp users can change the usWeightClass value of an instance by adding a
-&#x27;weightClass&#x27; customParameter.</pre>
-
-* 🔥 **FAIL** OS/2 usWeightClass is '480' when it should be '500'. [code: bad-value]
-
-</details>
+<summary><b>[5] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -1761,25 +1707,7 @@ The following glyphs do not have the recommended number of contours:
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-Bold.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
-<pre>--- Rationale ---
-Google Fonts expects variable fonts, static ttfs and static otfs to have
-differing OS/2 usWeightClass values.
-For Variable Fonts, Thin-Black must be 100-900
-For static ttfs, Thin-Black can be 100-900 or 250-900
-For static otfs, Thin-Black must be 250-900
-If static otfs are set lower than 250, text may appear blurry in legacy Windows
-applications.
-Glyphsapp users can change the usWeightClass value of an instance by adding a
-&#x27;weightClass&#x27; customParameter.</pre>
-
-* 🔥 **FAIL** OS/2 usWeightClass is '633' when it should be '700'. [code: bad-value]
-
-</details>
+<summary><b>[5] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -2209,8 +2137,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 25 | 518 | 31 | 458 | 0 |
-| 0% | 0% | 2% | 50% | 3% | 44% | 0% |
+| 0 | 0 | 25 | 518 | 31 | 462 | 0 |
+| 0% | 0% | 2% | 50% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
