@@ -3,63 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[1] Family checks</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values.</summary>
-
-* [com.google.fonts/check/family/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics)
-<pre>--- Rationale ---
-We want all fonts within a family to have the same vertical metrics so their
-line spacing is consistent across the family.</pre>
-
-* 🔥 **FAIL** sTypoAscender is not the same across the family:
-Mekorot SemiBold: 853
-Mekorot ExtraBold: 900
-Mekorot Medium: 806
-Mekorot Regular: 759
-Mekorot Bold: 877 [code: sTypoAscender-mismatch]
-* 🔥 **FAIL** sTypoDescender is not the same across the family:
-Mekorot SemiBold: -280
-Mekorot ExtraBold: -300
-Mekorot Medium: -261
-Mekorot Regular: -241
-Mekorot Bold: -290 [code: sTypoDescender-mismatch]
-* 🔥 **FAIL** sTypoLineGap is not the same across the family:
-Mekorot SemiBold: 174
-Mekorot ExtraBold: 0
-Mekorot Medium: 348
-Mekorot Regular: 522
-Mekorot Bold: 87 [code: sTypoLineGap-mismatch]
-* 🔥 **FAIL** usWinAscent is not the same across the family:
-Mekorot SemiBold: 1153
-Mekorot ExtraBold: 1200
-Mekorot Medium: 1106
-Mekorot Regular: 1059
-Mekorot Bold: 1177 [code: usWinAscent-mismatch]
-* 🔥 **FAIL** usWinDescent is not the same across the family:
-Mekorot SemiBold: 354
-Mekorot ExtraBold: 300
-Mekorot Medium: 409
-Mekorot Regular: 463
-Mekorot Bold: 327 [code: usWinDescent-mismatch]
-* 🔥 **FAIL** ascent is not the same across the family:
-Mekorot SemiBold: 906
-Mekorot ExtraBold: 900
-Mekorot Medium: 911
-Mekorot Regular: 917
-Mekorot Bold: 903 [code: ascent-mismatch]
-* 🔥 **FAIL** descent is not the same across the family:
-Mekorot SemiBold: -354
-Mekorot ExtraBold: -300
-Mekorot Medium: -409
-Mekorot Regular: -463
-Mekorot Bold: -327 [code: descent-mismatch]
-
-</details>
-<br>
-</details>
-<details>
-<summary><b>[11] Mekorot-SemiBold.ttf</b></summary>
+<summary><b>[8] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
 
@@ -117,30 +61,7 @@ means the font developer can control the linespacing with the typo values,
 whilst avoiding clipping by setting the win values to values greater than the
 yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 354 instead. [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
-<pre>--- Rationale ---
-OS/2 and hhea vertical metric values should match. This will produce the same
-linespacing on Mac, GNU+Linux and Windows.
-- Mac OS X uses the hhea values.
-- Windows uses OS/2 or Win, depending on the OS or fsSelection bit value.
-When OS/2 and hhea vertical metrics match, the same linespacing results on
-macOS, GNU+Linux and Windows. Unfortunately as of 2018, Google Fonts has
-released many fonts with vertical metrics that don&#x27;t match in this way. When we
-fix this issue in these existing families, we will create a visible change in
-line/paragraph layout for either Windows or macOS users, which will upset some
-of them.
-But we have a duty to fix broken stuff, and inconsistent paragraph layout is
-unacceptably broken when it is possible to avoid it.
-If users complain and prefer the old broken version, they have the freedom to
-take care of their own situation.</pre>
-
-* 🔥 **FAIL** OS/2 sTypoAscender (853) and hhea ascent (906) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 300 instead. [code: descent]
 
 </details>
 <details>
@@ -563,42 +484,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2 
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  [code: contour-count]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps.</summary>
-
-* [com.google.fonts/check/linegaps](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps)
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
-
-* [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
-<pre>--- Rationale ---
-This check heuristically looks for on-curve points which are close to, but do
-not sit on, significant boundary coordinates. For example, a point which has a
-Y-coordinate of 1 or -1 might be a misplaced baseline point. As well as the
-baseline, here we also check for points near the x-height (but only for lower
-case Latin letters), cap-height, ascender and descender Y coordinates.
-Not all such misaligned curve points are a mistake, and sometimes the design may
-call for points in locations near the boundaries. As this check is liable to
-generate significant numbers of false positives, it will pass if there are more
-than 100 reported misalignments.</pre>
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* A (U+0041): X=429.5,Y=659.5 (should be at cap-height 660?)
-	* C (U+0043): X=500.5,Y=-2.0 (should be at baseline 0?)
-	* D (U+0044): X=241.0,Y=-1.0 (should be at baseline 0?)
-	* E (U+0045): X=48.0,Y=1.5 (should be at baseline 0?)
-	* F (U+0046): X=154.0,Y=661.5 (should be at cap-height 660?)
-	* F (U+0046): X=570.5,Y=659.0 (should be at cap-height 660?)
-	* G (U+0047): X=482.0,Y=-1.5 (should be at baseline 0?)
-	* M (U+004D): X=193.0,Y=661.5 (should be at cap-height 660?)
-	* M (U+004D): X=875.5,Y=-2.0 (should be at baseline 0?)
-	* M (U+004D): X=831.0,Y=-0.5 (should be at baseline 0?) and 89 more. [code: found-misalignments]
 
 </details>
 <br>
@@ -1069,7 +954,7 @@ The following glyphs do not have the recommended number of contours:
 <br>
 </details>
 <details>
-<summary><b>[8] Mekorot-Medium.ttf</b></summary>
+<summary><b>[7] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -1089,26 +974,24 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
-* [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
 <pre>--- Rationale ---
-OS/2 and hhea vertical metric values should match. This will produce the same
-linespacing on Mac, GNU+Linux and Windows.
-- Mac OS X uses the hhea values.
-- Windows uses OS/2 or Win, depending on the OS or fsSelection bit value.
-When OS/2 and hhea vertical metrics match, the same linespacing results on
-macOS, GNU+Linux and Windows. Unfortunately as of 2018, Google Fonts has
-released many fonts with vertical metrics that don&#x27;t match in this way. When we
-fix this issue in these existing families, we will create a visible change in
-line/paragraph layout for either Windows or macOS users, which will upset some
-of them.
-But we have a duty to fix broken stuff, and inconsistent paragraph layout is
-unacceptably broken when it is possible to avoid it.
-If users complain and prefer the old broken version, they have the freedom to
-take care of their own situation.</pre>
+A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
+yMax, abs(yMin) values. If they are less than these values, clipping can occur
+on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
+If the font includes tall/deep writing systems such as Arabic or Devanagari, the
+winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+When the win Metrics are significantly greater than the upm, the linespacing can
+appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
+means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** OS/2 sTypoAscender (806) and hhea ascent (911) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 300 instead. [code: descent]
 
 </details>
 <details>
@@ -1533,39 +1416,29 @@ The following glyphs do not have the recommended number of contours:
  [code: contour-count]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps.</summary>
-
-* [com.google.fonts/check/linegaps](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps)
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[7] Mekorot-Regular.ttf</b></summary>
+<summary><b>[6] Mekorot-Regular.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
-* [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
 <pre>--- Rationale ---
-OS/2 and hhea vertical metric values should match. This will produce the same
-linespacing on Mac, GNU+Linux and Windows.
-- Mac OS X uses the hhea values.
-- Windows uses OS/2 or Win, depending on the OS or fsSelection bit value.
-When OS/2 and hhea vertical metrics match, the same linespacing results on
-macOS, GNU+Linux and Windows. Unfortunately as of 2018, Google Fonts has
-released many fonts with vertical metrics that don&#x27;t match in this way. When we
-fix this issue in these existing families, we will create a visible change in
-line/paragraph layout for either Windows or macOS users, which will upset some
-of them.
-But we have a duty to fix broken stuff, and inconsistent paragraph layout is
-unacceptably broken when it is possible to avoid it.
-If users complain and prefer the old broken version, they have the freedom to
-take care of their own situation.</pre>
+A font&#x27;s winAscent and winDescent values should be greater than the head table&#x27;s
+yMax, abs(yMin) values. If they are less than these values, clipping can occur
+on Windows platforms (https://github.com/RedHatBrand/Overpass/issues/33).
+If the font includes tall/deep writing systems such as Arabic or Devanagari, the
+winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+When the win Metrics are significantly greater than the upm, the linespacing can
+appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead. This
+means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** OS/2 sTypoAscender (759) and hhea ascent (917) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 300 instead. [code: descent]
 
 </details>
 <details>
@@ -1990,18 +1863,10 @@ The following glyphs do not have the recommended number of contours:
  [code: contour-count]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps.</summary>
-
-* [com.google.fonts/check/linegaps](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps)
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-
-</details>
 <br>
 </details>
 <details>
-<summary><b>[9] Mekorot-Bold.ttf</b></summary>
+<summary><b>[7] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
@@ -2038,30 +1903,7 @@ means the font developer can control the linespacing with the typo values,
 whilst avoiding clipping by setting the win values to values greater than the
 yMax and abs(yMin).</pre>
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 327 instead. [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea)
-<pre>--- Rationale ---
-OS/2 and hhea vertical metric values should match. This will produce the same
-linespacing on Mac, GNU+Linux and Windows.
-- Mac OS X uses the hhea values.
-- Windows uses OS/2 or Win, depending on the OS or fsSelection bit value.
-When OS/2 and hhea vertical metrics match, the same linespacing results on
-macOS, GNU+Linux and Windows. Unfortunately as of 2018, Google Fonts has
-released many fonts with vertical metrics that don&#x27;t match in this way. When we
-fix this issue in these existing families, we will create a visible change in
-line/paragraph layout for either Windows or macOS users, which will upset some
-of them.
-But we have a duty to fix broken stuff, and inconsistent paragraph layout is
-unacceptably broken when it is possible to avoid it.
-If users complain and prefer the old broken version, they have the freedom to
-take care of their own situation.</pre>
-
-* 🔥 **FAIL** OS/2 sTypoAscender (877) and hhea ascent (903) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 358, but got 300 instead. [code: descent]
 
 </details>
 <details>
@@ -2486,14 +2328,6 @@ The following glyphs do not have the recommended number of contours:
  [code: contour-count]
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps.</summary>
-
-* [com.google.fonts/check/linegaps](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps)
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-
-</details>
 <br>
 </details>
 
@@ -2501,8 +2335,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 12 | 30 | 518 | 31 | 444 | 0 |
-| 0% | 1% | 3% | 50% | 3% | 43% | 0% |
+| 1 | 9 | 25 | 518 | 31 | 452 | 0 |
+| 0% | 1% | 2% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
