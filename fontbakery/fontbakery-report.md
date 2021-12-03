@@ -125,7 +125,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
@@ -383,7 +382,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
@@ -549,7 +547,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
@@ -807,7 +804,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
@@ -973,7 +969,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
@@ -1231,7 +1226,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
@@ -1397,7 +1391,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
@@ -1655,7 +1648,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
@@ -1821,7 +1813,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: hyphen	Contours detected: 0	Expected: 1
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: slash	Contours detected: 0	Expected: 1
  - Glyph name: zero	Contours detected: 0	Expected: 2 or 3
  - Glyph name: one	Contours detected: 0	Expected: 1
@@ -2079,7 +2070,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: period	Contours detected: 0	Expected: 1
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: plus	Contours detected: 0	Expected: 1
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
