@@ -365,11 +365,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"212 -5 LINE SMOOTH",
-"223 -5 OFFCURVE",
-"228 0 OFFCURVE",
-"228 9 CURVE SMOOTH",
-"228 27 OFFCURVE",
+"212 0 LINE SMOOTH",
+"223 0 OFFCURVE",
+"228 5 OFFCURVE",
+"228 14 CURVE SMOOTH",
+"228 32 OFFCURVE",
 "170 31 OFFCURVE",
 "154 49 CURVE SMOOTH",
 "150 53 OFFCURVE",
@@ -388,33 +388,33 @@ nodes = (
 "499 63 OFFCURVE",
 "495 58 CURVE SMOOTH",
 "478 37 OFFCURVE",
-"419 28 OFFCURVE",
-"419 7 CURVE SMOOTH",
-"419 0 OFFCURVE",
-"422 -5 OFFCURVE",
-"434 -5 CURVE SMOOTH",
-"762 -3 LINE SMOOTH",
-"774 -3 OFFCURVE",
-"780 2 OFFCURVE",
-"780 9 CURVE SMOOTH",
-"780 33 OFFCURVE",
+"419 33 OFFCURVE",
+"419 12 CURVE SMOOTH",
+"419 5 OFFCURVE",
+"422 0 OFFCURVE",
+"434 0 CURVE SMOOTH",
+"762 0 LINE SMOOTH",
+"774 0 OFFCURVE",
+"780 5 OFFCURVE",
+"780 12 CURVE SMOOTH",
+"780 36 OFFCURVE",
 "720 31 OFFCURVE",
 "702 73 CURVE SMOOTH",
 "465 629 LINE SMOOTH",
 "451 661 OFFCURVE",
-"445 667 OFFCURVE",
-"395 665 CURVE SMOOTH",
-"364 664 LINE SMOOTH",
-"335 663 OFFCURVE",
+"443 664 OFFCURVE",
+"419 664 CURVE SMOOTH",
+"361 664 LINE SMOOTH",
+"342 664 OFFCURVE",
 "328 653 OFFCURVE",
 "318 629 CURVE SMOOTH",
 "75 66 LINE SMOOTH",
 "60 31 OFFCURVE",
-"10 27 OFFCURVE",
-"10 9 CURVE SMOOTH",
-"10 3 OFFCURVE",
-"12 -5 OFFCURVE",
-"23 -5 CURVE SMOOTH"
+"10 32 OFFCURVE",
+"10 14 CURVE SMOOTH",
+"10 8 OFFCURVE",
+"12 0 OFFCURVE",
+"23 0 CURVE SMOOTH"
 );
 },
 {
@@ -503,6 +503,7 @@ rightKerningGroup = kern_A3;
 unicode = 0041;
 },
 {
+color = 4;
 glyphname = Aacute;
 layers = (
 {
@@ -517,6 +518,7 @@ width = 600;
 unicode = 00C1;
 },
 {
+color = 4;
 glyphname = Acircumflex;
 layers = (
 {
@@ -531,6 +533,7 @@ width = 600;
 unicode = 00C2;
 },
 {
+color = 4;
 glyphname = Adieresis;
 layers = (
 {
@@ -545,6 +548,7 @@ width = 600;
 unicode = 00C4;
 },
 {
+color = 4;
 glyphname = Agrave;
 layers = (
 {
@@ -559,6 +563,7 @@ width = 600;
 unicode = 00C0;
 },
 {
+color = 4;
 glyphname = Aring;
 layers = (
 {
@@ -573,6 +578,7 @@ width = 600;
 unicode = 00C5;
 },
 {
+color = 4;
 glyphname = Atilde;
 layers = (
 {
@@ -587,6 +593,7 @@ width = 600;
 unicode = 00C3;
 },
 {
+color = 4;
 glyphname = AE;
 layers = (
 {
@@ -715,22 +722,22 @@ nodes = (
 "655 611 OFFCURVE",
 "561 660 OFFCURVE",
 "358 660 CURVE SMOOTH",
-"39 665 LINE SMOOTH",
-"32 665 OFFCURVE",
-"29 660 OFFCURVE",
-"29 652 CURVE SMOOTH",
-"29 629 OFFCURVE",
+"39 660 LINE SMOOTH",
+"32 660 OFFCURVE",
+"29 655 OFFCURVE",
+"29 647 CURVE SMOOTH",
+"29 624 OFFCURVE",
 "119 621 OFFCURVE",
 "119 579 CURVE SMOOTH",
 "119 391 OFFCURVE",
 "119 249 OFFCURVE",
 "119 66 CURVE SMOOTH",
 "119 46 OFFCURVE",
-"29 26 OFFCURVE",
-"29 7 CURVE SMOOTH",
-"29 -2 OFFCURVE",
-"32 -5 OFFCURVE",
-"43 -5 CURVE SMOOTH"
+"29 31 OFFCURVE",
+"29 12 CURVE SMOOTH",
+"29 3 OFFCURVE",
+"32 0 OFFCURVE",
+"43 0 CURVE SMOOTH"
 );
 },
 {
@@ -972,6 +979,7 @@ rightKerningGroup = kern_C1;
 unicode = 0043;
 },
 {
+color = 4;
 glyphname = Ccedilla;
 layers = (
 {
@@ -1127,6 +1135,7 @@ rightKerningGroup = kern_O1;
 unicode = 0044;
 },
 {
+color = 4;
 glyphname = Eth;
 layers = (
 {
@@ -1473,6 +1482,7 @@ rightKerningGroup = kern_E1;
 unicode = 0045;
 },
 {
+color = 4;
 glyphname = Eacute;
 layers = (
 {
@@ -1487,6 +1497,7 @@ width = 600;
 unicode = 00C9;
 },
 {
+color = 4;
 glyphname = Ecircumflex;
 layers = (
 {
@@ -1501,6 +1512,7 @@ width = 600;
 unicode = 00CA;
 },
 {
+color = 4;
 glyphname = Edieresis;
 layers = (
 {
@@ -1515,6 +1527,7 @@ width = 600;
 unicode = 00CB;
 },
 {
+color = 4;
 glyphname = Egrave;
 layers = (
 {
@@ -2193,6 +2206,7 @@ rightKerningGroup = kern_H1;
 unicode = 0049;
 },
 {
+color = 4;
 glyphname = Iacute;
 layers = (
 {
@@ -2207,6 +2221,7 @@ width = 600;
 unicode = 00CD;
 },
 {
+color = 4;
 glyphname = Icircumflex;
 layers = (
 {
@@ -2221,6 +2236,7 @@ width = 600;
 unicode = 00CE;
 },
 {
+color = 4;
 glyphname = Idieresis;
 layers = (
 {
@@ -2235,6 +2251,7 @@ width = 600;
 unicode = 00CF;
 },
 {
+color = 4;
 glyphname = Igrave;
 layers = (
 {
@@ -3086,6 +3103,7 @@ rightKerningGroup = kern_N1;
 unicode = 004E;
 },
 {
+color = 4;
 glyphname = Ntilde;
 layers = (
 {
@@ -3217,6 +3235,7 @@ rightKerningGroup = kern_O1;
 unicode = 004F;
 },
 {
+color = 4;
 glyphname = Oacute;
 layers = (
 {
@@ -3231,6 +3250,7 @@ width = 600;
 unicode = 00D3;
 },
 {
+color = 4;
 glyphname = Ocircumflex;
 layers = (
 {
@@ -3245,6 +3265,7 @@ width = 600;
 unicode = 00D4;
 },
 {
+color = 4;
 glyphname = Odieresis;
 layers = (
 {
@@ -3259,6 +3280,7 @@ width = 600;
 unicode = 00D6;
 },
 {
+color = 4;
 glyphname = Ograve;
 layers = (
 {
@@ -3273,6 +3295,7 @@ width = 600;
 unicode = 00D2;
 },
 {
+color = 4;
 glyphname = Oslash;
 layers = (
 {
@@ -3287,6 +3310,7 @@ width = 600;
 unicode = 00D8;
 },
 {
+color = 4;
 glyphname = Otilde;
 layers = (
 {
@@ -3301,6 +3325,7 @@ width = 600;
 unicode = 00D5;
 },
 {
+color = 4;
 glyphname = OE;
 layers = (
 {
@@ -3432,6 +3457,7 @@ rightKerningGroup = kern_P1;
 unicode = 0050;
 },
 {
+color = 4;
 glyphname = Thorn;
 layers = (
 {
@@ -4047,10 +4073,10 @@ nodes = (
 "688 655 OFFCURVE",
 "682 660 OFFCURVE",
 "674 660 CURVE SMOOTH",
-"43 660 LINE SMOOTH",
-"35 660 OFFCURVE",
-"29 655 OFFCURVE",
-"29 646 CURVE SMOOTH",
+"44 660 LINE SMOOTH",
+"36 660 OFFCURVE",
+"30 655 OFFCURVE",
+"30 646 CURVE SMOOTH",
 "30 498 LINE SMOOTH",
 "30 492 OFFCURVE",
 "33 489 OFFCURVE",
@@ -4227,6 +4253,7 @@ rightKerningGroup = kern_U1;
 unicode = 0055;
 },
 {
+color = 4;
 glyphname = Uacute;
 layers = (
 {
@@ -4241,6 +4268,7 @@ width = 600;
 unicode = 00DA;
 },
 {
+color = 4;
 glyphname = Ucircumflex;
 layers = (
 {
@@ -4255,6 +4283,7 @@ width = 600;
 unicode = 00DB;
 },
 {
+color = 4;
 glyphname = Udieresis;
 layers = (
 {
@@ -4269,6 +4298,7 @@ width = 600;
 unicode = 00DC;
 },
 {
+color = 4;
 glyphname = Ugrave;
 layers = (
 {
@@ -4997,6 +5027,7 @@ rightKerningGroup = kern_Y3;
 unicode = 0059;
 },
 {
+color = 4;
 glyphname = Yacute;
 layers = (
 {
@@ -5482,6 +5513,7 @@ rightKerningGroup = kernLC_a1;
 unicode = 0061;
 },
 {
+color = 4;
 glyphname = aacute;
 layers = (
 {
@@ -5496,6 +5528,7 @@ width = 600;
 unicode = 00E1;
 },
 {
+color = 4;
 glyphname = acircumflex;
 layers = (
 {
@@ -5510,6 +5543,7 @@ width = 600;
 unicode = 00E2;
 },
 {
+color = 4;
 glyphname = adieresis;
 layers = (
 {
@@ -5524,6 +5558,7 @@ width = 600;
 unicode = 00E4;
 },
 {
+color = 4;
 glyphname = agrave;
 layers = (
 {
@@ -5538,6 +5573,7 @@ width = 600;
 unicode = 00E0;
 },
 {
+color = 4;
 glyphname = aring;
 layers = (
 {
@@ -5552,6 +5588,7 @@ width = 600;
 unicode = 00E5;
 },
 {
+color = 4;
 glyphname = atilde;
 layers = (
 {
@@ -5566,6 +5603,7 @@ width = 600;
 unicode = 00E3;
 },
 {
+color = 4;
 glyphname = ae;
 layers = (
 {
@@ -5822,6 +5860,7 @@ rightKerningGroup = kernLC_c1;
 unicode = 0063;
 },
 {
+color = 4;
 glyphname = ccedilla;
 layers = (
 {
@@ -5999,6 +6038,7 @@ rightKerningGroup = kernLC_l1;
 unicode = 0064;
 },
 {
+color = 4;
 glyphname = eth;
 layers = (
 {
@@ -6164,6 +6204,7 @@ rightKerningGroup = kernLC_e1;
 unicode = 0065;
 },
 {
+color = 4;
 glyphname = eacute;
 layers = (
 {
@@ -6178,6 +6219,7 @@ width = 600;
 unicode = 00E9;
 },
 {
+color = 4;
 glyphname = ecircumflex;
 layers = (
 {
@@ -6192,6 +6234,7 @@ width = 600;
 unicode = 00EA;
 },
 {
+color = 4;
 glyphname = edieresis;
 layers = (
 {
@@ -6206,6 +6249,7 @@ width = 600;
 unicode = 00EB;
 },
 {
+color = 4;
 glyphname = egrave;
 layers = (
 {
