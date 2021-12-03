@@ -3,21 +3,6 @@
 copyright = "Copyright 2021 The Mekorot Project Authors (https://github.com/googlefonts/mekorot)";
 customParameters = (
 {
-name = panose;
-value = (
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
 name = fsType;
 value = (
 );
@@ -97,11 +82,11 @@ capHeight = 660;
 customParameters = (
 {
 name = hheaAscender;
-value = 917;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -463;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -109,23 +94,23 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 759;
+value = 900;
 },
 {
 name = typoDescender;
-value = -241;
+value = -300;
 },
 {
 name = typoLineGap;
-value = 522;
+value = 0;
 },
 {
 name = winAscent;
-value = 1059;
+value = 1200;
 },
 {
 name = winDescent;
-value = 463;
+value = 300;
 },
 {
 name = underlinePosition;
