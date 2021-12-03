@@ -110,7 +110,7 @@ value = 1200;
 },
 {
 name = winDescent;
-value = 300;
+value = 358;
 },
 {
 name = underlinePosition;
@@ -191,7 +191,7 @@ value = 1200;
 },
 {
 name = winDescent;
-value = 300;
+value = 358;
 },
 {
 name = underlinePosition;
