@@ -113,13 +113,10 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 The following glyphs do not have the recommended number of contours:
 
- - Glyph name: exclam	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: numbersign	Contours detected: 0	Expected: 2
  - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
@@ -343,7 +340,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: equal	Contours detected: 0	Expected: 2
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclam	Contours detected: 0	Expected: 2
  - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
@@ -387,14 +383,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: question	Contours detected: 0	Expected: 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -535,13 +529,10 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 The following glyphs do not have the recommended number of contours:
 
- - Glyph name: exclam	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: numbersign	Contours detected: 0	Expected: 2
  - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
@@ -765,7 +756,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: equal	Contours detected: 0	Expected: 2
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclam	Contours detected: 0	Expected: 2
  - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
@@ -809,14 +799,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: question	Contours detected: 0	Expected: 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -957,13 +945,10 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 The following glyphs do not have the recommended number of contours:
 
- - Glyph name: exclam	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: numbersign	Contours detected: 0	Expected: 2
  - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
@@ -1187,7 +1172,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: equal	Contours detected: 0	Expected: 2
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclam	Contours detected: 0	Expected: 2
  - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
@@ -1231,14 +1215,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: question	Contours detected: 0	Expected: 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -1379,13 +1361,10 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 The following glyphs do not have the recommended number of contours:
 
- - Glyph name: exclam	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: numbersign	Contours detected: 0	Expected: 2
  - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
@@ -1609,7 +1588,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: equal	Contours detected: 0	Expected: 2
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclam	Contours detected: 0	Expected: 2
  - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
@@ -1653,14 +1631,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: question	Contours detected: 0	Expected: 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -1801,13 +1777,10 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 The following glyphs do not have the recommended number of contours:
 
- - Glyph name: exclam	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: numbersign	Contours detected: 0	Expected: 2
  - Glyph name: dollar	Contours detected: 0	Expected: 1 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: parenleft	Contours detected: 0	Expected: 1
  - Glyph name: parenright	Contours detected: 0	Expected: 1
  - Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
@@ -2031,7 +2004,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: equal	Contours detected: 0	Expected: 2
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclam	Contours detected: 0	Expected: 2
  - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: five	Contours detected: 0	Expected: 1
  - Glyph name: four	Contours detected: 0	Expected: 1 or 2
@@ -2075,14 +2047,12 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: question	Contours detected: 0	Expected: 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
- - Glyph name: quotedbl	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: quotesingle	Contours detected: 0	Expected: 1
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
