@@ -114,18 +114,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: underscore	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -276,21 +264,13 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
  - Glyph name: aring	Contours detected: 0	Expected: 4
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
  - Glyph name: atilde	Contours detected: 0	Expected: 3
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: dieresis	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
@@ -303,10 +283,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: emdash	Contours detected: 0	Expected: 1
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: fraction	Contours detected: 0	Expected: 1
  - Glyph name: germandbls	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
  - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
  - Glyph name: guillemotright	Contours detected: 0	Expected: 2
  - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
@@ -343,7 +321,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
  - Glyph name: tilde	Contours detected: 0	Expected: 1
@@ -351,7 +328,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: underscore	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2
@@ -488,18 +464,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: underscore	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -650,21 +614,13 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
  - Glyph name: aring	Contours detected: 0	Expected: 4
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
  - Glyph name: atilde	Contours detected: 0	Expected: 3
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: dieresis	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
@@ -677,10 +633,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: emdash	Contours detected: 0	Expected: 1
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: fraction	Contours detected: 0	Expected: 1
  - Glyph name: germandbls	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
  - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
  - Glyph name: guillemotright	Contours detected: 0	Expected: 2
  - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
@@ -717,7 +671,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
  - Glyph name: tilde	Contours detected: 0	Expected: 1
@@ -725,7 +678,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: underscore	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2
@@ -862,18 +814,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: underscore	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -1024,21 +964,13 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
  - Glyph name: aring	Contours detected: 0	Expected: 4
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
  - Glyph name: atilde	Contours detected: 0	Expected: 3
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: dieresis	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
@@ -1051,10 +983,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: emdash	Contours detected: 0	Expected: 1
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: fraction	Contours detected: 0	Expected: 1
  - Glyph name: germandbls	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
  - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
  - Glyph name: guillemotright	Contours detected: 0	Expected: 2
  - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
@@ -1091,7 +1021,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
  - Glyph name: tilde	Contours detected: 0	Expected: 1
@@ -1099,7 +1028,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: underscore	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2
@@ -1236,18 +1164,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: underscore	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -1398,21 +1314,13 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
  - Glyph name: aring	Contours detected: 0	Expected: 4
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
  - Glyph name: atilde	Contours detected: 0	Expected: 3
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: dieresis	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
@@ -1425,10 +1333,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: emdash	Contours detected: 0	Expected: 1
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: fraction	Contours detected: 0	Expected: 1
  - Glyph name: germandbls	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
  - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
  - Glyph name: guillemotright	Contours detected: 0	Expected: 2
  - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
@@ -1465,7 +1371,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
  - Glyph name: tilde	Contours detected: 0	Expected: 1
@@ -1473,7 +1378,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: underscore	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2
@@ -1596,18 +1500,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: underscore	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: yen	Contours detected: 0	Expected: 1 or 2
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
@@ -1758,21 +1650,13 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
  - Glyph name: aring	Contours detected: 0	Expected: 4
- - Glyph name: asciicircum	Contours detected: 0	Expected: 1
- - Glyph name: asciitilde	Contours detected: 0	Expected: 1
  - Glyph name: atilde	Contours detected: 0	Expected: 3
- - Glyph name: backslash	Contours detected: 0	Expected: 1
- - Glyph name: bar	Contours detected: 0	Expected: 1
- - Glyph name: braceleft	Contours detected: 0	Expected: 1
- - Glyph name: braceright	Contours detected: 0	Expected: 1
  - Glyph name: brokenbar	Contours detected: 0	Expected: 2
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: cent	Contours detected: 0	Expected: 1 or 2
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: copyright	Contours detected: 0	Expected: 3
- - Glyph name: currency	Contours detected: 0	Expected: 2
  - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: dieresis	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
@@ -1785,10 +1669,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: emdash	Contours detected: 0	Expected: 1
  - Glyph name: endash	Contours detected: 0	Expected: 1
  - Glyph name: eth	Contours detected: 0	Expected: 2
- - Glyph name: exclamdown	Contours detected: 0	Expected: 2
  - Glyph name: fraction	Contours detected: 0	Expected: 1
  - Glyph name: germandbls	Contours detected: 0	Expected: 1
- - Glyph name: grave	Contours detected: 0	Expected: 1
  - Glyph name: guillemotleft	Contours detected: 0	Expected: 2
  - Glyph name: guillemotright	Contours detected: 0	Expected: 2
  - Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
@@ -1825,7 +1707,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: section	Contours detected: 0	Expected: 2
- - Glyph name: sterling	Contours detected: 0	Expected: 1 or 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
  - Glyph name: tilde	Contours detected: 0	Expected: 1
@@ -1833,7 +1714,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: underscore	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2
