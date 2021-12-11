@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[6] Mekorot-SemiBold.ttf</b></summary>
+<summary><b>[7] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -88,7 +88,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
+ - two.sinf
+ - NULL 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -114,13 +116,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
- - Glyph name: macron	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
- - Glyph name: uni00B2	Contours detected: 0	Expected: 1
- - Glyph name: uni00B3	Contours detected: 0	Expected: 1
  - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
@@ -260,7 +255,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
  - Glyph name: eacute	Contours detected: 0	Expected: 3
@@ -277,8 +271,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: icircumflex	Contours detected: 0	Expected: 2
  - Glyph name: idieresis	Contours detected: 0	Expected: 3
  - Glyph name: igrave	Contours detected: 0	Expected: 2
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: macron	Contours detected: 0	Expected: 1
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: ntilde	Contours detected: 0	Expected: 2
@@ -294,7 +286,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -302,7 +293,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -332,10 +322,24 @@ vectors.</pre>
 	* ampersand (U+0026): L<<339.0,384.0>--<376.0,346.0>> -> L<<376.0,346.0>--<523.0,197.0>> [code: found-colinear-vectors]
 
 </details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
+
+* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
+<pre>--- Rationale ---
+This check heuristically detects outline segments which form a particularly
+small angle, indicative of an outline error. This may cause false positives in
+cases such as extreme ink traps, so should be regarded as advisory and backed up
+by manual inspection.</pre>
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni00B3 (U+00B3): B<<270.0,745.0>-<235.0,721.0>-<184.0,713.0>>/B<<184.0,713.0>-<325.0,702.0>-<325.0,610.0>> = 13.375775215664396 [code: found-jaggy-segments]
+
+</details>
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-ExtraBold.ttf</b></summary>
+<summary><b>[7] Mekorot-ExtraBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -420,7 +424,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
+ - two.sinf
+ - NULL 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -446,13 +452,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
- - Glyph name: macron	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
- - Glyph name: uni00B2	Contours detected: 0	Expected: 1
- - Glyph name: uni00B3	Contours detected: 0	Expected: 1
  - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
@@ -592,7 +591,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
  - Glyph name: eacute	Contours detected: 0	Expected: 3
@@ -609,8 +607,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: icircumflex	Contours detected: 0	Expected: 2
  - Glyph name: idieresis	Contours detected: 0	Expected: 3
  - Glyph name: igrave	Contours detected: 0	Expected: 2
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: macron	Contours detected: 0	Expected: 1
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: ntilde	Contours detected: 0	Expected: 2
@@ -626,7 +622,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -634,7 +629,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -662,6 +656,20 @@ vectors.</pre>
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 	* ampersand (U+0026): L<<377.0,386.0>--<416.0,346.0>> -> L<<416.0,346.0>--<557.0,202.0>> [code: found-colinear-vectors]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
+
+* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
+<pre>--- Rationale ---
+This check heuristically detects outline segments which form a particularly
+small angle, indicative of an outline error. This may cause false positives in
+cases such as extreme ink traps, so should be regarded as advisory and backed up
+by manual inspection.</pre>
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni00B3 (U+00B3): B<<278.5,743.0>-<240.0,719.0>-<184.0,713.0>>/B<<184.0,713.0>-<261.0,708.0>-<299.0,683.0>> = 9.830792671714141 [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -752,7 +760,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
+ - two.sinf
+ - NULL 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -778,13 +788,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
- - Glyph name: macron	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
- - Glyph name: uni00B2	Contours detected: 0	Expected: 1
- - Glyph name: uni00B3	Contours detected: 0	Expected: 1
  - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
@@ -924,7 +927,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
  - Glyph name: eacute	Contours detected: 0	Expected: 3
@@ -941,8 +943,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: icircumflex	Contours detected: 0	Expected: 2
  - Glyph name: idieresis	Contours detected: 0	Expected: 3
  - Glyph name: igrave	Contours detected: 0	Expected: 2
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: macron	Contours detected: 0	Expected: 1
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: ntilde	Contours detected: 0	Expected: 2
@@ -958,7 +958,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -966,7 +965,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -1084,7 +1082,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
+ - two.sinf
+ - NULL 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -1110,13 +1110,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
- - Glyph name: macron	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
- - Glyph name: uni00B2	Contours detected: 0	Expected: 1
- - Glyph name: uni00B3	Contours detected: 0	Expected: 1
  - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
@@ -1256,7 +1249,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
  - Glyph name: eacute	Contours detected: 0	Expected: 3
@@ -1273,8 +1265,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: icircumflex	Contours detected: 0	Expected: 2
  - Glyph name: idieresis	Contours detected: 0	Expected: 3
  - Glyph name: igrave	Contours detected: 0	Expected: 2
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: macron	Contours detected: 0	Expected: 1
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: ntilde	Contours detected: 0	Expected: 2
@@ -1290,7 +1280,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -1298,7 +1287,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -1317,7 +1305,7 @@ The following glyphs do not have the recommended number of contours:
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-Bold.ttf</b></summary>
+<summary><b>[7] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -1402,7 +1390,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
+ - two.sinf
+ - NULL 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -1428,13 +1418,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
- - Glyph name: macron	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
- - Glyph name: uni00B2	Contours detected: 0	Expected: 1
- - Glyph name: uni00B3	Contours detected: 0	Expected: 1
  - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
@@ -1574,7 +1557,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
- - Glyph name: degree	Contours detected: 0	Expected: 2
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
  - Glyph name: eacute	Contours detected: 0	Expected: 3
@@ -1591,8 +1573,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: icircumflex	Contours detected: 0	Expected: 2
  - Glyph name: idieresis	Contours detected: 0	Expected: 3
  - Glyph name: igrave	Contours detected: 0	Expected: 2
- - Glyph name: logicalnot	Contours detected: 0	Expected: 1
- - Glyph name: macron	Contours detected: 0	Expected: 1
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: multiply	Contours detected: 0	Expected: 1
  - Glyph name: ntilde	Contours detected: 0	Expected: 2
@@ -1608,7 +1588,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
  - Glyph name: periodcentered	Contours detected: 0	Expected: 1
- - Glyph name: plusminus	Contours detected: 0	Expected: 1 or 2
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -1616,7 +1595,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: quoteleft	Contours detected: 0	Expected: 1
  - Glyph name: quoteright	Contours detected: 0	Expected: 1
  - Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
- - Glyph name: registered	Contours detected: 0	Expected: 3 or 4
  - Glyph name: ring	Contours detected: 0	Expected: 2
  - Glyph name: thorn	Contours detected: 0	Expected: 2
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -1646,6 +1624,20 @@ vectors.</pre>
 	* ampersand (U+0026): L<<358.0,385.0>--<396.0,346.0>> -> L<<396.0,346.0>--<540.0,199.0>> [code: found-colinear-vectors]
 
 </details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
+
+* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
+<pre>--- Rationale ---
+This check heuristically detects outline segments which form a particularly
+small angle, indicative of an outline error. This may cause false positives in
+cases such as extreme ink traps, so should be regarded as advisory and backed up
+by manual inspection.</pre>
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+	* uni00B3 (U+00B3): B<<274.5,744.0>-<238.0,720.0>-<184.0,713.0>>/B<<184.0,713.0>-<331.0,702.0>-<331.0,610.0>> = 11.665506681512458 [code: found-jaggy-segments]
+
+</details>
 <br>
 </details>
 
@@ -1653,7 +1645,7 @@ vectors.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 29 | 518 | 31 | 458 | 0 |
+| 0 | 0 | 32 | 518 | 31 | 455 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
