@@ -88,9 +88,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
- - NULL 
  - three.sinf
+ - NULL 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -116,10 +116,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: acute	Contours detected: 0	Expected: 1
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -245,7 +241,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Yacute	Contours detected: 0	Expected: 2
  - Glyph name: aacute	Contours detected: 0	Expected: 3
  - Glyph name: acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: adieresis	Contours detected: 0	Expected: 4
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
@@ -283,9 +278,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -301,7 +294,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2 
  - Glyph name: ydieresis	Contours detected: 0	Expected: 3
@@ -424,9 +416,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
- - NULL 
  - three.sinf
+ - NULL 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -452,10 +444,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: acute	Contours detected: 0	Expected: 1
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -581,7 +569,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Yacute	Contours detected: 0	Expected: 2
  - Glyph name: aacute	Contours detected: 0	Expected: 3
  - Glyph name: acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: adieresis	Contours detected: 0	Expected: 4
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
@@ -619,9 +606,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -637,7 +622,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2 
  - Glyph name: ydieresis	Contours detected: 0	Expected: 3
@@ -760,9 +744,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
- - NULL 
  - three.sinf
+ - NULL 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -788,10 +772,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: acute	Contours detected: 0	Expected: 1
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -917,7 +897,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Yacute	Contours detected: 0	Expected: 2
  - Glyph name: aacute	Contours detected: 0	Expected: 3
  - Glyph name: acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: adieresis	Contours detected: 0	Expected: 4
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
@@ -955,9 +934,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -973,7 +950,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2 
  - Glyph name: ydieresis	Contours detected: 0	Expected: 3
@@ -1082,9 +1058,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
- - NULL 
  - three.sinf
+ - NULL 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -1110,10 +1086,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: acute	Contours detected: 0	Expected: 1
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -1239,7 +1211,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Yacute	Contours detected: 0	Expected: 2
  - Glyph name: aacute	Contours detected: 0	Expected: 3
  - Glyph name: acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: adieresis	Contours detected: 0	Expected: 4
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
@@ -1277,9 +1248,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -1295,7 +1264,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2 
  - Glyph name: ydieresis	Contours detected: 0	Expected: 3
@@ -1390,9 +1358,9 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
- - NULL 
  - three.sinf
+ - NULL 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -1418,10 +1386,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: acute	Contours detected: 0	Expected: 1
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
@@ -1547,7 +1511,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Yacute	Contours detected: 0	Expected: 2
  - Glyph name: aacute	Contours detected: 0	Expected: 3
  - Glyph name: acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: acute	Contours detected: 0	Expected: 1
  - Glyph name: adieresis	Contours detected: 0	Expected: 4
  - Glyph name: ae	Contours detected: 0	Expected: 3
  - Glyph name: agrave	Contours detected: 0	Expected: 3
@@ -1585,9 +1548,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
- - Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: periodcentered	Contours detected: 0	Expected: 1
  - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
@@ -1603,7 +1564,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: ucircumflex	Contours detected: 0	Expected: 2
  - Glyph name: udieresis	Contours detected: 0	Expected: 3
  - Glyph name: ugrave	Contours detected: 0	Expected: 2
- - Glyph name: uni00B5	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: yacute	Contours detected: 0	Expected: 2 
  - Glyph name: ydieresis	Contours detected: 0	Expected: 3
