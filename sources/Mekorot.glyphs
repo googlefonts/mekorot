@@ -1220,18 +1220,156 @@ rightKerningGroup = kern_C1;
 unicode = 0043;
 },
 {
-color = 4;
+color = 0;
 glyphname = Ccedilla;
 layers = (
 {
 layerId = m01;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"510 -10 OFFCURVE",
+"564 10 OFFCURVE",
+"623 39 CURVE",
+"634 198 LINE",
+"617 198 LINE",
+"540 62 LINE",
+"578 106 LINE",
+"535 76 OFFCURVE",
+"486 41 OFFCURVE",
+"398 41 CURVE SMOOTH",
+"268 41 OFFCURVE",
+"163 152 OFFCURVE",
+"163 342 CURVE SMOOTH",
+"163 504 OFFCURVE",
+"269 620 OFFCURVE",
+"413 620 CURVE SMOOTH",
+"467 620 OFFCURVE",
+"502 600 OFFCURVE",
+"565 554 CURVE",
+"529 599 LINE",
+"605 447 LINE",
+"623 447 LINE",
+"618 622 LINE",
+"563 649 OFFCURVE",
+"515 670 OFFCURVE",
+"415 670 CURVE SMOOTH",
+"228 670 OFFCURVE",
+"70 501 OFFCURVE",
+"70 312 CURVE SMOOTH",
+"70 126 OFFCURVE",
+"195 -10 OFFCURVE",
+"400 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"356 -210 OFFCURVE",
+"338 -206 OFFCURVE",
+"320 -198 CURVE",
+"317 -198 LINE",
+"317 -210 LINE",
+"335 -231 OFFCURVE",
+"363 -240 OFFCURVE",
+"400 -240 CURVE",
+"463 -240 OFFCURVE",
+"497 -203 OFFCURVE",
+"497 -155 CURVE SMOOTH",
+"497 -98 OFFCURVE",
+"465 -75 OFFCURVE",
+"374 -49 CURVE",
+"387 -69 LINE",
+"428 20 LINE",
+"393 20 LINE",
+"336 -103 LINE",
+"415 -128 OFFCURVE",
+"437 -142 OFFCURVE",
+"437 -171 CURVE SMOOTH",
+"437 -192 OFFCURVE",
+"423 -210 OFFCURVE",
+"383 -210 CURVE SMOOTH"
+);
+}
+);
+width = 726;
 },
 {
 layerId = m002;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"486 -10 OFFCURVE",
+"578 10 OFFCURVE",
+"629 44 CURVE",
+"646 219 LINE",
+"628 219 LINE",
+"505 51 LINE",
+"541 82 LINE",
+"500 54 OFFCURVE",
+"462 45 OFFCURVE",
+"420 45 CURVE SMOOTH",
+"312 45 OFFCURVE",
+"234 150 OFFCURVE",
+"234 316 CURVE SMOOTH",
+"234 503 OFFCURVE",
+"317 620 OFFCURVE",
+"424 620 CURVE SMOOTH",
+"470 620 OFFCURVE",
+"492 612 OFFCURVE",
+"524 591 CURVE",
+"495 615 LINE",
+"621 428 LINE",
+"639 428 LINE",
+"624 622 LINE",
+"566 650 OFFCURVE",
+"523 670 OFFCURVE",
+"415 670 CURVE SMOOTH",
+"222 670 OFFCURVE",
+"35 524 OFFCURVE",
+"35 319 CURVE SMOOTH",
+"35 133 OFFCURVE",
+"185 -10 OFFCURVE",
+"398 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"354 -208 OFFCURVE",
+"332 -205 OFFCURVE",
+"317 -197 CURVE",
+"313 -197 LINE",
+"313 -220 LINE",
+"334 -233 OFFCURVE",
+"359 -240 OFFCURVE",
+"393 -240 CURVE SMOOTH",
+"458 -240 OFFCURVE",
+"503 -200 OFFCURVE",
+"503 -143 CURVE SMOOTH",
+"503 -85 OFFCURVE",
+"471 -51 OFFCURVE",
+"371 -27 CURVE",
+"388 -61 LINE",
+"428 27 LINE",
+"388 27 LINE",
+"329 -103 LINE",
+"408 -122 OFFCURVE",
+"426 -142 OFFCURVE",
+"426 -170 CURVE SMOOTH",
+"426 -196 OFFCURVE",
+"404 -208 OFFCURVE",
+"370 -208 CURVE SMOOTH"
+);
 }
 );
+width = 701;
+}
+);
+leftKerningGroup = kern_O2;
+rightKerningGroup = kern_C1;
 unicode = 00C7;
 },
 {
@@ -1727,12 +1865,30 @@ color = 4;
 glyphname = Eacute;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = E;
 },
 {
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 415, 0}";
+}
+);
+layerId = m01;
+width = 652;
+},
+{
+components = (
+{
+name = E;
+},
+{
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 455, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 700;
 }
 );
 unicode = 00C9;
@@ -1742,12 +1898,30 @@ color = 4;
 glyphname = Ecircumflex;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = E;
 },
 {
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 335, 0}";
+}
+);
+layerId = m01;
+width = 652;
+},
+{
+components = (
+{
+name = E;
+},
+{
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 366, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 700;
 }
 );
 unicode = 00CA;
@@ -1757,12 +1931,30 @@ color = 4;
 glyphname = Edieresis;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = E;
 },
 {
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 335, 0}";
+}
+);
+layerId = m01;
+width = 652;
+},
+{
+components = (
+{
+name = E;
+},
+{
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 367, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 700;
 }
 );
 unicode = 00CB;
@@ -1772,12 +1964,30 @@ color = 4;
 glyphname = Egrave;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = E;
 },
 {
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 256, 0}";
+}
+);
+layerId = m01;
+width = 652;
+},
+{
+components = (
+{
+name = E;
+},
+{
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 276, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 700;
 }
 );
 unicode = 00C8;
@@ -2451,12 +2661,30 @@ color = 4;
 glyphname = Iacute;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = I;
 },
 {
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 275, 0}";
+}
+);
+layerId = m01;
+width = 390;
+},
+{
+components = (
+{
+name = I;
+},
+{
+name = acutecomb.case;
+transform = "{1, 0, 0, 1, 303, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 428;
 }
 );
 unicode = 00CD;
@@ -2466,12 +2694,30 @@ color = 4;
 glyphname = Icircumflex;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = I;
 },
 {
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 195, 0}";
+}
+);
+layerId = m01;
+width = 390;
+},
+{
+components = (
+{
+name = I;
+},
+{
+name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 214, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 428;
 }
 );
 unicode = 00CE;
@@ -2481,12 +2727,30 @@ color = 4;
 glyphname = Idieresis;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = I;
 },
 {
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 195, 0}";
+}
+);
+layerId = m01;
+width = 390;
+},
+{
+components = (
+{
+name = I;
+},
+{
+name = dieresiscomb.case;
+transform = "{1, 0, 0, 1, 215, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 428;
 }
 );
 unicode = 00CF;
@@ -2496,12 +2760,30 @@ color = 4;
 glyphname = Igrave;
 layers = (
 {
-layerId = m01;
-width = 600;
+components = (
+{
+name = I;
 },
 {
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 116, 0}";
+}
+);
+layerId = m01;
+width = 390;
+},
+{
+components = (
+{
+name = I;
+},
+{
+name = gravecomb.case;
+transform = "{1, 0, 0, 1, 124, 0}";
+}
+);
 layerId = m002;
-width = 600;
+width = 428;
 }
 );
 unicode = 00CC;
