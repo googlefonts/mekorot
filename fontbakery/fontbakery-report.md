@@ -90,8 +90,9 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
  - one.sinf
- - NULL 
- - two.sinf
+ - NULL
+ - two.sinf 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -120,9 +121,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
@@ -207,7 +206,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
@@ -277,7 +275,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
@@ -416,8 +413,9 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
  - one.sinf
- - NULL 
- - two.sinf
+ - NULL
+ - two.sinf 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -446,9 +444,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
@@ -533,7 +529,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
@@ -603,7 +598,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
@@ -742,8 +736,9 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
  - one.sinf
- - NULL 
- - two.sinf
+ - NULL
+ - two.sinf 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -772,9 +767,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
@@ -859,7 +852,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
@@ -929,7 +921,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
@@ -1054,8 +1045,9 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
  - one.sinf
- - NULL 
- - two.sinf
+ - NULL
+ - two.sinf 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1084,9 +1076,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
@@ -1171,7 +1161,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
@@ -1241,7 +1230,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
@@ -1352,8 +1340,9 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
  - one.sinf
- - NULL 
- - two.sinf
+ - NULL
+ - two.sinf 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1382,9 +1371,7 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
@@ -1469,7 +1456,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
  - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Aacute	Contours detected: 0	Expected: 3
  - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
  - Glyph name: Adieresis	Contours detected: 0	Expected: 4
  - Glyph name: Agrave	Contours detected: 0	Expected: 3
@@ -1539,7 +1525,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: oslash	Contours detected: 0	Expected: 3
  - Glyph name: otilde	Contours detected: 0	Expected: 3
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: questiondown	Contours detected: 0	Expected: 2
  - Glyph name: quotedblbase	Contours detected: 0	Expected: 2
  - Glyph name: quotedblleft	Contours detected: 0	Expected: 2
  - Glyph name: quotedblright	Contours detected: 0	Expected: 2
