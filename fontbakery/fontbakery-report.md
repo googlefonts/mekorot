@@ -89,6 +89,7 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
+ - one.sinf
  - NULL 
  - two.sinf
  [code: unreachable-glyphs]
@@ -116,8 +117,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -248,7 +247,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: atilde	Contours detected: 0	Expected: 3
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
@@ -417,6 +415,7 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
+ - one.sinf
  - NULL 
  - two.sinf
  [code: unreachable-glyphs]
@@ -444,8 +443,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -576,7 +573,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: atilde	Contours detected: 0	Expected: 3
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
@@ -745,6 +741,7 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
+ - one.sinf
  - NULL 
  - two.sinf
  [code: unreachable-glyphs]
@@ -772,8 +769,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -904,7 +899,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: atilde	Contours detected: 0	Expected: 3
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
@@ -1059,6 +1053,7 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
+ - one.sinf
  - NULL 
  - two.sinf
  [code: unreachable-glyphs]
@@ -1086,8 +1081,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -1218,7 +1211,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: atilde	Contours detected: 0	Expected: 3
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
@@ -1359,6 +1351,7 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - three.sinf
+ - one.sinf
  - NULL 
  - two.sinf
  [code: unreachable-glyphs]
@@ -1386,8 +1379,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 The following glyphs do not have the recommended number of contours:
 
  - Glyph name: percent	Contours detected: 0	Expected: 5
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
- - Glyph name: uni00B9	Contours detected: 0	Expected: 1
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
@@ -1518,7 +1509,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: atilde	Contours detected: 0	Expected: 3
  - Glyph name: bullet	Contours detected: 0	Expected: 1
  - Glyph name: ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: cedilla	Contours detected: 0	Expected: 1
  - Glyph name: circumflex	Contours detected: 0	Expected: 1
  - Glyph name: divide	Contours detected: 0	Expected: 3
  - Glyph name: dotlessi	Contours detected: 0	Expected: 1
