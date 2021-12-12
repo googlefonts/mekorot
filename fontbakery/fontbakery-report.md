@@ -88,16 +88,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
- - uni0302.case
  - acutecomb.case
- - one.sinf
- - uni030A.case
- - two.sinf
+ - NULL
  - tildecomb.case
- - gravecomb.case
- - three.sinf 
  - uni0308.case
+ - three.sinf
+ - two.sinf
+ - uni0302.case
+ - gravecomb.case
+ - one.sinf 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -126,15 +126,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: Ograve	Contours detected: 0	Expected: 3
@@ -204,17 +195,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: OE	Contours detected: 0	Expected: 2
  - Glyph name: Oacute	Contours detected: 0	Expected: 3
@@ -404,16 +386,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
- - uni0302.case
  - acutecomb.case
- - one.sinf
- - uni030A.case
- - two.sinf
+ - NULL
  - tildecomb.case
- - gravecomb.case
- - three.sinf 
  - uni0308.case
+ - three.sinf
+ - two.sinf
+ - uni0302.case
+ - gravecomb.case
+ - one.sinf 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -442,15 +424,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: Ograve	Contours detected: 0	Expected: 3
@@ -520,17 +493,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: OE	Contours detected: 0	Expected: 2
  - Glyph name: Oacute	Contours detected: 0	Expected: 3
@@ -720,16 +684,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
- - uni0302.case
  - acutecomb.case
- - one.sinf
- - uni030A.case
- - two.sinf
+ - NULL
  - tildecomb.case
- - gravecomb.case
- - three.sinf 
  - uni0308.case
+ - three.sinf
+ - two.sinf
+ - uni0302.case
+ - gravecomb.case
+ - one.sinf 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -758,15 +722,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: Ograve	Contours detected: 0	Expected: 3
@@ -836,17 +791,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: OE	Contours detected: 0	Expected: 2
  - Glyph name: Oacute	Contours detected: 0	Expected: 3
@@ -1022,16 +968,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
- - uni0302.case
  - acutecomb.case
- - one.sinf
- - uni030A.case
- - two.sinf
+ - NULL
  - tildecomb.case
- - gravecomb.case
- - three.sinf 
  - uni0308.case
+ - three.sinf
+ - two.sinf
+ - uni0302.case
+ - gravecomb.case
+ - one.sinf 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1060,15 +1006,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: Ograve	Contours detected: 0	Expected: 3
@@ -1138,17 +1075,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: OE	Contours detected: 0	Expected: 2
  - Glyph name: Oacute	Contours detected: 0	Expected: 3
@@ -1310,16 +1238,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - NULL
- - uni0302.case
  - acutecomb.case
- - one.sinf
- - uni030A.case
- - two.sinf
+ - NULL
  - tildecomb.case
- - gravecomb.case
- - three.sinf 
  - uni0308.case
+ - three.sinf
+ - two.sinf
+ - uni0302.case
+ - gravecomb.case
+ - one.sinf 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1348,15 +1276,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: Ograve	Contours detected: 0	Expected: 3
@@ -1426,17 +1345,8 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Eacute	Contours detected: 0	Expected: 2
- - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Edieresis	Contours detected: 0	Expected: 3
- - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eth	Contours detected: 0	Expected: 2
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
- - Glyph name: Iacute	Contours detected: 0	Expected: 2
- - Glyph name: Icircumflex	Contours detected: 0	Expected: 2
- - Glyph name: Idieresis	Contours detected: 0	Expected: 3
- - Glyph name: Igrave	Contours detected: 0	Expected: 2
  - Glyph name: Ntilde	Contours detected: 0	Expected: 2
  - Glyph name: OE	Contours detected: 0	Expected: 2
  - Glyph name: Oacute	Contours detected: 0	Expected: 3
