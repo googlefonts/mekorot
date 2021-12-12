@@ -88,11 +88,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - one.sinf
  - NULL
- - two.sinf 
+ - uni0302.case
  - acutecomb.case
+ - one.sinf
+ - uni030A.case
+ - two.sinf
+ - tildecomb.case
+ - gravecomb.case
+ - three.sinf 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -121,12 +126,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: AE	Contours detected: 0	Expected: 2
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
@@ -205,12 +204,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
  - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
@@ -411,11 +404,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - one.sinf
  - NULL
- - two.sinf 
+ - uni0302.case
  - acutecomb.case
+ - one.sinf
+ - uni030A.case
+ - two.sinf
+ - tildecomb.case
+ - gravecomb.case
+ - three.sinf 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -444,12 +442,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: AE	Contours detected: 0	Expected: 2
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
@@ -528,12 +520,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
  - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
@@ -734,11 +720,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - one.sinf
  - NULL
- - two.sinf 
+ - uni0302.case
  - acutecomb.case
+ - one.sinf
+ - uni030A.case
+ - two.sinf
+ - tildecomb.case
+ - gravecomb.case
+ - three.sinf 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -767,12 +758,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: AE	Contours detected: 0	Expected: 2
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
@@ -851,12 +836,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
  - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
@@ -1043,11 +1022,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - one.sinf
  - NULL
- - two.sinf 
+ - uni0302.case
  - acutecomb.case
+ - one.sinf
+ - uni030A.case
+ - two.sinf
+ - tildecomb.case
+ - gravecomb.case
+ - three.sinf 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1076,12 +1060,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: AE	Contours detected: 0	Expected: 2
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
@@ -1160,12 +1138,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
  - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
@@ -1338,11 +1310,16 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - one.sinf
  - NULL
- - two.sinf 
+ - uni0302.case
  - acutecomb.case
+ - one.sinf
+ - uni030A.case
+ - two.sinf
+ - tildecomb.case
+ - gravecomb.case
+ - three.sinf 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -1371,12 +1348,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: onequarter	Contours detected: 0	Expected: 3 or 4
  - Glyph name: onehalf	Contours detected: 0	Expected: 3
  - Glyph name: threequarters	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: AE	Contours detected: 0	Expected: 2
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Egrave	Contours detected: 0	Expected: 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
@@ -1455,12 +1426,6 @@ The following glyphs do not have the recommended number of contours:
  - Glyph name: Euro	Contours detected: 0	Expected: 1 or 2
  - Glyph name: minus	Contours detected: 0	Expected: 1
  - Glyph name: uni2215	Contours detected: 0	Expected: 1
- - Glyph name: AE	Contours detected: 0	Expected: 2
- - Glyph name: Acircumflex	Contours detected: 0	Expected: 3
- - Glyph name: Adieresis	Contours detected: 0	Expected: 4
- - Glyph name: Agrave	Contours detected: 0	Expected: 3
- - Glyph name: Aring	Contours detected: 0	Expected: 3 or 4
- - Glyph name: Atilde	Contours detected: 0	Expected: 3
  - Glyph name: Ccedilla	Contours detected: 0	Expected: 1 or 2
  - Glyph name: Eacute	Contours detected: 0	Expected: 2
  - Glyph name: Ecircumflex	Contours detected: 0	Expected: 2
