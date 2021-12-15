@@ -5,6 +5,17 @@ Fontbakery version: 0.8.4
 <details>
 <summary><b>[5] Mekorot-Regular.ttf</b></summary>
 <details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints: 0x00AD (SOFT HYPHEN) [code: missing-codepoints]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -88,41 +99,22 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.sinf
- - one.sups
- - four.sinf
- - one.sinf
- - NULL
- - uni030A.case
- - tildecomb.case
+ - two.sinf
  - zero.sups
  - uni0302.case
- - three.sinf
+ - uni030A.case
+ - NULL
+ - three.sups
+ - zero.sinf
+ - tildecomb.case
+ - acutecomb.case
+ - one.sinf
+ - four.sinf
  - uni0308.case
  - gravecomb.case
- - three.sups
- - two.sinf 
- - acutecomb.case
+ - one.sups 
+ - three.sinf
  [code: unreachable-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 
 </details>
 <br>
@@ -130,6 +122,17 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 <details>
 <summary><b>[7] Mekorot-Bold.ttf</b></summary>
 <details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints: 0x00AD (SOFT HYPHEN) [code: missing-codepoints]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -213,41 +216,22 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.sinf
- - one.sups
- - four.sinf
- - one.sinf
- - NULL
- - uni030A.case
- - tildecomb.case
+ - two.sinf
  - zero.sups
  - uni0302.case
- - three.sinf
+ - uni030A.case
+ - NULL
+ - three.sups
+ - zero.sinf
+ - tildecomb.case
+ - acutecomb.case
+ - one.sinf
+ - four.sinf
  - uni0308.case
  - gravecomb.case
- - three.sups
- - two.sinf 
- - acutecomb.case
+ - one.sups 
+ - three.sinf
  [code: unreachable-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 
 </details>
 <details>
@@ -283,6 +267,17 @@ by manual inspection.</pre>
 <details>
 <summary><b>[7] Mekorot-SemiBold.ttf</b></summary>
 <details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints: 0x00AD (SOFT HYPHEN) [code: missing-codepoints]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -366,41 +361,22 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.sinf
- - one.sups
- - four.sinf
- - one.sinf
- - NULL
- - uni030A.case
- - tildecomb.case
+ - two.sinf
  - zero.sups
  - uni0302.case
- - three.sinf
+ - uni030A.case
+ - NULL
+ - three.sups
+ - zero.sinf
+ - tildecomb.case
+ - acutecomb.case
+ - one.sinf
+ - four.sinf
  - uni0308.case
  - gravecomb.case
- - three.sups
- - two.sinf 
- - acutecomb.case
+ - one.sups 
+ - three.sinf
  [code: unreachable-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 
 </details>
 <details>
@@ -436,6 +412,17 @@ by manual inspection.</pre>
 <details>
 <summary><b>[6] Mekorot-Medium.ttf</b></summary>
 <details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints: 0x00AD (SOFT HYPHEN) [code: missing-codepoints]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -519,41 +506,22 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.sinf
- - one.sups
- - four.sinf
- - one.sinf
- - NULL
- - uni030A.case
- - tildecomb.case
+ - two.sinf
  - zero.sups
  - uni0302.case
- - three.sinf
+ - uni030A.case
+ - NULL
+ - three.sups
+ - zero.sinf
+ - tildecomb.case
+ - acutecomb.case
+ - one.sinf
+ - four.sinf
  - uni0308.case
  - gravecomb.case
- - three.sups
- - two.sinf 
- - acutecomb.case
+ - one.sups 
+ - three.sinf
  [code: unreachable-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 
 </details>
 <details>
@@ -575,6 +543,17 @@ vectors.</pre>
 <details>
 <summary><b>[7] Mekorot-ExtraBold.ttf</b></summary>
 <details>
+<summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary>
+
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+<pre>--- Rationale ---
+Google Fonts expects that fonts in its collection support at least the minimal
+set of characters defined in the `GF-latin-core` glyph-set.</pre>
+
+* 🔥 **FAIL** Missing required codepoints: 0x00AD (SOFT HYPHEN) [code: missing-codepoints]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
@@ -658,41 +637,22 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - zero.sinf
- - one.sups
- - four.sinf
- - one.sinf
- - NULL
- - uni030A.case
- - tildecomb.case
+ - two.sinf
  - zero.sups
  - uni0302.case
- - three.sinf
+ - uni030A.case
+ - NULL
+ - three.sups
+ - zero.sinf
+ - tildecomb.case
+ - acutecomb.case
+ - one.sinf
+ - four.sinf
  - uni0308.case
  - gravecomb.case
- - three.sups
- - two.sinf 
- - acutecomb.case
+ - one.sups 
+ - three.sinf
  [code: unreachable-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 
 </details>
 <details>
@@ -730,7 +690,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 32 | 518 | 31 | 455 | 0 |
+| 0 | 5 | 27 | 518 | 31 | 455 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
