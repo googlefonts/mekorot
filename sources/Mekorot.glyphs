@@ -480,7 +480,6 @@ nodes = (
 );
 }
 );
-visible = 1;
 width = 750;
 }
 );
@@ -1798,10 +1797,10 @@ nodes = (
 "119 620 OFFCURVE",
 "119 578 CURVE SMOOTH",
 "119 86 LINE SMOOTH",
-"119 36 OFFCURVE",
-"30 27 OFFCURVE",
-"30 10 CURVE SMOOTH",
-"30 0 OFFCURVE",
+"119 42 OFFCURVE",
+"30 29 OFFCURVE",
+"30 12 CURVE SMOOTH",
+"30 2 OFFCURVE",
 "40 0 OFFCURVE",
 "50 0 CURVE SMOOTH"
 );
@@ -18514,7 +18513,7 @@ width = 600;
 unicode = 0030;
 },
 {
-color = 0;
+color = 5;
 glyphname = one;
 layers = (
 {
@@ -18523,17 +18522,40 @@ paths = (
 {
 closed = 1;
 nodes = (
-"408 0 LINE",
-"408 16 LINE",
-"328 56 LINE",
-"328 660 LINE",
-"308 660 LINE",
-"68 510 LINE",
-"68 475 LINE",
-"243 563 LINE",
-"243 56 LINE",
-"153 16 LINE",
-"153 0 LINE"
+"397 0 LINE SMOOTH",
+"412 0 OFFCURVE",
+"417 6 OFFCURVE",
+"417 14 CURVE SMOOTH",
+"417 32 OFFCURVE",
+"328 47 OFFCURVE",
+"328 78 CURVE SMOOTH",
+"328 640 LINE SMOOTH",
+"328 656 OFFCURVE",
+"324 660 OFFCURVE",
+"313 660 CURVE SMOOTH",
+"302 660 LINE SMOOTH",
+"292 660 OFFCURVE",
+"258 632 OFFCURVE",
+"139 556 CURVE SMOOTH",
+"128 549 OFFCURVE",
+"123 540 OFFCURVE",
+"123 530 CURVE SMOOTH",
+"123 519 OFFCURVE",
+"128 516 OFFCURVE",
+"135 516 CURVE SMOOTH",
+"153 516 OFFCURVE",
+"180 535 OFFCURVE",
+"227 556 CURVE SMOOTH",
+"236 560 OFFCURVE",
+"243 554 OFFCURVE",
+"243 543 CURVE SMOOTH",
+"243 78 LINE SMOOTH",
+"243 47 OFFCURVE",
+"144 32 OFFCURVE",
+"144 14 CURVE SMOOTH",
+"144 5 OFFCURVE",
+"150 0 OFFCURVE",
+"164 0 CURVE SMOOTH"
 );
 }
 );
@@ -18541,6 +18563,53 @@ width = 500;
 },
 {
 layerId = m002;
+paths = (
+{
+closed = 1;
+nodes = (
+"497 0 LINE SMOOTH",
+"512 0 OFFCURVE",
+"517 6 OFFCURVE",
+"517 14 CURVE SMOOTH",
+"517 32 OFFCURVE",
+"428 47 OFFCURVE",
+"428 78 CURVE SMOOTH",
+"428 630 LINE SMOOTH",
+"428 646 OFFCURVE",
+"421 660 OFFCURVE",
+"403 660 CURVE SMOOTH",
+"368 660 LINE SMOOTH",
+"298 660 OFFCURVE",
+"270 614 OFFCURVE",
+"129 530 CURVE SMOOTH",
+"123 527 OFFCURVE",
+"113 523 OFFCURVE",
+"113 504 CURVE SMOOTH",
+"113 493 OFFCURVE",
+"118 490 OFFCURVE",
+"125 490 CURVE SMOOTH",
+"143 490 OFFCURVE",
+"180 505 OFFCURVE",
+"227 526 CURVE SMOOTH",
+"236 530 OFFCURVE",
+"243 524 OFFCURVE",
+"243 513 CURVE SMOOTH",
+"243 78 LINE SMOOTH",
+"243 47 OFFCURVE",
+"144 32 OFFCURVE",
+"144 14 CURVE SMOOTH",
+"144 5 OFFCURVE",
+"150 0 OFFCURVE",
+"164 0 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = m002;
+layerId = "70D33569-734E-4A13-BFBA-2750CB24DBE9";
+name = "Dec 15, 21, 09:30";
 paths = (
 {
 closed = 1;
@@ -18560,6 +18629,31 @@ nodes = (
 }
 );
 width = 600;
+},
+{
+associatedMasterId = m01;
+layerId = "4333C93D-2044-4A63-8B75-AD311C08EC44";
+name = "Dec 15, 21, 09:30";
+paths = (
+{
+closed = 1;
+nodes = (
+"408 0 LINE",
+"408 16 LINE",
+"328 56 LINE",
+"328 660 LINE",
+"308 660 LINE",
+"68 510 LINE",
+"68 475 LINE",
+"243 563 LINE",
+"243 56 LINE",
+"153 16 LINE",
+"153 0 LINE"
+);
+}
+);
+visible = 1;
+width = 500;
 }
 );
 unicode = 0031;
@@ -24896,6 +24990,7 @@ width = 561;
 unicode = 00B5;
 },
 {
+color = 4;
 glyphname = percent;
 layers = (
 {
@@ -24938,7 +25033,7 @@ rightKerningGroup = kern_percent3;
 unicode = 0025;
 },
 {
-color = 11;
+color = 5;
 glyphname = "shindot-hb";
 layers = (
 {
@@ -25003,7 +25098,7 @@ width = 0;
 unicode = 05C1;
 },
 {
-color = 11;
+color = 5;
 glyphname = "etnahtaleft-hb";
 layers = (
 {
@@ -25018,7 +25113,7 @@ width = 600;
 unicode = 0591;
 },
 {
-color = 11;
+color = 5;
 glyphname = "segolta-hb";
 layers = (
 {
@@ -25033,7 +25128,7 @@ width = 600;
 unicode = 0592;
 },
 {
-color = 11;
+color = 5;
 glyphname = "shalshelet-hb";
 layers = (
 {
@@ -25048,7 +25143,7 @@ width = 600;
 unicode = 0593;
 },
 {
-color = 11;
+color = 5;
 glyphname = "zaqefqatan-hb";
 layers = (
 {
@@ -25063,7 +25158,7 @@ width = 600;
 unicode = 0594;
 },
 {
-color = 11;
+color = 5;
 glyphname = "zaqefgadol-hb";
 layers = (
 {
@@ -25078,7 +25173,7 @@ width = 600;
 unicode = 0595;
 },
 {
-color = 11;
+color = 5;
 glyphname = "tipehaleft-hb";
 layers = (
 {
@@ -25093,7 +25188,7 @@ width = 600;
 unicode = 0596;
 },
 {
-color = 11;
+color = 5;
 glyphname = "reviamugrash-hb";
 layers = (
 {
@@ -25108,7 +25203,7 @@ width = 600;
 unicode = 0597;
 },
 {
-color = 11;
+color = 5;
 glyphname = "zarqa-hb";
 layers = (
 {
@@ -25123,7 +25218,7 @@ width = 600;
 unicode = 0598;
 },
 {
-color = 11;
+color = 5;
 glyphname = "pashta-hb";
 layers = (
 {
@@ -25138,7 +25233,7 @@ width = 600;
 unicode = 0599;
 },
 {
-color = 11;
+color = 5;
 glyphname = "yetiv-hb";
 layers = (
 {
@@ -25153,7 +25248,7 @@ width = 600;
 unicode = 059A;
 },
 {
-color = 11;
+color = 5;
 glyphname = "tevirleft-hb";
 layers = (
 {
@@ -25168,7 +25263,7 @@ width = 600;
 unicode = 059B;
 },
 {
-color = 11;
+color = 5;
 glyphname = "gereshaccent-hb";
 layers = (
 {
@@ -25183,7 +25278,7 @@ width = 600;
 unicode = 059C;
 },
 {
-color = 11;
+color = 5;
 glyphname = "gereshmuqdam-hb";
 layers = (
 {
@@ -25198,7 +25293,7 @@ width = 600;
 unicode = 059D;
 },
 {
-color = 11;
+color = 5;
 glyphname = "gershayimaccent-hb";
 layers = (
 {
@@ -25213,7 +25308,7 @@ width = 600;
 unicode = 059E;
 },
 {
-color = 11;
+color = 5;
 glyphname = "qarneypara-hb";
 layers = (
 {
@@ -25228,7 +25323,7 @@ width = 600;
 unicode = 059F;
 },
 {
-color = 11;
+color = 5;
 glyphname = "telishagedola-hb";
 layers = (
 {
@@ -25243,7 +25338,7 @@ width = 600;
 unicode = 05A0;
 },
 {
-color = 11;
+color = 5;
 glyphname = "pazer-hb";
 layers = (
 {
@@ -25258,7 +25353,7 @@ width = 600;
 unicode = 05A1;
 },
 {
-color = 11;
+color = 5;
 glyphname = "atnahhafukh-hb";
 layers = (
 {
@@ -25273,7 +25368,7 @@ width = 600;
 unicode = 05A2;
 },
 {
-color = 11;
+color = 5;
 glyphname = "munahleft-hb";
 layers = (
 {
@@ -25288,7 +25383,7 @@ width = 600;
 unicode = 05A3;
 },
 {
-color = 11;
+color = 5;
 glyphname = "mahapakhleft-hb";
 layers = (
 {
@@ -25303,7 +25398,7 @@ width = 600;
 unicode = 05A4;
 },
 {
-color = 11;
+color = 5;
 glyphname = "merkhaleft-hb";
 layers = (
 {
@@ -25318,7 +25413,7 @@ width = 600;
 unicode = 05A5;
 },
 {
-color = 11;
+color = 5;
 glyphname = "merkhakefulaleft-hb";
 layers = (
 {
@@ -25333,7 +25428,7 @@ width = 600;
 unicode = 05A6;
 },
 {
-color = 11;
+color = 5;
 glyphname = "qadma-hb";
 layers = (
 {
@@ -25348,7 +25443,7 @@ width = 600;
 unicode = 05A8;
 },
 {
-color = 11;
+color = 5;
 glyphname = "telishaqetana-hb";
 layers = (
 {
@@ -25363,7 +25458,7 @@ width = 600;
 unicode = 05A9;
 },
 {
-color = 11;
+color = 5;
 glyphname = "yerahbenyomoleft-hb";
 layers = (
 {
@@ -25378,7 +25473,7 @@ width = 600;
 unicode = 05AA;
 },
 {
-color = 11;
+color = 5;
 glyphname = "ole-hb";
 layers = (
 {
@@ -25393,7 +25488,7 @@ width = 600;
 unicode = 05AB;
 },
 {
-color = 11;
+color = 5;
 glyphname = "iluy-hb";
 layers = (
 {
@@ -25408,7 +25503,7 @@ width = 600;
 unicode = 05AC;
 },
 {
-color = 11;
+color = 5;
 glyphname = "dehi-hb";
 layers = (
 {
@@ -25423,7 +25518,7 @@ width = 600;
 unicode = 05AD;
 },
 {
-color = 11;
+color = 5;
 glyphname = "zinor-hb";
 layers = (
 {
@@ -25438,7 +25533,7 @@ width = 600;
 unicode = 05AE;
 },
 {
-color = 11;
+color = 5;
 glyphname = "masoracircle-hb";
 layers = (
 {
@@ -25453,7 +25548,7 @@ width = 600;
 unicode = 05AF;
 },
 {
-color = 11;
+color = 5;
 glyphname = "sheva-hb";
 layers = (
 {
@@ -25552,7 +25647,7 @@ width = 0;
 unicode = 05B0;
 },
 {
-color = 11;
+color = 5;
 glyphname = "hatafsegol-hb";
 layers = (
 {
@@ -25597,7 +25692,7 @@ width = 0;
 unicode = 05B1;
 },
 {
-color = 11;
+color = 5;
 glyphname = "hatafpatah-hb";
 layers = (
 {
@@ -25644,7 +25739,7 @@ width = 0;
 unicode = 05B2;
 },
 {
-color = 11;
+color = 5;
 glyphname = "hatafqamats-hb";
 layers = (
 {
@@ -25689,7 +25784,7 @@ width = 0;
 unicode = 05B3;
 },
 {
-color = 11;
+color = 5;
 glyphname = "hiriq-hb";
 layers = (
 {
@@ -25754,7 +25849,7 @@ width = 0;
 unicode = 05B4;
 },
 {
-color = 11;
+color = 5;
 glyphname = "tsere-hb";
 layers = (
 {
@@ -25853,7 +25948,7 @@ width = 0;
 unicode = 05B5;
 },
 {
-color = 11;
+color = 5;
 glyphname = "segol-hb";
 layers = (
 {
@@ -25986,7 +26081,7 @@ width = 0;
 unicode = 05B6;
 },
 {
-color = 11;
+color = 5;
 glyphname = "patah-hb";
 layers = (
 {
@@ -26075,7 +26170,7 @@ width = 0;
 unicode = 05B7;
 },
 {
-color = 11;
+color = 5;
 glyphname = "qamats-hb";
 layers = (
 {
@@ -26244,7 +26339,7 @@ width = 0;
 unicode = 05B8;
 },
 {
-color = 11;
+color = 5;
 glyphname = "holam-hb";
 layers = (
 {
@@ -26309,7 +26404,7 @@ width = 0;
 unicode = 05B9;
 },
 {
-color = 11;
+color = 5;
 glyphname = "holamhaser-hb";
 layers = (
 {
@@ -26346,7 +26441,7 @@ width = 0;
 unicode = 05BA;
 },
 {
-color = 11;
+color = 5;
 glyphname = "qubuts-hb";
 layers = (
 {
@@ -26361,7 +26456,7 @@ width = 600;
 unicode = 05BB;
 },
 {
-color = 11;
+color = 5;
 glyphname = "dagesh-hb";
 layers = (
 {
@@ -26426,7 +26521,7 @@ width = 0;
 unicode = 05BC;
 },
 {
-color = 11;
+color = 5;
 glyphname = "siluqleft-hb";
 layers = (
 {
@@ -26441,7 +26536,7 @@ width = 600;
 unicode = 05BD;
 },
 {
-color = 11;
+color = 5;
 glyphname = "sindot-hb";
 layers = (
 {
@@ -26506,7 +26601,7 @@ width = 0;
 unicode = 05C2;
 },
 {
-color = 11;
+color = 5;
 glyphname = "qamatsqatan-hb";
 layers = (
 {
@@ -26619,7 +26714,7 @@ width = 0;
 unicode = 05C7;
 },
 {
-color = 11;
+color = 5;
 glyphname = "judeospanishvarika-hb";
 layers = (
 {
