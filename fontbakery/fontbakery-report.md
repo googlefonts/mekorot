@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[5] Mekorot-Regular.ttf</b></summary>
+<summary><b>[6] Mekorot-Regular.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -88,21 +88,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni0308.case
- - uni0302.case
- - uni030A.case
- - two.sinf
- - zero.sups
- - three.sups
- - four.sinf
- - zero.sinf
- - NULL
- - gravecomb.case
- - one.sinf
  - one.sups
+ - NULL
+ - uni030A.case
+ - three.sups
+ - one.sinf
+ - uni0308.case
+ - acutecomb.case
+ - gravecomb.case
  - tildecomb.case
- - acutecomb.case 
  - three.sinf
+ - uni0302.case
+ - zero.sinf
+ - zero.sups
+ - four.sinf 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -123,6 +123,21 @@ in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * thorn (U+00FE): L<<192.0,734.0>--<191.0,414.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -213,21 +228,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni0308.case
- - uni0302.case
- - uni030A.case
- - two.sinf
- - zero.sups
- - three.sups
- - four.sinf
- - zero.sinf
- - NULL
- - gravecomb.case
- - one.sinf
  - one.sups
+ - NULL
+ - uni030A.case
+ - three.sups
+ - one.sinf
+ - uni0308.case
+ - acutecomb.case
+ - gravecomb.case
  - tildecomb.case
- - acutecomb.case 
  - three.sinf
+ - uni0302.case
+ - zero.sinf
+ - zero.sups
+ - four.sinf 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -352,21 +367,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni0308.case
- - uni0302.case
- - uni030A.case
- - two.sinf
- - zero.sups
- - three.sups
- - four.sinf
- - zero.sinf
- - NULL
- - gravecomb.case
- - one.sinf
  - one.sups
+ - NULL
+ - uni030A.case
+ - three.sups
+ - one.sinf
+ - uni0308.case
+ - acutecomb.case
+ - gravecomb.case
  - tildecomb.case
- - acutecomb.case 
  - three.sinf
+ - uni0302.case
+ - zero.sinf
+ - zero.sups
+ - four.sinf 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -506,21 +521,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni0308.case
- - uni0302.case
- - uni030A.case
- - two.sinf
- - zero.sups
- - three.sups
- - four.sinf
- - zero.sinf
- - NULL
- - gravecomb.case
- - one.sinf
  - one.sups
+ - NULL
+ - uni030A.case
+ - three.sups
+ - one.sinf
+ - uni0308.case
+ - acutecomb.case
+ - gravecomb.case
  - tildecomb.case
- - acutecomb.case 
  - three.sinf
+ - uni0302.case
+ - zero.sinf
+ - zero.sups
+ - four.sinf 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -555,7 +570,7 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>> [code: found-semi-vertical]
+ * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>> and thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -646,21 +661,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - uni0308.case
- - uni0302.case
- - uni030A.case
- - two.sinf
- - zero.sups
- - three.sups
- - four.sinf
- - zero.sinf
- - NULL
- - gravecomb.case
- - one.sinf
  - one.sups
+ - NULL
+ - uni030A.case
+ - three.sups
+ - one.sinf
+ - uni0308.case
+ - acutecomb.case
+ - gravecomb.case
  - tildecomb.case
- - acutecomb.case 
  - three.sinf
+ - uni0302.case
+ - zero.sinf
+ - zero.sups
+ - four.sinf 
+ - two.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -704,7 +719,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 30 | 518 | 31 | 457 | 0 |
+| 0 | 0 | 31 | 518 | 31 | 456 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
