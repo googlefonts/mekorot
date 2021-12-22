@@ -89,20 +89,20 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - uni0308.case
- - gravecomb.case
- - zero.sups
- - four.sinf
- - tildecomb.case
- - three.sups
- - two.sinf
- - zero.sinf
  - uni0302.case
- - NULL
  - uni030A.case
- - three.sinf
- - one.sups
- - acutecomb.case 
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - four.sinf
+ - zero.sinf
+ - NULL
+ - gravecomb.case
  - one.sinf
+ - one.sups
+ - tildecomb.case
+ - acutecomb.case 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -128,7 +128,7 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 <br>
 </details>
 <details>
-<summary><b>[7] Mekorot-Bold.ttf</b></summary>
+<summary><b>[6] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -214,20 +214,20 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - uni0308.case
- - gravecomb.case
- - zero.sups
- - four.sinf
- - tildecomb.case
- - three.sups
- - two.sinf
- - zero.sinf
  - uni0302.case
- - NULL
  - uni030A.case
- - three.sinf
- - one.sups
- - acutecomb.case 
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - four.sinf
+ - zero.sinf
+ - NULL
+ - gravecomb.case
  - one.sinf
+ - one.sups
+ - tildecomb.case
+ - acutecomb.case 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -248,20 +248,6 @@ in a VarFont. The expected contour count data for this check is currently
 optimized for the typical construction of glyphs in static fonts.</pre>
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Do any segments have colinear vectors?</summary>
-
-* [com.google.fonts/check/outline_colinear_vectors](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors)
-<pre>--- Rationale ---
-This check looks for consecutive line segments which have the same angle. This
-normally happens if an outline point has been added by accident.
-This check is not run for variable fonts, as they may legitimately have colinear
-vectors.</pre>
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* ampersand (U+0026): L<<358.0,385.0>--<396.0,346.0>> -> L<<396.0,346.0>--<540.0,199.0>> [code: found-colinear-vectors]
 
 </details>
 <details>
@@ -367,20 +353,20 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - uni0308.case
- - gravecomb.case
- - zero.sups
- - four.sinf
- - tildecomb.case
- - three.sups
- - two.sinf
- - zero.sinf
  - uni0302.case
- - NULL
  - uni030A.case
- - three.sinf
- - one.sups
- - acutecomb.case 
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - four.sinf
+ - zero.sinf
+ - NULL
+ - gravecomb.case
  - one.sinf
+ - one.sups
+ - tildecomb.case
+ - acutecomb.case 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -404,20 +390,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do any segments have colinear vectors?</summary>
-
-* [com.google.fonts/check/outline_colinear_vectors](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors)
-<pre>--- Rationale ---
-This check looks for consecutive line segments which have the same angle. This
-normally happens if an outline point has been added by accident.
-This check is not run for variable fonts, as they may legitimately have colinear
-vectors.</pre>
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* ampersand (U+0026): L<<339.0,384.0>--<376.0,346.0>> -> L<<376.0,346.0>--<523.0,197.0>> [code: found-colinear-vectors]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
 
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
@@ -429,6 +401,21 @@ by manual inspection.</pre>
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 	* threequarters (U+00BE): B<<270.0,595.0>-<235.0,571.0>-<184.0,563.0>>/B<<184.0,563.0>-<325.0,552.0>-<325.0,460.0>> = 13.375775215664396 and uni00B3 (U+00B3): B<<270.0,745.0>-<235.0,721.0>-<184.0,713.0>>/B<<184.0,713.0>-<325.0,702.0>-<325.0,610.0>> = 13.375775215664396 [code: found-jaggy-segments]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
+
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
+<pre>--- Rationale ---
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * AE (U+00C6): L<<475.0,305.0>--<477.0,549.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -520,20 +507,20 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - uni0308.case
- - gravecomb.case
- - zero.sups
- - four.sinf
- - tildecomb.case
- - three.sups
- - two.sinf
- - zero.sinf
  - uni0302.case
- - NULL
  - uni030A.case
- - three.sinf
- - one.sups
- - acutecomb.case 
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - four.sinf
+ - zero.sinf
+ - NULL
+ - gravecomb.case
  - one.sinf
+ - one.sups
+ - tildecomb.case
+ - acutecomb.case 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -557,23 +544,24 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do any segments have colinear vectors?</summary>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
 
-* [com.google.fonts/check/outline_colinear_vectors](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors)
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
 <pre>--- Rationale ---
-This check looks for consecutive line segments which have the same angle. This
-normally happens if an outline point has been added by accident.
-This check is not run for variable fonts, as they may legitimately have colinear
-vectors.</pre>
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
 
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* ampersand (U+0026): L<<300.0,381.0>--<335.0,346.0>> -> L<<335.0,346.0>--<489.0,191.0>> [code: found-colinear-vectors]
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>> [code: found-semi-vertical]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[7] Mekorot-ExtraBold.ttf</b></summary>
+<summary><b>[6] Mekorot-ExtraBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -659,20 +647,20 @@ redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
  - uni0308.case
- - gravecomb.case
- - zero.sups
- - four.sinf
- - tildecomb.case
- - three.sups
- - two.sinf
- - zero.sinf
  - uni0302.case
- - NULL
  - uni030A.case
- - three.sinf
- - one.sups
- - acutecomb.case 
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - four.sinf
+ - zero.sinf
+ - NULL
+ - gravecomb.case
  - one.sinf
+ - one.sups
+ - tildecomb.case
+ - acutecomb.case 
+ - three.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -696,20 +684,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do any segments have colinear vectors?</summary>
-
-* [com.google.fonts/check/outline_colinear_vectors](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors)
-<pre>--- Rationale ---
-This check looks for consecutive line segments which have the same angle. This
-normally happens if an outline point has been added by accident.
-This check is not run for variable fonts, as they may legitimately have colinear
-vectors.</pre>
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-	* ampersand (U+0026): L<<377.0,386.0>--<416.0,346.0>> -> L<<416.0,346.0>--<557.0,202.0>> [code: found-colinear-vectors]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
 
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
@@ -730,7 +704,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 32 | 518 | 31 | 455 | 0 |
+| 0 | 0 | 30 | 518 | 31 | 457 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
