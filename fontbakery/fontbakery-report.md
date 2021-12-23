@@ -88,21 +88,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - NULL
- - uni030A.case
- - three.sups
- - one.sinf
- - uni0308.case
- - acutecomb.case
- - gravecomb.case
- - tildecomb.case
- - three.sinf
- - uni0302.case
- - zero.sinf
  - zero.sups
- - four.sinf 
- - two.sinf
+ - four.sinf
+ - one.sups
+ - tildecomb.case
+ - NULL
+ - one.sinf
+ - three.sups
+ - uni0308.case
+ - uni0302.case
+ - gravecomb.case
+ - acutecomb.case
+ - uni030A.case
+ - three.sinf
+ - two.sinf 
+ - zero.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -137,7 +137,8 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * thorn (U+00FE): L<<192.0,734.0>--<191.0,414.0>> [code: found-semi-vertical]
+ * thorn (U+00FE): L<<192.0,734.0>--<191.0,414.0>>
+ * uni00B5 (U+00B5): L<<93.0,-212.0>--<91.0,430.0>> and uni03BC (U+03BC): L<<93.0,-212.0>--<91.0,430.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -228,21 +229,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - NULL
- - uni030A.case
- - three.sups
- - one.sinf
- - uni0308.case
- - acutecomb.case
- - gravecomb.case
- - tildecomb.case
- - three.sinf
- - uni0302.case
- - zero.sinf
  - zero.sups
- - four.sinf 
- - two.sinf
+ - four.sinf
+ - one.sups
+ - tildecomb.case
+ - NULL
+ - one.sinf
+ - three.sups
+ - uni0308.case
+ - uni0302.case
+ - gravecomb.case
+ - acutecomb.case
+ - uni030A.case
+ - three.sinf
+ - two.sinf 
+ - zero.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -266,23 +267,24 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
 
-* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
 <pre>--- Rationale ---
-This check heuristically detects outline segments which form a particularly
-small angle, indicative of an outline error. This may cause false positives in
-cases such as extreme ink traps, so should be regarded as advisory and backed up
-by manual inspection.</pre>
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* threequarters (U+00BE): B<<274.5,594.0>-<238.0,570.0>-<184.0,563.0>>/B<<184.0,563.0>-<331.0,552.0>-<331.0,460.0>> = 11.665506681512458 and uni00B3 (U+00B3): B<<274.5,744.0>-<238.0,720.0>-<184.0,713.0>>/B<<184.0,713.0>-<331.0,702.0>-<331.0,610.0>> = 11.665506681512458 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * uni00B5 (U+00B5): L<<56.0,-214.0>--<55.0,438.0>> and uni03BC (U+03BC): L<<56.0,-214.0>--<55.0,438.0>> [code: found-semi-vertical]
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[7] Mekorot-SemiBold.ttf</b></summary>
+<summary><b>[6] Mekorot-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -367,21 +369,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - NULL
- - uni030A.case
- - three.sups
- - one.sinf
- - uni0308.case
- - acutecomb.case
- - gravecomb.case
- - tildecomb.case
- - three.sinf
- - uni0302.case
- - zero.sinf
  - zero.sups
- - four.sinf 
- - two.sinf
+ - four.sinf
+ - one.sups
+ - tildecomb.case
+ - NULL
+ - one.sinf
+ - three.sups
+ - uni0308.case
+ - uni0302.case
+ - gravecomb.case
+ - acutecomb.case
+ - uni030A.case
+ - three.sinf
+ - two.sinf 
+ - zero.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -405,20 +407,6 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
-
-* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
-<pre>--- Rationale ---
-This check heuristically detects outline segments which form a particularly
-small angle, indicative of an outline error. This may cause false positives in
-cases such as extreme ink traps, so should be regarded as advisory and backed up
-by manual inspection.</pre>
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* threequarters (U+00BE): B<<270.0,595.0>-<235.0,571.0>-<184.0,563.0>>/B<<184.0,563.0>-<325.0,552.0>-<325.0,460.0>> = 13.375775215664396 and uni00B3 (U+00B3): B<<270.0,745.0>-<235.0,721.0>-<184.0,713.0>>/B<<184.0,713.0>-<325.0,702.0>-<325.0,610.0>> = 13.375775215664396 [code: found-jaggy-segments]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
 
 * [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
@@ -430,7 +418,8 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<475.0,305.0>--<477.0,549.0>> [code: found-semi-vertical]
+ * AE (U+00C6): L<<475.0,305.0>--<477.0,549.0>>
+ * uni00B5 (U+00B5): L<<64.0,-213.0>--<62.0,437.0>> and uni03BC (U+03BC): L<<64.0,-213.0>--<62.0,437.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -521,21 +510,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - NULL
- - uni030A.case
- - three.sups
- - one.sinf
- - uni0308.case
- - acutecomb.case
- - gravecomb.case
- - tildecomb.case
- - three.sinf
- - uni0302.case
- - zero.sinf
  - zero.sups
- - four.sinf 
- - two.sinf
+ - four.sinf
+ - one.sups
+ - tildecomb.case
+ - NULL
+ - one.sinf
+ - three.sups
+ - uni0308.case
+ - uni0302.case
+ - gravecomb.case
+ - acutecomb.case
+ - uni030A.case
+ - three.sinf
+ - two.sinf 
+ - zero.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -570,7 +559,9 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>> and thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>> [code: found-semi-vertical]
+ * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>>
+ * thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>>
+ * uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> and uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -661,21 +652,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - NULL
- - uni030A.case
- - three.sups
- - one.sinf
- - uni0308.case
- - acutecomb.case
- - gravecomb.case
- - tildecomb.case
- - three.sinf
- - uni0302.case
- - zero.sinf
  - zero.sups
- - four.sinf 
- - two.sinf
+ - four.sinf
+ - one.sups
+ - tildecomb.case
+ - NULL
+ - one.sinf
+ - three.sups
+ - uni0308.case
+ - uni0302.case
+ - gravecomb.case
+ - acutecomb.case
+ - uni030A.case
+ - three.sinf
+ - two.sinf 
+ - zero.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -699,17 +690,18 @@ optimized for the typical construction of glyphs in static fonts.</pre>
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
+<summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary>
 
-* [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
+* [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
 <pre>--- Rationale ---
-This check heuristically detects outline segments which form a particularly
-small angle, indicative of an outline error. This may cause false positives in
-cases such as extreme ink traps, so should be regarded as advisory and backed up
-by manual inspection.</pre>
+This check detects line segments which are nearly, but not quite, exactly
+horizontal or vertical. Sometimes such lines are created by design, but often
+they are indicative of a design error.
+This check is disabled for italic styles, which often contain nearly-upright
+lines.</pre>
 
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* threequarters (U+00BE): B<<278.5,593.0>-<240.0,569.0>-<184.0,563.0>>/B<<184.0,563.0>-<261.0,558.0>-<299.0,533.0>> = 9.830792671714141 and uni00B3 (U+00B3): B<<278.5,743.0>-<240.0,719.0>-<184.0,713.0>>/B<<184.0,713.0>-<261.0,708.0>-<299.0,683.0>> = 9.830792671714141 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * uni00B5 (U+00B5): L<<49.0,-214.0>--<48.0,440.0>> and uni03BC (U+03BC): L<<49.0,-214.0>--<48.0,440.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -719,7 +711,7 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 31 | 518 | 31 | 456 | 0 |
+| 0 | 0 | 30 | 518 | 31 | 457 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
