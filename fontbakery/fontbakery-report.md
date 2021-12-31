@@ -88,21 +88,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - acutecomb.case
- - two.sinf
- - NULL
- - gravecomb.case
+ - zero.sups
+ - uni0302.case
  - three.sinf
  - tildecomb.case
- - uni0308.case
- - one.sinf
- - three.sups
- - four.sinf
- - uni030A.case
  - zero.sinf
- - zero.sups 
- - uni0302.case
+ - acutecomb.case
+ - one.sinf
+ - NULL
+ - uni030A.case
+ - three.sups
+ - gravecomb.case
+ - two.sinf
+ - uni0308.case
+ - one.sups 
+ - four.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -229,21 +229,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - acutecomb.case
- - two.sinf
- - NULL
- - gravecomb.case
+ - zero.sups
+ - uni0302.case
  - three.sinf
  - tildecomb.case
- - uni0308.case
- - one.sinf
- - three.sups
- - four.sinf
- - uni030A.case
  - zero.sinf
- - zero.sups 
- - uni0302.case
+ - acutecomb.case
+ - one.sinf
+ - NULL
+ - uni030A.case
+ - three.sups
+ - gravecomb.case
+ - two.sinf
+ - uni0308.case
+ - one.sups 
+ - four.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -369,21 +369,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - acutecomb.case
- - two.sinf
- - NULL
- - gravecomb.case
+ - zero.sups
+ - uni0302.case
  - three.sinf
  - tildecomb.case
- - uni0308.case
- - one.sinf
- - three.sups
- - four.sinf
- - uni030A.case
  - zero.sinf
- - zero.sups 
- - uni0302.case
+ - acutecomb.case
+ - one.sinf
+ - NULL
+ - uni030A.case
+ - three.sups
+ - gravecomb.case
+ - two.sinf
+ - uni0308.case
+ - one.sups 
+ - four.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -510,21 +510,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - acutecomb.case
- - two.sinf
- - NULL
- - gravecomb.case
+ - zero.sups
+ - uni0302.case
  - three.sinf
  - tildecomb.case
- - uni0308.case
- - one.sinf
- - three.sups
- - four.sinf
- - uni030A.case
  - zero.sinf
- - zero.sups 
- - uni0302.case
+ - acutecomb.case
+ - one.sinf
+ - NULL
+ - uni030A.case
+ - three.sups
+ - gravecomb.case
+ - two.sinf
+ - uni0308.case
+ - one.sups 
+ - four.sinf
  [code: unreachable-glyphs]
 
 </details>
@@ -652,21 +652,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - one.sups
- - acutecomb.case
- - two.sinf
- - NULL
- - gravecomb.case
+ - zero.sups
+ - uni0302.case
  - three.sinf
  - tildecomb.case
- - uni0308.case
- - one.sinf
- - three.sups
- - four.sinf
- - uni030A.case
  - zero.sinf
- - zero.sups 
- - uni0302.case
+ - acutecomb.case
+ - one.sinf
+ - NULL
+ - uni030A.case
+ - three.sups
+ - gravecomb.case
+ - two.sinf
+ - uni0308.case
+ - one.sups 
+ - four.sinf
  [code: unreachable-glyphs]
 
 </details>
