@@ -1,8 +1,5 @@
 {
 .appVersion = "3086";
-DisplayStrings = (
-"The/space Design/space of/space the/space UNIX/space Operating/space System./space"
-);
 copyright = "Copyright 2021 The Mekorot Project Authors (https://github.com/googlefonts/mekorot)";
 customParameters = (
 {
