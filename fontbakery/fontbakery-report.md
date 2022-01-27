@@ -19,7 +19,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '729' when it should be '700'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '701' when it should be '700'. [code: bad-value]
 
 </details>
 <details>
@@ -106,21 +106,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - zero.sups
- - zero.sinf
- - three.sups
- - uni0308.case
- - uni0302.case
- - acutecomb.case
- - tildecomb.case
- - two.sinf
- - uni030A.case
  - four.sinf
- - gravecomb.case
- - NULL
- - one.sinf 
  - one.sups
+ - NULL
+ - tildecomb.case
+ - uni0302.case
+ - zero.sinf
+ - three.sinf
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - acutecomb.case
+ - gravecomb.case
+ - one.sinf
+ - uni0308.case 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -248,21 +248,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - zero.sups
- - zero.sinf
- - three.sups
- - uni0308.case
- - uni0302.case
- - acutecomb.case
- - tildecomb.case
- - two.sinf
- - uni030A.case
  - four.sinf
- - gravecomb.case
- - NULL
- - one.sinf 
  - one.sups
+ - NULL
+ - tildecomb.case
+ - uni0302.case
+ - zero.sinf
+ - three.sinf
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - acutecomb.case
+ - gravecomb.case
+ - one.sinf
+ - uni0308.case 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -322,7 +322,7 @@ applications.
 Glyphsapp users can change the usWeightClass value of an instance by adding a
 &#x27;weightClass&#x27; customParameter.</pre>
 
-* 🔥 **FAIL** OS/2 usWeightClass is '660' when it should be '600'. [code: bad-value]
+* 🔥 **FAIL** OS/2 usWeightClass is '607' when it should be '600'. [code: bad-value]
 
 </details>
 <details>
@@ -409,21 +409,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - zero.sups
- - zero.sinf
- - three.sups
- - uni0308.case
- - uni0302.case
- - acutecomb.case
- - tildecomb.case
- - two.sinf
- - uni030A.case
  - four.sinf
- - gravecomb.case
- - NULL
- - one.sinf 
  - one.sups
+ - NULL
+ - tildecomb.case
+ - uni0302.case
+ - zero.sinf
+ - three.sinf
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - acutecomb.case
+ - gravecomb.case
+ - one.sinf
+ - uni0308.case 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -472,25 +472,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[7] Mekorot-Medium.ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
-<pre>--- Rationale ---
-Google Fonts expects variable fonts, static ttfs and static otfs to have
-differing OS/2 usWeightClass values.
-For Variable Fonts, Thin-Black must be 100-900
-For static ttfs, Thin-Black can be 100-900 or 250-900
-For static otfs, Thin-Black must be 250-900
-If static otfs are set lower than 250, text may appear blurry in legacy Windows
-applications.
-Glyphsapp users can change the usWeightClass value of an instance by adding a
-&#x27;weightClass&#x27; customParameter.</pre>
-
-* 🔥 **FAIL** OS/2 usWeightClass is '526' when it should be '500'. [code: bad-value]
-
-</details>
+<summary><b>[6] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -575,21 +557,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - zero.sups
- - zero.sinf
- - three.sups
- - uni0308.case
- - uni0302.case
- - acutecomb.case
- - tildecomb.case
- - two.sinf
- - uni030A.case
  - four.sinf
- - gravecomb.case
- - NULL
- - one.sinf 
  - one.sups
+ - NULL
+ - tildecomb.case
+ - uni0302.case
+ - zero.sinf
+ - three.sinf
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - acutecomb.case
+ - gravecomb.case
+ - one.sinf
+ - uni0308.case 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -719,21 +701,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sinf
- - zero.sups
- - zero.sinf
- - three.sups
- - uni0308.case
- - uni0302.case
- - acutecomb.case
- - tildecomb.case
- - two.sinf
- - uni030A.case
  - four.sinf
- - gravecomb.case
- - NULL
- - one.sinf 
  - one.sups
+ - NULL
+ - tildecomb.case
+ - uni0302.case
+ - zero.sinf
+ - three.sinf
+ - two.sinf
+ - zero.sups
+ - three.sups
+ - acutecomb.case
+ - gravecomb.case
+ - one.sinf
+ - uni0308.case 
+ - uni030A.case
  [code: unreachable-glyphs]
 
 </details>
@@ -785,7 +767,7 @@ lines.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 30 | 518 | 31 | 454 | 0 |
+| 0 | 2 | 30 | 518 | 31 | 455 | 0 |
 | 0% | 0% | 3% | 50% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
