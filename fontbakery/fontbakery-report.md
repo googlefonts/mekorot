@@ -88,21 +88,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
  - three.sinf
- - zero.sinf
- - zero.sups
- - uni030A.case
- - three.sups
- - one.sinf
- - gravecomb.case
- - tildecomb.case
- - NULL
- - uni0302.case
  - acutecomb.case
- - uni0308.case
- - one.sups 
+ - uni0302.case
+ - tildecomb.case
+ - two.sinf
+ - three.sups
  - four.sinf
+ - NULL
+ - gravecomb.case
+ - zero.sinf
+ - one.sinf
+ - uni030A.case
+ - zero.sups
+ - one.sups 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -137,6 +137,8 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * m (U+006D): L<<671.0,68.0>--<672.0,296.0>>
+ * m (U+006D): L<<835.0,329.0>--<834.0,68.0>>
  * uni00B5 (U+00B5): L<<56.0,-214.0>--<55.0,438.0>> and uni03BC (U+03BC): L<<56.0,-214.0>--<55.0,438.0>> [code: found-semi-vertical]
 
 </details>
@@ -228,21 +230,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
  - three.sinf
- - zero.sinf
- - zero.sups
- - uni030A.case
- - three.sups
- - one.sinf
- - gravecomb.case
- - tildecomb.case
- - NULL
- - uni0302.case
  - acutecomb.case
- - uni0308.case
- - one.sups 
+ - uni0302.case
+ - tildecomb.case
+ - two.sinf
+ - three.sups
  - four.sinf
+ - NULL
+ - gravecomb.case
+ - zero.sinf
+ - one.sinf
+ - uni030A.case
+ - zero.sups
+ - one.sups 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -277,6 +279,8 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * m (U+006D): L<<679.0,68.0>--<680.0,296.0>>
+ * m (U+006D): L<<760.0,329.0>--<759.0,68.0>>
  * thorn (U+00FE): L<<192.0,734.0>--<191.0,414.0>>
  * uni00B5 (U+00B5): L<<93.0,-212.0>--<91.0,430.0>> and uni03BC (U+03BC): L<<93.0,-212.0>--<91.0,430.0>> [code: found-semi-vertical]
 
@@ -369,21 +373,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
  - three.sinf
- - zero.sinf
- - zero.sups
- - uni030A.case
- - three.sups
- - one.sinf
- - gravecomb.case
- - tildecomb.case
- - NULL
- - uni0302.case
  - acutecomb.case
- - uni0308.case
- - one.sups 
+ - uni0302.case
+ - tildecomb.case
+ - two.sinf
+ - three.sups
  - four.sinf
+ - NULL
+ - gravecomb.case
+ - zero.sinf
+ - one.sinf
+ - uni030A.case
+ - zero.sups
+ - one.sups 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -424,6 +428,8 @@ lines.</pre>
  * Ucircumflex (U+00DB): L<<285.0,585.0>--<286.0,284.0>>
  * Udieresis (U+00DC): L<<285.0,585.0>--<286.0,284.0>>
  * Ugrave (U+00D9): L<<285.0,585.0>--<286.0,284.0>>
+ * m (U+006D): L<<672.0,68.0>--<673.0,296.0>>
+ * m (U+006D): L<<820.0,329.0>--<819.0,68.0>>
  * uni00B5 (U+00B5): L<<64.0,-213.0>--<62.0,437.0>> and uni03BC (U+03BC): L<<64.0,-213.0>--<62.0,437.0>> [code: found-semi-vertical]
 
 </details>
@@ -515,21 +521,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
  - three.sinf
- - zero.sinf
- - zero.sups
- - uni030A.case
- - three.sups
- - one.sinf
- - gravecomb.case
- - tildecomb.case
- - NULL
- - uni0302.case
  - acutecomb.case
- - uni0308.case
- - one.sups 
+ - uni0302.case
+ - tildecomb.case
+ - two.sinf
+ - three.sups
  - four.sinf
+ - NULL
+ - gravecomb.case
+ - zero.sinf
+ - one.sinf
+ - uni030A.case
+ - zero.sups
+ - one.sups 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -565,6 +571,8 @@ lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>>
+ * m (U+006D): L<<676.0,68.0>--<677.0,296.0>>
+ * m (U+006D): L<<790.0,329.0>--<789.0,68.0>>
  * thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>>
  * uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> and uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
 
@@ -657,21 +665,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - two.sinf
  - three.sinf
- - zero.sinf
- - zero.sups
- - uni030A.case
- - three.sups
- - one.sinf
- - gravecomb.case
- - tildecomb.case
- - NULL
- - uni0302.case
  - acutecomb.case
- - uni0308.case
- - one.sups 
+ - uni0302.case
+ - tildecomb.case
+ - two.sinf
+ - three.sups
  - four.sinf
+ - NULL
+ - gravecomb.case
+ - zero.sinf
+ - one.sinf
+ - uni030A.case
+ - zero.sups
+ - one.sups 
+ - uni0308.case
  [code: unreachable-glyphs]
 
 </details>
@@ -711,6 +719,8 @@ lines.</pre>
  * Ucircumflex (U+00DB): L<<310.0,585.0>--<311.0,291.0>>
  * Udieresis (U+00DC): L<<310.0,585.0>--<311.0,291.0>>
  * Ugrave (U+00D9): L<<310.0,585.0>--<311.0,291.0>>
+ * m (U+006D): L<<669.0,68.0>--<670.0,296.0>>
+ * m (U+006D): L<<850.0,329.0>--<849.0,68.0>>
  * uni00B5 (U+00B5): L<<49.0,-214.0>--<48.0,440.0>> and uni03BC (U+03BC): L<<49.0,-214.0>--<48.0,440.0>> [code: found-semi-vertical]
 
 </details>
