@@ -3,7 +3,7 @@
 Fontbakery version: 0.8.4
 
 <details>
-<summary><b>[6] Mekorot-Bold.ttf</b></summary>
+<summary><b>[6] Mekorot-Medium.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -88,21 +88,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sups
  - uni0308.case
- - one.sups
- - uni030A.case
- - gravecomb.case
+ - NULL
+ - four.sinf
  - tildecomb.case
  - two.sinf
+ - three.sups
+ - uni030A.case
  - zero.sups
- - uni0302.case
- - NULL
- - acutecomb.case
- - three.sinf
- - four.sinf
- - zero.sinf 
+ - zero.sinf
  - one.sinf
+ - three.sinf
+ - gravecomb.case
+ - uni0302.case
+ - one.sups 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -137,9 +137,11 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * m (U+006D): L<<671.0,68.0>--<672.0,296.0>>
- * m (U+006D): L<<835.0,329.0>--<834.0,68.0>>
- * uni00B5 (U+00B5): L<<56.0,-214.0>--<55.0,438.0>> and uni03BC (U+03BC): L<<56.0,-214.0>--<55.0,438.0>> [code: found-semi-vertical]
+ * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>>
+ * m (U+006D): L<<676.0,68.0>--<677.0,296.0>>
+ * m (U+006D): L<<790.0,329.0>--<789.0,68.0>>
+ * thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>>
+ * uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> and uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -230,21 +232,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sups
  - uni0308.case
- - one.sups
- - uni030A.case
- - gravecomb.case
+ - NULL
+ - four.sinf
  - tildecomb.case
  - two.sinf
+ - three.sups
+ - uni030A.case
  - zero.sups
- - uni0302.case
- - NULL
- - acutecomb.case
- - three.sinf
- - four.sinf
- - zero.sinf 
+ - zero.sinf
  - one.sinf
+ - three.sinf
+ - gravecomb.case
+ - uni0302.case
+ - one.sups 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -373,21 +375,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sups
  - uni0308.case
- - one.sups
- - uni030A.case
- - gravecomb.case
+ - NULL
+ - four.sinf
  - tildecomb.case
  - two.sinf
+ - three.sups
+ - uni030A.case
  - zero.sups
- - uni0302.case
- - NULL
- - acutecomb.case
- - three.sinf
- - four.sinf
- - zero.sinf 
+ - zero.sinf
  - one.sinf
+ - three.sinf
+ - gravecomb.case
+ - uni0302.case
+ - one.sups 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -436,7 +438,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[6] Mekorot-Medium.ttf</b></summary>
+<summary><b>[6] Mekorot-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary>
 
@@ -521,21 +523,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sups
  - uni0308.case
- - one.sups
- - uni030A.case
- - gravecomb.case
+ - NULL
+ - four.sinf
  - tildecomb.case
  - two.sinf
+ - three.sups
+ - uni030A.case
  - zero.sups
- - uni0302.case
- - NULL
- - acutecomb.case
- - three.sinf
- - four.sinf
- - zero.sinf 
+ - zero.sinf
  - one.sinf
+ - three.sinf
+ - gravecomb.case
+ - uni0302.case
+ - one.sups 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
@@ -570,11 +572,9 @@ This check is disabled for italic styles, which often contain nearly-upright
 lines.</pre>
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>>
- * m (U+006D): L<<676.0,68.0>--<677.0,296.0>>
- * m (U+006D): L<<790.0,329.0>--<789.0,68.0>>
- * thorn (U+00FE): L<<218.0,734.0>--<217.0,419.0>>
- * uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> and uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
+ * m (U+006D): L<<671.0,68.0>--<672.0,296.0>>
+ * m (U+006D): L<<835.0,329.0>--<834.0,68.0>>
+ * uni00B5 (U+00B5): L<<56.0,-214.0>--<55.0,438.0>> and uni03BC (U+03BC): L<<56.0,-214.0>--<55.0,438.0>> [code: found-semi-vertical]
 
 </details>
 <br>
@@ -665,21 +665,21 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - three.sups
  - uni0308.case
- - one.sups
- - uni030A.case
- - gravecomb.case
+ - NULL
+ - four.sinf
  - tildecomb.case
  - two.sinf
+ - three.sups
+ - uni030A.case
  - zero.sups
- - uni0302.case
- - NULL
- - acutecomb.case
- - three.sinf
- - four.sinf
- - zero.sinf 
+ - zero.sinf
  - one.sinf
+ - three.sinf
+ - gravecomb.case
+ - uni0302.case
+ - one.sups 
+ - acutecomb.case
  [code: unreachable-glyphs]
 
 </details>
