@@ -49,7 +49,7 @@ itsdangerous==2.0.1
 Jinja2==3.0.3
 lxml==4.6.5
 MarkupSafe==2.0.1
-numpy==1.21.4
+numpy==1.22.0
 openpyxl==3.0.9
 openstep-plist==0.3.0
 opentype-sanitizer==8.1.4.post3
