@@ -1,25 +1,31 @@
 # Mekorot
 A Hebrew/Latin typeface in the Rashi style. Originally this project was part of an attempt to create a free version of the Hebrew Talmud, as PDF files, while keeping the original page's shape (known as 'Tzurat Hadaf'). This repository has been adapted from a previous [Sourceforge archive](http://mekorot.sourceforge.net), based on the original work by Dr. Alan Hoenig [here](https://ctan.org/tex-archive/language/hebrew/makor/).
 
-In 2021 this project was re-engineered by Eli Heuer for inclusion in the Google Fonts catalog.
+In 2023 this project was re-engineered by Eli Heuer for inclusion in the Google Fonts catalog.
 
-![Specimen 002](documentation/specimen-002.png)
+# Building
 
-פרוייקט מקורות נוסד במקור כדי ליצור כלי שיוכל להציג דפי גמרא (למשל), בתור טקסט, אך תוך שמירה על 'צורת הדף'.
+Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-ברבות הימים, הסתבר לי שאין שום צורך בכלי שכזה. היכולת הזו קיימת כבר בפורמטים רבים, וצריך רק לנצל אותה.
+If you want to build fonts manually on your own computer:
 
-פרוייקט מקורות שינה, אם כן, את ייעודו. במקום להתמקד ביצירת פורמט חדש וכל מה שקשור אליו, המטרה היא ליצור בפועל , תצוגה של הש"ס, ובעתיד אולי גם דברים אחרים, בצורה שתשמר את צורתו המקורית.
+* `make build` will produce font files.
+* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+* `make proof` will generate HTML proof files.
 
-## License
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://eliheuer.github.io/hasubi-mono.
 
-Mekorot fonts are licensed under the SIL Open Font License v1.1, a free software license that permits you to use the font software under a set of conditions. Please refer to the full text of the license for details about the permissions, conditions, and disclaimers.
+# License
 
-See [OFL.txt](OFL.txt) for details.
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at
+https://scripts.sil.org/OFL
 
-## Getting Involved
-Would you like to contribute to the development of this font? Here is how **you** can help:
+# Repository Layout
 
-- Tell us about any bugs you find, or enhancements you would like to see on the Google Fonts issue tracker: [https://github.com/googlefonts/issues](https://github.com/googlefonts/issues)
+This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
 
-- Contribute directly to the fonts. This repository contains a complete set of source files. Make changes and submit a pull request.
+# Changelog
+
+**12 Jan 2023. Version 0.001**
+- Updated repo to the new Google Fonts Project Template
