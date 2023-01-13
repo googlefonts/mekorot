@@ -14,11 +14,11 @@ help:
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
-build: build.stamp sources/config.yaml $(SOURCES)
+build: build.stamp
 
 venv: venv/touchfile
 
-build.stamp: venv .init.stamp
+build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
 	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp
 
 .init.stamp: venv
@@ -30,7 +30,7 @@ venv/touchfile: requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)
+	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; gftools gen-html proof $(shell find fonts/ttf -type f) -o out/proof
@@ -45,8 +45,8 @@ clean:
 	rm -rf venv
 	find . -name "*.pyc" | xargs rm delete
 
-update-ufr:
-	npx update-template https://github.com/googlefonts/Unified-Font-Repository/
+update-project-template:
+	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
 update:
 	pip install --upgrade $(dependency); pip freeze > requirements.txt
