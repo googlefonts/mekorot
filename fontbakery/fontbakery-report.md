@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[7] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[8] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -11,339 +11,6 @@ Fontbakery version: 0.8.10
 
 
 	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -384,6 +51,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -391,7 +62,13 @@ Fontbakery version: 0.8.10
 
 	- NULL
 
+	- i.loclTRK
+
 	- one.sups
+
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
 
 	- three.sups 
 
@@ -401,6 +78,450 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -421,7 +542,7 @@ Fontbakery version: 0.8.10
 	* uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> 
 
 	* And uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -430,339 +551,6 @@ Fontbakery version: 0.8.10
 
 
 	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -803,6 +591,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -810,7 +602,13 @@ Fontbakery version: 0.8.10
 
 	- NULL
 
+	- i.loclTRK
+
 	- one.sups
+
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
 
 	- three.sups 
 
@@ -820,6 +618,450 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -846,7 +1088,7 @@ Fontbakery version: 0.8.10
 	* uni00B5 (U+00B5): L<<49.0,-214.0>--<48.0,440.0>> 
 
 	* And uni03BC (U+03BC): L<<49.0,-214.0>--<48.0,440.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -855,339 +1097,6 @@ Fontbakery version: 0.8.10
 
 
 	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -1228,6 +1137,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1235,7 +1148,13 @@ Fontbakery version: 0.8.10
 
 	- NULL
 
+	- i.loclTRK
+
 	- one.sups
+
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
 
 	- three.sups 
 
@@ -1245,6 +1164,450 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1273,7 +1636,7 @@ Fontbakery version: 0.8.10
 	* uni00B5 (U+00B5): L<<64.0,-213.0>--<62.0,437.0>> 
 
 	* And uni03BC (U+03BC): L<<64.0,-213.0>--<62.0,437.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1282,339 +1645,6 @@ Fontbakery version: 0.8.10
 
 
 	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -1655,6 +1685,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1662,7 +1696,13 @@ Fontbakery version: 0.8.10
 
 	- NULL
 
+	- i.loclTRK
+
 	- one.sups
+
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
 
 	- three.sups 
 
@@ -1672,6 +1712,450 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1690,7 +2174,7 @@ Fontbakery version: 0.8.10
 	* uni00B5 (U+00B5): L<<93.0,-212.0>--<91.0,430.0>> 
 
 	* And uni03BC (U+03BC): L<<93.0,-212.0>--<91.0,430.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1699,339 +2183,6 @@ Fontbakery version: 0.8.10
 
 
 	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-	- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-	- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-	- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-	- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-	- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-	- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-	- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-	- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-	- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-	- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-	- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-	- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-	- 0x0132 (LATIN CAPITAL LIGATURE IJ)
-
-
-	- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-	- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-	- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-	- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-	- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-	- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-	- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-	- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-	- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-	- 0x014A (LATIN CAPITAL LETTER ENG)
-
-
-	- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014C (LATIN CAPITAL LETTER O WITH MACRON)
-
-
-	- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-	- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-	- 0x0156 (LATIN CAPITAL LETTER R WITH CEDILLA)
-
-
-	- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-	- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-	- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016C (LATIN CAPITAL LETTER U WITH BREVE)
-
-
-	- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-	- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-	- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-	- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-	- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
 
 
 	- 0x0307 (COMBINING DOT ABOVE)
@@ -2072,6 +2223,10 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -2079,7 +2234,13 @@ Fontbakery version: 0.8.10
 
 	- NULL
 
+	- i.loclTRK
+
 	- one.sups
+
+	- periodcentered.loclCAT
+
+	- periodcentered.loclCAT.case
 
 	- three.sups 
 
@@ -2089,6 +2250,450 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: Abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: Amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: Cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Emacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Hbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: Imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: Lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: Omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Racute	Contours detected: 0	Expected: 3
+
+	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: Sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: Umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: abreve	Contours detected: 0	Expected: 3
+
+	- Glyph name: amacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ccaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: ecaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
+
+	- Glyph name: emacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: imacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: nacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
+
+	- Glyph name: omacron	Contours detected: 0	Expected: 3
+
+	- Glyph name: racute	Contours detected: 0	Expected: 2
+
+	- Glyph name: rcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: sacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: scaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
+
+	- Glyph name: ubreve	Contours detected: 0	Expected: 2
+
+	- Glyph name: uhungarumlaut	Contours detected: 0	Expected: 3
+
+	- Glyph name: umacron	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0122	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uring	Contours detected: 0	Expected: 3
+
+	- Glyph name: wacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
+
+	- Glyph name: wgrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
+
+	- Glyph name: ygrave	Contours detected: 0	Expected: 2
+
+	- Glyph name: zacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: zcaron	Contours detected: 0	Expected: 2 
+
+	- And Glyph name: zdotaccent	Contours detected: 0	Expected: 2
+ [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2110,7 +2715,7 @@ Fontbakery version: 0.8.10
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 30 | 557 | 31 | 452 | 0 |
+| 0 | 5 | 35 | 557 | 31 | 447 | 0 |
 | 0% | 0% | 3% | 52% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
