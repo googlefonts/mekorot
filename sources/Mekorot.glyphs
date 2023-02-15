@@ -45209,6 +45209,20 @@ width = 0;
 unicode = 776;
 },
 {
+glyphname = dotaccentcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 775;
+},
+{
 color = 5;
 glyphname = gravecomb;
 layers = (
@@ -45471,6 +45485,20 @@ width = 0;
 unicode = 769;
 },
 {
+glyphname = hungarumlautcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 779;
+},
+{
 color = 5;
 glyphname = circumflexcomb;
 layers = (
@@ -45623,6 +45651,34 @@ width = 0;
 }
 );
 unicode = 770;
+},
+{
+glyphname = caroncomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 780;
+},
+{
+glyphname = brevecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 774;
 },
 {
 color = 5;
@@ -46032,6 +46088,34 @@ width = 0;
 unicode = 772;
 },
 {
+glyphname = commaturnedabovecomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 786;
+},
+{
+glyphname = commaaccentcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 806;
+},
+{
 color = 5;
 glyphname = cedillacomb;
 layers = (
@@ -46248,6 +46332,20 @@ width = 0;
 }
 );
 unicode = 807;
+},
+{
+glyphname = ogonekcomb;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 808;
 },
 {
 color = 5;
@@ -47073,6 +47171,20 @@ width = 405;
 unicode = 168;
 },
 {
+glyphname = dotaccent;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 729;
+},
+{
 color = 4;
 glyphname = grave;
 layers = (
@@ -47127,6 +47239,20 @@ width = 278;
 unicode = 180;
 },
 {
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 733;
+},
+{
 color = 4;
 glyphname = circumflex;
 layers = (
@@ -47150,6 +47276,34 @@ width = 0;
 }
 );
 unicode = 710;
+},
+{
+glyphname = caron;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 711;
+},
+{
+glyphname = breve;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 728;
 },
 {
 color = 4;
@@ -47254,6 +47408,20 @@ width = 500;
 }
 );
 unicode = 184;
+},
+{
+glyphname = ogonek;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 731;
 }
 );
 instances = (
