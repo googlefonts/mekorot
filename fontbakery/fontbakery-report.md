@@ -42,43 +42,23 @@ Fontbakery version: 0.8.10
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
 
@@ -86,15 +66,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
@@ -106,15 +80,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
@@ -123,8 +93,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: lacute	Contours detected: 0	Expected: 2
 
@@ -140,15 +108,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
 
@@ -156,15 +120,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 0	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: omacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
 
 	- Glyph name: racute	Contours detected: 0	Expected: 2
 
@@ -172,11 +132,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: rcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: sacute	Contours detected: 0	Expected: 2
 
@@ -184,23 +140,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: umacron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
 
 	- Glyph name: uring	Contours detected: 0	Expected: 3
 
@@ -212,25 +158,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
 	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
 
 	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: zacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
@@ -254,8 +188,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni030B	Contours detected: 0	Expected: 2
@@ -268,119 +200,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
 
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: ygrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: trademark	Contours detected: 0	Expected: 2
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -491,8 +341,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
@@ -540,6 +388,12 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* AE (U+00C6): L<<475.0,307.0>--<476.0,552.0>>
+
+	* G (U+0047): L<<642.0,619.0>--<643.0,467.0>>
+
+	* Gbreve (U+011E): L<<642.0,619.0>--<643.0,467.0>>
+
+	* Gdotaccent (U+0120): L<<642.0,619.0>--<643.0,467.0>>
 
 	* m (U+006D): L<<676.0,68.0>--<677.0,296.0>>
 
@@ -590,43 +444,23 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
 
@@ -634,15 +468,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
@@ -654,15 +482,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
@@ -671,8 +495,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: lacute	Contours detected: 0	Expected: 2
 
@@ -688,15 +510,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
 
@@ -704,15 +522,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 0	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: omacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
 
 	- Glyph name: racute	Contours detected: 0	Expected: 2
 
@@ -720,11 +534,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: rcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: sacute	Contours detected: 0	Expected: 2
 
@@ -732,23 +542,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: umacron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
 
 	- Glyph name: uring	Contours detected: 0	Expected: 3
 
@@ -760,25 +560,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
 	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
 
 	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: zacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
@@ -802,8 +590,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni030B	Contours detected: 0	Expected: 2
@@ -816,119 +602,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
 
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: ygrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: trademark	Contours detected: 0	Expected: 2
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -1039,8 +743,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
@@ -1091,11 +793,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* Uacute (U+00DA): L<<310.0,585.0>--<311.0,291.0>>
 
+	* Ubreve (U+016C): L<<310.0,585.0>--<311.0,291.0>>
+
 	* Ucircumflex (U+00DB): L<<310.0,585.0>--<311.0,291.0>>
 
 	* Udieresis (U+00DC): L<<310.0,585.0>--<311.0,291.0>>
 
 	* Ugrave (U+00D9): L<<310.0,585.0>--<311.0,291.0>>
+
+	* Umacron (U+016A): L<<310.0,585.0>--<311.0,291.0>>
+
+	* Uring (U+016E): L<<310.0,585.0>--<311.0,291.0>>
 
 	* m (U+006D): L<<669.0,68.0>--<670.0,296.0>>
 
@@ -1144,43 +852,23 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
 
@@ -1188,15 +876,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
@@ -1208,15 +890,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
@@ -1225,8 +903,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: lacute	Contours detected: 0	Expected: 2
 
@@ -1242,15 +918,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
 
@@ -1258,15 +930,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 0	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: omacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
 
 	- Glyph name: racute	Contours detected: 0	Expected: 2
 
@@ -1274,11 +942,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: rcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: sacute	Contours detected: 0	Expected: 2
 
@@ -1286,23 +950,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: umacron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
 
 	- Glyph name: uring	Contours detected: 0	Expected: 3
 
@@ -1314,25 +968,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
 	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
 
 	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: zacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
@@ -1356,8 +998,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni030B	Contours detected: 0	Expected: 2
@@ -1370,119 +1010,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
 
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: ygrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: trademark	Contours detected: 0	Expected: 2
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -1593,8 +1151,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
@@ -1647,11 +1203,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* Uacute (U+00DA): L<<285.0,585.0>--<286.0,284.0>>
 
+	* Ubreve (U+016C): L<<285.0,585.0>--<286.0,284.0>>
+
 	* Ucircumflex (U+00DB): L<<285.0,585.0>--<286.0,284.0>>
 
 	* Udieresis (U+00DC): L<<285.0,585.0>--<286.0,284.0>>
 
 	* Ugrave (U+00D9): L<<285.0,585.0>--<286.0,284.0>>
+
+	* Umacron (U+016A): L<<285.0,585.0>--<286.0,284.0>>
+
+	* Uring (U+016E): L<<285.0,585.0>--<286.0,284.0>>
 
 	* m (U+006D): L<<672.0,68.0>--<673.0,296.0>>
 
@@ -1700,43 +1262,23 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
 
@@ -1744,15 +1286,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
@@ -1764,15 +1300,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
@@ -1781,8 +1313,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: lacute	Contours detected: 0	Expected: 2
 
@@ -1798,15 +1328,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
 
@@ -1814,15 +1340,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 0	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: omacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
 
 	- Glyph name: racute	Contours detected: 0	Expected: 2
 
@@ -1830,11 +1352,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: rcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: sacute	Contours detected: 0	Expected: 2
 
@@ -1842,23 +1360,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: umacron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
 
 	- Glyph name: uring	Contours detected: 0	Expected: 3
 
@@ -1870,25 +1378,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
 	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
 
 	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: zacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
@@ -1912,8 +1408,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni030B	Contours detected: 0	Expected: 2
@@ -1926,119 +1420,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
 
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: ygrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: trademark	Contours detected: 0	Expected: 2
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -2149,8 +1561,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
@@ -2196,6 +1606,12 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* G (U+0047): L<<639.0,631.0>--<640.0,474.0>>
+
+	* Gbreve (U+011E): L<<639.0,631.0>--<640.0,474.0>>
+
+	* Gdotaccent (U+0120): L<<639.0,631.0>--<640.0,474.0>>
 
 	* m (U+006D): L<<679.0,68.0>--<680.0,296.0>>
 
@@ -2246,43 +1662,23 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: emacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: edotaccent	Contours detected: 0	Expected: 3
 
@@ -2290,15 +1686,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: gbreve	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: gdotaccent	Contours detected: 0	Expected: 3 or 4
 
@@ -2310,15 +1700,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
 	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
@@ -2327,8 +1713,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
 	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: lacute	Contours detected: 0	Expected: 2
 
@@ -2344,15 +1728,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0146	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
 
@@ -2360,15 +1740,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 0	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
 	- Glyph name: omacron	Contours detected: 0	Expected: 3
 
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
 
 	- Glyph name: racute	Contours detected: 0	Expected: 2
 
@@ -2376,11 +1752,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
 	- Glyph name: rcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: sacute	Contours detected: 0	Expected: 2
 
@@ -2388,23 +1760,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: umacron	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
-
 	- Glyph name: ubreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
 
 	- Glyph name: uring	Contours detected: 0	Expected: 3
 
@@ -2416,25 +1778,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
 	- Glyph name: wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
 
 	- Glyph name: ycircumflex	Contours detected: 0	Expected: 2
 
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: zacute	Contours detected: 0	Expected: 2
 
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: zdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: zcaron	Contours detected: 0	Expected: 2
 
@@ -2458,8 +1808,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni030B	Contours detected: 0	Expected: 2
@@ -2472,119 +1820,37 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
 
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
 	- Glyph name: wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: wdieresis	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
 	- Glyph name: ygrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: trademark	Contours detected: 0	Expected: 2
-
-	- Glyph name: Abreve	Contours detected: 0	Expected: 3
-
-	- Glyph name: Amacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Aogonek	Contours detected: 0	Expected: 2 or 3
-
-	- Glyph name: Cacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ccaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Cdotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Dcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ecaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Edotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Emacron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
 	- Glyph name: Eogonek	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Gbreve	Contours detected: 0	Expected: 2
-
-	- Glyph name: Gdotaccent	Contours detected: 0	Expected: 2
-
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
 
-	- Glyph name: Idotaccent	Contours detected: 0	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: Lacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
-	- Glyph name: Nacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ncaron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Ohungarumlaut	Contours detected: 0	Expected: 4
-
-	- Glyph name: Omacron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Racute	Contours detected: 0	Expected: 3
-
-	- Glyph name: Rcaron	Contours detected: 0	Expected: 3
-
-	- Glyph name: Sacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Scaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Tcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ubreve	Contours detected: 0	Expected: 2
 
 	- Glyph name: Uhungarumlaut	Contours detected: 0	Expected: 3
 
-	- Glyph name: Umacron	Contours detected: 0	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: Uring	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wcircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Wdieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ycircumflex	Contours detected: 0	Expected: 2
-
-	- Glyph name: Ydieresis	Contours detected: 0	Expected: 3
-
-	- Glyph name: Ygrave	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zacute	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zcaron	Contours detected: 0	Expected: 2
-
-	- Glyph name: Zdotaccent	Contours detected: 0	Expected: 2
 
 	- Glyph name: abreve	Contours detected: 0	Expected: 3
 
@@ -2695,8 +1961,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni0306	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0307	Contours detected: 0	Expected: 1
 
