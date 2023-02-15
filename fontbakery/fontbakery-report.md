@@ -2,47 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[8] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
-	- 0x02D8 (BREVE)
- 
-
-	- And 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[7] Mekorot-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -284,6 +244,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
+	- Glyph name: caron	Contours detected: 0	Expected: 1
+
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
 	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
@@ -404,7 +388,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: caron	Contours detected: 0	Expected: 1
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
@@ -413,6 +401,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
@@ -430,6 +420,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
@@ -445,6 +437,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -497,6 +491,20 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
@@ -542,47 +550,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<78.0,-213.0>--<77.0,433.0>> 
 
 	* And uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
-	- 0x02D8 (BREVE)
- 
-
-	- And 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -824,6 +792,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
+	- Glyph name: caron	Contours detected: 0	Expected: 1
+
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
 	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
@@ -944,7 +936,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: caron	Contours detected: 0	Expected: 1
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
@@ -953,6 +949,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
@@ -970,6 +968,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
@@ -985,6 +985,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -1037,6 +1039,20 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
@@ -1088,47 +1104,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<49.0,-214.0>--<48.0,440.0>> 
 
 	* And uni03BC (U+03BC): L<<49.0,-214.0>--<48.0,440.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
-	- 0x02D8 (BREVE)
- 
-
-	- And 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Mekorot-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1370,6 +1346,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
+	- Glyph name: caron	Contours detected: 0	Expected: 1
+
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
 	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
@@ -1490,7 +1490,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: caron	Contours detected: 0	Expected: 1
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
@@ -1499,6 +1503,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
@@ -1516,6 +1522,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
@@ -1531,6 +1539,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -1583,6 +1593,20 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
@@ -1636,47 +1660,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<64.0,-213.0>--<62.0,437.0>> 
 
 	* And uni03BC (U+03BC): L<<64.0,-213.0>--<62.0,437.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
-	- 0x02D8 (BREVE)
- 
-
-	- And 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Mekorot-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -1918,6 +1902,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
+	- Glyph name: caron	Contours detected: 0	Expected: 1
+
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
 	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
@@ -2038,7 +2046,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: caron	Contours detected: 0	Expected: 1
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
@@ -2047,6 +2059,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
@@ -2064,6 +2078,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
@@ -2079,6 +2095,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -2131,6 +2149,20 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
@@ -2174,47 +2206,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<93.0,-212.0>--<91.0,430.0>> 
 
 	* And uni03BC (U+03BC): L<<93.0,-212.0>--<91.0,430.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
-
-
-	- 0x02D8 (BREVE)
- 
-
-	- And 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] Mekorot-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
@@ -2456,6 +2448,30 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
 
+	- Glyph name: caron	Contours detected: 0	Expected: 1
+
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
 	- Glyph name: Wgrave	Contours detected: 0	Expected: 2
 
 	- Glyph name: wgrave	Contours detected: 0	Expected: 2
@@ -2576,7 +2592,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
 
+	- Glyph name: breve	Contours detected: 0	Expected: 1
+
 	- Glyph name: cacute	Contours detected: 0	Expected: 2
+
+	- Glyph name: caron	Contours detected: 0	Expected: 1
 
 	- Glyph name: ccaron	Contours detected: 0	Expected: 2
 
@@ -2585,6 +2605,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
 	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: dotaccent	Contours detected: 0	Expected: 1
 
 	- Glyph name: ecaron	Contours detected: 0	Expected: 3
 
@@ -2602,6 +2624,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 0	Expected: 1
 
+	- Glyph name: hungarumlaut	Contours detected: 0	Expected: 2
+
 	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: imacron	Contours detected: 0	Expected: 2
@@ -2617,6 +2641,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: nacute	Contours detected: 0	Expected: 2
 
 	- Glyph name: ncaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: ohungarumlaut	Contours detected: 0	Expected: 4
 
@@ -2669,6 +2695,20 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0237	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0306	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0307	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni030B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni030C	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
 
@@ -2715,7 +2755,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 35 | 557 | 31 | 447 | 0 |
+| 0 | 0 | 35 | 557 | 31 | 452 | 0 |
 | 0% | 0% | 3% | 52% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
