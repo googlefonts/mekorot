@@ -1,15 +1,17 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.10
+Fontbakery version: 0.8.11
 
-<details><summary><b>[11] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[12] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -24,7 +26,7 @@ Fontbakery version: 0.8.10
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -37,7 +39,7 @@ Fontbakery version: 0.8.10
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -63,12 +65,11 @@ Fontbakery version: 0.8.10
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -129,8 +130,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -142,7 +147,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<285.0,371.0>--<284.0,364.0>> -> L<<284.0,364.0>--<269.0,293.0>> 
 
-	* And thorn (U+00FE): L<<-11.0,-57.0>--<58.0,196.0>> -> L<<58.0,196.0>--<149.0,593.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<-11.0,-57.0>--<58.0,196.0>> -> L<<58.0,196.0>--<149.0,593.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -578,15 +583,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* zdotaccent (U+017C): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373 
 
-	* And zdotaccent (U+017C): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* zdotaccent (U+017C): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -601,7 +608,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -614,7 +621,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -640,12 +647,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -706,8 +712,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -721,7 +731,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<298.0,365.0>--<296.0,358.0>> -> L<<296.0,358.0>--<282.0,293.0>> 
 
-	* And thorn (U+00FE): L<<-14.0,-57.0>--<56.0,199.0>> -> L<<56.0,199.0>--<146.0,588.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<-14.0,-57.0>--<56.0,199.0>> -> L<<56.0,199.0>--<146.0,588.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1159,15 +1169,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* zdotaccent (U+017C): L<<-7.0,36.0>--<306.0,323.0>>/B<<306.0,323.0>-<295.0,315.0>-<282.0,310.0>> = 6.491361813700492 
 
-	* And zdotaccent (U+017C): L<<509.0,418.0>--<201.0,137.0>>/B<<201.0,137.0>-<214.0,145.0>-<231.0,150.0>> = 10.767873257573477 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* zdotaccent (U+017C): L<<509.0,418.0>--<201.0,137.0>>/B<<201.0,137.0>-<214.0,145.0>-<231.0,150.0>> = 10.767873257573477 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1182,7 +1194,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -1195,7 +1207,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1221,12 +1233,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -1291,8 +1302,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1324,7 +1339,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> 
 
-	* And ygrave (U+1EF3): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1552,7 +1567,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
 
-	* And uogonek (U+0173): B<<374.5,-57.0>-<403.0,-25.0>-<451.0,1.0>>/L<<451.0,1.0>--<400.0,-13.0>> = 13.09279213193889 [code: found-jaggy-segments]
+	* uogonek (U+0173): B<<374.5,-57.0>-<403.0,-25.0>-<451.0,1.0>>/L<<451.0,1.0>--<400.0,-13.0>> = 13.09279213193889 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1680,15 +1695,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni20A6 (U+20A6): L<<181.0,406.0>--<182.0,261.0>> 
 
-	* And uni20BA (U+20BA): L<<226.0,261.0>--<225.0,117.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni20BA (U+20BA): L<<226.0,261.0>--<225.0,117.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -1703,7 +1720,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -1716,7 +1733,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1742,12 +1759,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -1906,8 +1922,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF6	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1EF7	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EF7	Contours detected: 3	Expected: 2
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1937,7 +1957,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<417.0,380.0>--<250.0,17.0>> -> L<<250.0,17.0>--<169.0,-149.0>> 
 
-	* And ygrave (U+1EF3): L<<417.0,380.0>--<250.0,17.0>> -> L<<250.0,17.0>--<169.0,-149.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<417.0,380.0>--<250.0,17.0>> -> L<<250.0,17.0>--<169.0,-149.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -2257,7 +2277,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
 
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2461,15 +2481,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni20B1 (U+20B1): L<<116.0,184.0>--<117.0,335.0>> 
 
-	* And uni20BA (U+20BA): L<<158.0,251.0>--<159.0,84.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni20BA (U+20BA): L<<158.0,251.0>--<159.0,84.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -2484,7 +2506,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -2497,7 +2519,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2523,12 +2545,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -2593,8 +2614,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2632,7 +2657,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* yen (U+00A5): L<<341.0,245.0>--<341.0,186.0>> -> L<<341.0,186.0>--<341.0,182.0>> 
 
-	* And ygrave (U+1EF3): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -2858,7 +2883,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
 
-	* And uogonek (U+0173): B<<367.5,-57.5>-<396.0,-25.0>-<445.0,1.0>>/L<<445.0,1.0>--<395.0,-12.0>> = 13.376752829851425 [code: found-jaggy-segments]
+	* uogonek (U+0173): B<<367.5,-57.5>-<396.0,-25.0>-<445.0,1.0>>/L<<445.0,1.0>--<395.0,-12.0>> = 13.376752829851425 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2994,15 +3019,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni20A6 (U+20A6): L<<176.0,429.0>--<177.0,248.0>> 
 
-	* And uni20BA (U+20BA): L<<210.0,258.0>--<209.0,110.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni20BA (U+20BA): L<<210.0,258.0>--<209.0,110.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3017,7 +3044,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -3030,7 +3057,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3056,12 +3083,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -3122,8 +3148,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3149,7 +3179,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E5A (U+1E5A): L<<260.0,277.0>--<257.0,277.0>> -> L<<257.0,277.0>--<191.0,277.0>> 
 
-	* And uni1E5E (U+1E5E): L<<260.0,277.0>--<257.0,277.0>> -> L<<257.0,277.0>--<191.0,277.0>> [code: found-colinear-vectors]
+	* uni1E5E (U+1E5E): L<<260.0,277.0>--<257.0,277.0>> -> L<<257.0,277.0>--<191.0,277.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -3555,15 +3585,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<300.5,93.0>-<308.0,134.0>-<328.0,213.0>>/B<<328.0,213.0>-<303.0,158.0>-<270.0,107.5>> = 10.237188662656163 
 
-	* And utilde (U+0169): B<<300.5,93.0>-<308.0,134.0>-<328.0,213.0>>/B<<328.0,213.0>-<303.0,158.0>-<270.0,107.5>> = 10.237188662656163 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<300.5,93.0>-<308.0,134.0>-<328.0,213.0>>/B<<328.0,213.0>-<303.0,158.0>-<270.0,107.5>> = 10.237188662656163 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3578,7 +3610,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -3591,7 +3623,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3617,12 +3649,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -3683,8 +3714,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3696,7 +3731,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<272.0,377.0>--<270.0,370.0>> -> L<<270.0,370.0>--<254.0,293.0>> 
 
-	* And thorn (U+00FE): L<<-7.0,-58.0>--<59.0,193.0>> -> L<<59.0,193.0>--<152.0,599.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<-7.0,-58.0>--<59.0,193.0>> -> L<<59.0,193.0>--<152.0,599.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4104,15 +4139,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 
 
-	* And utilde (U+0169): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4127,7 +4164,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -4140,7 +4177,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4166,12 +4203,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -4236,8 +4272,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -4275,7 +4315,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> 
 
-	* And ygrave (U+1EF3): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4501,7 +4541,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
 
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4625,15 +4665,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E42 (U+1E42): L<<188.0,403.0>--<189.0,212.0>> 
 
-	* And uni20BA (U+20BA): L<<242.0,263.0>--<241.0,124.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni20BA (U+20BA): L<<242.0,263.0>--<241.0,124.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -4648,7 +4690,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -4661,7 +4703,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4687,12 +4729,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -4753,8 +4794,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -5168,15 +5213,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 
 
-	* And utilde (U+0169): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -5191,7 +5238,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -5204,7 +5251,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5230,12 +5277,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -5296,8 +5342,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -5309,7 +5359,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<235.0,393.0>--<233.0,386.0>> -> L<<233.0,386.0>--<214.0,292.0>> 
 
-	* And thorn (U+00FE): L<<6.0,-59.0>--<66.0,185.0>> -> L<<66.0,185.0>--<163.0,613.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<6.0,-59.0>--<66.0,185.0>> -> L<<66.0,185.0>--<163.0,613.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -5713,15 +5763,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 
 
-	* And utilde (U+0169): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -5736,7 +5788,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -5749,7 +5801,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5775,12 +5827,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -5845,8 +5896,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -5882,7 +5937,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> 
 
-	* And ygrave (U+1EF3): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -6106,7 +6161,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
 
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -6266,15 +6321,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E9E (U+1E9E): L<<198.0,374.0>--<199.0,206.0>> 
 
-	* And uni1E9E (U+1E9E): L<<99.0,206.0>--<98.0,345.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni1E9E (U+1E9E): L<<99.0,206.0>--<98.0,345.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -6289,7 +6346,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -6302,7 +6359,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -6328,12 +6385,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -6398,8 +6454,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -6447,7 +6507,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> 
 
-	* And ygrave (U+1EF3): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -6667,7 +6727,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
 
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -6843,15 +6903,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* zcaron (U+017E): L<<46.0,304.0>--<45.0,431.0>> 
 
-	* And zdotaccent (U+017C): L<<46.0,304.0>--<45.0,431.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* zdotaccent (U+017C): L<<46.0,304.0>--<45.0,431.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -6866,7 +6928,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -6879,7 +6941,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -6905,12 +6967,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -6971,8 +7032,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -6986,7 +7051,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<258.0,383.0>--<257.0,376.0>> -> L<<257.0,376.0>--<239.0,292.0>> 
 
-	* And thorn (U+00FE): L<<-3.0,-58.0>--<61.0,190.0>> -> L<<61.0,190.0>--<155.0,604.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<-3.0,-58.0>--<61.0,190.0>> -> L<<61.0,190.0>--<155.0,604.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -7396,15 +7461,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<327.5,98.5>-<335.0,137.0>-<352.0,199.0>>/B<<352.0,199.0>-<323.0,137.0>-<286.0,90.5>> = 9.734178645006873 
 
-	* And utilde (U+0169): B<<327.5,98.5>-<335.0,137.0>-<352.0,199.0>>/B<<352.0,199.0>-<323.0,137.0>-<286.0,90.5>> = 9.734178645006873 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<327.5,98.5>-<335.0,137.0>-<352.0,199.0>>/B<<352.0,199.0>-<323.0,137.0>-<286.0,90.5>> = 9.734178645006873 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -7419,7 +7486,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -7432,7 +7499,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -7458,12 +7525,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -7622,8 +7688,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF6	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1EF7	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EF7	Contours detected: 3	Expected: 2
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -7655,7 +7725,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<423.0,380.0>--<255.0,19.0>> -> L<<255.0,19.0>--<174.0,-147.0>> 
 
-	* And ygrave (U+1EF3): L<<423.0,380.0>--<255.0,19.0>> -> L<<255.0,19.0>--<174.0,-147.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<423.0,380.0>--<255.0,19.0>> -> L<<255.0,19.0>--<174.0,-147.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -7975,7 +8045,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
 
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -8219,15 +8289,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* zcaron (U+017E): L<<48.0,307.0>--<47.0,428.0>> 
 
-	* And zdotaccent (U+017C): L<<48.0,307.0>--<47.0,428.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* zdotaccent (U+017C): L<<48.0,307.0>--<47.0,428.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[13] Mekorot-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -8242,7 +8314,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -8255,7 +8327,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -8281,12 +8353,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -8355,8 +8426,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -8388,7 +8463,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ydieresis (U+00FF): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> 
 
-	* And ygrave (U+1EF3): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> [code: found-colinear-vectors]
+	* ygrave (U+1EF3): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -8612,7 +8687,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
 
-	* And uogonek (U+0173): B<<388.0,-56.0>-<416.0,-26.0>-<462.0,1.0>>/L<<462.0,1.0>--<410.0,-14.0>> = 14.320264918273203 [code: found-jaggy-segments]
+	* uogonek (U+0173): B<<388.0,-56.0>-<416.0,-26.0>-<462.0,1.0>>/L<<462.0,1.0>--<410.0,-14.0>> = 14.320264918273203 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -8726,15 +8801,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E37 (U+1E37): L<<243.0,391.0>--<242.0,254.0>> 
 
-	* And uni1E3B (U+1E3B): L<<243.0,391.0>--<242.0,254.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* uni1E3B (U+1E3B): L<<243.0,391.0>--<242.0,254.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ į̶̀ į̶́ į̶̂ į̶̃ į̶̄ į̶̆ į̶̇ į̶̈ į̶̉ į̶̊ į̶̋ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -8749,7 +8826,7 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
  
 
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -8762,7 +8839,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- f + i 
 
-	- And i + l [code: lacks-kern-info]
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -8788,12 +8865,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni20A9.BRACKET.501 
 
-	- And uni20B2.BRACKET.700
+	- uni20B2.BRACKET.700
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
@@ -8854,8 +8930,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -8869,7 +8949,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* peseta (U+20A7): L<<246.0,388.0>--<244.0,381.0>> -> L<<244.0,381.0>--<226.0,292.0>> 
 
-	* And thorn (U+00FE): L<<2.0,-59.0>--<64.0,187.0>> -> L<<64.0,187.0>--<159.0,609.0>> [code: found-colinear-vectors]
+	* thorn (U+00FE): L<<2.0,-59.0>--<64.0,187.0>> -> L<<64.0,187.0>--<159.0,609.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -9279,14 +9359,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* uring (U+016F): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 
 
-	* And utilde (U+0169): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 [code: found-jaggy-segments]
+	* utilde (U+0169): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 [code: found-jaggy-segments]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 32 | 152 | 1754 | 97 | 1372 | 0 |
-| 0% | 1% | 4% | 51% | 3% | 40% | 0% |
+| 0 | 32 | 168 | 1850 | 97 | 1485 | 0 |
+| 0% | 1% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
