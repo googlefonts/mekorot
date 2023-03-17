@@ -202442,7 +202442,7 @@ y = 61;
 };
 manufacturer = "Baron von Fonthausen";
 manufacturerURL = "http://www.baronvonfonthausen.com/";
-unitsPerEm = 1024;
+unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 3;
 }
