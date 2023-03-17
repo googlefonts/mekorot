@@ -2,1035 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[12] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* f (U+0066): L<<224.0,441.0>--<224.0,441.0>> -> L<<224.0,441.0>--<330.0,441.0>>
-
-	* fl (U+FB02): L<<224.0,441.0>--<224.0,441.0>> -> L<<224.0,441.0>--<330.0,441.0>>
-
-	* peseta (U+20A7): L<<100.0,222.0>--<101.0,369.0>> -> L<<101.0,369.0>--<101.0,370.0>>
-
-	* peseta (U+20A7): L<<254.0,370.0>--<254.0,369.0>> -> L<<254.0,369.0>--<254.0,292.0>>
-
-	* uni0233 (U+0233): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* uni1E8F (U+1E8F): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* uni1EF5 (U+1EF5): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* uni1EF7 (U+1EF7): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* uni1EF9 (U+1EF9): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* uni20B1 (U+20B1): L<<250.0,278.0>--<250.0,222.0>> -> L<<250.0,222.0>--<250.0,220.0>>
-
-	* y (U+0079): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* yacute (U+00FD): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* ycircumflex (U+0177): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
-
-	* ydieresis (U+00FF): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> 
-
-	* And ygrave (U+1EF3): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* threequarters (U+00BE): B<<131.0,362.0>-<109.0,362.0>-<109.0,361.0>>/L<<109.0,361.0>--<103.0,411.0>> = 6.842773412630916
-
-	* uni00B3 (U+00B3): B<<131.0,362.0>-<109.0,362.0>-<109.0,361.0>>/L<<109.0,361.0>--<103.0,411.0>> = 6.842773412630916
-
-	* uni2083 (U+2083): B<<131.0,163.0>-<109.0,163.0>-<109.0,162.0>>/L<<109.0,162.0>--<103.0,212.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
-
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* F (U+0046): L<<104.0,228.0>--<105.0,355.0>>
-
-	* IJ (U+0132): L<<465.0,-20.0>--<464.0,365.0>>
-
-	* IJ (U+0132): L<<616.0,362.0>--<617.0,0.0>>
-
-	* J (U+004A): L<<105.0,-20.0>--<104.0,365.0>>
-
-	* J (U+004A): L<<256.0,362.0>--<257.0,0.0>>
-
-	* Jcircumflex (U+0134): L<<105.0,-20.0>--<104.0,365.0>>
-
-	* Jcircumflex (U+0134): L<<256.0,362.0>--<257.0,0.0>>
-
-	* M (U+004D): L<<188.0,403.0>--<189.0,212.0>>
-
-	* P (U+0050): L<<104.0,222.0>--<105.0,369.0>>
-
-	* ampersand (U+0026): L<<508.0,346.0>--<748.0,347.0>>
-
-	* d (U+0064): L<<489.0,461.0>--<488.0,228.0>>
-
-	* dcaron (U+010F): L<<489.0,461.0>--<488.0,228.0>>
-
-	* dcroat (U+0111): L<<489.0,461.0>--<488.0,228.0>>
-
-	* dong (U+20AB): L<<489.0,461.0>--<488.0,228.0>>
-
-	* eng (U+014B): L<<523.0,268.0>--<521.0,7.0>>
-
-	* fl (U+FB02): L<<567.0,389.0>--<566.0,247.0>>
-
-	* four (U+0034): L<<443.0,417.0>--<444.0,236.0>>
-
-	* franc (U+20A3): L<<104.0,228.0>--<105.0,355.0>>
-
-	* germandbls (U+00DF): L<<226.0,523.0>--<228.0,246.0>>
-
-	* ij (U+0133): L<<389.0,-29.0>--<390.0,237.0>>
-
-	* ij (U+0133): L<<539.0,277.0>--<540.0,7.0>>
-
-	* j (U+006A): L<<230.0,277.0>--<232.0,33.0>>
-
-	* j (U+006A): L<<80.0,-10.0>--<81.0,237.0>>
-
-	* jcircumflex (U+0135): L<<230.0,277.0>--<232.0,33.0>>
-
-	* jcircumflex (U+0135): L<<80.0,-10.0>--<81.0,237.0>>
-
-	* k (U+006B): L<<228.0,386.0>--<227.0,238.0>>
-
-	* l (U+006C): L<<230.0,389.0>--<229.0,247.0>>
-
-	* lacute (U+013A): L<<230.0,389.0>--<229.0,247.0>>
-
-	* lcaron (U+013E): L<<230.0,389.0>--<229.0,247.0>>
-
-	* ldot (U+0140): L<<230.0,389.0>--<229.0,247.0>>
-
-	* lslash (U+0142): L<<230.0,389.0>--<229.0,247.0>>
-
-	* peseta (U+20A7): L<<100.0,222.0>--<101.0,369.0>>
-
-	* q (U+0071): L<<343.0,134.0>--<344.0,361.0>>
-
-	* q (U+0071): L<<346.0,-57.0>--<347.0,68.0>>
-
-	* q (U+0071): L<<487.0,259.0>--<489.0,-16.0>>
-
-	* thorn (U+00FE): L<<70.0,50.0>--<71.0,360.0>>
-
-	* uni0137 (U+0137): L<<228.0,386.0>--<227.0,238.0>>
-
-	* uni013C (U+013C): L<<230.0,389.0>--<229.0,247.0>>
-
-	* uni01C6 (U+01C6): L<<489.0,461.0>--<488.0,228.0>>
-
-	* uni01C7 (U+01C7): L<<660.0,-20.0>--<659.0,365.0>>
-
-	* uni01C7 (U+01C7): L<<811.0,362.0>--<812.0,0.0>>
-
-	* uni01C8 (U+01C8): L<<647.0,-29.0>--<648.0,237.0>>
-
-	* uni01C8 (U+01C8): L<<797.0,277.0>--<798.0,7.0>>
-
-	* uni01C9 (U+01C9): L<<230.0,389.0>--<229.0,247.0>>
-
-	* uni01C9 (U+01C9): L<<389.0,-29.0>--<390.0,237.0>>
-
-	* uni01C9 (U+01C9): L<<539.0,277.0>--<540.0,7.0>>
-
-	* uni01CA (U+01CA): L<<809.0,-20.0>--<808.0,365.0>>
-
-	* uni01CA (U+01CA): L<<960.0,362.0>--<961.0,0.0>>
-
-	* uni01CB (U+01CB): L<<789.0,-29.0>--<790.0,237.0>>
-
-	* uni01CB (U+01CB): L<<939.0,277.0>--<940.0,7.0>>
-
-	* uni01CC (U+01CC): L<<682.0,-29.0>--<683.0,237.0>>
-
-	* uni01CC (U+01CC): L<<832.0,277.0>--<833.0,7.0>>
-
-	* uni0237 (U+0237): L<<230.0,277.0>--<232.0,33.0>>
-
-	* uni0237 (U+0237): L<<80.0,-10.0>--<81.0,237.0>>
-
-	* uni1E0D (U+1E0D): L<<489.0,461.0>--<488.0,228.0>>
-
-	* uni1E0F (U+1E0F): L<<489.0,461.0>--<488.0,228.0>>
-
-	* uni1E37 (U+1E37): L<<230.0,389.0>--<229.0,247.0>>
-
-	* uni1E3B (U+1E3B): L<<230.0,389.0>--<229.0,247.0>>
-
-	* uni1E42 (U+1E42): L<<188.0,403.0>--<189.0,212.0>> 
-
-	* And uni20BA (U+20BA): L<<242.0,263.0>--<241.0,124.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni2075	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2085	Contours detected: 2	Expected: 1
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* peseta (U+20A7): L<<266.0,365.0>--<266.0,362.0>> -> L<<266.0,362.0>--<267.0,292.0>>
-
-	* uni0233 (U+0233): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* uni1E8F (U+1E8F): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* uni1EF5 (U+1EF5): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* uni1EF7 (U+1EF7): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* uni1EF9 (U+1EF9): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* uni20A6 (U+20A6): L<<614.0,323.0>--<614.0,321.0>> -> L<<614.0,321.0>--<614.0,278.0>>
-
-	* y (U+0079): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* yacute (U+00FD): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* ycircumflex (U+0177): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
-
-	* ydieresis (U+00FF): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> 
-
-	* And ygrave (U+1EF3): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* lira (U+20A4): B<<286.0,166.5>-<274.0,146.0>-<249.0,119.0>>/B<<249.0,119.0>-<272.0,134.0>-<290.5,140.5>> = 14.091256201393758
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
-
-	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
-
-	* And uogonek (U+0173): B<<388.0,-56.0>-<416.0,-26.0>-<462.0,1.0>>/L<<462.0,1.0>--<410.0,-14.0>> = 14.320264918273203 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* IJ (U+0132): L<<479.0,-18.0>--<477.0,360.0>>
-
-	* IJ (U+0132): L<<644.0,357.0>--<646.0,-4.0>>
-
-	* J (U+004A): L<<105.0,-18.0>--<103.0,360.0>>
-
-	* J (U+004A): L<<270.0,357.0>--<272.0,-4.0>>
-
-	* Jcircumflex (U+0134): L<<105.0,-18.0>--<103.0,360.0>>
-
-	* Jcircumflex (U+0134): L<<270.0,357.0>--<272.0,-4.0>>
-
-	* P (U+0050): L<<103.0,229.0>--<104.0,362.0>>
-
-	* ampersand (U+0026): L<<519.0,349.0>--<767.0,350.0>>
-
-	* d (U+0064): L<<500.0,467.0>--<499.0,233.0>>
-
-	* dcaron (U+010F): L<<500.0,467.0>--<499.0,233.0>>
-
-	* dcroat (U+0111): L<<500.0,467.0>--<499.0,233.0>>
-
-	* dong (U+20AB): L<<500.0,467.0>--<499.0,233.0>>
-
-	* eng (U+014B): L<<538.0,270.0>--<536.0,12.0>>
-
-	* fi (U+FB01): L<<392.0,167.0>--<393.0,287.0>>
-
-	* fl (U+FB02): L<<591.0,391.0>--<590.0,254.0>>
-
-	* four (U+0034): L<<457.0,411.0>--<458.0,238.0>>
-
-	* germandbls (U+00DF): L<<239.0,525.0>--<241.0,257.0>>
-
-	* ij (U+0133): L<<397.0,-22.0>--<398.0,235.0>>
-
-	* ij (U+0133): L<<563.0,275.0>--<564.0,12.0>>
-
-	* j (U+006A): L<<244.0,275.0>--<246.0,44.0>>
-
-	* j (U+006A): L<<78.0,-8.0>--<79.0,235.0>>
-
-	* jcircumflex (U+0135): L<<244.0,275.0>--<246.0,44.0>>
-
-	* jcircumflex (U+0135): L<<78.0,-8.0>--<79.0,235.0>>
-
-	* k (U+006B): L<<241.0,385.0>--<240.0,239.0>>
-
-	* l (U+006C): L<<243.0,391.0>--<242.0,254.0>>
-
-	* lacute (U+013A): L<<243.0,391.0>--<242.0,254.0>>
-
-	* lcaron (U+013E): L<<243.0,391.0>--<242.0,254.0>>
-
-	* ldot (U+0140): L<<243.0,391.0>--<242.0,254.0>>
-
-	* lslash (U+0142): L<<243.0,391.0>--<242.0,254.0>>
-
-	* peseta (U+20A7): L<<98.0,229.0>--<99.0,362.0>>
-
-	* q (U+0071): L<<338.0,138.0>--<339.0,366.0>>
-
-	* q (U+0071): L<<498.0,270.0>--<499.0,-14.0>>
-
-	* thorn (U+00FE): L<<68.0,58.0>--<69.0,360.0>>
-
-	* uni0137 (U+0137): L<<241.0,385.0>--<240.0,239.0>>
-
-	* uni013C (U+013C): L<<243.0,391.0>--<242.0,254.0>>
-
-	* uni01C6 (U+01C6): L<<500.0,467.0>--<499.0,233.0>>
-
-	* uni01C7 (U+01C7): L<<673.0,-18.0>--<671.0,360.0>>
-
-	* uni01C7 (U+01C7): L<<838.0,357.0>--<840.0,-4.0>>
-
-	* uni01C8 (U+01C8): L<<659.0,-22.0>--<660.0,235.0>>
-
-	* uni01C8 (U+01C8): L<<825.0,275.0>--<826.0,12.0>>
-
-	* uni01C9 (U+01C9): L<<243.0,391.0>--<242.0,254.0>>
-
-	* uni01C9 (U+01C9): L<<397.0,-22.0>--<398.0,235.0>>
-
-	* uni01C9 (U+01C9): L<<563.0,275.0>--<564.0,12.0>>
-
-	* uni01CA (U+01CA): L<<819.0,-18.0>--<817.0,360.0>>
-
-	* uni01CA (U+01CA): L<<984.0,357.0>--<986.0,-4.0>>
-
-	* uni01CB (U+01CB): L<<797.0,-22.0>--<798.0,235.0>>
-
-	* uni01CB (U+01CB): L<<963.0,275.0>--<964.0,12.0>>
-
-	* uni01CC (U+01CC): L<<692.0,-22.0>--<693.0,235.0>>
-
-	* uni01CC (U+01CC): L<<858.0,275.0>--<859.0,12.0>>
-
-	* uni0237 (U+0237): L<<244.0,275.0>--<246.0,44.0>>
-
-	* uni0237 (U+0237): L<<78.0,-8.0>--<79.0,235.0>>
-
-	* uni1E0D (U+1E0D): L<<500.0,467.0>--<499.0,233.0>>
-
-	* uni1E0F (U+1E0F): L<<500.0,467.0>--<499.0,233.0>>
-
-	* uni1E37 (U+1E37): L<<243.0,391.0>--<242.0,254.0>> 
-
-	* And uni1E3B (U+1E3B): L<<243.0,391.0>--<242.0,254.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+<details><summary><b>[11] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
@@ -1168,195 +140,207 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* peseta (U+20A7): L<<272.0,377.0>--<270.0,370.0>> -> L<<270.0,370.0>--<254.0,293.0>> 
+	* peseta (U+20A7): L<<285.0,371.0>--<284.0,364.0>> -> L<<284.0,364.0>--<269.0,293.0>> 
 
-	* And thorn (U+00FE): L<<-7.0,-58.0>--<59.0,193.0>> -> L<<59.0,193.0>--<152.0,599.0>> [code: found-colinear-vectors]
+	* And thorn (U+00FE): L<<-11.0,-57.0>--<58.0,196.0>> -> L<<58.0,196.0>--<149.0,593.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* a (U+0061): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* aacute (U+00E1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* aacute (U+00E1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* abreve (U+0103): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* abreve (U+0103): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* acircumflex (U+00E2): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* acircumflex (U+00E2): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* adieresis (U+00E4): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* adieresis (U+00E4): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* agrave (U+00E0): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* agrave (U+00E0): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* amacron (U+0101): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* amacron (U+0101): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* aogonek (U+0105): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* aogonek (U+0105): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* aring (U+00E5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* aring (U+00E5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* aringacute (U+01FB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* aringacute (U+01FB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* at (U+0040): B<<560.0,108.5>-<566.0,142.0>-<582.0,199.0>>/B<<582.0,199.0>-<537.0,102.0>-<482.5,47.0>> = 9.207887588505251
+	* at (U+0040): B<<570.0,108.5>-<576.0,141.0>-<591.0,195.0>>/B<<591.0,195.0>-<548.0,99.0>-<494.0,45.5>> = 8.604291933513561
 
-	* atilde (U+00E3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* atilde (U+00E3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* b (U+0062): B<<229.0,403.0>-<210.0,338.0>-<182.0,255.0>>/B<<182.0,255.0>-<229.0,347.0>-<285.5,397.0>> = 8.419314243773893
+	* b (U+0062): B<<227.5,339.0>-<216.0,305.0>-<201.0,263.0>>/B<<201.0,263.0>-<246.0,353.0>-<301.5,402.0>> = 6.911227119024662
 
-	* d (U+0064): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* d (U+0064): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* dcaron (U+010F): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* dcaron (U+010F): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* dcroat (U+0111): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* dcroat (U+0111): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* dong (U+20AB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* dong (U+20AB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* eng (U+014B): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.0,392.0>> = 9.576717901670385
+	* eng (U+014B): B<<254.0,340.0>-<246.0,302.0>-<230.0,246.0>>/B<<230.0,246.0>-<279.0,349.0>-<345.0,400.0>> = 9.496352562079656
 
-	* h (U+0068): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
+	* h (U+0068): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
 
-	* hbar (U+0127): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
+	* hbar (U+0127): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
 
-	* hcircumflex (U+0125): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
+	* hcircumflex (U+0125): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
 
-	* lira (U+20A4): B<<245.0,149.5>-<222.0,120.0>-<179.0,85.0>>/B<<179.0,85.0>-<213.0,104.0>-<234.5,112.0>> = 9.946500368506532
+	* lira (U+20A4): B<<262.0,158.0>-<240.0,132.0>-<201.0,99.0>>/B<<201.0,99.0>-<233.0,119.0>-<254.5,126.5>> = 8.230975101190243
 
-	* m (U+006D): B<<239.0,336.5>-<231.0,297.0>-<214.0,237.0>>/B<<214.0,237.0>-<259.0,334.0>-<321.5,390.5>> = 9.06821776342431
+	* m (U+006D): B<<255.0,339.0>-<247.0,301.0>-<231.0,245.0>>/B<<231.0,245.0>-<278.0,344.0>-<341.5,397.5>> = 9.45051594824773
 
-	* m (U+006D): B<<514.5,324.0>-<506.0,292.0>-<490.0,249.0>>/B<<490.0,249.0>-<541.0,344.0>-<600.5,395.5>> = 7.818893347565526
+	* m (U+006D): B<<544.0,329.0>-<536.0,299.0>-<522.0,263.0>>/B<<522.0,263.0>-<575.0,358.0>-<635.5,404.5>> = 7.906412375179762
 
-	* n (U+006E): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* n (U+006E): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* nacute (U+0144): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* nacute (U+0144): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* napostrophe (U+0149): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* napostrophe (U+0149): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* ncaron (U+0148): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* ncaron (U+0148): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* ntilde (U+00F1): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* ntilde (U+00F1): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* ordfeminine (U+00AA): B<<289.5,308.5>-<295.0,337.0>-<307.0,381.0>>/B<<307.0,381.0>-<271.0,308.0>-<227.0,265.5>> = 10.995123666631072
+	* ordfeminine (U+00AA): B<<293.5,309.5>-<299.0,338.0>-<311.0,380.0>>/B<<311.0,380.0>-<277.0,308.0>-<233.5,265.5>> = 9.332326334630059
 
-	* p (U+0070): B<<238.0,336.5>-<230.0,297.0>-<213.0,236.0>>/B<<213.0,236.0>-<257.0,334.0>-<312.0,391.0>> = 8.606563549878905
+	* p (U+0070): B<<254.0,340.5>-<246.0,303.0>-<231.0,248.0>>/B<<231.0,248.0>-<273.0,343.0>-<326.5,397.5>> = 8.595355205019107
 
-	* q (U+0071): B<<309.0,117.5>-<317.0,152.0>-<330.0,198.0>>/B<<330.0,198.0>-<285.0,102.0>-<229.0,47.0>> = 9.334081576629135
+	* q (U+0071): B<<316.5,116.0>-<324.0,148.0>-<336.0,193.0>>/B<<336.0,193.0>-<293.0,98.0>-<238.5,45.0>> = 9.421591996892062
 
-	* r (U+0072): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* r (U+0072): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* racute (U+0155): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* racute (U+0155): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* rcaron (U+0159): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* rcaron (U+0159): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* sterling (U+00A3): B<<261.0,174.5>-<239.0,135.0>-<178.0,85.0>>/B<<178.0,85.0>-<212.0,104.0>-<234.0,112.0>> = 10.14303211377305
+	* sterling (U+00A3): B<<264.5,161.0>-<242.0,134.0>-<201.0,99.0>>/B<<201.0,99.0>-<233.0,119.0>-<254.5,126.5>> = 8.480628333915217
 
-	* thorn (U+00FE): B<<210.0,325.5>-<198.0,284.0>-<182.0,231.0>>/B<<182.0,231.0>-<227.0,332.0>-<282.0,390.0>> = 7.216730382812524
+	* thorn (U+00FE): B<<226.5,329.5>-<214.0,289.0>-<198.0,238.0>>/B<<198.0,238.0>-<242.0,337.0>-<296.5,394.5>> = 6.544518182375298
 
-	* u (U+0075): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* u (U+0075): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uacute (U+00FA): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uacute (U+00FA): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* ubreve (U+016D): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* ubreve (U+016D): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* ucircumflex (U+00FB): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* ucircumflex (U+00FB): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* udieresis (U+00FC): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* udieresis (U+00FC): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* ugrave (U+00F9): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* ugrave (U+00F9): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uhorn (U+01B0): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uhorn (U+01B0): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uhungarumlaut (U+0171): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uhungarumlaut (U+0171): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* umacron (U+016B): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* umacron (U+016B): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uni00B5 (U+00B5): B<<339.5,89.5>-<345.0,119.0>-<357.0,163.0>>/B<<357.0,163.0>-<318.0,81.0>-<272.5,36.5>> = 10.18109767735954
+	* uni00B5 (U+00B5): B<<347.0,83.5>-<351.0,107.0>-<360.0,141.0>>/B<<360.0,141.0>-<323.0,65.0>-<282.0,28.5>> = 11.132289291204966
 
-	* uni0146 (U+0146): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* uni0146 (U+0146): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* uni0157 (U+0157): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* uni0157 (U+0157): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* uni01C6 (U+01C6): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni01C5 (U+01C5): L<<1203.0,418.0>--<898.0,125.0>>/B<<898.0,125.0>-<910.0,132.0>-<925.0,136.5>> = 13.593969042195871
 
-	* uni01CC (U+01CC): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* uni01C5 (U+01C5): L<<709.0,31.0>--<1019.0,330.0>>/B<<1019.0,330.0>-<1008.0,323.0>-<996.0,318.5>> = 11.494021095129373
 
-	* uni0201 (U+0201): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni01C6 (U+01C6): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni0203 (U+0203): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni01C6 (U+01C6): L<<1046.0,418.0>--<741.0,125.0>>/B<<741.0,125.0>-<753.0,132.0>-<768.0,136.5>> = 13.593969042195871
 
-	* uni0211 (U+0211): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* uni01C6 (U+01C6): L<<552.0,31.0>--<862.0,330.0>>/B<<862.0,330.0>-<851.0,323.0>-<839.0,318.5>> = 11.494021095129373
 
-	* uni0213 (U+0213): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* uni01CC (U+01CC): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* uni0215 (U+0215): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni0201 (U+0201): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni0217 (U+0217): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni0203 (U+0203): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni0227 (U+0227): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni0211 (U+0211): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* uni03BC (U+03BC): B<<339.5,89.5>-<345.0,119.0>-<357.0,163.0>>/B<<357.0,163.0>-<318.0,81.0>-<272.5,36.5>> = 10.18109767735954
+	* uni0213 (U+0213): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* uni1E0D (U+1E0D): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni0215 (U+0215): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uni1E0F (U+1E0F): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni0217 (U+0217): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uni1E25 (U+1E25): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
+	* uni0227 (U+0227): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1E2B (U+1E2B): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
+	* uni03BC (U+03BC): B<<347.0,83.5>-<351.0,107.0>-<360.0,141.0>>/B<<360.0,141.0>-<323.0,65.0>-<282.0,28.5>> = 11.132289291204966
 
-	* uni1E43 (U+1E43): B<<239.0,336.5>-<231.0,297.0>-<214.0,237.0>>/B<<214.0,237.0>-<259.0,334.0>-<321.5,390.5>> = 9.06821776342431
+	* uni1E0D (U+1E0D): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1E43 (U+1E43): B<<514.5,324.0>-<506.0,292.0>-<490.0,249.0>>/B<<490.0,249.0>-<541.0,344.0>-<600.5,395.5>> = 7.818893347565526
+	* uni1E0F (U+1E0F): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1E45 (U+1E45): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* uni1E25 (U+1E25): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
 
-	* uni1E47 (U+1E47): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* uni1E2B (U+1E2B): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
 
-	* uni1E49 (U+1E49): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
+	* uni1E43 (U+1E43): B<<255.0,339.0>-<247.0,301.0>-<231.0,245.0>>/B<<231.0,245.0>-<278.0,344.0>-<341.5,397.5>> = 9.45051594824773
 
-	* uni1E5B (U+1E5B): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* uni1E43 (U+1E43): B<<544.0,329.0>-<536.0,299.0>-<522.0,263.0>>/B<<522.0,263.0>-<575.0,358.0>-<635.5,404.5>> = 7.906412375179762
 
-	* uni1E5F (U+1E5F): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
+	* uni1E45 (U+1E45): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* uni1E79 (U+1E79): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1E47 (U+1E47): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* uni1E7B (U+1E7B): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1E49 (U+1E49): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
 
-	* uni1EA1 (U+1EA1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E5B (U+1E5B): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* uni1EA3 (U+1EA3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E5F (U+1E5F): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
 
-	* uni1EA5 (U+1EA5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E79 (U+1E79): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uni1EA7 (U+1EA7): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E7B (U+1E7B): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uni1EA9 (U+1EA9): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E93 (U+1E93): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-	* uni1EAB (U+1EAB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1E93 (U+1E93): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
 
-	* uni1EAD (U+1EAD): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EA1 (U+1EA1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EAF (U+1EAF): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EA3 (U+1EA3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EB1 (U+1EB1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EA5 (U+1EA5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EB3 (U+1EB3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EA7 (U+1EA7): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EB5 (U+1EB5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EA9 (U+1EA9): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EB7 (U+1EB7): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
+	* uni1EAB (U+1EAB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EE5 (U+1EE5): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EAD (U+1EAD): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EE7 (U+1EE7): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EAF (U+1EAF): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EE9 (U+1EE9): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EB1 (U+1EB1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EEB (U+1EEB): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EB3 (U+1EB3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EED (U+1EED): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EB5 (U+1EB5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EEF (U+1EEF): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EB7 (U+1EB7): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
 
-	* uni1EF1 (U+1EF1): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uni1EE5 (U+1EE5): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EE7 (U+1EE7): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EE9 (U+1EE9): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EEB (U+1EEB): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EED (U+1EED): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EEF (U+1EEF): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+
+	* uni1EF1 (U+1EF1): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
 	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
 
@@ -1574,2758 +558,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
 
-	* uogonek (U+0173): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
+	* uogonek (U+0173): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* uring (U+016F): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 
+	* uring (U+016F): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
-	* And utilde (U+0169): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+	* utilde (U+0169): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
 
+	* z (U+007A): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+	* z (U+007A): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
 
+	* zacute (U+017A): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* zacute (U+017A): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
 
+	* zcaron (U+017E): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+	* zcaron (U+017E): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
 
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+	* zdotaccent (U+017C): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373 
 
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* f (U+0066): L<<183.0,431.0>--<183.0,431.0>> -> L<<183.0,431.0>--<293.0,431.0>>
-
-	* fl (U+FB02): L<<183.0,431.0>--<183.0,431.0>> -> L<<183.0,431.0>--<293.0,431.0>>
-
-	* uni0233 (U+0233): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* uni1E8F (U+1E8F): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* uni1EF5 (U+1EF5): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* uni1EF7 (U+1EF7): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* uni1EF9 (U+1EF9): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* uni20BD (U+20BD): L<<109.0,193.0>--<109.0,201.0>> -> L<<109.0,201.0>--<110.0,263.0>>
-
-	* uni20BD (U+20BD): L<<211.0,263.0>--<212.0,201.0>> -> L<<212.0,201.0>--<212.0,193.0>>
-
-	* y (U+0079): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* yacute (U+00FD): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* ycircumflex (U+0177): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
-
-	* ydieresis (U+00FF): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> 
-
-	* And ygrave (U+1EF3): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* lira (U+20A4): B<<226.5,134.5>-<211.0,99.0>-<170.0,64.0>>/B<<170.0,64.0>-<204.0,81.0>-<226.5,88.0>> = 13.920960364920726
-
-	* sterling (U+00A3): B<<226.5,134.5>-<211.0,99.0>-<170.0,64.0>>/B<<170.0,64.0>-<204.0,81.0>-<226.5,88.0>> = 13.920960364920726
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
-
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* F (U+0046): L<<109.0,202.0>--<110.0,393.0>>
-
-	* IJ (U+0132): L<<529.0,381.0>--<530.0,12.0>>
-
-	* J (U+004A): L<<210.0,381.0>--<211.0,12.0>>
-
-	* Jcircumflex (U+0134): L<<210.0,381.0>--<211.0,12.0>>
-
-	* M (U+004D): L<<174.0,477.0>--<175.0,218.0>>
-
-	* M (U+004D): L<<645.0,208.0>--<643.0,484.0>>
-
-	* P (U+0050): L<<109.0,201.0>--<110.0,390.0>>
-
-	* Sigma (U+03A3): L<<462.0,588.0>--<461.0,430.0>>
-
-	* Sigma (U+03A3): L<<463.0,94.0>--<464.0,-91.0>>
-
-	* ampersand (U+0026): L<<468.0,334.0>--<684.0,335.0>>
-
-	* d (U+0064): L<<455.0,444.0>--<454.0,213.0>>
-
-	* dcaron (U+010F): L<<455.0,444.0>--<454.0,213.0>>
-
-	* dcroat (U+0111): L<<455.0,444.0>--<454.0,213.0>>
-
-	* dong (U+20AB): L<<455.0,444.0>--<454.0,213.0>>
-
-	* eng (U+014B): L<<376.0,-48.0>--<378.0,253.0>>
-
-	* eng (U+014B): L<<471.0,266.0>--<469.0,-11.0>>
-
-	* f (U+0066): L<<184.0,377.0>--<185.0,221.0>>
-
-	* f (U+0066): L<<92.0,214.0>--<91.0,377.0>>
-
-	* fl (U+FB02): L<<184.0,377.0>--<185.0,221.0>>
-
-	* fl (U+FB02): L<<486.0,382.0>--<485.0,226.0>>
-
-	* fl (U+FB02): L<<92.0,214.0>--<91.0,377.0>>
-
-	* four (U+0034): L<<398.0,436.0>--<399.0,230.0>>
-
-	* franc (U+20A3): L<<109.0,202.0>--<110.0,393.0>>
-
-	* germandbls (U+00DF): L<<183.0,516.0>--<185.0,208.0>>
-
-	* ij (U+0133): L<<367.0,-51.0>--<368.0,243.0>>
-
-	* ij (U+0133): L<<462.0,287.0>--<463.0,-11.0>>
-
-	* j (U+006A): L<<186.0,287.0>--<187.0,4.0>>
-
-	* j (U+006A): L<<91.0,-16.0>--<92.0,243.0>>
-
-	* jcircumflex (U+0135): L<<186.0,287.0>--<187.0,4.0>>
-
-	* jcircumflex (U+0135): L<<91.0,-16.0>--<92.0,243.0>>
-
-	* k (U+006B): L<<185.0,389.0>--<184.0,237.0>>
-
-	* l (U+006C): L<<187.0,382.0>--<186.0,226.0>>
-
-	* lacute (U+013A): L<<187.0,382.0>--<186.0,226.0>>
-
-	* lcaron (U+013E): L<<187.0,382.0>--<186.0,226.0>>
-
-	* ldot (U+0140): L<<187.0,382.0>--<186.0,226.0>>
-
-	* lslash (U+0142): L<<187.0,382.0>--<186.0,226.0>>
-
-	* p (U+0070): L<<89.0,9.0>--<91.0,240.0>>
-
-	* paragraph (U+00B6): L<<387.0,48.0>--<388.0,245.0>>
-
-	* paragraph (U+00B6): L<<389.0,303.0>--<391.0,539.0>>
-
-	* peseta (U+20A7): L<<109.0,201.0>--<110.0,388.0>>
-
-	* q (U+0071): L<<360.0,120.0>--<361.0,346.0>>
-
-	* radical (U+221A): L<<20.0,434.0>--<174.0,435.0>>
-
-	* summation (U+2211): L<<462.0,588.0>--<461.0,430.0>>
-
-	* summation (U+2211): L<<463.0,94.0>--<464.0,-91.0>>
-
-	* t (U+0074): L<<177.0,378.0>--<176.0,158.0>>
-
-	* tbar (U+0167): L<<177.0,378.0>--<176.0,158.0>>
-
-	* tcaron (U+0165): L<<177.0,378.0>--<176.0,158.0>>
-
-	* thorn (U+00FE): L<<78.0,22.0>--<80.0,362.0>>
-
-	* trademark (U+2122): L<<885.0,345.0>--<883.0,601.0>>
-
-	* uni0137 (U+0137): L<<185.0,389.0>--<184.0,237.0>>
-
-	* uni013C (U+013C): L<<187.0,382.0>--<186.0,226.0>>
-
-	* uni0163 (U+0163): L<<177.0,378.0>--<176.0,158.0>>
-
-	* uni01C6 (U+01C6): L<<455.0,444.0>--<454.0,213.0>>
-
-	* uni01C7 (U+01C7): L<<726.0,381.0>--<727.0,12.0>>
-
-	* uni01C8 (U+01C8): L<<613.0,-51.0>--<614.0,243.0>>
-
-	* uni01C8 (U+01C8): L<<708.0,287.0>--<709.0,-11.0>>
-
-	* uni01C9 (U+01C9): L<<187.0,382.0>--<186.0,226.0>>
-
-	* uni01C9 (U+01C9): L<<368.0,-51.0>--<369.0,243.0>>
-
-	* uni01C9 (U+01C9): L<<463.0,287.0>--<464.0,-11.0>>
-
-	* uni01CA (U+01CA): L<<885.0,381.0>--<886.0,12.0>>
-
-	* uni01CB (U+01CB): L<<771.0,-51.0>--<772.0,243.0>>
-
-	* uni01CB (U+01CB): L<<866.0,287.0>--<867.0,-11.0>>
-
-	* uni01CC (U+01CC): L<<652.0,-51.0>--<653.0,243.0>>
-
-	* uni01CC (U+01CC): L<<747.0,287.0>--<748.0,-11.0>>
-
-	* uni021B (U+021B): L<<177.0,378.0>--<176.0,158.0>>
-
-	* uni0237 (U+0237): L<<186.0,287.0>--<187.0,4.0>>
-
-	* uni0237 (U+0237): L<<91.0,-16.0>--<92.0,243.0>>
-
-	* uni1E0D (U+1E0D): L<<455.0,444.0>--<454.0,213.0>>
-
-	* uni1E0F (U+1E0F): L<<455.0,444.0>--<454.0,213.0>>
-
-	* uni1E37 (U+1E37): L<<187.0,382.0>--<186.0,226.0>>
-
-	* uni1E3B (U+1E3B): L<<187.0,382.0>--<186.0,226.0>>
-
-	* uni1E42 (U+1E42): L<<174.0,477.0>--<175.0,218.0>>
-
-	* uni1E42 (U+1E42): L<<645.0,208.0>--<643.0,484.0>>
-
-	* uni1E6D (U+1E6D): L<<177.0,378.0>--<176.0,158.0>>
-
-	* uni1E6F (U+1E6F): L<<177.0,378.0>--<176.0,158.0>>
-
-	* uni1E97 (U+1E97): L<<177.0,378.0>--<176.0,158.0>>
-
-	* uni1E9E (U+1E9E): L<<198.0,374.0>--<199.0,206.0>> 
-
-	* And uni1E9E (U+1E9E): L<<99.0,206.0>--<98.0,345.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* peseta (U+20A7): L<<109.0,203.0>--<147.0,381.0>> -> L<<147.0,381.0>--<149.0,388.0>>
-
-	* peseta (U+20A7): L<<246.0,388.0>--<244.0,381.0>> -> L<<244.0,381.0>--<226.0,292.0>> 
-
-	* And thorn (U+00FE): L<<2.0,-59.0>--<64.0,187.0>> -> L<<64.0,187.0>--<159.0,609.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* Q (U+0051): B<<481.0,40.5>-<427.0,8.0>-<366.0,-2.0>>/B<<366.0,-2.0>-<402.0,-5.0>-<427.5,-13.0>> = 14.073581865712175
-
-	* a (U+0061): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* aacute (U+00E1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* abreve (U+0103): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* acircumflex (U+00E2): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* adieresis (U+00E4): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* agrave (U+00E0): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* amacron (U+0101): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* aogonek (U+0105): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* aring (U+00E5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* aringacute (U+01FB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* at (U+0040): B<<541.5,108.0>-<547.0,142.0>-<564.0,203.0>>/B<<564.0,203.0>-<517.0,106.0>-<461.0,49.0>> = 10.27931894525012
-
-	* atilde (U+00E3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* b (U+0062): B<<174.0,323.0>-<163.0,283.0>-<148.0,238.0>>/B<<148.0,238.0>-<197.0,335.0>-<257.5,388.0>> = 8.36588612403259
-
-	* d (U+0064): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* dcaron (U+010F): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* dcroat (U+0111): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* dong (U+20AB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* eng (U+014B): B<<209.5,334.0>-<202.0,293.0>-<183.0,223.0>>/B<<183.0,223.0>-<211.0,284.0>-<248.0,333.5>> = 9.470061481880276
-
-	* h (U+0068): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
-
-	* hbar (U+0127): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
-
-	* hcircumflex (U+0125): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
-
-	* lira (U+20A4): B<<243.0,215.0>-<231.0,130.0>-<147.0,66.0>>/B<<147.0,66.0>-<180.0,81.0>-<201.5,87.0>> = 12.859993497566874
-
-	* m (U+006D): B<<210.5,334.0>-<203.0,293.0>-<184.0,223.0>>/B<<184.0,223.0>-<213.0,284.0>-<249.0,333.5>> = 10.241036907388501
-
-	* m (U+006D): B<<460.5,316.0>-<451.0,279.0>-<431.0,221.0>>/B<<431.0,221.0>-<461.0,283.0>-<497.5,332.5>> = 6.795385936620577
-
-	* n (U+006E): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* nacute (U+0144): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* napostrophe (U+0149): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* ncaron (U+0148): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* ntilde (U+00F1): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* ordfeminine (U+00AA): B<<283.5,307.5>-<289.0,337.0>-<303.0,387.0>>/B<<303.0,387.0>-<264.0,311.0>-<218.5,267.0>> = 11.52273860012316
-
-	* p (U+0070): B<<209.0,332.0>-<201.0,288.0>-<181.0,213.0>>/B<<181.0,213.0>-<229.0,317.0>-<286.5,379.0>> = 9.84372339069437
-
-	* q (U+0071): B<<297.5,120.5>-<306.0,158.0>-<320.0,210.0>>/B<<320.0,210.0>-<273.0,110.0>-<215.0,51.0>> = 10.105036365037968
-
-	* r (U+0072): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* racute (U+0155): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* rcaron (U+0159): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* sterling (U+00A3): B<<222.0,150.5>-<199.0,106.0>-<146.0,65.0>>/B<<146.0,65.0>-<179.0,81.0>-<200.5,87.0>> = 11.858638248016213
-
-	* thorn (U+00FE): B<<179.0,315.5>-<167.0,271.0>-<152.0,214.0>>/B<<152.0,214.0>-<199.0,318.0>-<257.0,379.5>> = 9.575745774712123
-
-	* u (U+0075): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uacute (U+00FA): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* ubreve (U+016D): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* ucircumflex (U+00FB): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* udieresis (U+00FC): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* ugrave (U+00F9): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uhorn (U+01B0): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uhungarumlaut (U+0171): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* umacron (U+016B): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni00B5 (U+00B5): B<<325.0,94.0>-<332.0,131.0>-<348.0,193.0>>/B<<348.0,193.0>-<322.0,136.0>-<290.0,90.5>> = 10.0493485881249
-
-	* uni0146 (U+0146): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* uni0157 (U+0157): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* uni01C6 (U+01C6): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni01CC (U+01CC): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* uni0201 (U+0201): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni0203 (U+0203): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni0211 (U+0211): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* uni0213 (U+0213): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* uni0215 (U+0215): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni0217 (U+0217): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni0227 (U+0227): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni03BC (U+03BC): B<<325.0,94.0>-<332.0,131.0>-<348.0,193.0>>/B<<348.0,193.0>-<322.0,136.0>-<290.0,90.5>> = 10.0493485881249
-
-	* uni1E0D (U+1E0D): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1E0F (U+1E0F): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1E25 (U+1E25): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
-
-	* uni1E2B (U+1E2B): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
-
-	* uni1E43 (U+1E43): B<<210.5,334.0>-<203.0,293.0>-<184.0,223.0>>/B<<184.0,223.0>-<213.0,284.0>-<249.0,333.5>> = 10.241036907388501
-
-	* uni1E43 (U+1E43): B<<460.5,316.0>-<451.0,279.0>-<431.0,221.0>>/B<<431.0,221.0>-<461.0,283.0>-<497.5,332.5>> = 6.795385936620577
-
-	* uni1E45 (U+1E45): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* uni1E47 (U+1E47): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* uni1E49 (U+1E49): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
-
-	* uni1E5B (U+1E5B): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* uni1E5F (U+1E5F): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
-
-	* uni1E79 (U+1E79): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1E7B (U+1E7B): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EA1 (U+1EA1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EA3 (U+1EA3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EA5 (U+1EA5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EA7 (U+1EA7): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EA9 (U+1EA9): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EAB (U+1EAB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EAD (U+1EAD): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EAF (U+1EAF): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EB1 (U+1EB1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EB3 (U+1EB3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EB5 (U+1EB5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EB7 (U+1EB7): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
-
-	* uni1EE5 (U+1EE5): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EE7 (U+1EE7): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EE9 (U+1EE9): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EEB (U+1EEB): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EED (U+1EED): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EEF (U+1EEF): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uni1EF1 (U+1EF1): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
-
-	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
-
-	* uogonek (U+0173): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
-
-	* uring (U+016F): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 
-
-	* And utilde (U+0169): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* thorn (U+00FE): L<<9.0,-59.0>--<68.0,183.0>> -> L<<68.0,183.0>--<166.0,616.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* a (U+0061): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* aacute (U+00E1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* abreve (U+0103): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* acircumflex (U+00E2): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* adieresis (U+00E4): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* agrave (U+00E0): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* amacron (U+0101): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* aogonek (U+0105): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* aring (U+00E5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* aringacute (U+01FB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* at (U+0040): B<<525.5,104.5>-<531.0,137.0>-<548.0,205.0>>/B<<548.0,205.0>-<499.0,108.0>-<443.0,50.0>> = 12.7645914790281
-
-	* atilde (U+00E3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* b (U+0062): B<<148.5,314.5>-<137.0,272.0>-<122.0,224.0>>/B<<122.0,224.0>-<157.0,292.0>-<197.0,339.0>> = 9.881122063041218
-
-	* d (U+0064): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* dcaron (U+010F): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* dcroat (U+0111): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* dong (U+20AB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* eng (U+014B): B<<187.0,331.5>-<180.0,289.0>-<159.0,209.0>>/B<<159.0,209.0>-<186.0,266.0>-<220.0,318.0>> = 10.63787204226396
-
-	* h (U+0068): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
-
-	* hbar (U+0127): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
-
-	* hcircumflex (U+0125): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
-
-	* m (U+006D): B<<188.0,332.0>-<181.0,290.0>-<160.0,211.0>>/B<<160.0,211.0>-<187.0,268.0>-<221.0,319.5>> = 10.459909092929111
-
-	* m (U+006D): B<<417.0,311.5>-<407.0,269.0>-<387.0,202.0>>/B<<387.0,202.0>-<412.0,260.0>-<447.0,313.5>> = 6.696951472863011
-
-	* n (U+006E): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* nacute (U+0144): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* napostrophe (U+0149): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* ncaron (U+0148): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* ntilde (U+00F1): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* ordfeminine (U+00AA): B<<280.0,306.5>-<286.0,338.0>-<301.0,394.0>>/B<<301.0,394.0>-<260.0,316.0>-<212.5,269.5>> = 12.73317829314311
-
-	* p (U+0070): B<<187.0,330.0>-<180.0,282.0>-<157.0,195.0>>/B<<157.0,195.0>-<190.0,268.0>-<228.5,321.5>> = 9.517198200083724
-
-	* q (U+0071): B<<290.0,124.0>-<299.0,164.0>-<313.0,221.0>>/B<<313.0,221.0>-<281.0,152.0>-<242.5,100.5>> = 11.080881463162276
-
-	* r (U+0072): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* racute (U+0155): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* rcaron (U+0159): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* thorn (U+00FE): B<<155.5,306.0>-<144.0,259.0>-<128.0,198.0>>/B<<128.0,198.0>-<161.0,269.0>-<199.5,322.5>> = 10.231154855949354
-
-	* u (U+0075): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uacute (U+00FA): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* ubreve (U+016D): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* ucircumflex (U+00FB): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* udieresis (U+00FC): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* ugrave (U+00F9): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uhorn (U+01B0): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uhungarumlaut (U+0171): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* umacron (U+016B): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni00B5 (U+00B5): B<<313.5,93.5>-<321.0,134.0>-<340.0,209.0>>/B<<340.0,209.0>-<314.0,153.0>-<281.0,103.5>> = 10.688915334421631
-
-	* uni0146 (U+0146): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* uni0157 (U+0157): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* uni01C6 (U+01C6): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni01CC (U+01CC): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* uni0201 (U+0201): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni0203 (U+0203): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni0211 (U+0211): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* uni0213 (U+0213): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* uni0215 (U+0215): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni0217 (U+0217): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni0227 (U+0227): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni03BC (U+03BC): B<<313.5,93.5>-<321.0,134.0>-<340.0,209.0>>/B<<340.0,209.0>-<314.0,153.0>-<281.0,103.5>> = 10.688915334421631
-
-	* uni1E0D (U+1E0D): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1E0F (U+1E0F): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1E25 (U+1E25): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
-
-	* uni1E2B (U+1E2B): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
-
-	* uni1E43 (U+1E43): B<<188.0,332.0>-<181.0,290.0>-<160.0,211.0>>/B<<160.0,211.0>-<187.0,268.0>-<221.0,319.5>> = 10.459909092929111
-
-	* uni1E43 (U+1E43): B<<417.0,311.5>-<407.0,269.0>-<387.0,202.0>>/B<<387.0,202.0>-<412.0,260.0>-<447.0,313.5>> = 6.696951472863011
-
-	* uni1E45 (U+1E45): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* uni1E47 (U+1E47): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* uni1E49 (U+1E49): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
-
-	* uni1E5B (U+1E5B): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* uni1E5F (U+1E5F): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
-
-	* uni1E79 (U+1E79): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1E7B (U+1E7B): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EA1 (U+1EA1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EA3 (U+1EA3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EA5 (U+1EA5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EA7 (U+1EA7): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EA9 (U+1EA9): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EAB (U+1EAB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EAD (U+1EAD): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EAF (U+1EAF): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EB1 (U+1EB1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EB3 (U+1EB3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EB5 (U+1EB5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EB7 (U+1EB7): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
-
-	* uni1EE5 (U+1EE5): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EE7 (U+1EE7): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EE9 (U+1EE9): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EEB (U+1EEB): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EED (U+1EED): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EEF (U+1EEF): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uni1EF1 (U+1EF1): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
-
-	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
-
-	* uogonek (U+0173): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
-
-	* uring (U+016F): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 
-
-	* And utilde (U+0169): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* R (U+0052): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* Racute (U+0154): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* Rcaron (U+0158): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni0156 (U+0156): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni0210 (U+0210): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni0212 (U+0212): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni0233 (U+0233): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* uni1E5A (U+1E5A): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni1E5E (U+1E5E): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
-
-	* uni1E8F (U+1E8F): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* uni1EF5 (U+1EF5): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* uni1EF7 (U+1EF7): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* uni1EF9 (U+1EF9): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* uni20BD (U+20BD): L<<112.0,193.0>--<112.0,194.0>> -> L<<112.0,194.0>--<112.0,268.0>>
-
-	* uni20BD (U+20BD): L<<199.0,268.0>--<199.0,194.0>> -> L<<199.0,194.0>--<199.0,193.0>>
-
-	* y (U+0079): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* yacute (U+00FD): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* ycircumflex (U+0177): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
-
-	* ydieresis (U+00FF): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> 
-
-	* And ygrave (U+1EF3): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
-
-	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* F (U+0046): L<<112.0,194.0>--<113.0,405.0>>
-
-	* IJ (U+0132): L<<507.0,387.0>--<508.0,16.0>>
-
-	* J (U+004A): L<<197.0,387.0>--<198.0,16.0>>
-
-	* Jcircumflex (U+0134): L<<197.0,387.0>--<198.0,16.0>>
-
-	* M (U+004D): L<<171.0,500.0>--<172.0,219.0>>
-
-	* M (U+004D): L<<646.0,203.0>--<644.0,499.0>>
-
-	* P (U+0050): L<<112.0,194.0>--<113.0,397.0>>
-
-	* Sigma (U+03A3): L<<455.0,588.0>--<454.0,434.0>>
-
-	* ampersand (U+0026): L<<455.0,330.0>--<664.0,331.0>>
-
-	* d (U+0064): L<<445.0,439.0>--<444.0,209.0>>
-
-	* dcaron (U+010F): L<<445.0,439.0>--<444.0,209.0>>
-
-	* dcroat (U+0111): L<<445.0,439.0>--<444.0,209.0>>
-
-	* dong (U+20AB): L<<445.0,439.0>--<444.0,209.0>>
-
-	* eng (U+014B): L<<377.0,-52.0>--<379.0,256.0>>
-
-	* eng (U+014B): L<<455.0,266.0>--<454.0,-16.0>>
-
-	* f (U+0066): L<<172.0,378.0>--<173.0,206.0>>
-
-	* f (U+0066): L<<96.0,198.0>--<95.0,378.0>>
-
-	* fl (U+FB02): L<<172.0,378.0>--<173.0,206.0>>
-
-	* fl (U+FB02): L<<461.0,380.0>--<460.0,219.0>>
-
-	* fl (U+FB02): L<<96.0,198.0>--<95.0,378.0>>
-
-	* four (U+0034): L<<385.0,443.0>--<386.0,229.0>>
-
-	* franc (U+20A3): L<<112.0,194.0>--<113.0,405.0>>
-
-	* germandbls (U+00DF): L<<170.0,514.0>--<172.0,196.0>>
-
-	* ij (U+0133): L<<363.0,-58.0>--<364.0,245.0>>
-
-	* ij (U+0133): L<<441.0,291.0>--<442.0,-16.0>>
-
-	* j (U+006A): L<<173.0,291.0>--<174.0,-2.0>>
-
-	* j (U+006A): L<<95.0,-17.0>--<96.0,245.0>>
-
-	* jcircumflex (U+0135): L<<173.0,291.0>--<174.0,-2.0>>
-
-	* jcircumflex (U+0135): L<<95.0,-17.0>--<96.0,245.0>>
-
-	* k (U+006B): L<<172.0,390.0>--<171.0,236.0>>
-
-	* l (U+006C): L<<174.0,380.0>--<173.0,219.0>>
-
-	* lacute (U+013A): L<<174.0,380.0>--<173.0,219.0>>
-
-	* lcaron (U+013E): L<<174.0,380.0>--<173.0,219.0>>
-
-	* ldot (U+0140): L<<174.0,380.0>--<173.0,219.0>>
-
-	* lslash (U+0142): L<<174.0,380.0>--<173.0,219.0>>
-
-	* p (U+0070): L<<93.0,-6.0>--<95.0,241.0>>
-
-	* paragraph (U+00B6): L<<376.0,303.0>--<378.0,543.0>>
-
-	* peseta (U+20A7): L<<112.0,194.0>--<113.0,393.0>>
-
-	* q (U+0071): L<<366.0,116.0>--<367.0,342.0>>
-
-	* q (U+0071): L<<369.0,-59.0>--<368.0,65.0>>
-
-	* radical (U+221A): L<<15.0,431.0>--<152.0,432.0>>
-
-	* summation (U+2211): L<<455.0,588.0>--<454.0,434.0>>
-
-	* t (U+0074): L<<164.0,379.0>--<163.0,156.0>>
-
-	* tbar (U+0167): L<<164.0,379.0>--<163.0,156.0>>
-
-	* tcaron (U+0165): L<<164.0,379.0>--<163.0,156.0>>
-
-	* thorn (U+00FE): L<<82.0,14.0>--<84.0,363.0>>
-
-	* trademark (U+2122): L<<545.0,605.0>--<547.0,342.0>>
-
-	* trademark (U+2122): L<<873.0,342.0>--<871.0,614.0>>
-
-	* uni0137 (U+0137): L<<172.0,390.0>--<171.0,236.0>>
-
-	* uni013C (U+013C): L<<174.0,380.0>--<173.0,219.0>>
-
-	* uni0163 (U+0163): L<<164.0,379.0>--<163.0,156.0>>
-
-	* uni01C5 (U+01C5): L<<728.0,304.0>--<727.0,431.0>>
-
-	* uni01C6 (U+01C6): L<<445.0,439.0>--<444.0,209.0>>
-
-	* uni01C6 (U+01C6): L<<585.0,304.0>--<584.0,431.0>>
-
-	* uni01C7 (U+01C7): L<<703.0,387.0>--<704.0,16.0>>
-
-	* uni01C8 (U+01C8): L<<606.0,-58.0>--<607.0,245.0>>
-
-	* uni01C8 (U+01C8): L<<684.0,291.0>--<685.0,-16.0>>
-
-	* uni01C9 (U+01C9): L<<174.0,380.0>--<173.0,219.0>>
-
-	* uni01C9 (U+01C9): L<<364.0,-58.0>--<365.0,245.0>>
-
-	* uni01C9 (U+01C9): L<<442.0,291.0>--<443.0,-16.0>>
-
-	* uni01CA (U+01CA): L<<866.0,387.0>--<867.0,16.0>>
-
-	* uni01CB (U+01CB): L<<769.0,-58.0>--<770.0,245.0>>
-
-	* uni01CB (U+01CB): L<<847.0,291.0>--<848.0,-16.0>>
-
-	* uni01CC (U+01CC): L<<645.0,-58.0>--<646.0,245.0>>
-
-	* uni01CC (U+01CC): L<<723.0,291.0>--<724.0,-16.0>>
-
-	* uni021B (U+021B): L<<164.0,379.0>--<163.0,156.0>>
-
-	* uni0237 (U+0237): L<<173.0,291.0>--<174.0,-2.0>>
-
-	* uni0237 (U+0237): L<<95.0,-17.0>--<96.0,245.0>>
-
-	* uni1E0D (U+1E0D): L<<445.0,439.0>--<444.0,209.0>>
-
-	* uni1E0F (U+1E0F): L<<445.0,439.0>--<444.0,209.0>>
-
-	* uni1E37 (U+1E37): L<<174.0,380.0>--<173.0,219.0>>
-
-	* uni1E3B (U+1E3B): L<<174.0,380.0>--<173.0,219.0>>
-
-	* uni1E42 (U+1E42): L<<171.0,500.0>--<172.0,219.0>>
-
-	* uni1E42 (U+1E42): L<<646.0,203.0>--<644.0,499.0>>
-
-	* uni1E6D (U+1E6D): L<<164.0,379.0>--<163.0,156.0>>
-
-	* uni1E6F (U+1E6F): L<<164.0,379.0>--<163.0,156.0>>
-
-	* uni1E93 (U+1E93): L<<46.0,304.0>--<45.0,431.0>>
-
-	* uni1E97 (U+1E97): L<<164.0,379.0>--<163.0,156.0>>
-
-	* uni1E9E (U+1E9E): L<<101.0,199.0>--<100.0,350.0>>
-
-	* uni1E9E (U+1E9E): L<<185.0,378.0>--<186.0,199.0>>
-
-	* uni20B1 (U+20B1): L<<112.0,194.0>--<113.0,320.0>>
-
-	* uni20BC (U+20BC): L<<490.0,200.0>--<489.0,340.0>>
-
-	* z (U+007A): L<<46.0,304.0>--<45.0,431.0>>
-
-	* zacute (U+017A): L<<46.0,304.0>--<45.0,431.0>>
-
-	* zcaron (U+017E): L<<46.0,304.0>--<45.0,431.0>> 
-
-	* And zdotaccent (U+017C): L<<46.0,304.0>--<45.0,431.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* f (U+0066): L<<210.0,514.0>--<210.0,438.0>> -> L<<210.0,438.0>--<210.0,437.0>>
-
-	* fl (U+FB02): L<<210.0,514.0>--<210.0,438.0>> -> L<<210.0,438.0>--<210.0,437.0>>
-
-	* uni0233 (U+0233): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* uni1E8F (U+1E8F): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* uni1EF5 (U+1EF5): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* uni1EF7 (U+1EF7): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* uni1EF9 (U+1EF9): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* y (U+0079): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* yacute (U+00FD): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* ycircumflex (U+0177): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
-
-	* ydieresis (U+00FF): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> 
-
-	* And ygrave (U+1EF3): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* Thorn (U+00DE): B<<265.5,125.5>-<252.0,127.0>-<240.0,129.0>>/L<<240.0,129.0>--<240.0,129.0>> = 9.462322208025613
-
-	* lira (U+20A4): B<<256.0,151.0>-<241.0,123.0>-<206.0,88.0>>/B<<206.0,88.0>-<236.0,106.0>-<257.5,114.0>> = 14.036243467926457
-
-	* sterling (U+00A3): B<<250.0,140.5>-<235.0,117.0>-<206.0,88.0>>/B<<206.0,88.0>-<236.0,106.0>-<257.5,114.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
-
-	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
-
-	* And uogonek (U+0173): B<<374.5,-57.0>-<403.0,-25.0>-<451.0,1.0>>/L<<451.0,1.0>--<400.0,-13.0>> = 13.09279213193889 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* F (U+0046): L<<105.0,219.0>--<106.0,368.0>>
-
-	* IJ (U+0132): L<<451.0,-22.0>--<450.0,371.0>>
-
-	* IJ (U+0132): L<<585.0,368.0>--<586.0,4.0>>
-
-	* J (U+004A): L<<106.0,-22.0>--<105.0,371.0>>
-
-	* J (U+004A): L<<240.0,368.0>--<241.0,4.0>>
-
-	* Jcircumflex (U+0134): L<<106.0,-22.0>--<105.0,371.0>>
-
-	* Jcircumflex (U+0134): L<<240.0,368.0>--<241.0,4.0>>
-
-	* M (U+004D): L<<645.0,220.0>--<643.0,453.0>>
-
-	* P (U+0050): L<<105.0,215.0>--<106.0,376.0>>
-
-	* ampersand (U+0026): L<<495.0,342.0>--<727.0,343.0>>
-
-	* d (U+0064): L<<477.0,455.0>--<476.0,223.0>>
-
-	* dcaron (U+010F): L<<477.0,455.0>--<476.0,223.0>>
-
-	* dcroat (U+0111): L<<477.0,455.0>--<476.0,223.0>>
-
-	* dong (U+20AB): L<<477.0,455.0>--<476.0,223.0>>
-
-	* eng (U+014B): L<<375.0,-36.0>--<377.0,247.0>>
-
-	* eng (U+014B): L<<505.0,267.0>--<503.0,1.0>>
-
-	* f (U+0066): L<<212.0,374.0>--<213.0,253.0>>
-
-	* f (U+0066): L<<84.0,251.0>--<83.0,374.0>>
-
-	* fl (U+FB02): L<<212.0,374.0>--<213.0,253.0>>
-
-	* fl (U+FB02): L<<539.0,387.0>--<538.0,240.0>>
-
-	* fl (U+FB02): L<<84.0,251.0>--<83.0,374.0>>
-
-	* four (U+0034): L<<428.0,423.0>--<429.0,234.0>>
-
-	* franc (U+20A3): L<<105.0,219.0>--<106.0,368.0>>
-
-	* germandbls (U+00DF): L<<211.0,521.0>--<213.0,233.0>>
-
-	* ij (U+0133): L<<380.0,-36.0>--<381.0,238.0>>
-
-	* ij (U+0133): L<<512.0,280.0>--<513.0,1.0>>
-
-	* j (U+006A): L<<215.0,280.0>--<216.0,21.0>>
-
-	* j (U+006A): L<<83.0,-12.0>--<84.0,238.0>>
-
-	* jcircumflex (U+0135): L<<215.0,280.0>--<216.0,21.0>>
-
-	* jcircumflex (U+0135): L<<83.0,-12.0>--<84.0,238.0>>
-
-	* l (U+006C): L<<215.0,387.0>--<214.0,240.0>>
-
-	* lacute (U+013A): L<<215.0,387.0>--<214.0,240.0>>
-
-	* lcaron (U+013E): L<<215.0,387.0>--<214.0,240.0>>
-
-	* ldot (U+0140): L<<215.0,387.0>--<214.0,240.0>>
-
-	* lslash (U+0142): L<<215.0,387.0>--<214.0,240.0>>
-
-	* peseta (U+20A7): L<<103.0,215.0>--<104.0,376.0>>
-
-	* q (U+0071): L<<349.0,129.0>--<350.0,355.0>>
-
-	* thorn (U+00FE): L<<72.0,41.0>--<74.0,361.0>>
-
-	* uni013C (U+013C): L<<215.0,387.0>--<214.0,240.0>>
-
-	* uni01C6 (U+01C6): L<<477.0,455.0>--<476.0,223.0>>
-
-	* uni01C7 (U+01C7): L<<647.0,-22.0>--<646.0,371.0>>
-
-	* uni01C7 (U+01C7): L<<781.0,368.0>--<782.0,4.0>>
-
-	* uni01C8 (U+01C8): L<<634.0,-36.0>--<635.0,238.0>>
-
-	* uni01C8 (U+01C8): L<<766.0,280.0>--<767.0,1.0>>
-
-	* uni01C9 (U+01C9): L<<215.0,387.0>--<214.0,240.0>>
-
-	* uni01C9 (U+01C9): L<<381.0,-36.0>--<382.0,238.0>>
-
-	* uni01C9 (U+01C9): L<<513.0,280.0>--<514.0,1.0>>
-
-	* uni01CA (U+01CA): L<<799.0,-22.0>--<798.0,371.0>>
-
-	* uni01CA (U+01CA): L<<933.0,368.0>--<934.0,4.0>>
-
-	* uni01CB (U+01CB): L<<781.0,-36.0>--<782.0,238.0>>
-
-	* uni01CB (U+01CB): L<<913.0,280.0>--<914.0,1.0>>
-
-	* uni01CC (U+01CC): L<<671.0,-36.0>--<672.0,238.0>>
-
-	* uni01CC (U+01CC): L<<803.0,280.0>--<804.0,1.0>>
-
-	* uni0237 (U+0237): L<<215.0,280.0>--<216.0,21.0>>
-
-	* uni0237 (U+0237): L<<83.0,-12.0>--<84.0,238.0>>
-
-	* uni1E0D (U+1E0D): L<<477.0,455.0>--<476.0,223.0>>
-
-	* uni1E0F (U+1E0F): L<<477.0,455.0>--<476.0,223.0>>
-
-	* uni1E37 (U+1E37): L<<215.0,387.0>--<214.0,240.0>>
-
-	* uni1E3B (U+1E3B): L<<215.0,387.0>--<214.0,240.0>>
-
-	* uni1E42 (U+1E42): L<<645.0,220.0>--<643.0,453.0>>
-
-	* uni20A6 (U+20A6): L<<181.0,406.0>--<182.0,261.0>> 
-
-	* And uni20BA (U+20BA): L<<226.0,261.0>--<225.0,117.0>> [code: found-semi-vertical]
+	* And zdotaccent (U+017C): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[11] Mekorot-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -4907,6 +1160,527 @@ The following glyphs do not have the recommended number of contours:
 	* zdotaccent (U+017C): L<<-7.0,36.0>--<306.0,323.0>>/B<<306.0,323.0>-<295.0,315.0>-<282.0,310.0>> = 6.491361813700492 
 
 	* And zdotaccent (U+017C): L<<509.0,418.0>--<201.0,137.0>>/B<<201.0,137.0>-<214.0,145.0>-<231.0,150.0>> = 10.767873257573477 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* f (U+0066): L<<210.0,514.0>--<210.0,438.0>> -> L<<210.0,438.0>--<210.0,437.0>>
+
+	* fl (U+FB02): L<<210.0,514.0>--<210.0,438.0>> -> L<<210.0,438.0>--<210.0,437.0>>
+
+	* uni0233 (U+0233): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* uni1E8F (U+1E8F): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* uni1EF5 (U+1EF5): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* uni1EF7 (U+1EF7): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* uni1EF9 (U+1EF9): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* y (U+0079): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* yacute (U+00FD): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* ycircumflex (U+0177): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>>
+
+	* ydieresis (U+00FF): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> 
+
+	* And ygrave (U+1EF3): L<<459.0,377.0>--<285.0,32.0>> -> L<<285.0,32.0>--<206.0,-134.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* Thorn (U+00DE): B<<265.5,125.5>-<252.0,127.0>-<240.0,129.0>>/L<<240.0,129.0>--<240.0,129.0>> = 9.462322208025613
+
+	* lira (U+20A4): B<<256.0,151.0>-<241.0,123.0>-<206.0,88.0>>/B<<206.0,88.0>-<236.0,106.0>-<257.5,114.0>> = 14.036243467926457
+
+	* sterling (U+00A3): B<<250.0,140.5>-<235.0,117.0>-<206.0,88.0>>/B<<206.0,88.0>-<236.0,106.0>-<257.5,114.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
+
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
+
+	* And uogonek (U+0173): B<<374.5,-57.0>-<403.0,-25.0>-<451.0,1.0>>/L<<451.0,1.0>--<400.0,-13.0>> = 13.09279213193889 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* F (U+0046): L<<105.0,219.0>--<106.0,368.0>>
+
+	* IJ (U+0132): L<<451.0,-22.0>--<450.0,371.0>>
+
+	* IJ (U+0132): L<<585.0,368.0>--<586.0,4.0>>
+
+	* J (U+004A): L<<106.0,-22.0>--<105.0,371.0>>
+
+	* J (U+004A): L<<240.0,368.0>--<241.0,4.0>>
+
+	* Jcircumflex (U+0134): L<<106.0,-22.0>--<105.0,371.0>>
+
+	* Jcircumflex (U+0134): L<<240.0,368.0>--<241.0,4.0>>
+
+	* M (U+004D): L<<645.0,220.0>--<643.0,453.0>>
+
+	* P (U+0050): L<<105.0,215.0>--<106.0,376.0>>
+
+	* ampersand (U+0026): L<<495.0,342.0>--<727.0,343.0>>
+
+	* d (U+0064): L<<477.0,455.0>--<476.0,223.0>>
+
+	* dcaron (U+010F): L<<477.0,455.0>--<476.0,223.0>>
+
+	* dcroat (U+0111): L<<477.0,455.0>--<476.0,223.0>>
+
+	* dong (U+20AB): L<<477.0,455.0>--<476.0,223.0>>
+
+	* eng (U+014B): L<<375.0,-36.0>--<377.0,247.0>>
+
+	* eng (U+014B): L<<505.0,267.0>--<503.0,1.0>>
+
+	* f (U+0066): L<<212.0,374.0>--<213.0,253.0>>
+
+	* f (U+0066): L<<84.0,251.0>--<83.0,374.0>>
+
+	* fl (U+FB02): L<<212.0,374.0>--<213.0,253.0>>
+
+	* fl (U+FB02): L<<539.0,387.0>--<538.0,240.0>>
+
+	* fl (U+FB02): L<<84.0,251.0>--<83.0,374.0>>
+
+	* four (U+0034): L<<428.0,423.0>--<429.0,234.0>>
+
+	* franc (U+20A3): L<<105.0,219.0>--<106.0,368.0>>
+
+	* germandbls (U+00DF): L<<211.0,521.0>--<213.0,233.0>>
+
+	* ij (U+0133): L<<380.0,-36.0>--<381.0,238.0>>
+
+	* ij (U+0133): L<<512.0,280.0>--<513.0,1.0>>
+
+	* j (U+006A): L<<215.0,280.0>--<216.0,21.0>>
+
+	* j (U+006A): L<<83.0,-12.0>--<84.0,238.0>>
+
+	* jcircumflex (U+0135): L<<215.0,280.0>--<216.0,21.0>>
+
+	* jcircumflex (U+0135): L<<83.0,-12.0>--<84.0,238.0>>
+
+	* l (U+006C): L<<215.0,387.0>--<214.0,240.0>>
+
+	* lacute (U+013A): L<<215.0,387.0>--<214.0,240.0>>
+
+	* lcaron (U+013E): L<<215.0,387.0>--<214.0,240.0>>
+
+	* ldot (U+0140): L<<215.0,387.0>--<214.0,240.0>>
+
+	* lslash (U+0142): L<<215.0,387.0>--<214.0,240.0>>
+
+	* peseta (U+20A7): L<<103.0,215.0>--<104.0,376.0>>
+
+	* q (U+0071): L<<349.0,129.0>--<350.0,355.0>>
+
+	* thorn (U+00FE): L<<72.0,41.0>--<74.0,361.0>>
+
+	* uni013C (U+013C): L<<215.0,387.0>--<214.0,240.0>>
+
+	* uni01C6 (U+01C6): L<<477.0,455.0>--<476.0,223.0>>
+
+	* uni01C7 (U+01C7): L<<647.0,-22.0>--<646.0,371.0>>
+
+	* uni01C7 (U+01C7): L<<781.0,368.0>--<782.0,4.0>>
+
+	* uni01C8 (U+01C8): L<<634.0,-36.0>--<635.0,238.0>>
+
+	* uni01C8 (U+01C8): L<<766.0,280.0>--<767.0,1.0>>
+
+	* uni01C9 (U+01C9): L<<215.0,387.0>--<214.0,240.0>>
+
+	* uni01C9 (U+01C9): L<<381.0,-36.0>--<382.0,238.0>>
+
+	* uni01C9 (U+01C9): L<<513.0,280.0>--<514.0,1.0>>
+
+	* uni01CA (U+01CA): L<<799.0,-22.0>--<798.0,371.0>>
+
+	* uni01CA (U+01CA): L<<933.0,368.0>--<934.0,4.0>>
+
+	* uni01CB (U+01CB): L<<781.0,-36.0>--<782.0,238.0>>
+
+	* uni01CB (U+01CB): L<<913.0,280.0>--<914.0,1.0>>
+
+	* uni01CC (U+01CC): L<<671.0,-36.0>--<672.0,238.0>>
+
+	* uni01CC (U+01CC): L<<803.0,280.0>--<804.0,1.0>>
+
+	* uni0237 (U+0237): L<<215.0,280.0>--<216.0,21.0>>
+
+	* uni0237 (U+0237): L<<83.0,-12.0>--<84.0,238.0>>
+
+	* uni1E0D (U+1E0D): L<<477.0,455.0>--<476.0,223.0>>
+
+	* uni1E0F (U+1E0F): L<<477.0,455.0>--<476.0,223.0>>
+
+	* uni1E37 (U+1E37): L<<215.0,387.0>--<214.0,240.0>>
+
+	* uni1E3B (U+1E3B): L<<215.0,387.0>--<214.0,240.0>>
+
+	* uni1E42 (U+1E42): L<<645.0,220.0>--<643.0,453.0>>
+
+	* uni20A6 (U+20A6): L<<181.0,406.0>--<182.0,261.0>> 
+
+	* And uni20BA (U+20BA): L<<226.0,261.0>--<225.0,117.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -5688,6 +2462,539 @@ The following glyphs do not have the recommended number of contours:
 	* uni20B1 (U+20B1): L<<116.0,184.0>--<117.0,335.0>> 
 
 	* And uni20BA (U+20BA): L<<158.0,251.0>--<159.0,84.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* f (U+0066): L<<196.0,514.0>--<196.0,435.0>> -> L<<196.0,435.0>--<196.0,434.0>>
+
+	* fl (U+FB02): L<<196.0,514.0>--<196.0,435.0>> -> L<<196.0,435.0>--<196.0,434.0>>
+
+	* uni0233 (U+0233): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* uni1E8F (U+1E8F): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* uni1EF5 (U+1EF5): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* uni1EF7 (U+1EF7): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* uni1EF9 (U+1EF9): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* uni20BA (U+20BA): L<<210.0,376.0>--<210.0,373.0>> -> L<<210.0,373.0>--<210.0,314.0>>
+
+	* y (U+0079): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* yacute (U+00FD): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* ycircumflex (U+0177): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* ydieresis (U+00FF): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
+
+	* yen (U+00A5): L<<224.0,182.0>--<224.0,186.0>> -> L<<224.0,186.0>--<224.0,242.0>>
+
+	* yen (U+00A5): L<<341.0,245.0>--<341.0,186.0>> -> L<<341.0,186.0>--<341.0,182.0>> 
+
+	* And ygrave (U+1EF3): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* lira (U+20A4): B<<240.5,143.0>-<225.0,111.0>-<186.0,75.0>>/B<<186.0,75.0>-<218.0,93.0>-<240.5,101.0>> = 13.351636414570214
+
+	* sterling (U+00A3): B<<243.0,149.5>-<228.0,115.0>-<186.0,75.0>>/B<<186.0,75.0>-<218.0,93.0>-<240.5,101.0>> = 14.245065429912337
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
+
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
+
+	* And uogonek (U+0173): B<<367.5,-57.5>-<396.0,-25.0>-<445.0,1.0>>/L<<445.0,1.0>--<395.0,-12.0>> = 13.376752829851425 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* F (U+0046): L<<106.0,211.0>--<107.0,380.0>>
+
+	* IJ (U+0132): L<<554.0,374.0>--<555.0,8.0>>
+
+	* J (U+004A): L<<224.0,374.0>--<225.0,8.0>>
+
+	* Jcircumflex (U+0134): L<<224.0,374.0>--<225.0,8.0>>
+
+	* M (U+004D): L<<177.0,452.0>--<178.0,216.0>>
+
+	* M (U+004D): L<<644.0,214.0>--<642.0,468.0>>
+
+	* P (U+0050): L<<106.0,208.0>--<107.0,383.0>>
+
+	* Sigma (U+03A3): L<<469.0,589.0>--<468.0,425.0>>
+
+	* ampersand (U+0026): L<<482.0,338.0>--<706.0,339.0>>
+
+	* d (U+0064): L<<466.0,449.0>--<465.0,218.0>>
+
+	* dcaron (U+010F): L<<466.0,449.0>--<465.0,218.0>>
+
+	* dcroat (U+0111): L<<466.0,449.0>--<465.0,218.0>>
+
+	* dong (U+20AB): L<<466.0,449.0>--<465.0,218.0>>
+
+	* eng (U+014B): L<<375.0,-43.0>--<377.0,250.0>>
+
+	* eng (U+014B): L<<488.0,265.0>--<486.0,-5.0>>
+
+	* f (U+0066): L<<198.0,375.0>--<199.0,237.0>>
+
+	* f (U+0066): L<<87.0,233.0>--<86.0,375.0>>
+
+	* fl (U+FB02): L<<198.0,375.0>--<199.0,237.0>>
+
+	* fl (U+FB02): L<<513.0,385.0>--<512.0,233.0>>
+
+	* fl (U+FB02): L<<87.0,233.0>--<86.0,375.0>>
+
+	* four (U+0034): L<<413.0,429.0>--<414.0,232.0>>
+
+	* franc (U+20A3): L<<106.0,211.0>--<107.0,380.0>>
+
+	* germandbls (U+00DF): L<<197.0,519.0>--<199.0,221.0>>
+
+	* ij (U+0133): L<<372.0,-43.0>--<373.0,240.0>>
+
+	* ij (U+0133): L<<486.0,283.0>--<487.0,-5.0>>
+
+	* j (U+006A): L<<200.0,283.0>--<201.0,10.0>>
+
+	* j (U+006A): L<<86.0,-14.0>--<87.0,240.0>>
+
+	* jcircumflex (U+0135): L<<200.0,283.0>--<201.0,10.0>>
+
+	* jcircumflex (U+0135): L<<86.0,-14.0>--<87.0,240.0>>
+
+	* k (U+006B): L<<199.0,388.0>--<198.0,237.0>>
+
+	* l (U+006C): L<<201.0,385.0>--<200.0,233.0>>
+
+	* lacute (U+013A): L<<201.0,385.0>--<200.0,233.0>>
+
+	* lcaron (U+013E): L<<201.0,385.0>--<200.0,233.0>>
+
+	* ldot (U+0140): L<<201.0,385.0>--<200.0,233.0>>
+
+	* lslash (U+0142): L<<201.0,385.0>--<200.0,233.0>>
+
+	* paragraph (U+00B6): L<<403.0,303.0>--<405.0,535.0>>
+
+	* peseta (U+20A7): L<<106.0,208.0>--<107.0,382.0>>
+
+	* q (U+0071): L<<354.0,125.0>--<355.0,350.0>>
+
+	* summation (U+2211): L<<469.0,589.0>--<468.0,425.0>>
+
+	* thorn (U+00FE): L<<74.0,32.0>--<76.0,361.0>>
+
+	* trademark (U+2122): L<<899.0,348.0>--<897.0,587.0>>
+
+	* uni0137 (U+0137): L<<199.0,388.0>--<198.0,237.0>>
+
+	* uni013C (U+013C): L<<201.0,385.0>--<200.0,233.0>>
+
+	* uni01C6 (U+01C6): L<<466.0,449.0>--<465.0,218.0>>
+
+	* uni01C7 (U+01C7): L<<751.0,374.0>--<752.0,8.0>>
+
+	* uni01C8 (U+01C8): L<<621.0,-43.0>--<622.0,240.0>>
+
+	* uni01C8 (U+01C8): L<<735.0,283.0>--<736.0,-5.0>>
+
+	* uni01C9 (U+01C9): L<<201.0,385.0>--<200.0,233.0>>
+
+	* uni01C9 (U+01C9): L<<373.0,-43.0>--<374.0,240.0>>
+
+	* uni01C9 (U+01C9): L<<487.0,283.0>--<488.0,-5.0>>
+
+	* uni01CA (U+01CA): L<<906.0,374.0>--<907.0,8.0>>
+
+	* uni01CB (U+01CB): L<<773.0,-43.0>--<774.0,240.0>>
+
+	* uni01CB (U+01CB): L<<887.0,283.0>--<888.0,-5.0>>
+
+	* uni01CC (U+01CC): L<<660.0,-43.0>--<661.0,240.0>>
+
+	* uni01CC (U+01CC): L<<774.0,283.0>--<775.0,-5.0>>
+
+	* uni0237 (U+0237): L<<200.0,283.0>--<201.0,10.0>>
+
+	* uni0237 (U+0237): L<<86.0,-14.0>--<87.0,240.0>>
+
+	* uni1E0D (U+1E0D): L<<466.0,449.0>--<465.0,218.0>>
+
+	* uni1E0F (U+1E0F): L<<466.0,449.0>--<465.0,218.0>>
+
+	* uni1E37 (U+1E37): L<<201.0,385.0>--<200.0,233.0>>
+
+	* uni1E3B (U+1E3B): L<<201.0,385.0>--<200.0,233.0>>
+
+	* uni1E42 (U+1E42): L<<177.0,452.0>--<178.0,216.0>>
+
+	* uni1E42 (U+1E42): L<<644.0,214.0>--<642.0,468.0>>
+
+	* uni1E9E (U+1E9E): L<<96.0,213.0>--<95.0,339.0>>
+
+	* uni20A6 (U+20A6): L<<176.0,429.0>--<177.0,248.0>> 
+
+	* And uni20BA (U+20BA): L<<210.0,258.0>--<209.0,110.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[11] Mekorot-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -6249,7 +3556,7 @@ The following glyphs do not have the recommended number of contours:
 	* uring (U+016F): B<<300.5,93.0>-<308.0,134.0>-<328.0,213.0>>/B<<328.0,213.0>-<303.0,158.0>-<270.0,107.5>> = 10.237188662656163 
 
 	* And utilde (U+0169): B<<300.5,93.0>-<308.0,134.0>-<328.0,213.0>>/B<<328.0,213.0>-<303.0,158.0>-<270.0,107.5>> = 10.237188662656163 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
@@ -6387,207 +3694,195 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* peseta (U+20A7): L<<285.0,371.0>--<284.0,364.0>> -> L<<284.0,364.0>--<269.0,293.0>> 
+	* peseta (U+20A7): L<<272.0,377.0>--<270.0,370.0>> -> L<<270.0,370.0>--<254.0,293.0>> 
 
-	* And thorn (U+00FE): L<<-11.0,-57.0>--<58.0,196.0>> -> L<<58.0,196.0>--<149.0,593.0>> [code: found-colinear-vectors]
+	* And thorn (U+00FE): L<<-7.0,-58.0>--<59.0,193.0>> -> L<<59.0,193.0>--<152.0,599.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* a (U+0061): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* aacute (U+00E1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* aacute (U+00E1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* abreve (U+0103): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* abreve (U+0103): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* acircumflex (U+00E2): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* acircumflex (U+00E2): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* adieresis (U+00E4): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* adieresis (U+00E4): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* agrave (U+00E0): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* agrave (U+00E0): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* amacron (U+0101): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* amacron (U+0101): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* aogonek (U+0105): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* aogonek (U+0105): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* aring (U+00E5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* aring (U+00E5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* aringacute (U+01FB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* aringacute (U+01FB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* at (U+0040): B<<570.0,108.5>-<576.0,141.0>-<591.0,195.0>>/B<<591.0,195.0>-<548.0,99.0>-<494.0,45.5>> = 8.604291933513561
+	* at (U+0040): B<<560.0,108.5>-<566.0,142.0>-<582.0,199.0>>/B<<582.0,199.0>-<537.0,102.0>-<482.5,47.0>> = 9.207887588505251
 
-	* atilde (U+00E3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* atilde (U+00E3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* b (U+0062): B<<227.5,339.0>-<216.0,305.0>-<201.0,263.0>>/B<<201.0,263.0>-<246.0,353.0>-<301.5,402.0>> = 6.911227119024662
+	* b (U+0062): B<<229.0,403.0>-<210.0,338.0>-<182.0,255.0>>/B<<182.0,255.0>-<229.0,347.0>-<285.5,397.0>> = 8.419314243773893
 
-	* d (U+0064): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* d (U+0064): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* dcaron (U+010F): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* dcaron (U+010F): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* dcroat (U+0111): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* dcroat (U+0111): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* dong (U+20AB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* dong (U+20AB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* eng (U+014B): B<<254.0,340.0>-<246.0,302.0>-<230.0,246.0>>/B<<230.0,246.0>-<279.0,349.0>-<345.0,400.0>> = 9.496352562079656
+	* eng (U+014B): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.0,392.0>> = 9.576717901670385
 
-	* h (U+0068): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
+	* h (U+0068): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
 
-	* hbar (U+0127): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
+	* hbar (U+0127): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
 
-	* hcircumflex (U+0125): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
+	* hcircumflex (U+0125): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
 
-	* lira (U+20A4): B<<262.0,158.0>-<240.0,132.0>-<201.0,99.0>>/B<<201.0,99.0>-<233.0,119.0>-<254.5,126.5>> = 8.230975101190243
+	* lira (U+20A4): B<<245.0,149.5>-<222.0,120.0>-<179.0,85.0>>/B<<179.0,85.0>-<213.0,104.0>-<234.5,112.0>> = 9.946500368506532
 
-	* m (U+006D): B<<255.0,339.0>-<247.0,301.0>-<231.0,245.0>>/B<<231.0,245.0>-<278.0,344.0>-<341.5,397.5>> = 9.45051594824773
+	* m (U+006D): B<<239.0,336.5>-<231.0,297.0>-<214.0,237.0>>/B<<214.0,237.0>-<259.0,334.0>-<321.5,390.5>> = 9.06821776342431
 
-	* m (U+006D): B<<544.0,329.0>-<536.0,299.0>-<522.0,263.0>>/B<<522.0,263.0>-<575.0,358.0>-<635.5,404.5>> = 7.906412375179762
+	* m (U+006D): B<<514.5,324.0>-<506.0,292.0>-<490.0,249.0>>/B<<490.0,249.0>-<541.0,344.0>-<600.5,395.5>> = 7.818893347565526
 
-	* n (U+006E): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* n (U+006E): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* nacute (U+0144): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* nacute (U+0144): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* napostrophe (U+0149): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* napostrophe (U+0149): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* ncaron (U+0148): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* ncaron (U+0148): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* ntilde (U+00F1): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* ntilde (U+00F1): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* ordfeminine (U+00AA): B<<293.5,309.5>-<299.0,338.0>-<311.0,380.0>>/B<<311.0,380.0>-<277.0,308.0>-<233.5,265.5>> = 9.332326334630059
+	* ordfeminine (U+00AA): B<<289.5,308.5>-<295.0,337.0>-<307.0,381.0>>/B<<307.0,381.0>-<271.0,308.0>-<227.0,265.5>> = 10.995123666631072
 
-	* p (U+0070): B<<254.0,340.5>-<246.0,303.0>-<231.0,248.0>>/B<<231.0,248.0>-<273.0,343.0>-<326.5,397.5>> = 8.595355205019107
+	* p (U+0070): B<<238.0,336.5>-<230.0,297.0>-<213.0,236.0>>/B<<213.0,236.0>-<257.0,334.0>-<312.0,391.0>> = 8.606563549878905
 
-	* q (U+0071): B<<316.5,116.0>-<324.0,148.0>-<336.0,193.0>>/B<<336.0,193.0>-<293.0,98.0>-<238.5,45.0>> = 9.421591996892062
+	* q (U+0071): B<<309.0,117.5>-<317.0,152.0>-<330.0,198.0>>/B<<330.0,198.0>-<285.0,102.0>-<229.0,47.0>> = 9.334081576629135
 
-	* r (U+0072): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* r (U+0072): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* racute (U+0155): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* racute (U+0155): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* rcaron (U+0159): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* rcaron (U+0159): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* sterling (U+00A3): B<<264.5,161.0>-<242.0,134.0>-<201.0,99.0>>/B<<201.0,99.0>-<233.0,119.0>-<254.5,126.5>> = 8.480628333915217
+	* sterling (U+00A3): B<<261.0,174.5>-<239.0,135.0>-<178.0,85.0>>/B<<178.0,85.0>-<212.0,104.0>-<234.0,112.0>> = 10.14303211377305
 
-	* thorn (U+00FE): B<<226.5,329.5>-<214.0,289.0>-<198.0,238.0>>/B<<198.0,238.0>-<242.0,337.0>-<296.5,394.5>> = 6.544518182375298
+	* thorn (U+00FE): B<<210.0,325.5>-<198.0,284.0>-<182.0,231.0>>/B<<182.0,231.0>-<227.0,332.0>-<282.0,390.0>> = 7.216730382812524
 
-	* u (U+0075): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* u (U+0075): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uacute (U+00FA): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uacute (U+00FA): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* ubreve (U+016D): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* ubreve (U+016D): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* ucircumflex (U+00FB): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* ucircumflex (U+00FB): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* udieresis (U+00FC): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* udieresis (U+00FC): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* ugrave (U+00F9): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* ugrave (U+00F9): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uhorn (U+01B0): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uhorn (U+01B0): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uhungarumlaut (U+0171): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uhungarumlaut (U+0171): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* umacron (U+016B): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* umacron (U+016B): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni00B5 (U+00B5): B<<347.0,83.5>-<351.0,107.0>-<360.0,141.0>>/B<<360.0,141.0>-<323.0,65.0>-<282.0,28.5>> = 11.132289291204966
+	* uni00B5 (U+00B5): B<<339.5,89.5>-<345.0,119.0>-<357.0,163.0>>/B<<357.0,163.0>-<318.0,81.0>-<272.5,36.5>> = 10.18109767735954
 
-	* uni0146 (U+0146): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* uni0146 (U+0146): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* uni0157 (U+0157): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* uni0157 (U+0157): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* uni01C5 (U+01C5): L<<1203.0,418.0>--<898.0,125.0>>/B<<898.0,125.0>-<910.0,132.0>-<925.0,136.5>> = 13.593969042195871
+	* uni01C6 (U+01C6): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni01C5 (U+01C5): L<<709.0,31.0>--<1019.0,330.0>>/B<<1019.0,330.0>-<1008.0,323.0>-<996.0,318.5>> = 11.494021095129373
+	* uni01CC (U+01CC): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* uni01C6 (U+01C6): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni0201 (U+0201): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni01C6 (U+01C6): L<<1046.0,418.0>--<741.0,125.0>>/B<<741.0,125.0>-<753.0,132.0>-<768.0,136.5>> = 13.593969042195871
+	* uni0203 (U+0203): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni01C6 (U+01C6): L<<552.0,31.0>--<862.0,330.0>>/B<<862.0,330.0>-<851.0,323.0>-<839.0,318.5>> = 11.494021095129373
+	* uni0211 (U+0211): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* uni01CC (U+01CC): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* uni0213 (U+0213): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* uni0201 (U+0201): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni0215 (U+0215): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni0203 (U+0203): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni0217 (U+0217): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni0211 (U+0211): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* uni0227 (U+0227): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni0213 (U+0213): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* uni03BC (U+03BC): B<<339.5,89.5>-<345.0,119.0>-<357.0,163.0>>/B<<357.0,163.0>-<318.0,81.0>-<272.5,36.5>> = 10.18109767735954
 
-	* uni0215 (U+0215): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uni1E0D (U+1E0D): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni0217 (U+0217): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uni1E0F (U+1E0F): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni0227 (U+0227): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1E25 (U+1E25): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
 
-	* uni03BC (U+03BC): B<<347.0,83.5>-<351.0,107.0>-<360.0,141.0>>/B<<360.0,141.0>-<323.0,65.0>-<282.0,28.5>> = 11.132289291204966
+	* uni1E2B (U+1E2B): B<<204.5,294.5>-<197.0,268.0>-<188.0,242.0>>/B<<188.0,242.0>-<236.0,339.0>-<300.5,393.0>> = 7.2348011046852205
 
-	* uni1E0D (U+1E0D): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1E43 (U+1E43): B<<239.0,336.5>-<231.0,297.0>-<214.0,237.0>>/B<<214.0,237.0>-<259.0,334.0>-<321.5,390.5>> = 9.06821776342431
 
-	* uni1E0F (U+1E0F): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1E43 (U+1E43): B<<514.5,324.0>-<506.0,292.0>-<490.0,249.0>>/B<<490.0,249.0>-<541.0,344.0>-<600.5,395.5>> = 7.818893347565526
 
-	* uni1E25 (U+1E25): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
+	* uni1E45 (U+1E45): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* uni1E2B (U+1E2B): B<<225.0,305.0>-<217.0,279.0>-<209.0,253.0>>/B<<209.0,253.0>-<259.0,352.0>-<324.5,401.5>> = 9.693352324921072
+	* uni1E47 (U+1E47): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* uni1E43 (U+1E43): B<<255.0,339.0>-<247.0,301.0>-<231.0,245.0>>/B<<231.0,245.0>-<278.0,344.0>-<341.5,397.5>> = 9.45051594824773
+	* uni1E49 (U+1E49): B<<238.0,337.5>-<230.0,298.0>-<213.0,238.0>>/B<<213.0,238.0>-<260.0,337.0>-<324.5,392.0>> = 9.576717901670385
 
-	* uni1E43 (U+1E43): B<<544.0,329.0>-<536.0,299.0>-<522.0,263.0>>/B<<522.0,263.0>-<575.0,358.0>-<635.5,404.5>> = 7.906412375179762
+	* uni1E5B (U+1E5B): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* uni1E45 (U+1E45): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* uni1E5F (U+1E5F): B<<231.0,333.0>-<223.0,288.0>-<201.0,216.0>>/B<<201.0,216.0>-<227.0,282.0>-<254.0,334.5>> = 4.510611032061739
 
-	* uni1E47 (U+1E47): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* uni1E79 (U+1E79): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1E49 (U+1E49): B<<254.0,340.0>-<246.0,302.0>-<230.0,245.0>>/B<<230.0,245.0>-<279.0,349.0>-<345.5,400.0>> = 9.54812534500931
+	* uni1E7B (U+1E7B): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1E5B (U+1E5B): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* uni1EA1 (U+1EA1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1E5F (U+1E5F): B<<245.0,336.5>-<237.0,292.0>-<218.0,228.0>>/B<<218.0,228.0>-<242.0,288.0>-<269.0,338.5>> = 5.266571629006573
+	* uni1EA3 (U+1EA3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1E79 (U+1E79): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uni1EA5 (U+1EA5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1E7B (U+1E7B): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uni1EA7 (U+1EA7): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1E93 (U+1E93): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
+	* uni1EA9 (U+1EA9): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1E93 (U+1E93): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
+	* uni1EAB (U+1EAB): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EA1 (U+1EA1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EAD (U+1EAD): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EA3 (U+1EA3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EAF (U+1EAF): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EA5 (U+1EA5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EB1 (U+1EB1): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EA7 (U+1EA7): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EB3 (U+1EB3): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EA9 (U+1EA9): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EB5 (U+1EB5): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EAB (U+1EAB): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EB7 (U+1EB7): B<<298.5,101.5>-<306.0,138.0>-<324.0,200.0>>/B<<324.0,200.0>-<280.0,103.0>-<225.0,47.5>> = 8.210229667148166
 
-	* uni1EAD (U+1EAD): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EE5 (U+1EE5): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EAF (U+1EAF): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EE7 (U+1EE7): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EB1 (U+1EB1): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EE9 (U+1EE9): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EB3 (U+1EB3): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EEB (U+1EEB): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EB5 (U+1EB5): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EED (U+1EED): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EB7 (U+1EB7): B<<307.0,103.5>-<315.0,139.0>-<332.0,197.0>>/B<<332.0,197.0>-<288.0,100.0>-<234.0,46.0>> = 8.063393034456642
+	* uni1EEF (U+1EEF): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uni1EE5 (U+1EE5): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EE7 (U+1EE7): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EE9 (U+1EE9): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EEB (U+1EEB): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EED (U+1EED): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EEF (U+1EEF): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
-
-	* uni1EF1 (U+1EF1): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uni1EF1 (U+1EF1): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
 	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
 
@@ -6805,27 +4100,2750 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
 
-	* uogonek (U+0173): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uogonek (U+0173): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912
 
-	* uring (U+016F): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* uring (U+016F): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 
 
-	* utilde (U+0169): B<<345.5,100.5>-<353.0,137.0>-<368.0,190.0>>/B<<368.0,190.0>-<321.0,90.0>-<257.5,41.0>> = 9.371010570594649
+	* And utilde (U+0169): B<<336.5,99.5>-<344.0,137.0>-<360.0,195.0>>/B<<360.0,195.0>-<315.0,99.0>-<253.0,45.5>> = 9.692673567405912 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
-	* z (U+007A): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-	* z (U+007A): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
-	* zacute (U+017A): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-	* zacute (U+017A): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
-	* zcaron (U+017E): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373
 
-	* zcaron (U+017E): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
 
-	* zdotaccent (U+017C): L<<-9.0,31.0>--<301.0,330.0>>/B<<301.0,330.0>-<290.0,323.0>-<278.0,318.5>> = 11.494021095129373 
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
 
-	* And zdotaccent (U+017C): L<<485.0,418.0>--<180.0,125.0>>/B<<180.0,125.0>-<192.0,132.0>-<207.0,136.5>> = 13.593969042195871 [code: found-jaggy-segments]
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* f (U+0066): L<<224.0,441.0>--<224.0,441.0>> -> L<<224.0,441.0>--<330.0,441.0>>
+
+	* fl (U+FB02): L<<224.0,441.0>--<224.0,441.0>> -> L<<224.0,441.0>--<330.0,441.0>>
+
+	* peseta (U+20A7): L<<100.0,222.0>--<101.0,369.0>> -> L<<101.0,369.0>--<101.0,370.0>>
+
+	* peseta (U+20A7): L<<254.0,370.0>--<254.0,369.0>> -> L<<254.0,369.0>--<254.0,292.0>>
+
+	* uni0233 (U+0233): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* uni1E8F (U+1E8F): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* uni1EF5 (U+1EF5): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* uni1EF7 (U+1EF7): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* uni1EF9 (U+1EF9): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* uni20B1 (U+20B1): L<<250.0,278.0>--<250.0,222.0>> -> L<<250.0,222.0>--<250.0,220.0>>
+
+	* y (U+0079): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* yacute (U+00FD): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* ycircumflex (U+0177): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>>
+
+	* ydieresis (U+00FF): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> 
+
+	* And ygrave (U+1EF3): L<<470.0,376.0>--<295.0,35.0>> -> L<<295.0,35.0>--<216.0,-130.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* threequarters (U+00BE): B<<131.0,362.0>-<109.0,362.0>-<109.0,361.0>>/L<<109.0,361.0>--<103.0,411.0>> = 6.842773412630916
+
+	* uni00B3 (U+00B3): B<<131.0,362.0>-<109.0,362.0>-<109.0,361.0>>/L<<109.0,361.0>--<103.0,411.0>> = 6.842773412630916
+
+	* uni2083 (U+2083): B<<131.0,163.0>-<109.0,163.0>-<109.0,162.0>>/L<<109.0,162.0>--<103.0,212.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
+
+	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* F (U+0046): L<<104.0,228.0>--<105.0,355.0>>
+
+	* IJ (U+0132): L<<465.0,-20.0>--<464.0,365.0>>
+
+	* IJ (U+0132): L<<616.0,362.0>--<617.0,0.0>>
+
+	* J (U+004A): L<<105.0,-20.0>--<104.0,365.0>>
+
+	* J (U+004A): L<<256.0,362.0>--<257.0,0.0>>
+
+	* Jcircumflex (U+0134): L<<105.0,-20.0>--<104.0,365.0>>
+
+	* Jcircumflex (U+0134): L<<256.0,362.0>--<257.0,0.0>>
+
+	* M (U+004D): L<<188.0,403.0>--<189.0,212.0>>
+
+	* P (U+0050): L<<104.0,222.0>--<105.0,369.0>>
+
+	* ampersand (U+0026): L<<508.0,346.0>--<748.0,347.0>>
+
+	* d (U+0064): L<<489.0,461.0>--<488.0,228.0>>
+
+	* dcaron (U+010F): L<<489.0,461.0>--<488.0,228.0>>
+
+	* dcroat (U+0111): L<<489.0,461.0>--<488.0,228.0>>
+
+	* dong (U+20AB): L<<489.0,461.0>--<488.0,228.0>>
+
+	* eng (U+014B): L<<523.0,268.0>--<521.0,7.0>>
+
+	* fl (U+FB02): L<<567.0,389.0>--<566.0,247.0>>
+
+	* four (U+0034): L<<443.0,417.0>--<444.0,236.0>>
+
+	* franc (U+20A3): L<<104.0,228.0>--<105.0,355.0>>
+
+	* germandbls (U+00DF): L<<226.0,523.0>--<228.0,246.0>>
+
+	* ij (U+0133): L<<389.0,-29.0>--<390.0,237.0>>
+
+	* ij (U+0133): L<<539.0,277.0>--<540.0,7.0>>
+
+	* j (U+006A): L<<230.0,277.0>--<232.0,33.0>>
+
+	* j (U+006A): L<<80.0,-10.0>--<81.0,237.0>>
+
+	* jcircumflex (U+0135): L<<230.0,277.0>--<232.0,33.0>>
+
+	* jcircumflex (U+0135): L<<80.0,-10.0>--<81.0,237.0>>
+
+	* k (U+006B): L<<228.0,386.0>--<227.0,238.0>>
+
+	* l (U+006C): L<<230.0,389.0>--<229.0,247.0>>
+
+	* lacute (U+013A): L<<230.0,389.0>--<229.0,247.0>>
+
+	* lcaron (U+013E): L<<230.0,389.0>--<229.0,247.0>>
+
+	* ldot (U+0140): L<<230.0,389.0>--<229.0,247.0>>
+
+	* lslash (U+0142): L<<230.0,389.0>--<229.0,247.0>>
+
+	* peseta (U+20A7): L<<100.0,222.0>--<101.0,369.0>>
+
+	* q (U+0071): L<<343.0,134.0>--<344.0,361.0>>
+
+	* q (U+0071): L<<346.0,-57.0>--<347.0,68.0>>
+
+	* q (U+0071): L<<487.0,259.0>--<489.0,-16.0>>
+
+	* thorn (U+00FE): L<<70.0,50.0>--<71.0,360.0>>
+
+	* uni0137 (U+0137): L<<228.0,386.0>--<227.0,238.0>>
+
+	* uni013C (U+013C): L<<230.0,389.0>--<229.0,247.0>>
+
+	* uni01C6 (U+01C6): L<<489.0,461.0>--<488.0,228.0>>
+
+	* uni01C7 (U+01C7): L<<660.0,-20.0>--<659.0,365.0>>
+
+	* uni01C7 (U+01C7): L<<811.0,362.0>--<812.0,0.0>>
+
+	* uni01C8 (U+01C8): L<<647.0,-29.0>--<648.0,237.0>>
+
+	* uni01C8 (U+01C8): L<<797.0,277.0>--<798.0,7.0>>
+
+	* uni01C9 (U+01C9): L<<230.0,389.0>--<229.0,247.0>>
+
+	* uni01C9 (U+01C9): L<<389.0,-29.0>--<390.0,237.0>>
+
+	* uni01C9 (U+01C9): L<<539.0,277.0>--<540.0,7.0>>
+
+	* uni01CA (U+01CA): L<<809.0,-20.0>--<808.0,365.0>>
+
+	* uni01CA (U+01CA): L<<960.0,362.0>--<961.0,0.0>>
+
+	* uni01CB (U+01CB): L<<789.0,-29.0>--<790.0,237.0>>
+
+	* uni01CB (U+01CB): L<<939.0,277.0>--<940.0,7.0>>
+
+	* uni01CC (U+01CC): L<<682.0,-29.0>--<683.0,237.0>>
+
+	* uni01CC (U+01CC): L<<832.0,277.0>--<833.0,7.0>>
+
+	* uni0237 (U+0237): L<<230.0,277.0>--<232.0,33.0>>
+
+	* uni0237 (U+0237): L<<80.0,-10.0>--<81.0,237.0>>
+
+	* uni1E0D (U+1E0D): L<<489.0,461.0>--<488.0,228.0>>
+
+	* uni1E0F (U+1E0F): L<<489.0,461.0>--<488.0,228.0>>
+
+	* uni1E37 (U+1E37): L<<230.0,389.0>--<229.0,247.0>>
+
+	* uni1E3B (U+1E3B): L<<230.0,389.0>--<229.0,247.0>>
+
+	* uni1E42 (U+1E42): L<<188.0,403.0>--<189.0,212.0>> 
+
+	* And uni20BA (U+20BA): L<<242.0,263.0>--<241.0,124.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] Mekorot-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* thorn (U+00FE): L<<9.0,-59.0>--<68.0,183.0>> -> L<<68.0,183.0>--<166.0,616.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* a (U+0061): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* aacute (U+00E1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* abreve (U+0103): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* acircumflex (U+00E2): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* adieresis (U+00E4): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* agrave (U+00E0): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* amacron (U+0101): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* aogonek (U+0105): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* aring (U+00E5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* aringacute (U+01FB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* at (U+0040): B<<525.5,104.5>-<531.0,137.0>-<548.0,205.0>>/B<<548.0,205.0>-<499.0,108.0>-<443.0,50.0>> = 12.7645914790281
+
+	* atilde (U+00E3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* b (U+0062): B<<148.5,314.5>-<137.0,272.0>-<122.0,224.0>>/B<<122.0,224.0>-<157.0,292.0>-<197.0,339.0>> = 9.881122063041218
+
+	* d (U+0064): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* dcaron (U+010F): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* dcroat (U+0111): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* dong (U+20AB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* eng (U+014B): B<<187.0,331.5>-<180.0,289.0>-<159.0,209.0>>/B<<159.0,209.0>-<186.0,266.0>-<220.0,318.0>> = 10.63787204226396
+
+	* h (U+0068): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
+
+	* hbar (U+0127): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
+
+	* hcircumflex (U+0125): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
+
+	* m (U+006D): B<<188.0,332.0>-<181.0,290.0>-<160.0,211.0>>/B<<160.0,211.0>-<187.0,268.0>-<221.0,319.5>> = 10.459909092929111
+
+	* m (U+006D): B<<417.0,311.5>-<407.0,269.0>-<387.0,202.0>>/B<<387.0,202.0>-<412.0,260.0>-<447.0,313.5>> = 6.696951472863011
+
+	* n (U+006E): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* nacute (U+0144): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* napostrophe (U+0149): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* ncaron (U+0148): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* ntilde (U+00F1): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* ordfeminine (U+00AA): B<<280.0,306.5>-<286.0,338.0>-<301.0,394.0>>/B<<301.0,394.0>-<260.0,316.0>-<212.5,269.5>> = 12.73317829314311
+
+	* p (U+0070): B<<187.0,330.0>-<180.0,282.0>-<157.0,195.0>>/B<<157.0,195.0>-<190.0,268.0>-<228.5,321.5>> = 9.517198200083724
+
+	* q (U+0071): B<<290.0,124.0>-<299.0,164.0>-<313.0,221.0>>/B<<313.0,221.0>-<281.0,152.0>-<242.5,100.5>> = 11.080881463162276
+
+	* r (U+0072): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* racute (U+0155): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* rcaron (U+0159): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* thorn (U+00FE): B<<155.5,306.0>-<144.0,259.0>-<128.0,198.0>>/B<<128.0,198.0>-<161.0,269.0>-<199.5,322.5>> = 10.231154855949354
+
+	* u (U+0075): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uacute (U+00FA): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* ubreve (U+016D): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* ucircumflex (U+00FB): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* udieresis (U+00FC): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* ugrave (U+00F9): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uhorn (U+01B0): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uhungarumlaut (U+0171): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* umacron (U+016B): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni00B5 (U+00B5): B<<313.5,93.5>-<321.0,134.0>-<340.0,209.0>>/B<<340.0,209.0>-<314.0,153.0>-<281.0,103.5>> = 10.688915334421631
+
+	* uni0146 (U+0146): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* uni0157 (U+0157): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* uni01C6 (U+01C6): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni01CC (U+01CC): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* uni0201 (U+0201): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni0203 (U+0203): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni0211 (U+0211): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* uni0213 (U+0213): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* uni0215 (U+0215): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni0217 (U+0217): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni0227 (U+0227): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni03BC (U+03BC): B<<313.5,93.5>-<321.0,134.0>-<340.0,209.0>>/B<<340.0,209.0>-<314.0,153.0>-<281.0,103.5>> = 10.688915334421631
+
+	* uni1E0D (U+1E0D): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1E0F (U+1E0F): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1E25 (U+1E25): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
+
+	* uni1E2B (U+1E2B): B<<147.0,267.0>-<141.0,242.0>-<131.0,204.0>>/B<<131.0,204.0>-<158.0,262.0>-<193.5,315.0>> = 10.21922699433623
+
+	* uni1E43 (U+1E43): B<<188.0,332.0>-<181.0,290.0>-<160.0,211.0>>/B<<160.0,211.0>-<187.0,268.0>-<221.0,319.5>> = 10.459909092929111
+
+	* uni1E43 (U+1E43): B<<417.0,311.5>-<407.0,269.0>-<387.0,202.0>>/B<<387.0,202.0>-<412.0,260.0>-<447.0,313.5>> = 6.696951472863011
+
+	* uni1E45 (U+1E45): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* uni1E47 (U+1E47): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* uni1E49 (U+1E49): B<<187.0,332.0>-<180.0,290.0>-<159.0,210.0>>/B<<159.0,210.0>-<186.0,267.0>-<221.0,318.5>> = 10.63787204226396
+
+	* uni1E5B (U+1E5B): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* uni1E5F (U+1E5F): B<<175.5,287.5>-<166.0,245.0>-<146.0,179.0>>/B<<146.0,179.0>-<184.0,277.0>-<213.0,333.0>> = 4.335657713803989
+
+	* uni1E79 (U+1E79): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1E7B (U+1E7B): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EA1 (U+1EA1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EA3 (U+1EA3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EA5 (U+1EA5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EA7 (U+1EA7): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EA9 (U+1EA9): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EAB (U+1EAB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EAD (U+1EAD): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EAF (U+1EAF): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EB1 (U+1EB1): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EB3 (U+1EB3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EB5 (U+1EB5): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EB7 (U+1EB7): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
+
+	* uni1EE5 (U+1EE5): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EE7 (U+1EE7): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EE9 (U+1EE9): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EEB (U+1EEB): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EED (U+1EED): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EEF (U+1EEF): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uni1EF1 (U+1EF1): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
+
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
+
+	* uogonek (U+0173): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444
+
+	* uring (U+016F): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 
+
+	* And utilde (U+0169): B<<305.5,94.0>-<313.0,135.0>-<333.0,211.0>>/B<<333.0,211.0>-<307.0,155.0>-<273.0,105.0>> = 10.161205971624444 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* peseta (U+20A7): L<<235.0,393.0>--<233.0,386.0>> -> L<<233.0,386.0>--<214.0,292.0>> 
+
+	* And thorn (U+00FE): L<<6.0,-59.0>--<66.0,185.0>> -> L<<66.0,185.0>--<163.0,613.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* a (U+0061): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* aacute (U+00E1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* abreve (U+0103): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* acircumflex (U+00E2): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* adieresis (U+00E4): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* agrave (U+00E0): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* amacron (U+0101): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* aogonek (U+0105): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* aring (U+00E5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* aringacute (U+01FB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* at (U+0040): B<<533.5,106.0>-<539.0,139.0>-<556.0,204.0>>/B<<556.0,204.0>-<508.0,107.0>-<451.5,49.5>> = 11.671541989410427
+
+	* atilde (U+00E3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* b (U+0062): B<<160.5,318.5>-<149.0,277.0>-<134.0,230.0>>/B<<134.0,230.0>-<168.0,296.0>-<207.5,343.0>> = 9.554900586275817
+
+	* d (U+0064): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* dcaron (U+010F): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* dcroat (U+0111): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* dong (U+20AB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* eng (U+014B): B<<197.5,332.5>-<190.0,291.0>-<170.0,216.0>>/B<<170.0,216.0>-<198.0,275.0>-<233.5,325.5>> = 10.456489112958362
+
+	* h (U+0068): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+
+	* hbar (U+0127): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+
+	* hcircumflex (U+0125): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+
+	* m (U+006D): B<<198.5,332.5>-<191.0,291.0>-<172.0,218.0>>/B<<172.0,218.0>-<200.0,277.0>-<235.0,327.0>> = 10.798987558221235
+
+	* m (U+006D): B<<437.0,312.5>-<427.0,272.0>-<406.0,208.0>>/B<<406.0,208.0>-<434.0,269.0>-<470.0,321.5>> = 6.489942214856037
+
+	* n (U+006E): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* nacute (U+0144): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* napostrophe (U+0149): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* ncaron (U+0148): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* ntilde (U+00F1): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* ordfeminine (U+00AA): B<<282.0,307.0>-<288.0,338.0>-<302.0,391.0>>/B<<302.0,391.0>-<262.0,314.0>-<215.5,268.5>> = 12.654235525874848
+
+	* p (U+0070): B<<197.5,330.5>-<190.0,284.0>-<168.0,203.0>>/B<<168.0,203.0>-<200.0,274.0>-<238.0,327.0>> = 9.066042325657882
+
+	* q (U+0071): B<<293.5,123.0>-<302.0,162.0>-<317.0,216.0>>/B<<317.0,216.0>-<285.0,148.0>-<247.5,97.5>> = 9.677012648720789
+
+	* r (U+0072): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* racute (U+0155): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* rcaron (U+0159): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* thorn (U+00FE): B<<167.0,310.0>-<155.0,264.0>-<139.0,205.0>>/B<<139.0,205.0>-<171.0,276.0>-<209.0,328.5>> = 9.088375506952467
+
+	* u (U+0075): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uacute (U+00FA): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* ubreve (U+016D): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* ucircumflex (U+00FB): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* udieresis (U+00FC): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* ugrave (U+00F9): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uhorn (U+01B0): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uhungarumlaut (U+0171): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* umacron (U+016B): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni00B5 (U+00B5): B<<319.0,93.5>-<326.0,132.0>-<344.0,200.0>>/B<<344.0,200.0>-<318.0,144.0>-<285.0,96.5>> = 10.078288837739507
+
+	* uni0146 (U+0146): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* uni0157 (U+0157): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* uni01C6 (U+01C6): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* uni01CC (U+01CC): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* uni0201 (U+0201): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni0203 (U+0203): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni0211 (U+0211): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* uni0213 (U+0213): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* uni0215 (U+0215): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni0217 (U+0217): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni0227 (U+0227): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni03BC (U+03BC): B<<319.0,93.5>-<326.0,132.0>-<344.0,200.0>>/B<<344.0,200.0>-<318.0,144.0>-<285.0,96.5>> = 10.078288837739507
+
+	* uni1E0D (U+1E0D): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* uni1E0F (U+1E0F): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+
+	* uni1E25 (U+1E25): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+
+	* uni1E2B (U+1E2B): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+
+	* uni1E43 (U+1E43): B<<198.5,332.5>-<191.0,291.0>-<172.0,218.0>>/B<<172.0,218.0>-<200.0,277.0>-<235.0,327.0>> = 10.798987558221235
+
+	* uni1E43 (U+1E43): B<<437.0,312.5>-<427.0,272.0>-<406.0,208.0>>/B<<406.0,208.0>-<434.0,269.0>-<470.0,321.5>> = 6.489942214856037
+
+	* uni1E45 (U+1E45): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* uni1E47 (U+1E47): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* uni1E49 (U+1E49): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+
+	* uni1E5B (U+1E5B): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* uni1E5F (U+1E5F): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+
+	* uni1E79 (U+1E79): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1E7B (U+1E7B): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EA1 (U+1EA1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EA3 (U+1EA3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EA5 (U+1EA5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EA7 (U+1EA7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EA9 (U+1EA9): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EAB (U+1EAB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EAD (U+1EAD): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EAF (U+1EAF): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EB1 (U+1EB1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EB3 (U+1EB3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EB5 (U+1EB5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EB7 (U+1EB7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+
+	* uni1EE5 (U+1EE5): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EE7 (U+1EE7): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EE9 (U+1EE9): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EEB (U+1EEB): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EED (U+1EED): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EEF (U+1EEF): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uni1EF1 (U+1EF1): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
+
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
+
+	* uogonek (U+0173): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+
+	* uring (U+016F): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 
+
+	* And utilde (U+0169): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* f (U+0066): L<<183.0,431.0>--<183.0,431.0>> -> L<<183.0,431.0>--<293.0,431.0>>
+
+	* fl (U+FB02): L<<183.0,431.0>--<183.0,431.0>> -> L<<183.0,431.0>--<293.0,431.0>>
+
+	* uni0233 (U+0233): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* uni1E8F (U+1E8F): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* uni1EF5 (U+1EF5): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* uni1EF7 (U+1EF7): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* uni1EF9 (U+1EF9): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* uni20BD (U+20BD): L<<109.0,193.0>--<109.0,201.0>> -> L<<109.0,201.0>--<110.0,263.0>>
+
+	* uni20BD (U+20BD): L<<211.0,263.0>--<212.0,201.0>> -> L<<212.0,201.0>--<212.0,193.0>>
+
+	* y (U+0079): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* yacute (U+00FD): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* ycircumflex (U+0177): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>>
+
+	* ydieresis (U+00FF): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> 
+
+	* And ygrave (U+1EF3): L<<439.0,378.0>--<268.0,25.0>> -> L<<268.0,25.0>--<189.0,-141.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* lira (U+20A4): B<<226.5,134.5>-<211.0,99.0>-<170.0,64.0>>/B<<170.0,64.0>-<204.0,81.0>-<226.5,88.0>> = 13.920960364920726
+
+	* sterling (U+00A3): B<<226.5,134.5>-<211.0,99.0>-<170.0,64.0>>/B<<170.0,64.0>-<204.0,81.0>-<226.5,88.0>> = 13.920960364920726
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
+
+	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* F (U+0046): L<<109.0,202.0>--<110.0,393.0>>
+
+	* IJ (U+0132): L<<529.0,381.0>--<530.0,12.0>>
+
+	* J (U+004A): L<<210.0,381.0>--<211.0,12.0>>
+
+	* Jcircumflex (U+0134): L<<210.0,381.0>--<211.0,12.0>>
+
+	* M (U+004D): L<<174.0,477.0>--<175.0,218.0>>
+
+	* M (U+004D): L<<645.0,208.0>--<643.0,484.0>>
+
+	* P (U+0050): L<<109.0,201.0>--<110.0,390.0>>
+
+	* Sigma (U+03A3): L<<462.0,588.0>--<461.0,430.0>>
+
+	* Sigma (U+03A3): L<<463.0,94.0>--<464.0,-91.0>>
+
+	* ampersand (U+0026): L<<468.0,334.0>--<684.0,335.0>>
+
+	* d (U+0064): L<<455.0,444.0>--<454.0,213.0>>
+
+	* dcaron (U+010F): L<<455.0,444.0>--<454.0,213.0>>
+
+	* dcroat (U+0111): L<<455.0,444.0>--<454.0,213.0>>
+
+	* dong (U+20AB): L<<455.0,444.0>--<454.0,213.0>>
+
+	* eng (U+014B): L<<376.0,-48.0>--<378.0,253.0>>
+
+	* eng (U+014B): L<<471.0,266.0>--<469.0,-11.0>>
+
+	* f (U+0066): L<<184.0,377.0>--<185.0,221.0>>
+
+	* f (U+0066): L<<92.0,214.0>--<91.0,377.0>>
+
+	* fl (U+FB02): L<<184.0,377.0>--<185.0,221.0>>
+
+	* fl (U+FB02): L<<486.0,382.0>--<485.0,226.0>>
+
+	* fl (U+FB02): L<<92.0,214.0>--<91.0,377.0>>
+
+	* four (U+0034): L<<398.0,436.0>--<399.0,230.0>>
+
+	* franc (U+20A3): L<<109.0,202.0>--<110.0,393.0>>
+
+	* germandbls (U+00DF): L<<183.0,516.0>--<185.0,208.0>>
+
+	* ij (U+0133): L<<367.0,-51.0>--<368.0,243.0>>
+
+	* ij (U+0133): L<<462.0,287.0>--<463.0,-11.0>>
+
+	* j (U+006A): L<<186.0,287.0>--<187.0,4.0>>
+
+	* j (U+006A): L<<91.0,-16.0>--<92.0,243.0>>
+
+	* jcircumflex (U+0135): L<<186.0,287.0>--<187.0,4.0>>
+
+	* jcircumflex (U+0135): L<<91.0,-16.0>--<92.0,243.0>>
+
+	* k (U+006B): L<<185.0,389.0>--<184.0,237.0>>
+
+	* l (U+006C): L<<187.0,382.0>--<186.0,226.0>>
+
+	* lacute (U+013A): L<<187.0,382.0>--<186.0,226.0>>
+
+	* lcaron (U+013E): L<<187.0,382.0>--<186.0,226.0>>
+
+	* ldot (U+0140): L<<187.0,382.0>--<186.0,226.0>>
+
+	* lslash (U+0142): L<<187.0,382.0>--<186.0,226.0>>
+
+	* p (U+0070): L<<89.0,9.0>--<91.0,240.0>>
+
+	* paragraph (U+00B6): L<<387.0,48.0>--<388.0,245.0>>
+
+	* paragraph (U+00B6): L<<389.0,303.0>--<391.0,539.0>>
+
+	* peseta (U+20A7): L<<109.0,201.0>--<110.0,388.0>>
+
+	* q (U+0071): L<<360.0,120.0>--<361.0,346.0>>
+
+	* radical (U+221A): L<<20.0,434.0>--<174.0,435.0>>
+
+	* summation (U+2211): L<<462.0,588.0>--<461.0,430.0>>
+
+	* summation (U+2211): L<<463.0,94.0>--<464.0,-91.0>>
+
+	* t (U+0074): L<<177.0,378.0>--<176.0,158.0>>
+
+	* tbar (U+0167): L<<177.0,378.0>--<176.0,158.0>>
+
+	* tcaron (U+0165): L<<177.0,378.0>--<176.0,158.0>>
+
+	* thorn (U+00FE): L<<78.0,22.0>--<80.0,362.0>>
+
+	* trademark (U+2122): L<<885.0,345.0>--<883.0,601.0>>
+
+	* uni0137 (U+0137): L<<185.0,389.0>--<184.0,237.0>>
+
+	* uni013C (U+013C): L<<187.0,382.0>--<186.0,226.0>>
+
+	* uni0163 (U+0163): L<<177.0,378.0>--<176.0,158.0>>
+
+	* uni01C6 (U+01C6): L<<455.0,444.0>--<454.0,213.0>>
+
+	* uni01C7 (U+01C7): L<<726.0,381.0>--<727.0,12.0>>
+
+	* uni01C8 (U+01C8): L<<613.0,-51.0>--<614.0,243.0>>
+
+	* uni01C8 (U+01C8): L<<708.0,287.0>--<709.0,-11.0>>
+
+	* uni01C9 (U+01C9): L<<187.0,382.0>--<186.0,226.0>>
+
+	* uni01C9 (U+01C9): L<<368.0,-51.0>--<369.0,243.0>>
+
+	* uni01C9 (U+01C9): L<<463.0,287.0>--<464.0,-11.0>>
+
+	* uni01CA (U+01CA): L<<885.0,381.0>--<886.0,12.0>>
+
+	* uni01CB (U+01CB): L<<771.0,-51.0>--<772.0,243.0>>
+
+	* uni01CB (U+01CB): L<<866.0,287.0>--<867.0,-11.0>>
+
+	* uni01CC (U+01CC): L<<652.0,-51.0>--<653.0,243.0>>
+
+	* uni01CC (U+01CC): L<<747.0,287.0>--<748.0,-11.0>>
+
+	* uni021B (U+021B): L<<177.0,378.0>--<176.0,158.0>>
+
+	* uni0237 (U+0237): L<<186.0,287.0>--<187.0,4.0>>
+
+	* uni0237 (U+0237): L<<91.0,-16.0>--<92.0,243.0>>
+
+	* uni1E0D (U+1E0D): L<<455.0,444.0>--<454.0,213.0>>
+
+	* uni1E0F (U+1E0F): L<<455.0,444.0>--<454.0,213.0>>
+
+	* uni1E37 (U+1E37): L<<187.0,382.0>--<186.0,226.0>>
+
+	* uni1E3B (U+1E3B): L<<187.0,382.0>--<186.0,226.0>>
+
+	* uni1E42 (U+1E42): L<<174.0,477.0>--<175.0,218.0>>
+
+	* uni1E42 (U+1E42): L<<645.0,208.0>--<643.0,484.0>>
+
+	* uni1E6D (U+1E6D): L<<177.0,378.0>--<176.0,158.0>>
+
+	* uni1E6F (U+1E6F): L<<177.0,378.0>--<176.0,158.0>>
+
+	* uni1E97 (U+1E97): L<<177.0,378.0>--<176.0,158.0>>
+
+	* uni1E9E (U+1E9E): L<<198.0,374.0>--<199.0,206.0>> 
+
+	* And uni1E9E (U+1E9E): L<<99.0,206.0>--<98.0,345.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* R (U+0052): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* Racute (U+0154): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* Rcaron (U+0158): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni0156 (U+0156): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni0210 (U+0210): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni0212 (U+0212): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni0233 (U+0233): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* uni1E5A (U+1E5A): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni1E5E (U+1E5E): L<<254.0,273.0>--<249.0,273.0>> -> L<<249.0,273.0>--<197.0,273.0>>
+
+	* uni1E8F (U+1E8F): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* uni1EF5 (U+1EF5): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* uni1EF7 (U+1EF7): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* uni1EF9 (U+1EF9): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* uni20BD (U+20BD): L<<112.0,193.0>--<112.0,194.0>> -> L<<112.0,194.0>--<112.0,268.0>>
+
+	* uni20BD (U+20BD): L<<199.0,268.0>--<199.0,194.0>> -> L<<199.0,194.0>--<199.0,193.0>>
+
+	* y (U+0079): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* yacute (U+00FD): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* ycircumflex (U+0177): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>>
+
+	* ydieresis (U+00FF): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> 
+
+	* And ygrave (U+1EF3): L<<431.0,379.0>--<261.0,22.0>> -> L<<261.0,22.0>--<181.0,-144.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121 
+
+	* And uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* F (U+0046): L<<112.0,194.0>--<113.0,405.0>>
+
+	* IJ (U+0132): L<<507.0,387.0>--<508.0,16.0>>
+
+	* J (U+004A): L<<197.0,387.0>--<198.0,16.0>>
+
+	* Jcircumflex (U+0134): L<<197.0,387.0>--<198.0,16.0>>
+
+	* M (U+004D): L<<171.0,500.0>--<172.0,219.0>>
+
+	* M (U+004D): L<<646.0,203.0>--<644.0,499.0>>
+
+	* P (U+0050): L<<112.0,194.0>--<113.0,397.0>>
+
+	* Sigma (U+03A3): L<<455.0,588.0>--<454.0,434.0>>
+
+	* ampersand (U+0026): L<<455.0,330.0>--<664.0,331.0>>
+
+	* d (U+0064): L<<445.0,439.0>--<444.0,209.0>>
+
+	* dcaron (U+010F): L<<445.0,439.0>--<444.0,209.0>>
+
+	* dcroat (U+0111): L<<445.0,439.0>--<444.0,209.0>>
+
+	* dong (U+20AB): L<<445.0,439.0>--<444.0,209.0>>
+
+	* eng (U+014B): L<<377.0,-52.0>--<379.0,256.0>>
+
+	* eng (U+014B): L<<455.0,266.0>--<454.0,-16.0>>
+
+	* f (U+0066): L<<172.0,378.0>--<173.0,206.0>>
+
+	* f (U+0066): L<<96.0,198.0>--<95.0,378.0>>
+
+	* fl (U+FB02): L<<172.0,378.0>--<173.0,206.0>>
+
+	* fl (U+FB02): L<<461.0,380.0>--<460.0,219.0>>
+
+	* fl (U+FB02): L<<96.0,198.0>--<95.0,378.0>>
+
+	* four (U+0034): L<<385.0,443.0>--<386.0,229.0>>
+
+	* franc (U+20A3): L<<112.0,194.0>--<113.0,405.0>>
+
+	* germandbls (U+00DF): L<<170.0,514.0>--<172.0,196.0>>
+
+	* ij (U+0133): L<<363.0,-58.0>--<364.0,245.0>>
+
+	* ij (U+0133): L<<441.0,291.0>--<442.0,-16.0>>
+
+	* j (U+006A): L<<173.0,291.0>--<174.0,-2.0>>
+
+	* j (U+006A): L<<95.0,-17.0>--<96.0,245.0>>
+
+	* jcircumflex (U+0135): L<<173.0,291.0>--<174.0,-2.0>>
+
+	* jcircumflex (U+0135): L<<95.0,-17.0>--<96.0,245.0>>
+
+	* k (U+006B): L<<172.0,390.0>--<171.0,236.0>>
+
+	* l (U+006C): L<<174.0,380.0>--<173.0,219.0>>
+
+	* lacute (U+013A): L<<174.0,380.0>--<173.0,219.0>>
+
+	* lcaron (U+013E): L<<174.0,380.0>--<173.0,219.0>>
+
+	* ldot (U+0140): L<<174.0,380.0>--<173.0,219.0>>
+
+	* lslash (U+0142): L<<174.0,380.0>--<173.0,219.0>>
+
+	* p (U+0070): L<<93.0,-6.0>--<95.0,241.0>>
+
+	* paragraph (U+00B6): L<<376.0,303.0>--<378.0,543.0>>
+
+	* peseta (U+20A7): L<<112.0,194.0>--<113.0,393.0>>
+
+	* q (U+0071): L<<366.0,116.0>--<367.0,342.0>>
+
+	* q (U+0071): L<<369.0,-59.0>--<368.0,65.0>>
+
+	* radical (U+221A): L<<15.0,431.0>--<152.0,432.0>>
+
+	* summation (U+2211): L<<455.0,588.0>--<454.0,434.0>>
+
+	* t (U+0074): L<<164.0,379.0>--<163.0,156.0>>
+
+	* tbar (U+0167): L<<164.0,379.0>--<163.0,156.0>>
+
+	* tcaron (U+0165): L<<164.0,379.0>--<163.0,156.0>>
+
+	* thorn (U+00FE): L<<82.0,14.0>--<84.0,363.0>>
+
+	* trademark (U+2122): L<<545.0,605.0>--<547.0,342.0>>
+
+	* trademark (U+2122): L<<873.0,342.0>--<871.0,614.0>>
+
+	* uni0137 (U+0137): L<<172.0,390.0>--<171.0,236.0>>
+
+	* uni013C (U+013C): L<<174.0,380.0>--<173.0,219.0>>
+
+	* uni0163 (U+0163): L<<164.0,379.0>--<163.0,156.0>>
+
+	* uni01C5 (U+01C5): L<<728.0,304.0>--<727.0,431.0>>
+
+	* uni01C6 (U+01C6): L<<445.0,439.0>--<444.0,209.0>>
+
+	* uni01C6 (U+01C6): L<<585.0,304.0>--<584.0,431.0>>
+
+	* uni01C7 (U+01C7): L<<703.0,387.0>--<704.0,16.0>>
+
+	* uni01C8 (U+01C8): L<<606.0,-58.0>--<607.0,245.0>>
+
+	* uni01C8 (U+01C8): L<<684.0,291.0>--<685.0,-16.0>>
+
+	* uni01C9 (U+01C9): L<<174.0,380.0>--<173.0,219.0>>
+
+	* uni01C9 (U+01C9): L<<364.0,-58.0>--<365.0,245.0>>
+
+	* uni01C9 (U+01C9): L<<442.0,291.0>--<443.0,-16.0>>
+
+	* uni01CA (U+01CA): L<<866.0,387.0>--<867.0,16.0>>
+
+	* uni01CB (U+01CB): L<<769.0,-58.0>--<770.0,245.0>>
+
+	* uni01CB (U+01CB): L<<847.0,291.0>--<848.0,-16.0>>
+
+	* uni01CC (U+01CC): L<<645.0,-58.0>--<646.0,245.0>>
+
+	* uni01CC (U+01CC): L<<723.0,291.0>--<724.0,-16.0>>
+
+	* uni021B (U+021B): L<<164.0,379.0>--<163.0,156.0>>
+
+	* uni0237 (U+0237): L<<173.0,291.0>--<174.0,-2.0>>
+
+	* uni0237 (U+0237): L<<95.0,-17.0>--<96.0,245.0>>
+
+	* uni1E0D (U+1E0D): L<<445.0,439.0>--<444.0,209.0>>
+
+	* uni1E0F (U+1E0F): L<<445.0,439.0>--<444.0,209.0>>
+
+	* uni1E37 (U+1E37): L<<174.0,380.0>--<173.0,219.0>>
+
+	* uni1E3B (U+1E3B): L<<174.0,380.0>--<173.0,219.0>>
+
+	* uni1E42 (U+1E42): L<<171.0,500.0>--<172.0,219.0>>
+
+	* uni1E42 (U+1E42): L<<646.0,203.0>--<644.0,499.0>>
+
+	* uni1E6D (U+1E6D): L<<164.0,379.0>--<163.0,156.0>>
+
+	* uni1E6F (U+1E6F): L<<164.0,379.0>--<163.0,156.0>>
+
+	* uni1E93 (U+1E93): L<<46.0,304.0>--<45.0,431.0>>
+
+	* uni1E97 (U+1E97): L<<164.0,379.0>--<163.0,156.0>>
+
+	* uni1E9E (U+1E9E): L<<101.0,199.0>--<100.0,350.0>>
+
+	* uni1E9E (U+1E9E): L<<185.0,378.0>--<186.0,199.0>>
+
+	* uni20B1 (U+20B1): L<<112.0,194.0>--<113.0,320.0>>
+
+	* uni20BC (U+20BC): L<<490.0,200.0>--<489.0,340.0>>
+
+	* z (U+007A): L<<46.0,304.0>--<45.0,431.0>>
+
+	* zacute (U+017A): L<<46.0,304.0>--<45.0,431.0>>
+
+	* zcaron (U+017E): L<<46.0,304.0>--<45.0,431.0>> 
+
+	* And zdotaccent (U+017C): L<<46.0,304.0>--<45.0,431.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[11] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -7379,539 +7397,6 @@ The following glyphs do not have the recommended number of contours:
 	* uring (U+016F): B<<327.5,98.5>-<335.0,137.0>-<352.0,199.0>>/B<<352.0,199.0>-<323.0,137.0>-<286.0,90.5>> = 9.734178645006873 
 
 	* And utilde (U+0169): B<<327.5,98.5>-<335.0,137.0>-<352.0,199.0>>/B<<352.0,199.0>-<323.0,137.0>-<286.0,90.5>> = 9.734178645006873 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
-
-
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- And i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- cent.BRACKET.700
-
-	- colonmonetary.BRACKET.700
-
-	- dollar.BRACKET.700
-
-	- j.alt
-
-	- uni006A0301.alt
-
-	- uni0326.alt
-
-	- uni20A6.BRACKET.501
-
-	- uni20A9.BRACKET.501 
-
-	- And uni20B2.BRACKET.700
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
-
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
-
-	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* f (U+0066): L<<196.0,514.0>--<196.0,435.0>> -> L<<196.0,435.0>--<196.0,434.0>>
-
-	* fl (U+FB02): L<<196.0,514.0>--<196.0,435.0>> -> L<<196.0,435.0>--<196.0,434.0>>
-
-	* uni0233 (U+0233): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* uni1E8F (U+1E8F): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* uni1EF5 (U+1EF5): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* uni1EF7 (U+1EF7): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* uni1EF9 (U+1EF9): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* uni20BA (U+20BA): L<<210.0,376.0>--<210.0,373.0>> -> L<<210.0,373.0>--<210.0,314.0>>
-
-	* y (U+0079): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* yacute (U+00FD): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* ycircumflex (U+0177): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* ydieresis (U+00FF): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>>
-
-	* yen (U+00A5): L<<224.0,182.0>--<224.0,186.0>> -> L<<224.0,186.0>--<224.0,242.0>>
-
-	* yen (U+00A5): L<<341.0,245.0>--<341.0,186.0>> -> L<<341.0,186.0>--<341.0,182.0>> 
-
-	* And ygrave (U+1EF3): L<<449.0,377.0>--<276.0,29.0>> -> L<<276.0,29.0>--<197.0,-137.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* lira (U+20A4): B<<240.5,143.0>-<225.0,111.0>-<186.0,75.0>>/B<<186.0,75.0>-<218.0,93.0>-<240.5,101.0>> = 13.351636414570214
-
-	* sterling (U+00A3): B<<243.0,149.5>-<228.0,115.0>-<186.0,75.0>>/B<<186.0,75.0>-<218.0,93.0>-<240.5,101.0>> = 14.245065429912337
-
-	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
-
-	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
-
-	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
-
-	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
-
-	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
-
-	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
-
-	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
-
-	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
-
-	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
-
-	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
-
-	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
-
-	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
-
-	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
-
-	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
-
-	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
-
-	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
-
-	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
-
-	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
-
-	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
-
-	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
-
-	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
-
-	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
-
-	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
-
-	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
-
-	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
-
-	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
-
-	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
-
-	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
-
-	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
-
-	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
-
-	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
-
-	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
-
-	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
-
-	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
-
-	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
-
-	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
-
-	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
-
-	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
-
-	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
-
-	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
-
-	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
-
-	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
-
-	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
-
-	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
-
-	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
-
-	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
-
-	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
-
-	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
-
-	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
-
-	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
-
-	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
-
-	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
-
-	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
-
-	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
-
-	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
-
-	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
-
-	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
-
-	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
-
-	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
-
-	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
-
-	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
-
-	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
-
-	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
-
-	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
-
-	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
-
-	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
-
-	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
-
-	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
-
-	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
-
-	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
-
-	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
-
-	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
-
-	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
-
-	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
-
-	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
-
-	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
-
-	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
-
-	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
-
-	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
-
-	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
-
-	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
-
-	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
-
-	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
-
-	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
-
-	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
-
-	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
-
-	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
-
-	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
-
-	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
-
-	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
-
-	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
-
-	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
-
-	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
-
-	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
-
-	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
-
-	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
-
-	* And uogonek (U+0173): B<<367.5,-57.5>-<396.0,-25.0>-<445.0,1.0>>/L<<445.0,1.0>--<395.0,-12.0>> = 13.376752829851425 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* F (U+0046): L<<106.0,211.0>--<107.0,380.0>>
-
-	* IJ (U+0132): L<<554.0,374.0>--<555.0,8.0>>
-
-	* J (U+004A): L<<224.0,374.0>--<225.0,8.0>>
-
-	* Jcircumflex (U+0134): L<<224.0,374.0>--<225.0,8.0>>
-
-	* M (U+004D): L<<177.0,452.0>--<178.0,216.0>>
-
-	* M (U+004D): L<<644.0,214.0>--<642.0,468.0>>
-
-	* P (U+0050): L<<106.0,208.0>--<107.0,383.0>>
-
-	* Sigma (U+03A3): L<<469.0,589.0>--<468.0,425.0>>
-
-	* ampersand (U+0026): L<<482.0,338.0>--<706.0,339.0>>
-
-	* d (U+0064): L<<466.0,449.0>--<465.0,218.0>>
-
-	* dcaron (U+010F): L<<466.0,449.0>--<465.0,218.0>>
-
-	* dcroat (U+0111): L<<466.0,449.0>--<465.0,218.0>>
-
-	* dong (U+20AB): L<<466.0,449.0>--<465.0,218.0>>
-
-	* eng (U+014B): L<<375.0,-43.0>--<377.0,250.0>>
-
-	* eng (U+014B): L<<488.0,265.0>--<486.0,-5.0>>
-
-	* f (U+0066): L<<198.0,375.0>--<199.0,237.0>>
-
-	* f (U+0066): L<<87.0,233.0>--<86.0,375.0>>
-
-	* fl (U+FB02): L<<198.0,375.0>--<199.0,237.0>>
-
-	* fl (U+FB02): L<<513.0,385.0>--<512.0,233.0>>
-
-	* fl (U+FB02): L<<87.0,233.0>--<86.0,375.0>>
-
-	* four (U+0034): L<<413.0,429.0>--<414.0,232.0>>
-
-	* franc (U+20A3): L<<106.0,211.0>--<107.0,380.0>>
-
-	* germandbls (U+00DF): L<<197.0,519.0>--<199.0,221.0>>
-
-	* ij (U+0133): L<<372.0,-43.0>--<373.0,240.0>>
-
-	* ij (U+0133): L<<486.0,283.0>--<487.0,-5.0>>
-
-	* j (U+006A): L<<200.0,283.0>--<201.0,10.0>>
-
-	* j (U+006A): L<<86.0,-14.0>--<87.0,240.0>>
-
-	* jcircumflex (U+0135): L<<200.0,283.0>--<201.0,10.0>>
-
-	* jcircumflex (U+0135): L<<86.0,-14.0>--<87.0,240.0>>
-
-	* k (U+006B): L<<199.0,388.0>--<198.0,237.0>>
-
-	* l (U+006C): L<<201.0,385.0>--<200.0,233.0>>
-
-	* lacute (U+013A): L<<201.0,385.0>--<200.0,233.0>>
-
-	* lcaron (U+013E): L<<201.0,385.0>--<200.0,233.0>>
-
-	* ldot (U+0140): L<<201.0,385.0>--<200.0,233.0>>
-
-	* lslash (U+0142): L<<201.0,385.0>--<200.0,233.0>>
-
-	* paragraph (U+00B6): L<<403.0,303.0>--<405.0,535.0>>
-
-	* peseta (U+20A7): L<<106.0,208.0>--<107.0,382.0>>
-
-	* q (U+0071): L<<354.0,125.0>--<355.0,350.0>>
-
-	* summation (U+2211): L<<469.0,589.0>--<468.0,425.0>>
-
-	* thorn (U+00FE): L<<74.0,32.0>--<76.0,361.0>>
-
-	* trademark (U+2122): L<<899.0,348.0>--<897.0,587.0>>
-
-	* uni0137 (U+0137): L<<199.0,388.0>--<198.0,237.0>>
-
-	* uni013C (U+013C): L<<201.0,385.0>--<200.0,233.0>>
-
-	* uni01C6 (U+01C6): L<<466.0,449.0>--<465.0,218.0>>
-
-	* uni01C7 (U+01C7): L<<751.0,374.0>--<752.0,8.0>>
-
-	* uni01C8 (U+01C8): L<<621.0,-43.0>--<622.0,240.0>>
-
-	* uni01C8 (U+01C8): L<<735.0,283.0>--<736.0,-5.0>>
-
-	* uni01C9 (U+01C9): L<<201.0,385.0>--<200.0,233.0>>
-
-	* uni01C9 (U+01C9): L<<373.0,-43.0>--<374.0,240.0>>
-
-	* uni01C9 (U+01C9): L<<487.0,283.0>--<488.0,-5.0>>
-
-	* uni01CA (U+01CA): L<<906.0,374.0>--<907.0,8.0>>
-
-	* uni01CB (U+01CB): L<<773.0,-43.0>--<774.0,240.0>>
-
-	* uni01CB (U+01CB): L<<887.0,283.0>--<888.0,-5.0>>
-
-	* uni01CC (U+01CC): L<<660.0,-43.0>--<661.0,240.0>>
-
-	* uni01CC (U+01CC): L<<774.0,283.0>--<775.0,-5.0>>
-
-	* uni0237 (U+0237): L<<200.0,283.0>--<201.0,10.0>>
-
-	* uni0237 (U+0237): L<<86.0,-14.0>--<87.0,240.0>>
-
-	* uni1E0D (U+1E0D): L<<466.0,449.0>--<465.0,218.0>>
-
-	* uni1E0F (U+1E0F): L<<466.0,449.0>--<465.0,218.0>>
-
-	* uni1E37 (U+1E37): L<<201.0,385.0>--<200.0,233.0>>
-
-	* uni1E3B (U+1E3B): L<<201.0,385.0>--<200.0,233.0>>
-
-	* uni1E42 (U+1E42): L<<177.0,452.0>--<178.0,216.0>>
-
-	* uni1E42 (U+1E42): L<<644.0,214.0>--<642.0,468.0>>
-
-	* uni1E9E (U+1E9E): L<<96.0,213.0>--<95.0,339.0>>
-
-	* uni20A6 (U+20A6): L<<176.0,429.0>--<177.0,248.0>> 
-
-	* And uni20BA (U+20BA): L<<210.0,258.0>--<209.0,110.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] Mekorot-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -8735,7 +8220,514 @@ The following glyphs do not have the recommended number of contours:
 	* zcaron (U+017E): L<<48.0,307.0>--<47.0,428.0>> 
 
 	* And zdotaccent (U+017C): L<<48.0,307.0>--<47.0,428.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] Mekorot-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current Font Bakery version is 0.8.10, while a newer 0.8.11 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
+
+	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+ 
+
+	- And 0x02BD (MODIFIER LETTER REVERSED COMMA)
+ [code: missing-codepoints]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + i 
+
+	- And i + l [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- cent.BRACKET.700
+
+	- colonmonetary.BRACKET.700
+
+	- dollar.BRACKET.700
+
+	- j.alt
+
+	- uni006A0301.alt
+
+	- uni0326.alt
+
+	- uni20A6.BRACKET.501
+
+	- uni20A9.BRACKET.501 
+
+	- And uni20B2.BRACKET.700
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni2075	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni2085	Contours detected: 2	Expected: 1
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+	- Glyph name: Lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+	- Glyph name: paragraph	Contours detected: 4	Expected: 1, 2 or 3
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+	- Glyph name: uni01C4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* peseta (U+20A7): L<<266.0,365.0>--<266.0,362.0>> -> L<<266.0,362.0>--<267.0,292.0>>
+
+	* uni0233 (U+0233): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* uni1E8F (U+1E8F): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* uni1EF5 (U+1EF5): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* uni1EF7 (U+1EF7): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* uni1EF9 (U+1EF9): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* uni20A6 (U+20A6): L<<614.0,323.0>--<614.0,321.0>> -> L<<614.0,321.0>--<614.0,278.0>>
+
+	* y (U+0079): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* yacute (U+00FD): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* ycircumflex (U+0177): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>>
+
+	* ydieresis (U+00FF): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> 
+
+	* And ygrave (U+1EF3): L<<480.0,376.0>--<303.0,38.0>> -> L<<303.0,38.0>--<224.0,-127.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* lira (U+20A4): B<<286.0,166.5>-<274.0,146.0>-<249.0,119.0>>/B<<249.0,119.0>-<272.0,134.0>-<290.5,140.5>> = 14.091256201393758
+
+	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
+
+	* uniF8FF (U+F8FF): B<<250.0,266.0>-<340.0,251.0>-<403.0,232.0>>/B<<403.0,232.0>-<371.0,239.0>-<333.0,244.5>> = 4.443556866944447
+
+	* uniF8FF (U+F8FF): B<<253.0,278.0>-<332.0,267.0>-<408.0,245.0>>/B<<408.0,245.0>-<365.0,254.0>-<325.5,259.5>> = 4.322850439676119
+
+	* uniF8FF (U+F8FF): B<<261.0,302.0>-<341.0,295.0>-<417.0,272.0>>/B<<417.0,272.0>-<339.0,290.0>-<257.0,293.0>> = 3.842855833759912
+
+	* uniF8FF (U+F8FF): B<<303.0,193.0>-<270.0,198.0>-<241.0,202.0>>/B<<241.0,202.0>-<279.0,193.0>-<312.5,184.0>> = 5.471217959912515
+
+	* uniF8FF (U+F8FF): B<<307.5,163.5>-<275.0,169.0>-<242.0,175.0>>/B<<242.0,175.0>-<269.0,168.0>-<296.0,159.5>> = 4.229608611773994
+
+	* uniF8FF (U+F8FF): B<<310.0,177.5>-<276.0,184.0>-<242.0,189.0>>/B<<242.0,189.0>-<283.0,178.0>-<314.0,169.0>> = 6.6524745071180424
+
+	* uniF8FF (U+F8FF): B<<312.0,198.5>-<347.0,189.0>-<383.0,179.0>>/B<<383.0,179.0>-<336.0,188.0>-<303.0,193.0>> = 4.6838055424236975
+
+	* uniF8FF (U+F8FF): B<<312.5,184.0>-<346.0,175.0>-<378.0,165.0>>/L<<378.0,165.0>--<375.0,166.0>> = 1.0809241866609105
+
+	* uniF8FF (U+F8FF): B<<314.0,169.0>-<345.0,160.0>-<372.0,152.0>>/B<<372.0,152.0>-<340.0,158.0>-<307.5,163.5>> = 5.884706105599919
+
+	* uniF8FF (U+F8FF): B<<317.0,206.0>-<280.0,212.0>-<241.0,216.0>>/B<<241.0,216.0>-<277.0,208.0>-<312.0,198.5>> = 6.672794123722455
+
+	* uniF8FF (U+F8FF): B<<320.5,238.0>-<358.0,229.0>-<397.0,218.0>>/B<<397.0,218.0>-<363.0,226.0>-<324.5,232.0>> = 2.5106537482657005
+
+	* uniF8FF (U+F8FF): B<<321.5,209.5>-<358.0,200.0>-<388.0,192.0>>/B<<388.0,192.0>-<354.0,200.0>-<317.0,206.0>> = 1.690897262950316
+
+	* uniF8FF (U+F8FF): B<<324.5,232.0>-<286.0,238.0>-<242.0,242.0>>/B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>> = 6.494940267704388
+
+	* uniF8FF (U+F8FF): B<<335.5,278.0>-<375.0,270.0>-<413.0,259.0>>/B<<413.0,259.0>-<367.0,268.0>-<328.0,273.5>> = 5.074136202343977
+
+	* uniF8FF (U+F8FF): B<<344.5,508.0>-<337.0,506.0>-<329.0,504.0>>/L<<329.0,504.0>--<347.0,504.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<348.0,318.0>-<388.0,311.0>-<428.0,299.0>>/B<<428.0,299.0>-<387.0,309.0>-<346.5,313.5>> = 2.9922832299136615
+
+	* uniF8FF (U+F8FF): B<<348.5,304.0>-<388.0,297.0>-<423.0,286.0>>/B<<423.0,286.0>-<335.0,305.0>-<262.0,305.0>> = 5.263531837294832
+
+	* uniF8FF (U+F8FF): B<<351.0,548.0>-<343.0,546.0>-<335.0,544.0>>/L<<335.0,544.0>--<380.0,544.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<351.5,331.0>-<391.0,324.0>-<433.0,313.0>>/B<<433.0,313.0>-<343.0,332.0>-<270.0,331.0>> = 2.755654597527708
+
+	* uniF8FF (U+F8FF): B<<357.5,607.5>-<349.0,605.0>-<340.0,602.0>>/B<<340.0,602.0>-<349.0,603.0>-<357.0,604.0>> = 12.094757077012058
+
+	* uniF8FF (U+F8FF): B<<361.5,628.5>-<351.0,626.0>-<341.0,621.0>>/B<<341.0,621.0>-<350.0,623.0>-<359.0,624.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<362.5,647.5>-<351.0,644.0>-<342.0,640.0>>/B<<342.0,640.0>-<367.0,645.0>-<383.0,646.0>> = 12.652556500557937
+
+	* uniF8FF (U+F8FF): B<<368.5,373.0>-<377.0,371.0>-<385.0,369.0>>/L<<385.0,369.0>--<359.0,369.0>> = 14.036243467926484
+
+	* uniF8FF (U+F8FF): B<<371.0,572.0>-<353.0,569.0>-<338.0,563.0>>/B<<338.0,563.0>-<343.0,564.0>-<363.0,564.0>> = 10.491477012331565
+
+	* uniF8FF (U+F8FF): B<<376.0,394.0>-<385.0,392.0>-<394.0,390.0>>/L<<394.0,390.0>--<365.0,390.0>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<382.5,414.0>-<392.0,412.0>-<402.0,410.0>>/L<<402.0,410.0>--<370.0,410.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<390.5,435.0>-<400.0,433.0>-<410.0,431.0>>/L<<410.0,431.0>--<376.0,431.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>>/B<<239.0,229.0>-<285.0,219.0>-<321.5,209.5>> = 6.692575923928558
+
+	* uniF8FF (U+F8FF): B<<397.5,456.0>-<407.0,454.0>-<417.0,451.0>>/B<<417.0,451.0>-<409.0,452.0>-<400.0,452.0>> = 9.574227885091789
+
+	* uniF8FF (U+F8FF): B<<403.0,477.0>-<413.0,475.0>-<425.0,472.0>>/B<<425.0,472.0>-<416.0,473.0>-<407.0,473.0>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<412.5,497.0>-<423.0,495.0>-<434.0,493.0>>/B<<434.0,493.0>-<424.0,493.0>-<414.5,493.5>> = 10.304846468766044
+
+	* uniF8FF (U+F8FF): B<<419.5,518.0>-<431.0,516.0>-<442.0,513.0>>/B<<442.0,513.0>-<432.0,514.0>-<422.0,514.5>> = 9.544525565558107
+
+	* uniF8FF (U+F8FF): B<<423.0,604.0>-<449.0,601.0>-<474.0,595.0>>/B<<474.0,595.0>-<458.0,597.0>-<446.0,597.5>> = 6.370716931893944
+
+	* uniF8FF (U+F8FF): B<<427.0,539.0>-<439.0,537.0>-<449.0,534.0>>/B<<449.0,534.0>-<435.0,535.0>-<425.0,535.5>> = 12.613627454018737
+
+	* uniF8FF (U+F8FF): B<<431.0,131.0>-<399.0,143.0>-<370.0,152.0>>/B<<370.0,152.0>-<405.0,145.0>-<441.5,134.5>> = 5.931526924919723
+
+	* uniF8FF (U+F8FF): B<<431.0,560.0>-<442.0,558.0>-<457.0,555.0>>/B<<457.0,555.0>-<446.0,556.0>-<435.0,556.5>> = 6.115503566285384
+
+	* uniF8FF (U+F8FF): B<<441.0,580.0>-<453.0,578.0>-<465.0,576.0>>/B<<465.0,576.0>-<454.0,576.0>-<442.5,576.5>> = 9.462322208025613
+
+	* uniF8FF (U+F8FF): B<<441.5,134.5>-<478.0,124.0>-<524.0,109.0>>/B<<524.0,109.0>-<487.0,124.0>-<450.5,138.5>> = 4.007427626210975
+
+	* uniF8FF (U+F8FF): B<<447.5,117.5>-<483.0,107.0>-<518.0,96.0>>/B<<518.0,96.0>-<463.0,119.0>-<431.0,131.0>> = 5.246606521810115
+
+	* uniF8FF (U+F8FF): B<<450.5,155.0>-<414.0,169.0>-<380.0,179.0>>/B<<380.0,179.0>-<415.0,172.0>-<454.0,160.5>> = 5.079607860014471
+
+	* uniF8FF (U+F8FF): B<<453.5,621.5>-<466.0,619.0>-<481.0,616.0>>/B<<481.0,616.0>-<465.0,618.0>-<453.0,618.5>> = 4.184916125118319
+
+	* uniF8FF (U+F8FF): B<<463.0,642.0>-<476.0,639.0>-<489.0,637.0>>/B<<489.0,637.0>-<464.0,640.0>-<437.0,640.0>> = 1.9033888499243334
+
+	* uniF8FF (U+F8FF): B<<468.5,195.0>-<431.0,209.0>-<396.0,219.0>>/B<<396.0,219.0>-<435.0,210.0>-<473.5,199.5>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<480.5,222.0>-<444.0,235.0>-<406.0,246.0>>/B<<406.0,246.0>-<491.0,227.0>-<561.0,202.0>> = 3.5441789542026467
+
+	* uniF8FF (U+F8FF): B<<499.0,247.0>-<463.0,260.0>-<417.0,273.0>>/B<<417.0,273.0>-<505.0,253.0>-<569.0,230.0>> = 2.9764872442284456
+
+	* uniF8FF (U+F8FF): B<<526.5,331.5>-<517.0,336.0>-<503.0,341.0>>/B<<503.0,341.0>-<517.0,338.0>-<527.5,335.0>> = 7.559066981041185
+
+	* uniF8FF (U+F8FF): B<<530.5,353.5>-<519.0,359.0>-<505.0,363.0>>/B<<505.0,363.0>-<518.0,360.0>-<530.0,356.0>> = 2.950779109006353
+
+	* uniF8FF (U+F8FF): B<<537.0,136.0>-<457.0,170.0>-<385.0,192.0>>/B<<385.0,192.0>-<461.0,174.0>-<542.0,148.0>> = 3.6662920300953163
+
+	* uniF8FF (U+F8FF): B<<538.5,373.0>-<528.0,377.0>-<507.0,384.0>>/B<<507.0,384.0>-<519.0,381.0>-<532.0,377.5>> = 4.398705354995426
+
+	* uniF8FF (U+F8FF): B<<539.5,418.5>-<526.0,424.0>-<512.0,429.0>>/L<<512.0,429.0>--<568.0,412.0>> = 2.767032934109331
+
+	* uniF8FF (U+F8FF): B<<542.0,149.0>-<464.0,183.0>-<391.0,205.0>>/B<<391.0,205.0>-<460.0,192.0>-<547.0,161.0>> = 6.101441014133636
+
+	* uniF8FF (U+F8FF): B<<542.0,439.5>-<530.0,444.0>-<513.0,450.0>>/B<<513.0,450.0>-<531.0,446.0>-<544.5,442.0>> = 6.911227119024662
+
+	* uniF8FF (U+F8FF): B<<546.0,104.0>-<544.0,105.0>-<542.0,106.0>>/L<<542.0,106.0>--<552.0,103.0>> = 9.86580694308429
+
+	* uniF8FF (U+F8FF): B<<552.0,177.0>-<488.0,208.0>-<401.0,232.0>>/B<<401.0,232.0>-<443.0,223.0>-<481.5,212.0>> = 3.327404241726616
+
+	* uniF8FF (U+F8FF): B<<552.0,482.0>-<538.0,488.0>-<518.0,493.0>>/B<<518.0,493.0>-<532.0,490.0>-<547.0,486.0>> = 1.9414863909143467
+
+	* uniF8FF (U+F8FF): B<<554.5,114.5>-<550.0,117.0>-<546.0,119.0>>/B<<546.0,119.0>-<553.0,116.0>-<567.0,112.0>> = 3.366460663429615
+
+	* uniF8FF (U+F8FF): B<<561.5,569.5>-<544.0,576.0>-<526.0,581.0>>/B<<526.0,581.0>-<570.0,572.0>-<597.0,561.0>> = 3.963980202536481
+
+	* uniF8FF (U+F8FF): B<<562.0,205.0>-<503.0,232.0>-<411.0,259.0>>/B<<411.0,259.0>-<496.0,240.0>-<564.0,216.0>> = 3.7556572749364725
+
+	* uniF8FF (U+F8FF): B<<562.0,385.0>-<540.0,397.0>-<509.0,406.0>>/B<<509.0,406.0>-<521.0,403.0>-<534.5,399.5>> = 2.1529627891003265
+
+	* uniF8FF (U+F8FF): B<<570.0,234.0>-<504.0,262.0>-<423.0,286.0>>/B<<423.0,286.0>-<516.0,266.0>-<571.0,244.0>> = 4.367536926462721
+
+	* uniF8FF (U+F8FF): B<<571.5,134.5>-<563.0,139.0>-<555.0,143.0>>/B<<555.0,143.0>-<563.0,141.0>-<572.0,137.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<572.0,250.0>-<502.0,279.0>-<428.0,300.0>>/B<<428.0,300.0>-<465.0,291.0>-<501.5,281.5>> = 2.1717749854910284
+
+	* uniF8FF (U+F8FF): B<<574.0,449.0>-<547.0,462.0>-<515.0,472.0>>/B<<515.0,472.0>-<531.0,469.0>-<546.5,464.5>> = 6.734369360106194
+
+	* uniF8FF (U+F8FF): B<<575.0,264.0>-<514.0,292.0>-<433.0,313.0>>/B<<433.0,313.0>-<522.0,293.0>-<576.0,273.0>> = 1.869391315497642
+
+	* uniF8FF (U+F8FF): B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>>/B<<638.0,176.0>-<625.0,187.0>-<610.5,197.5>> = 12.936786097941027
+
+	* uniF8FF (U+F8FF): B<<583.0,492.0>-<557.0,503.0>-<519.0,516.0>>/B<<519.0,516.0>-<561.0,506.0>-<585.0,497.0>> = 5.4935896159581965
+
+	* uniF8FF (U+F8FF): B<<586.5,154.0>-<575.0,161.0>-<564.0,168.0>>/B<<564.0,168.0>-<594.0,158.0>-<617.0,146.0>> = 14.036243467926457
+
+	* uniF8FF (U+F8FF): B<<587.0,512.0>-<561.0,525.0>-<522.0,538.0>>/B<<522.0,538.0>-<539.0,534.0>-<555.0,529.5>> = 5.1944289077347285
+
+	* uniF8FF (U+F8FF): B<<589.0,167.0>-<578.0,174.0>-<568.0,180.0>>/B<<568.0,180.0>-<580.0,176.0>-<595.0,169.5>> = 12.528807709151492
+
+	* uniF8FF (U+F8FF): B<<591.0,534.0>-<567.0,547.0>-<524.0,559.0>>/B<<524.0,559.0>-<564.0,550.0>-<593.0,540.0>> = 2.912427447446294
+
+	* uniF8FF (U+F8FF): B<<595.0,169.5>-<610.0,163.0>-<628.0,154.0>>/B<<628.0,154.0>-<619.0,161.0>-<608.5,168.5>> = 11.309932474020162
+
+	* uniF8FF (U+F8FF): B<<598.0,132.0>-<580.0,145.0>-<559.0,155.0>>/B<<559.0,155.0>-<570.0,151.0>-<581.0,147.0>> = 5.4802385399716025
+
+	* uniF8FF (U+F8FF): B<<600.0,576.0>-<572.0,589.0>-<528.0,602.0>>/B<<528.0,602.0>-<569.0,594.0>-<602.0,583.0>> = 5.419074631716267
+
+	* uniF8FF (U+F8FF): B<<604.0,598.0>-<572.0,613.0>-<530.0,625.0>>/B<<530.0,625.0>-<565.0,618.0>-<606.0,604.0>> = 4.635463426902617
+
+	* uniF8FF (U+F8FF): B<<606.0,185.5>-<591.0,195.0>-<577.0,205.0>>/B<<577.0,205.0>-<607.0,192.0>-<638.0,176.0>> = 12.108984983228941
+
+	* uniF8FF (U+F8FF): B<<608.5,168.5>-<598.0,176.0>-<572.0,192.0>>/B<<572.0,192.0>-<591.0,185.0>-<606.0,178.0>> = 11.382642815080818
+
+	* uniF8FF (U+F8FF): B<<610.5,197.5>-<596.0,208.0>-<581.0,218.0>>/B<<581.0,218.0>-<597.0,211.0>-<612.0,203.5>> = 10.060689795322912
+
+	* uniF8FF (U+F8FF): B<<612.0,203.5>-<627.0,196.0>-<642.0,188.0>>/B<<642.0,188.0>-<629.0,199.0>-<614.0,209.5>> = 12.163871373420882
+
+	* uniF8FF (U+F8FF): B<<614.0,209.5>-<599.0,220.0>-<585.0,230.0>>/B<<585.0,230.0>-<601.0,223.0>-<616.0,215.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<616.0,215.5>-<631.0,208.0>-<646.0,199.0>>/B<<646.0,199.0>-<633.0,210.0>-<618.0,221.0>> = 9.272601777200284
+
+	* uniF8FF (U+F8FF): B<<618.0,221.0>-<603.0,232.0>-<589.0,242.0>>/B<<589.0,242.0>-<605.0,235.0>-<620.0,227.5>> = 11.908300061317545
+
+	* uniF8FF (U+F8FF): B<<620.0,227.5>-<635.0,220.0>-<650.0,212.0>>/B<<650.0,212.0>-<640.0,220.0>-<627.5,229.0>> = 10.587321318237088
+
+	* uniF8FF (U+F8FF): B<<620.0,299.5>-<631.0,295.0>-<642.0,290.0>>/B<<642.0,290.0>-<631.0,298.0>-<621.0,305.0>> = 11.583418604687056
+
+	* uniF8FF (U+F8FF): B<<622.5,240.0>-<637.0,233.0>-<651.0,224.0>>/B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>> = 8.761242083107913
+
+	* uniF8FF (U+F8FF): B<<627.5,229.0>-<615.0,238.0>-<594.0,254.0>>/B<<594.0,254.0>-<608.0,247.0>-<622.5,240.0>> = 10.738897100905392
+
+	* uniF8FF (U+F8FF): B<<629.0,105.0>-<619.0,98.0>-<609.0,90.0>>/B<<609.0,90.0>-<619.0,96.0>-<629.0,101.5>> = 7.696051722016556
+
+	* uniF8FF (U+F8FF): B<<638.5,359.5>-<648.0,355.0>-<660.0,348.0>>/B<<660.0,348.0>-<645.0,361.0>-<635.0,368.0>> = 10.657946056495817
+
+	* uniF8FF (U+F8FF): B<<647.0,378.0>-<657.0,373.0>-<666.0,367.0>>/B<<666.0,367.0>-<656.0,377.0>-<645.0,384.5>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<651.0,224.0>-<625.0,247.0>-<598.0,266.0>>/B<<598.0,266.0>-<613.0,259.0>-<628.0,251.0>> = 10.117299578815619
+
+	* uniF8FF (U+F8FF): B<<653.0,490.0>-<681.0,476.0>-<699.0,463.0>>/B<<699.0,463.0>-<679.0,484.0>-<653.0,500.0>> = 10.559528073018036
+
+	* uniF8FF (U+F8FF): B<<653.5,41.0>-<648.0,38.0>-<643.0,36.0>>/B<<643.0,36.0>-<663.0,42.0>-<676.0,49.0>> = 5.102165252358075
+
+	* uniF8FF (U+F8FF): B<<656.0,419.5>-<667.0,414.0>-<679.0,406.0>>/B<<679.0,406.0>-<660.0,423.0>-<635.0,440.0>> = 8.13010235415596
+
+	* uniF8FF (U+F8FF): B<<656.5,28.0>-<649.0,24.0>-<641.0,22.0>>/B<<641.0,22.0>-<652.0,26.0>-<662.0,29.0>> = 5.946863053973453
+
+	* uniF8FF (U+F8FF): B<<657.0,151.5>-<636.0,134.0>-<613.0,121.0>>/B<<613.0,121.0>-<635.0,136.0>-<654.5,154.5>> = 4.810987973963087
+
+	* uniF8FF (U+F8FF): B<<663.5,438.5>-<675.0,433.0>-<685.0,425.0>>/B<<685.0,425.0>-<678.0,433.0>-<668.0,441.0>> = 10.154266580200266
+
+	* uniF8FF (U+F8FF): B<<670.5,458.0>-<681.0,452.0>-<692.0,444.0>>/B<<692.0,444.0>-<673.0,464.0>-<647.0,480.0>> = 10.44142732928218
+
+	* uniF8FF (U+F8FF): B<<672.0,551.0>-<692.0,540.0>-<724.0,516.0>>/B<<724.0,516.0>-<711.0,530.0>-<698.0,541.5>> = 10.251198750817418
+
+	* uniF8FF (U+F8FF): B<<679.0,570.0>-<706.0,557.0>-<732.0,531.0>>/B<<732.0,531.0>-<721.0,545.0>-<708.0,558.0>> = 6.842773412630916
+
+	* uniF8FF (U+F8FF): B<<691.5,515.0>-<703.0,507.0>-<715.0,499.0>>/B<<715.0,499.0>-<703.0,511.0>-<691.0,521.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): B<<697.0,130.0>-<721.0,150.0>-<732.0,161.0>>/B<<732.0,161.0>-<720.0,148.0>-<704.5,133.0>> = 2.2906100426384346
+
+	* uniF8FF (U+F8FF): B<<709.0,102.0>-<729.0,116.0>-<745.0,135.0>>/B<<745.0,135.0>-<723.0,107.0>-<694.0,84.0>> = 1.9436809588430874
+
+	* uniF8FF (U+F8FF): B<<709.0,159.5>-<718.0,167.0>-<725.0,175.0>>/B<<725.0,175.0>-<700.0,148.0>-<686.5,134.5>> = 1.6114766725245204
+
+	* uniF8FF (U+F8FF): B<<731.0,140.0>-<735.0,143.0>-<739.0,148.0>>/B<<739.0,148.0>-<736.0,144.0>-<731.0,140.0>> = 1.7899106082456686
+
+	* uniF8FF (U+F8FF): B<<733.5,102.5>-<743.0,111.0>-<752.0,121.0>>/B<<752.0,121.0>-<731.0,96.0>-<706.0,75.0>> = 1.9569532239267668
+
+	* uniF8FF (U+F8FF): L<<307.0,365.0>--<298.0,365.0>>/L<<298.0,365.0>--<328.0,359.0>> = 11.309932474020195
+
+	* uniF8FF (U+F8FF): L<<378.0,165.0>--<375.0,166.0>>/B<<375.0,166.0>-<415.0,157.0>-<453.5,145.5>> = 5.754565331102121
+
+	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418 
+
+	* And uogonek (U+0173): B<<388.0,-56.0>-<416.0,-26.0>-<462.0,1.0>>/L<<462.0,1.0>--<410.0,-14.0>> = 14.320264918273203 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* IJ (U+0132): L<<479.0,-18.0>--<477.0,360.0>>
+
+	* IJ (U+0132): L<<644.0,357.0>--<646.0,-4.0>>
+
+	* J (U+004A): L<<105.0,-18.0>--<103.0,360.0>>
+
+	* J (U+004A): L<<270.0,357.0>--<272.0,-4.0>>
+
+	* Jcircumflex (U+0134): L<<105.0,-18.0>--<103.0,360.0>>
+
+	* Jcircumflex (U+0134): L<<270.0,357.0>--<272.0,-4.0>>
+
+	* P (U+0050): L<<103.0,229.0>--<104.0,362.0>>
+
+	* ampersand (U+0026): L<<519.0,349.0>--<767.0,350.0>>
+
+	* d (U+0064): L<<500.0,467.0>--<499.0,233.0>>
+
+	* dcaron (U+010F): L<<500.0,467.0>--<499.0,233.0>>
+
+	* dcroat (U+0111): L<<500.0,467.0>--<499.0,233.0>>
+
+	* dong (U+20AB): L<<500.0,467.0>--<499.0,233.0>>
+
+	* eng (U+014B): L<<538.0,270.0>--<536.0,12.0>>
+
+	* fi (U+FB01): L<<392.0,167.0>--<393.0,287.0>>
+
+	* fl (U+FB02): L<<591.0,391.0>--<590.0,254.0>>
+
+	* four (U+0034): L<<457.0,411.0>--<458.0,238.0>>
+
+	* germandbls (U+00DF): L<<239.0,525.0>--<241.0,257.0>>
+
+	* ij (U+0133): L<<397.0,-22.0>--<398.0,235.0>>
+
+	* ij (U+0133): L<<563.0,275.0>--<564.0,12.0>>
+
+	* j (U+006A): L<<244.0,275.0>--<246.0,44.0>>
+
+	* j (U+006A): L<<78.0,-8.0>--<79.0,235.0>>
+
+	* jcircumflex (U+0135): L<<244.0,275.0>--<246.0,44.0>>
+
+	* jcircumflex (U+0135): L<<78.0,-8.0>--<79.0,235.0>>
+
+	* k (U+006B): L<<241.0,385.0>--<240.0,239.0>>
+
+	* l (U+006C): L<<243.0,391.0>--<242.0,254.0>>
+
+	* lacute (U+013A): L<<243.0,391.0>--<242.0,254.0>>
+
+	* lcaron (U+013E): L<<243.0,391.0>--<242.0,254.0>>
+
+	* ldot (U+0140): L<<243.0,391.0>--<242.0,254.0>>
+
+	* lslash (U+0142): L<<243.0,391.0>--<242.0,254.0>>
+
+	* peseta (U+20A7): L<<98.0,229.0>--<99.0,362.0>>
+
+	* q (U+0071): L<<338.0,138.0>--<339.0,366.0>>
+
+	* q (U+0071): L<<498.0,270.0>--<499.0,-14.0>>
+
+	* thorn (U+00FE): L<<68.0,58.0>--<69.0,360.0>>
+
+	* uni0137 (U+0137): L<<241.0,385.0>--<240.0,239.0>>
+
+	* uni013C (U+013C): L<<243.0,391.0>--<242.0,254.0>>
+
+	* uni01C6 (U+01C6): L<<500.0,467.0>--<499.0,233.0>>
+
+	* uni01C7 (U+01C7): L<<673.0,-18.0>--<671.0,360.0>>
+
+	* uni01C7 (U+01C7): L<<838.0,357.0>--<840.0,-4.0>>
+
+	* uni01C8 (U+01C8): L<<659.0,-22.0>--<660.0,235.0>>
+
+	* uni01C8 (U+01C8): L<<825.0,275.0>--<826.0,12.0>>
+
+	* uni01C9 (U+01C9): L<<243.0,391.0>--<242.0,254.0>>
+
+	* uni01C9 (U+01C9): L<<397.0,-22.0>--<398.0,235.0>>
+
+	* uni01C9 (U+01C9): L<<563.0,275.0>--<564.0,12.0>>
+
+	* uni01CA (U+01CA): L<<819.0,-18.0>--<817.0,360.0>>
+
+	* uni01CA (U+01CA): L<<984.0,357.0>--<986.0,-4.0>>
+
+	* uni01CB (U+01CB): L<<797.0,-22.0>--<798.0,235.0>>
+
+	* uni01CB (U+01CB): L<<963.0,275.0>--<964.0,12.0>>
+
+	* uni01CC (U+01CC): L<<692.0,-22.0>--<693.0,235.0>>
+
+	* uni01CC (U+01CC): L<<858.0,275.0>--<859.0,12.0>>
+
+	* uni0237 (U+0237): L<<244.0,275.0>--<246.0,44.0>>
+
+	* uni0237 (U+0237): L<<78.0,-8.0>--<79.0,235.0>>
+
+	* uni1E0D (U+1E0D): L<<500.0,467.0>--<499.0,233.0>>
+
+	* uni1E0F (U+1E0F): L<<500.0,467.0>--<499.0,233.0>>
+
+	* uni1E37 (U+1E37): L<<243.0,391.0>--<242.0,254.0>> 
+
+	* And uni1E3B (U+1E3B): L<<243.0,391.0>--<242.0,254.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
@@ -8873,191 +8865,199 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* peseta (U+20A7): L<<235.0,393.0>--<233.0,386.0>> -> L<<233.0,386.0>--<214.0,292.0>> 
+	* peseta (U+20A7): L<<109.0,203.0>--<147.0,381.0>> -> L<<147.0,381.0>--<149.0,388.0>>
 
-	* And thorn (U+00FE): L<<6.0,-59.0>--<66.0,185.0>> -> L<<66.0,185.0>--<163.0,613.0>> [code: found-colinear-vectors]
+	* peseta (U+20A7): L<<246.0,388.0>--<244.0,381.0>> -> L<<244.0,381.0>--<226.0,292.0>> 
+
+	* And thorn (U+00FE): L<<2.0,-59.0>--<64.0,187.0>> -> L<<64.0,187.0>--<159.0,609.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* Q (U+0051): B<<481.0,40.5>-<427.0,8.0>-<366.0,-2.0>>/B<<366.0,-2.0>-<402.0,-5.0>-<427.5,-13.0>> = 14.073581865712175
 
-	* aacute (U+00E1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* a (U+0061): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* abreve (U+0103): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aacute (U+00E1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* acircumflex (U+00E2): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* abreve (U+0103): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* adieresis (U+00E4): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* acircumflex (U+00E2): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* agrave (U+00E0): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* adieresis (U+00E4): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* amacron (U+0101): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* agrave (U+00E0): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* aogonek (U+0105): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* amacron (U+0101): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* aring (U+00E5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aogonek (U+0105): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* aringacute (U+01FB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aring (U+00E5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* at (U+0040): B<<533.5,106.0>-<539.0,139.0>-<556.0,204.0>>/B<<556.0,204.0>-<508.0,107.0>-<451.5,49.5>> = 11.671541989410427
+	* aringacute (U+01FB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* atilde (U+00E3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* at (U+0040): B<<541.5,108.0>-<547.0,142.0>-<564.0,203.0>>/B<<564.0,203.0>-<517.0,106.0>-<461.0,49.0>> = 10.27931894525012
 
-	* b (U+0062): B<<160.5,318.5>-<149.0,277.0>-<134.0,230.0>>/B<<134.0,230.0>-<168.0,296.0>-<207.5,343.0>> = 9.554900586275817
+	* atilde (U+00E3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* d (U+0064): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* b (U+0062): B<<174.0,323.0>-<163.0,283.0>-<148.0,238.0>>/B<<148.0,238.0>-<197.0,335.0>-<257.5,388.0>> = 8.36588612403259
 
-	* dcaron (U+010F): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* d (U+0064): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* dcroat (U+0111): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* dcaron (U+010F): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* dong (U+20AB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* dcroat (U+0111): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* eng (U+014B): B<<197.5,332.5>-<190.0,291.0>-<170.0,216.0>>/B<<170.0,216.0>-<198.0,275.0>-<233.5,325.5>> = 10.456489112958362
+	* dong (U+20AB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* h (U+0068): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+	* eng (U+014B): B<<209.5,334.0>-<202.0,293.0>-<183.0,223.0>>/B<<183.0,223.0>-<211.0,284.0>-<248.0,333.5>> = 9.470061481880276
 
-	* hbar (U+0127): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+	* h (U+0068): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
 
-	* hcircumflex (U+0125): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+	* hbar (U+0127): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
 
-	* m (U+006D): B<<198.5,332.5>-<191.0,291.0>-<172.0,218.0>>/B<<172.0,218.0>-<200.0,277.0>-<235.0,327.0>> = 10.798987558221235
+	* hcircumflex (U+0125): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
 
-	* m (U+006D): B<<437.0,312.5>-<427.0,272.0>-<406.0,208.0>>/B<<406.0,208.0>-<434.0,269.0>-<470.0,321.5>> = 6.489942214856037
+	* lira (U+20A4): B<<243.0,215.0>-<231.0,130.0>-<147.0,66.0>>/B<<147.0,66.0>-<180.0,81.0>-<201.5,87.0>> = 12.859993497566874
 
-	* n (U+006E): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* m (U+006D): B<<210.5,334.0>-<203.0,293.0>-<184.0,223.0>>/B<<184.0,223.0>-<213.0,284.0>-<249.0,333.5>> = 10.241036907388501
 
-	* nacute (U+0144): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* m (U+006D): B<<460.5,316.0>-<451.0,279.0>-<431.0,221.0>>/B<<431.0,221.0>-<461.0,283.0>-<497.5,332.5>> = 6.795385936620577
 
-	* napostrophe (U+0149): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* n (U+006E): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* ncaron (U+0148): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* nacute (U+0144): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* ntilde (U+00F1): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* napostrophe (U+0149): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* ordfeminine (U+00AA): B<<282.0,307.0>-<288.0,338.0>-<302.0,391.0>>/B<<302.0,391.0>-<262.0,314.0>-<215.5,268.5>> = 12.654235525874848
+	* ncaron (U+0148): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* p (U+0070): B<<197.5,330.5>-<190.0,284.0>-<168.0,203.0>>/B<<168.0,203.0>-<200.0,274.0>-<238.0,327.0>> = 9.066042325657882
+	* ntilde (U+00F1): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* q (U+0071): B<<293.5,123.0>-<302.0,162.0>-<317.0,216.0>>/B<<317.0,216.0>-<285.0,148.0>-<247.5,97.5>> = 9.677012648720789
+	* ordfeminine (U+00AA): B<<283.5,307.5>-<289.0,337.0>-<303.0,387.0>>/B<<303.0,387.0>-<264.0,311.0>-<218.5,267.0>> = 11.52273860012316
 
-	* r (U+0072): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* p (U+0070): B<<209.0,332.0>-<201.0,288.0>-<181.0,213.0>>/B<<181.0,213.0>-<229.0,317.0>-<286.5,379.0>> = 9.84372339069437
 
-	* racute (U+0155): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* q (U+0071): B<<297.5,120.5>-<306.0,158.0>-<320.0,210.0>>/B<<320.0,210.0>-<273.0,110.0>-<215.0,51.0>> = 10.105036365037968
 
-	* rcaron (U+0159): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* r (U+0072): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* thorn (U+00FE): B<<167.0,310.0>-<155.0,264.0>-<139.0,205.0>>/B<<139.0,205.0>-<171.0,276.0>-<209.0,328.5>> = 9.088375506952467
+	* racute (U+0155): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* u (U+0075): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* rcaron (U+0159): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uacute (U+00FA): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* sterling (U+00A3): B<<222.0,150.5>-<199.0,106.0>-<146.0,65.0>>/B<<146.0,65.0>-<179.0,81.0>-<200.5,87.0>> = 11.858638248016213
 
-	* ubreve (U+016D): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* thorn (U+00FE): B<<179.0,315.5>-<167.0,271.0>-<152.0,214.0>>/B<<152.0,214.0>-<199.0,318.0>-<257.0,379.5>> = 9.575745774712123
 
-	* ucircumflex (U+00FB): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* u (U+0075): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* udieresis (U+00FC): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uacute (U+00FA): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* ugrave (U+00F9): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* ubreve (U+016D): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uhorn (U+01B0): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* ucircumflex (U+00FB): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uhungarumlaut (U+0171): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* udieresis (U+00FC): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* umacron (U+016B): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* ugrave (U+00F9): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni00B5 (U+00B5): B<<319.0,93.5>-<326.0,132.0>-<344.0,200.0>>/B<<344.0,200.0>-<318.0,144.0>-<285.0,96.5>> = 10.078288837739507
+	* uhorn (U+01B0): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni0146 (U+0146): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* uhungarumlaut (U+0171): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni0157 (U+0157): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* umacron (U+016B): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni01C6 (U+01C6): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* uni00B5 (U+00B5): B<<325.0,94.0>-<332.0,131.0>-<348.0,193.0>>/B<<348.0,193.0>-<322.0,136.0>-<290.0,90.5>> = 10.0493485881249
 
-	* uni01CC (U+01CC): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* uni0146 (U+0146): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* uni0201 (U+0201): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni0157 (U+0157): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uni0203 (U+0203): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni01C6 (U+01C6): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni0211 (U+0211): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* uni01CC (U+01CC): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* uni0213 (U+0213): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* uni0201 (U+0201): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni0215 (U+0215): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni0203 (U+0203): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni0217 (U+0217): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni0211 (U+0211): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uni0227 (U+0227): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni0213 (U+0213): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uni03BC (U+03BC): B<<319.0,93.5>-<326.0,132.0>-<344.0,200.0>>/B<<344.0,200.0>-<318.0,144.0>-<285.0,96.5>> = 10.078288837739507
+	* uni0215 (U+0215): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1E0D (U+1E0D): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* uni0217 (U+0217): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1E0F (U+1E0F): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
+	* uni0227 (U+0227): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1E25 (U+1E25): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+	* uni03BC (U+03BC): B<<325.0,94.0>-<332.0,131.0>-<348.0,193.0>>/B<<348.0,193.0>-<322.0,136.0>-<290.0,90.5>> = 10.0493485881249
 
-	* uni1E2B (U+1E2B): B<<158.0,271.0>-<151.0,245.0>-<142.0,210.0>>/B<<142.0,210.0>-<170.0,270.0>-<206.5,322.0>> = 10.596120350589045
+	* uni1E0D (U+1E0D): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1E43 (U+1E43): B<<198.5,332.5>-<191.0,291.0>-<172.0,218.0>>/B<<172.0,218.0>-<200.0,277.0>-<235.0,327.0>> = 10.798987558221235
+	* uni1E0F (U+1E0F): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1E43 (U+1E43): B<<437.0,312.5>-<427.0,272.0>-<406.0,208.0>>/B<<406.0,208.0>-<434.0,269.0>-<470.0,321.5>> = 6.489942214856037
+	* uni1E25 (U+1E25): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
 
-	* uni1E45 (U+1E45): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* uni1E2B (U+1E2B): B<<170.5,277.5>-<163.0,251.0>-<154.0,219.0>>/B<<154.0,219.0>-<183.0,281.0>-<221.0,331.0>> = 9.358825609044692
 
-	* uni1E47 (U+1E47): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* uni1E43 (U+1E43): B<<210.5,334.0>-<203.0,293.0>-<184.0,223.0>>/B<<184.0,223.0>-<213.0,284.0>-<249.0,333.5>> = 10.241036907388501
 
-	* uni1E49 (U+1E49): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
+	* uni1E43 (U+1E43): B<<460.5,316.0>-<451.0,279.0>-<431.0,221.0>>/B<<431.0,221.0>-<461.0,283.0>-<497.5,332.5>> = 6.795385936620577
 
-	* uni1E5B (U+1E5B): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* uni1E45 (U+1E45): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* uni1E5F (U+1E5F): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
+	* uni1E47 (U+1E47): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* uni1E79 (U+1E79): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1E49 (U+1E49): B<<209.5,334.0>-<202.0,293.0>-<183.0,224.0>>/B<<183.0,224.0>-<212.0,284.0>-<249.0,333.5>> = 10.40047724050487
 
-	* uni1E7B (U+1E7B): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1E5B (U+1E5B): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uni1EA1 (U+1EA1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1E5F (U+1E5F): B<<204.0,328.5>-<196.0,282.0>-<170.0,195.0>>/B<<170.0,195.0>-<218.0,319.0>-<258.0,380.0>> = 4.522454146401924
 
-	* uni1EA3 (U+1EA3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1E79 (U+1E79): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1EA5 (U+1EA5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1E7B (U+1E7B): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1EA7 (U+1EA7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA1 (U+1EA1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EA9 (U+1EA9): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA3 (U+1EA3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EAB (U+1EAB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA5 (U+1EA5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EAD (U+1EAD): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA7 (U+1EA7): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EAF (U+1EAF): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA9 (U+1EA9): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EB1 (U+1EB1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAB (U+1EAB): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EB3 (U+1EB3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAD (U+1EAD): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EB5 (U+1EB5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAF (U+1EAF): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EB7 (U+1EB7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EB1 (U+1EB1): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EE5 (U+1EE5): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EB3 (U+1EB3): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EE7 (U+1EE7): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EB5 (U+1EB5): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EE9 (U+1EE9): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EB7 (U+1EB7): B<<286.5,97.5>-<294.0,136.0>-<313.0,205.0>>/B<<313.0,205.0>-<266.0,107.0>-<210.0,49.5>> = 10.226446690611917
 
-	* uni1EEB (U+1EEB): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EE5 (U+1EE5): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1EED (U+1EED): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EE7 (U+1EE7): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1EEF (U+1EEF): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EE9 (U+1EE9): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uni1EF1 (U+1EF1): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uni1EEB (U+1EEB): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
+
+	* uni1EED (U+1EED): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
+
+	* uni1EEF (U+1EEF): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
+
+	* uni1EF1 (U+1EF1): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
 	* uniF8FF (U+F8FF): B<<242.0,242.0>-<329.0,224.0>-<392.0,205.0>>/B<<392.0,205.0>-<321.0,221.0>-<239.0,229.0>> = 4.083059655673266
 
@@ -9275,11 +9275,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniF8FF (U+F8FF): L<<575.0,117.0>--<551.0,131.0>>/B<<551.0,131.0>-<558.0,129.0>-<565.5,126.0>> = 14.311041262606418
 
-	* uogonek (U+0173): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
+	* uogonek (U+0173): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315
 
-	* uring (U+016F): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 
+	* uring (U+016F): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 
 
-	* And utilde (U+0169): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365 [code: found-jaggy-segments]
+	* And utilde (U+0169): B<<319.5,96.5>-<327.0,136.0>-<345.0,204.0>>/B<<345.0,204.0>-<317.0,144.0>-<281.5,96.0>> = 10.190413507744315 [code: found-jaggy-segments]
 </div></details><br></div></details>
 ### Summary
 
