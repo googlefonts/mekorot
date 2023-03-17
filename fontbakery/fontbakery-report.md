@@ -5,7 +5,7 @@ Fontbakery version: 0.8.11
 <details><summary><b>[12] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -587,7 +587,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1173,7 +1173,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -1699,7 +1699,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -2485,7 +2485,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -3023,7 +3023,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-ExtraLightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -3589,7 +3589,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -4143,7 +4143,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -4669,7 +4669,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -4835,7 +4835,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* aringacute (U+01FB): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
 
-	* at (U+0040): B<<525.5,104.5>-<531.0,137.0>-<548.0,205.0>>/B<<548.0,205.0>-<499.0,108.0>-<443.0,50.0>> = 12.7645914790281
+	* at (U+0040): B<<525.5,104.5>-<531.0,137.0>-<548.0,205.0>>/B<<548.0,205.0>-<515.0,140.0>-<479.0,92.5>> = 12.880311149024827
 
 	* atilde (U+00E3): B<<279.0,94.0>-<286.0,135.0>-<305.0,209.0>>/B<<305.0,209.0>-<274.0,144.0>-<237.0,95.0>> = 11.097530186546713
 
@@ -5217,7 +5217,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -5365,29 +5365,29 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* a (U+0061): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* a (U+0061): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* aacute (U+00E1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aacute (U+00E1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* abreve (U+0103): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* abreve (U+0103): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* acircumflex (U+00E2): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* acircumflex (U+00E2): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* adieresis (U+00E4): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* adieresis (U+00E4): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* agrave (U+00E0): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* agrave (U+00E0): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* amacron (U+0101): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* amacron (U+0101): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* aogonek (U+0105): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aogonek (U+0105): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* aring (U+00E5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aring (U+00E5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* aringacute (U+01FB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* aringacute (U+01FB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
 	* at (U+0040): B<<533.5,106.0>-<539.0,139.0>-<556.0,204.0>>/B<<556.0,204.0>-<508.0,107.0>-<451.5,49.5>> = 11.671541989410427
 
-	* atilde (U+00E3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* atilde (U+00E3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
 	* b (U+0062): B<<160.5,318.5>-<149.0,277.0>-<134.0,230.0>>/B<<134.0,230.0>-<168.0,296.0>-<207.5,343.0>> = 9.554900586275817
 
@@ -5463,9 +5463,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni01CC (U+01CC): B<<197.5,332.5>-<190.0,291.0>-<171.0,217.0>>/B<<171.0,217.0>-<198.0,276.0>-<234.0,326.0>> = 10.190095859404936
 
-	* uni0201 (U+0201): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni0201 (U+0201): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni0203 (U+0203): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni0203 (U+0203): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
 	* uni0211 (U+0211): B<<193.5,327.5>-<186.0,281.0>-<158.0,189.0>>/B<<158.0,189.0>-<193.0,278.0>-<221.5,333.0>> = 4.540138374951839
 
@@ -5475,7 +5475,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0217 (U+0217): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
 
-	* uni0227 (U+0227): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni0227 (U+0227): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
 	* uni03BC (U+03BC): B<<319.0,93.5>-<326.0,132.0>-<344.0,200.0>>/B<<344.0,200.0>-<318.0,144.0>-<285.0,96.5>> = 10.078288837739507
 
@@ -5505,29 +5505,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1E7B (U+1E7B): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
 
-	* uni1EA1 (U+1EA1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA1 (U+1EA1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EA3 (U+1EA3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA3 (U+1EA3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EA5 (U+1EA5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA5 (U+1EA5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EA7 (U+1EA7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA7 (U+1EA7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EA9 (U+1EA9): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EA9 (U+1EA9): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EAB (U+1EAB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAB (U+1EAB): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EAD (U+1EAD): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAD (U+1EAD): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EAF (U+1EAF): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EAF (U+1EAF): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EB1 (U+1EB1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EB1 (U+1EB1): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EB3 (U+1EB3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EB3 (U+1EB3): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EB5 (U+1EB5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EB5 (U+1EB5): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
-	* uni1EB7 (U+1EB7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<262.0,109.0>-<205.0,50.5>> = 10.839269901991319
+	* uni1EB7 (U+1EB7): B<<282.5,95.5>-<290.0,135.0>-<309.0,207.0>>/B<<309.0,207.0>-<278.0,142.0>-<241.5,93.5>> = 10.714825450722083
 
 	* uni1EE5 (U+1EE5): B<<312.0,95.5>-<320.0,136.0>-<339.0,208.0>>/B<<339.0,208.0>-<312.0,150.0>-<277.0,101.0>> = 10.180063788191365
 
@@ -5767,7 +5767,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -6325,7 +6325,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -6907,7 +6907,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -7465,7 +7465,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -8293,7 +8293,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[13] Mekorot-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -8805,7 +8805,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[12] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1228 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1138 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
