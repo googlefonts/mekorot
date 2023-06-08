@@ -1,9 +1,6 @@
 {
 .appVersion = "3150";
 .formatVersion = 3;
-DisplayStrings = (
-A
-);
 axes = (
 {
 name = Weight;
@@ -134,7 +131,7 @@ size = "-10";
 id = m01;
 metricValues = (
 {
-pos = 760;
+pos = 759;
 },
 {
 over = 10;
@@ -148,7 +145,7 @@ pos = 450;
 over = -10;
 },
 {
-pos = -240;
+pos = -241;
 },
 {
 }
@@ -248,7 +245,7 @@ iconName = Bold;
 id = m002;
 metricValues = (
 {
-pos = 760;
+pos = 759;
 },
 {
 over = 10;
@@ -262,7 +259,7 @@ pos = 450;
 over = -10;
 },
 {
-pos = -240;
+pos = -241;
 },
 {
 }
@@ -54098,23 +54095,6 @@ m002 = 1;
 };
 name = ExtraBold;
 weightClass = 800;
-},
-{
-axesValues = (
-0
-);
-customParameters = (
-{
-name = "Variable Font Origin";
-value = m01;
-}
-);
-instanceInterpolations = {
-m002 = -1.5;
-m01 = 2.5;
-};
-name = Regular;
-type = variable;
 }
 );
 kerningLTR = {
