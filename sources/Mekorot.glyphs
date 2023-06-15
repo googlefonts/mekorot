@@ -33685,7 +33685,7 @@ ref = "yod-hb";
 },
 {
 alignment = -1;
-pos = (58,-121);
+pos = (132,-159);
 ref = "dagesh-hb";
 }
 );
@@ -33805,7 +33805,8 @@ shapes = (
 ref = "yodyod-hb";
 },
 {
-pos = (266,262);
+alignment = -1;
+pos = (255,290);
 ref = "patah-hb";
 }
 );
@@ -33828,7 +33829,8 @@ width = 708;
 unicode = 64287;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "ayinaltone-hb";
 layers = (
 {
@@ -33853,7 +33855,8 @@ width = 706;
 unicode = 64288;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "alefWide-hb";
 layers = (
 {
@@ -33878,7 +33881,8 @@ width = 625;
 unicode = 64289;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "daletWide-hb";
 layers = (
 {
@@ -33903,7 +33907,8 @@ width = 585;
 unicode = 64290;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "heWide-hb";
 layers = (
 {
@@ -33928,7 +33933,8 @@ width = 664;
 unicode = 64291;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "kafWide-hb";
 layers = (
 {
@@ -33953,7 +33959,8 @@ width = 549;
 unicode = 64292;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "lamedWide-hb";
 layers = (
 {
@@ -33978,7 +33985,8 @@ width = 471;
 unicode = 64293;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "memFinalWide-hb";
 layers = (
 {
@@ -34003,7 +34011,8 @@ width = 664;
 unicode = 64294;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "reshWide-hb";
 layers = (
 {
@@ -34028,7 +34037,8 @@ width = 585;
 unicode = 64295;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = "tavWide-hb";
 layers = (
 {
@@ -50149,30 +50159,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-117,-176,o),
+(-107,-176,o),
 (-85,-169,o),
 (-1,-169,cs),
 (88,-169,o),
-(123,-176,o),
-(143,-176,cs),
-(160,-176,o),
+(113,-176,o),
+(133,-176,cs),
+(154,-176,o),
 (171,-161,o),
 (171,-138,cs),
 (171,-116,o),
-(160,-100,o),
-(143,-100,cs),
-(123,-100,o),
+(154,-100,o),
+(133,-100,cs),
+(113,-100,o),
 (88,-106,o),
 (-1,-106,cs),
 (-85,-106,o),
-(-117,-100,o),
-(-139,-100,cs),
-(-156,-100,o),
+(-107,-100,o),
+(-129,-100,cs),
+(-150,-100,o),
 (-167,-116,o),
 (-167,-138,cs),
 (-167,-161,o),
-(-156,-176,o),
-(-139,-176,cs)
+(-150,-176,o),
+(-129,-176,cs)
 );
 }
 );
@@ -50259,25 +50269,25 @@ nodes = (
 (54,-166,cs),
 (92,-166,o),
 (113,-174,o),
-(151,-174,cs),
-(168,-174,o),
+(141,-174,cs),
+(162,-174,o),
 (182,-159,o),
 (182,-135,cs),
 (182,-111,o),
-(168,-100,o),
-(151,-100,cs),
+(162,-100,o),
+(141,-100,cs),
 (113,-100,o),
 (75,-111,o),
 (-2,-111,cs),
 (-72,-111,o),
 (-115,-100,o),
-(-147,-100,cs),
-(-164,-100,o),
+(-137,-100,cs),
+(-158,-100,o),
 (-178,-113,o),
 (-178,-137,cs),
 (-178,-161,o),
-(-164,-176,o),
-(-147,-176,cs)
+(-158,-176,o),
+(-137,-176,cs)
 );
 }
 );
