@@ -7,7 +7,29 @@ name = Weight;
 tag = wght;
 }
 );
+classes = (
+{
+automatic = 1;
+code = "";
+name = Uppercase;
+}
+);
 customParameters = (
+{
+name = panose;
+value = (
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
 {
 name = fsType;
 value = (
@@ -26,6 +48,10 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
 name = "Axis Mappings";
 value = {
 wght = {
@@ -36,14 +62,162 @@ wght = {
 800 = 150;
 };
 };
-},
-{
-name = "Enforce Compatibility Check";
-value = 0;
 }
 );
 date = "2021-07-16 04:59:07 +0000";
 familyName = Mekorot;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+languagesystem hebr dflt;
+languagesystem hebr IWR;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature case;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zero.sinf;
+sub one by one.sinf;
+sub two by two.sinf;
+sub three by three.sinf;
+sub four by four.sinf;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zero.sinf;
+sub one by one.sinf;
+sub two by two.sinf;
+sub three by three.sinf;
+sub four by four.sinf;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub zero by zero.sups;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub dieresiscomb by dieresiscomb.case;
+sub dotaccentcomb by dotaccentcomb.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub hungarumlautcomb by hungarumlautcomb.case;
+sub circumflexcomb by circumflexcomb.case;
+sub caroncomb by caroncomb.case;
+sub brevecomb by brevecomb.case;
+sub ringcomb by ringcomb.case;
+sub tildecomb by tildecomb.case;
+sub macroncomb by macroncomb.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub vav-hb vav-hb by vavvav-hb;
+sub vav-hb yod-hb by vavyod-hb;
+sub yod-hb yod-hb by yodyod-hb;
+";
+tag = dlig;
+}
+);
 fontMaster = (
 {
 axesValues = (
