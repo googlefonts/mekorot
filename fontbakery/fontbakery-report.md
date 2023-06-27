@@ -82,7 +82,7 @@ Mekorot ExtraBold: -300
 Mekorot SemiBold: -300
 Mekorot Bold Italic: -463
 Mekorot Medium Italic: -463 [code: descent-mismatch]
-</div></details><br></div></details><details><summary><b>[13] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "522" it should be 0 [code: bad-OS/2.sTypoLineGap]
@@ -93,9 +93,9 @@ Mekorot Medium Italic: -463 [code: descent-mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̤̇ i̤̊ i̤̋ ǐ̤ i̤̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -134,6 +134,26 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f 
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -149,155 +169,45 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- Euro.OP
 
-	- T_h
-
 	- a.superior
-
-	- aacute.sc
-
-	- abreve.sc
-
-	- acircumflex.sc
-
-	- acute.case
 
 	- acutedotaccent
 
-	- acutedotaccent.case
-
-	- adieresis.sc
-
-	- aeacute.sc
-
-	- agrave.sc
-
-	- amacron.sc
-
-	- ampersand.sc
-
-	- aogonek.sc
-
-	- aring.sc
-
-	- aringacute.sc
-
-	- at.case
-
-	- at.sc
-
-	- atilde.sc
-
 	- b.superior
-
-	- backslash.case
 
 	- blacktriangle
 
-	- braceleft.case
-
-	- braceright.case
-
-	- bracketleft.case
-
-	- bracketright.case
-
-	- breve.case
-
 	- breveacute
-
-	- breveacute.case
 
 	- brevegrave
 
-	- brevegrave.case
-
 	- brevehookabove
-
-	- brevehookabove.case
 
 	- brevetilde
 
-	- brevetilde.case
-
 	- c.superior
 
-	- c_h
-
-	- c_t
-
-	- cacute.sc
-
-	- caron.case
-
 	- carondotaccent
-
-	- carondotaccent.case
-
-	- ccaron.sc
-
-	- ccedilla.sc
-
-	- ccircumflex.sc
-
-	- cdotaccent.sc
 
 	- cent.LP
 
 	- cent.OP
 
-	- circumflex.case
-
 	- circumflexhookabove
-
-	- circumflexhookabove.case
 
 	- circumflextilde
 
-	- circumflextilde.case
-
 	- d.superior
 
-	- dcaron.sc
-
-	- dcroat.sc
-
-	- dieresis.case
-
-	- dieresisacute.case
-
 	- dieresismacron
-
-	- dieresismacron.case
 
 	- dollar.LP
 
 	- dollar.OP
 
-	- dotaccent.case
-
 	- dotaccentmacron
 
-	- dotaccentmacron.case
-
-	- dotbelowcomb.case
-
-	- dotlessi.sc
-
 	- e.superior
-
-	- eacute.sc
-
-	- ebreve.sc
-
-	- ecaron.sc
-
-	- ecircumflex.sc
-
-	- edieresis.sc
-
-	- edotaccent.sc
-
-	- egrave.sc
 
 	- eight.LP
 
@@ -307,47 +217,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- eight.sups
 
-	- emacron.sc
-
-	- emdash.case
-
-	- endash.case
-
-	- eng.sc
-
-	- eogonek.sc
-
-	- eth.sc
-
-	- exclam.sc
-
-	- exclamdown.case
-
-	- exclamdown.sc
-
-	- f.sc
-
 	- f.superior
-
-	- f_b
-
-	- f_f_b
-
-	- f_f_h
-
-	- f_f_j
-
-	- f_f_k
-
-	- f_f_t
-
-	- f_h
-
-	- f_j
-
-	- f_k
-
-	- f_t
 
 	- five.LP
 
@@ -371,95 +241,21 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- g.superior
 
-	- gbreve.sc
-
-	- gcaron.sc
-
-	- gcircumflex.sc
-
-	- gdotaccent.sc
-
-	- germandbls.sc
-
-	- grave.case
-
-	- guillemotleft.case
-
-	- guillemotright.case
-
-	- guilsinglleft.case
-
-	- guilsinglright.case
-
 	- h.superior
-
-	- hbar.sc
-
-	- hcircumflex.sc
-
-	- hungarumlaut.case
-
-	- hyphen.case
-
-	- i.loclTRK
-
-	- i.loclTRK.sc
-
-	- iacute.sc
-
-	- ibreve.sc
-
-	- icircumflex.sc
-
-	- idieresis.sc
-
-	- igrave.sc
-
-	- ij.sc
-
-	- imacron.sc
-
-	- iogonek.sc
-
-	- itilde.sc
 
 	- j.superior
 
-	- jcircumflex.sc
-
 	- k.superior
-
-	- kgreenlandic.sc
 
 	- l.superior
 
-	- lacute.sc
-
-	- lcaron.sc
-
-	- ldot.sc
-
-	- lslash.sc
-
 	- m.superior
-
-	- macron.case
 
 	- macronacute
 
-	- macronacute.case
-
 	- macrondieresis
 
-	- macrondieresis.case
-
 	- macrongrave
-
-	- macrongrave.case
-
-	- nacute.sc
-
-	- ncaron.sc
 
 	- nine.LP
 
@@ -469,29 +265,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- nine.sups
 
-	- ntilde.sc
-
 	- numbersign.LP
 
 	- numbersign.OP
 
 	- o.superior
-
-	- oacute.sc
-
-	- obreve.sc
-
-	- ocircumflex.sc
-
-	- odieresis.sc
-
-	- oe.sc
-
-	- ograve.sc
-
-	- ohungarumlaut.sc
-
-	- omacron.sc
 
 	- one.LP
 
@@ -503,67 +281,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- one.sups
 
-	- oslashacute.sc
-
-	- otilde.sc
-
 	- p.superior
-
-	- parenleft.case
-
-	- parenright.case
-
-	- periodcentered.case
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- periodcentered.loclCAT.sc
-
-	- periodcentered.sc
-
-	- q.sc
 
 	- q.superior
 
-	- question.sc
-
-	- questiondown.case
-
-	- questiondown.sc
-
-	- quotedbl.sc
-
-	- quotedblleft.sc
-
-	- quotedblright.sc
-
-	- quoteleft.sc
-
-	- quoteright.sc
-
-	- quotesingle.sc
-
 	- r.superior
 
-	- racute.sc
-
-	- rcaron.sc
-
-	- ring.case
-
 	- s.superior
-
-	- s_p
-
-	- sacute.sc
-
-	- scaron.sc
-
-	- scedilla.sc
-
-	- scircumflex.sc
 
 	- seven.LP
 
@@ -581,19 +305,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- six.sups
 
-	- slash.case
-
 	- sterling.LP
 
 	- sterling.OP
 
 	- t.superior
-
-	- tbar.sc
-
-	- tcaron.sc
-
-	- thorn.sc
 
 	- three.LP
 
@@ -603,19 +319,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- three.sups
 
-	- tilde.case
-
 	- tildeacute
-
-	- tildeacute.case
 
 	- tildedieresis
 
-	- tildedieresis.case
-
 	- tildemacron
-
-	- tildemacron.case
 
 	- two.LP
 
@@ -627,96 +335,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- u.superior
 
-	- uacute.sc
-
-	- ubreve.sc
-
-	- ucircumflex.sc
-
-	- udieresis.sc
-
-	- ugrave.sc
-
-	- uhungarumlaut.sc
-
-	- umacron.sc
-
-	- uni004A0301
-
-	- uni006A0301
-
-	- uni006A0301.sc
-
-	- uni0123.sc
-
-	- uni0137.sc
-
-	- uni013C.sc
-
-	- uni0146.sc
-
-	- uni0157.sc
-
-	- uni0163.sc
-
-	- uni01C6.sc
-
-	- uni01C9.sc
-
-	- uni01CC.sc
-
-	- uni01EB.sc
-
-	- uni0201.sc
-
-	- uni0203.sc
-
-	- uni0205.sc
-
-	- uni0207.sc
-
-	- uni0209.sc
-
-	- uni020B.sc
-
-	- uni020D.sc
-
-	- uni020F.sc
-
-	- uni0211.sc
-
-	- uni0213.sc
-
-	- uni0215.sc
-
-	- uni0217.sc
-
-	- uni0219.sc
-
-	- uni021B.sc
-
-	- uni022B.sc
-
-	- uni022D.sc
-
-	- uni0231.sc
-
-	- uni0233.sc
-
-	- uni031B.case
-
-	- uni0324.case
-
-	- uni0326.case
-
-	- uni0327.case
-
-	- uni0328.case
-
-	- uni032E.case
-
-	- uni0331.case
-
 	- uni0414.bgr
 
 	- uni0416.bgr
@@ -725,353 +343,51 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni041B.bgr
 
-	- uni0430.sc
-
 	- uni0431.locl
-
-	- uni0431.locl.sc
 
 	- uni0432.bgr
 
-	- uni0432.bgr.sc
-
-	- uni0432.sc
-
 	- uni0433.bgr
-
-	- uni0433.bgr.sc
 
 	- uni0433.locl
 
-	- uni0433.locl.sc
-
-	- uni0434.bgr.sc
-
 	- uni0434.locl
-
-	- uni0434.locl.sc
-
-	- uni0435.sc
 
 	- uni0436.bgr
 
-	- uni0436.bgr.sc
-
 	- uni0437.bgr
-
-	- uni0437.bgr.sc
 
 	- uni0438.bgr
 
-	- uni0438.bgr.sc
-
 	- uni0439.bgr
-
-	- uni0439.bgr.sc
-
-	- uni0439.sc
 
 	- uni043A.bgr
 
-	- uni043A.bgr.sc
-
-	- uni043A.sc
-
 	- uni043B.bgr
-
-	- uni043B.bgr.sc
-
-	- uni043B.sc
-
-	- uni043C.sc
 
 	- uni043D.bgr
 
-	- uni043D.bgr.sc
-
-	- uni043D.sc
-
-	- uni043E.sc
-
 	- uni043F.bgr
-
-	- uni043F.bgr.sc
 
 	- uni043F.locl
 
-	- uni043F.locl.sc
-
-	- uni0440.sc
-
-	- uni0441.sc
-
 	- uni0442.bgr
-
-	- uni0442.bgr.sc
 
 	- uni0442.locl
 
-	- uni0442.locl.sc
-
-	- uni0442.sc
-
-	- uni0444.sc
-
-	- uni0445.sc
-
 	- uni0446.bgr
-
-	- uni0446.bgr.sc
 
 	- uni0447.bgr
 
-	- uni0447.bgr.sc
-
 	- uni0448.bgr
-
-	- uni0448.bgr.sc
 
 	- uni0449.bgr
 
-	- uni0449.bgr.sc
-
 	- uni044A.bgr
-
-	- uni044A.bgr.sc
-
-	- uni044B.sc
 
 	- uni044C.bgr
 
-	- uni044C.bgr.sc
-
-	- uni044D.sc
-
 	- uni044E.bgr
-
-	- uni044E.bgr.sc
-
-	- uni044F.sc
-
-	- uni0451.sc
-
-	- uni0452.sc
-
-	- uni0453.sc
-
-	- uni0454.sc
-
-	- uni0455.sc
-
-	- uni0456.sc
-
-	- uni0457.sc
-
-	- uni0458.sc
-
-	- uni0459.sc
-
-	- uni045A.sc
-
-	- uni045B.sc
-
-	- uni045C.sc
-
-	- uni045E.sc
-
-	- uni045F.sc
-
-	- uni0463.sc
-
-	- uni0473.sc
-
-	- uni0475.sc
-
-	- uni0491.sc
-
-	- uni0493.sc
-
-	- uni0497.sc
-
-	- uni049B.sc
-
-	- uni04A3.sc
-
-	- uni04AF.sc
-
-	- uni04B1.sc
-
-	- uni04B3.sc
-
-	- uni04B7.sc
-
-	- uni04BB.sc
-
-	- uni04CF.sc
-
-	- uni04D9.sc
-
-	- uni04E3.sc
-
-	- uni04E9.sc
-
-	- uni04EF.sc
-
-	- uni1E09.sc
-
-	- uni1E0D.sc
-
-	- uni1E0F.sc
-
-	- uni1E15.sc
-
-	- uni1E17.sc
-
-	- uni1E1D.sc
-
-	- uni1E21.sc
-
-	- uni1E25.sc
-
-	- uni1E2B.sc
-
-	- uni1E2F.sc
-
-	- uni1E37.sc
-
-	- uni1E3B.sc
-
-	- uni1E43.sc
-
-	- uni1E45.sc
-
-	- uni1E47.sc
-
-	- uni1E49.sc
-
-	- uni1E4D.sc
-
-	- uni1E4F.sc
-
-	- uni1E51.sc
-
-	- uni1E53.sc
-
-	- uni1E5B.sc
-
-	- uni1E5F.sc
-
-	- uni1E61.sc
-
-	- uni1E63.sc
-
-	- uni1E65.sc
-
-	- uni1E67.sc
-
-	- uni1E69.sc
-
-	- uni1E6D.sc
-
-	- uni1E6F.sc
-
-	- uni1E79.sc
-
-	- uni1E7B.sc
-
-	- uni1E8F.sc
-
-	- uni1E93.sc
-
-	- uni1E97.sc
-
-	- uni1EA1.sc
-
-	- uni1EA3.sc
-
-	- uni1EA5.sc
-
-	- uni1EA7.sc
-
-	- uni1EA9.sc
-
-	- uni1EAB.sc
-
-	- uni1EAD.sc
-
-	- uni1EAF.sc
-
-	- uni1EB1.sc
-
-	- uni1EB3.sc
-
-	- uni1EB5.sc
-
-	- uni1EB7.sc
-
-	- uni1EB9.sc
-
-	- uni1EBB.sc
-
-	- uni1EBD.sc
-
-	- uni1EBF.sc
-
-	- uni1EC1.sc
-
-	- uni1EC3.sc
-
-	- uni1EC5.sc
-
-	- uni1EC7.sc
-
-	- uni1EC9.sc
-
-	- uni1ECB.sc
-
-	- uni1ECD.sc
-
-	- uni1ECF.sc
-
-	- uni1ED1.sc
-
-	- uni1ED3.sc
-
-	- uni1ED5.sc
-
-	- uni1ED7.sc
-
-	- uni1ED9.sc
-
-	- uni1EDB.sc
-
-	- uni1EDD.sc
-
-	- uni1EDF.sc
-
-	- uni1EE1.sc
-
-	- uni1EE3.sc
-
-	- uni1EE5.sc
-
-	- uni1EE7.sc
-
-	- uni1EE9.sc
-
-	- uni1EEB.sc
-
-	- uni1EED.sc
-
-	- uni1EEF.sc
-
-	- uni1EF1.sc
-
-	- uni1EF5.sc
-
-	- uni1EF7.sc
-
-	- uni1EF9.sc
 
 	- uni20B4.LP
 
@@ -1093,25 +409,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni2116.OT
 
-	- uogonek.sc
-
-	- uring.sc
-
-	- utilde.sc
-
-	- v.sc
-
 	- v.superior
 
 	- w.superior
-
-	- wacute.sc
-
-	- wcircumflex.sc
-
-	- wdieresis.sc
-
-	- wgrave.sc
 
 	- whitetriangle
 
@@ -1119,25 +419,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- y.superior
 
-	- yacute.sc
-
-	- ycircumflex.sc
-
-	- ydieresis.sc
-
 	- yen.LP
 
 	- yen.OP
 
-	- ygrave.sc
-
 	- z.superior
-
-	- zacute.sc
-
-	- zcaron.sc
-
-	- zdotaccent.sc
 
 	- zero.LP
 
@@ -1215,9 +501,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] Mekorot-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1238,13 +524,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- NULL
 
-	- i.loclTRK
+	- one.sups 
 
-	- one.sups
-
-	- three.sups 
-
-	- zero.sups
+	- three.sups
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1280,9 +562,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] Mekorot-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1303,13 +585,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- NULL
 
-	- i.loclTRK
+	- one.sups 
 
-	- one.sups
-
-	- three.sups 
-
-	- zero.sups
+	- three.sups
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1352,7 +630,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0122 (U+0122): L<<639.0,631.0>--<640.0,474.0>> 
 
 	* uni03BC (U+03BC): L<<93.0,-212.0>--<91.0,430.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "522" it should be 0 [code: bad-OS/2.sTypoLineGap]
@@ -1363,9 +641,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̤̇ i̤̊ i̤̋ ǐ̤ i̤̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1404,6 +682,26 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f 
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1419,155 +717,45 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- Euro.OP
 
-	- T_h
-
 	- a.superior
-
-	- aacute.sc
-
-	- abreve.sc
-
-	- acircumflex.sc
-
-	- acute.case
 
 	- acutedotaccent
 
-	- acutedotaccent.case
-
-	- adieresis.sc
-
-	- aeacute.sc
-
-	- agrave.sc
-
-	- amacron.sc
-
-	- ampersand.sc
-
-	- aogonek.sc
-
-	- aring.sc
-
-	- aringacute.sc
-
-	- at.case
-
-	- at.sc
-
-	- atilde.sc
-
 	- b.superior
-
-	- backslash.case
 
 	- blacktriangle
 
-	- braceleft.case
-
-	- braceright.case
-
-	- bracketleft.case
-
-	- bracketright.case
-
-	- breve.case
-
 	- breveacute
-
-	- breveacute.case
 
 	- brevegrave
 
-	- brevegrave.case
-
 	- brevehookabove
-
-	- brevehookabove.case
 
 	- brevetilde
 
-	- brevetilde.case
-
 	- c.superior
 
-	- c_h
-
-	- c_t
-
-	- cacute.sc
-
-	- caron.case
-
 	- carondotaccent
-
-	- carondotaccent.case
-
-	- ccaron.sc
-
-	- ccedilla.sc
-
-	- ccircumflex.sc
-
-	- cdotaccent.sc
 
 	- cent.LP
 
 	- cent.OP
 
-	- circumflex.case
-
 	- circumflexhookabove
-
-	- circumflexhookabove.case
 
 	- circumflextilde
 
-	- circumflextilde.case
-
 	- d.superior
 
-	- dcaron.sc
-
-	- dcroat.sc
-
-	- dieresis.case
-
-	- dieresisacute.case
-
 	- dieresismacron
-
-	- dieresismacron.case
 
 	- dollar.LP
 
 	- dollar.OP
 
-	- dotaccent.case
-
 	- dotaccentmacron
 
-	- dotaccentmacron.case
-
-	- dotbelowcomb.case
-
-	- dotlessi.sc
-
 	- e.superior
-
-	- eacute.sc
-
-	- ebreve.sc
-
-	- ecaron.sc
-
-	- ecircumflex.sc
-
-	- edieresis.sc
-
-	- edotaccent.sc
-
-	- egrave.sc
 
 	- eight.LP
 
@@ -1577,47 +765,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- eight.sups
 
-	- emacron.sc
-
-	- emdash.case
-
-	- endash.case
-
-	- eng.sc
-
-	- eogonek.sc
-
-	- eth.sc
-
-	- exclam.sc
-
-	- exclamdown.case
-
-	- exclamdown.sc
-
-	- f.sc
-
 	- f.superior
-
-	- f_b
-
-	- f_f_b
-
-	- f_f_h
-
-	- f_f_j
-
-	- f_f_k
-
-	- f_f_t
-
-	- f_h
-
-	- f_j
-
-	- f_k
-
-	- f_t
 
 	- five.LP
 
@@ -1641,95 +789,21 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- g.superior
 
-	- gbreve.sc
-
-	- gcaron.sc
-
-	- gcircumflex.sc
-
-	- gdotaccent.sc
-
-	- germandbls.sc
-
-	- grave.case
-
-	- guillemotleft.case
-
-	- guillemotright.case
-
-	- guilsinglleft.case
-
-	- guilsinglright.case
-
 	- h.superior
-
-	- hbar.sc
-
-	- hcircumflex.sc
-
-	- hungarumlaut.case
-
-	- hyphen.case
-
-	- i.loclTRK
-
-	- i.loclTRK.sc
-
-	- iacute.sc
-
-	- ibreve.sc
-
-	- icircumflex.sc
-
-	- idieresis.sc
-
-	- igrave.sc
-
-	- ij.sc
-
-	- imacron.sc
-
-	- iogonek.sc
-
-	- itilde.sc
 
 	- j.superior
 
-	- jcircumflex.sc
-
 	- k.superior
-
-	- kgreenlandic.sc
 
 	- l.superior
 
-	- lacute.sc
-
-	- lcaron.sc
-
-	- ldot.sc
-
-	- lslash.sc
-
 	- m.superior
-
-	- macron.case
 
 	- macronacute
 
-	- macronacute.case
-
 	- macrondieresis
 
-	- macrondieresis.case
-
 	- macrongrave
-
-	- macrongrave.case
-
-	- nacute.sc
-
-	- ncaron.sc
 
 	- nine.LP
 
@@ -1739,29 +813,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- nine.sups
 
-	- ntilde.sc
-
 	- numbersign.LP
 
 	- numbersign.OP
 
 	- o.superior
-
-	- oacute.sc
-
-	- obreve.sc
-
-	- ocircumflex.sc
-
-	- odieresis.sc
-
-	- oe.sc
-
-	- ograve.sc
-
-	- ohungarumlaut.sc
-
-	- omacron.sc
 
 	- one.LP
 
@@ -1773,67 +829,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- one.sups
 
-	- oslashacute.sc
-
-	- otilde.sc
-
 	- p.superior
-
-	- parenleft.case
-
-	- parenright.case
-
-	- periodcentered.case
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- periodcentered.loclCAT.sc
-
-	- periodcentered.sc
-
-	- q.sc
 
 	- q.superior
 
-	- question.sc
-
-	- questiondown.case
-
-	- questiondown.sc
-
-	- quotedbl.sc
-
-	- quotedblleft.sc
-
-	- quotedblright.sc
-
-	- quoteleft.sc
-
-	- quoteright.sc
-
-	- quotesingle.sc
-
 	- r.superior
 
-	- racute.sc
-
-	- rcaron.sc
-
-	- ring.case
-
 	- s.superior
-
-	- s_p
-
-	- sacute.sc
-
-	- scaron.sc
-
-	- scedilla.sc
-
-	- scircumflex.sc
 
 	- seven.LP
 
@@ -1851,19 +853,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- six.sups
 
-	- slash.case
-
 	- sterling.LP
 
 	- sterling.OP
 
 	- t.superior
-
-	- tbar.sc
-
-	- tcaron.sc
-
-	- thorn.sc
 
 	- three.LP
 
@@ -1873,19 +867,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- three.sups
 
-	- tilde.case
-
 	- tildeacute
-
-	- tildeacute.case
 
 	- tildedieresis
 
-	- tildedieresis.case
-
 	- tildemacron
-
-	- tildemacron.case
 
 	- two.LP
 
@@ -1897,96 +883,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- u.superior
 
-	- uacute.sc
-
-	- ubreve.sc
-
-	- ucircumflex.sc
-
-	- udieresis.sc
-
-	- ugrave.sc
-
-	- uhungarumlaut.sc
-
-	- umacron.sc
-
-	- uni004A0301
-
-	- uni006A0301
-
-	- uni006A0301.sc
-
-	- uni0123.sc
-
-	- uni0137.sc
-
-	- uni013C.sc
-
-	- uni0146.sc
-
-	- uni0157.sc
-
-	- uni0163.sc
-
-	- uni01C6.sc
-
-	- uni01C9.sc
-
-	- uni01CC.sc
-
-	- uni01EB.sc
-
-	- uni0201.sc
-
-	- uni0203.sc
-
-	- uni0205.sc
-
-	- uni0207.sc
-
-	- uni0209.sc
-
-	- uni020B.sc
-
-	- uni020D.sc
-
-	- uni020F.sc
-
-	- uni0211.sc
-
-	- uni0213.sc
-
-	- uni0215.sc
-
-	- uni0217.sc
-
-	- uni0219.sc
-
-	- uni021B.sc
-
-	- uni022B.sc
-
-	- uni022D.sc
-
-	- uni0231.sc
-
-	- uni0233.sc
-
-	- uni031B.case
-
-	- uni0324.case
-
-	- uni0326.case
-
-	- uni0327.case
-
-	- uni0328.case
-
-	- uni032E.case
-
-	- uni0331.case
-
 	- uni0414.bgr
 
 	- uni0416.bgr
@@ -1995,353 +891,51 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni041B.bgr
 
-	- uni0430.sc
-
 	- uni0431.locl
-
-	- uni0431.locl.sc
 
 	- uni0432.bgr
 
-	- uni0432.bgr.sc
-
-	- uni0432.sc
-
 	- uni0433.bgr
-
-	- uni0433.bgr.sc
 
 	- uni0433.locl
 
-	- uni0433.locl.sc
-
-	- uni0434.bgr.sc
-
 	- uni0434.locl
-
-	- uni0434.locl.sc
-
-	- uni0435.sc
 
 	- uni0436.bgr
 
-	- uni0436.bgr.sc
-
 	- uni0437.bgr
-
-	- uni0437.bgr.sc
 
 	- uni0438.bgr
 
-	- uni0438.bgr.sc
-
 	- uni0439.bgr
-
-	- uni0439.bgr.sc
-
-	- uni0439.sc
 
 	- uni043A.bgr
 
-	- uni043A.bgr.sc
-
-	- uni043A.sc
-
 	- uni043B.bgr
-
-	- uni043B.bgr.sc
-
-	- uni043B.sc
-
-	- uni043C.sc
 
 	- uni043D.bgr
 
-	- uni043D.bgr.sc
-
-	- uni043D.sc
-
-	- uni043E.sc
-
 	- uni043F.bgr
-
-	- uni043F.bgr.sc
 
 	- uni043F.locl
 
-	- uni043F.locl.sc
-
-	- uni0440.sc
-
-	- uni0441.sc
-
 	- uni0442.bgr
-
-	- uni0442.bgr.sc
 
 	- uni0442.locl
 
-	- uni0442.locl.sc
-
-	- uni0442.sc
-
-	- uni0444.sc
-
-	- uni0445.sc
-
 	- uni0446.bgr
-
-	- uni0446.bgr.sc
 
 	- uni0447.bgr
 
-	- uni0447.bgr.sc
-
 	- uni0448.bgr
-
-	- uni0448.bgr.sc
 
 	- uni0449.bgr
 
-	- uni0449.bgr.sc
-
 	- uni044A.bgr
-
-	- uni044A.bgr.sc
-
-	- uni044B.sc
 
 	- uni044C.bgr
 
-	- uni044C.bgr.sc
-
-	- uni044D.sc
-
 	- uni044E.bgr
-
-	- uni044E.bgr.sc
-
-	- uni044F.sc
-
-	- uni0451.sc
-
-	- uni0452.sc
-
-	- uni0453.sc
-
-	- uni0454.sc
-
-	- uni0455.sc
-
-	- uni0456.sc
-
-	- uni0457.sc
-
-	- uni0458.sc
-
-	- uni0459.sc
-
-	- uni045A.sc
-
-	- uni045B.sc
-
-	- uni045C.sc
-
-	- uni045E.sc
-
-	- uni045F.sc
-
-	- uni0463.sc
-
-	- uni0473.sc
-
-	- uni0475.sc
-
-	- uni0491.sc
-
-	- uni0493.sc
-
-	- uni0497.sc
-
-	- uni049B.sc
-
-	- uni04A3.sc
-
-	- uni04AF.sc
-
-	- uni04B1.sc
-
-	- uni04B3.sc
-
-	- uni04B7.sc
-
-	- uni04BB.sc
-
-	- uni04CF.sc
-
-	- uni04D9.sc
-
-	- uni04E3.sc
-
-	- uni04E9.sc
-
-	- uni04EF.sc
-
-	- uni1E09.sc
-
-	- uni1E0D.sc
-
-	- uni1E0F.sc
-
-	- uni1E15.sc
-
-	- uni1E17.sc
-
-	- uni1E1D.sc
-
-	- uni1E21.sc
-
-	- uni1E25.sc
-
-	- uni1E2B.sc
-
-	- uni1E2F.sc
-
-	- uni1E37.sc
-
-	- uni1E3B.sc
-
-	- uni1E43.sc
-
-	- uni1E45.sc
-
-	- uni1E47.sc
-
-	- uni1E49.sc
-
-	- uni1E4D.sc
-
-	- uni1E4F.sc
-
-	- uni1E51.sc
-
-	- uni1E53.sc
-
-	- uni1E5B.sc
-
-	- uni1E5F.sc
-
-	- uni1E61.sc
-
-	- uni1E63.sc
-
-	- uni1E65.sc
-
-	- uni1E67.sc
-
-	- uni1E69.sc
-
-	- uni1E6D.sc
-
-	- uni1E6F.sc
-
-	- uni1E79.sc
-
-	- uni1E7B.sc
-
-	- uni1E8F.sc
-
-	- uni1E93.sc
-
-	- uni1E97.sc
-
-	- uni1EA1.sc
-
-	- uni1EA3.sc
-
-	- uni1EA5.sc
-
-	- uni1EA7.sc
-
-	- uni1EA9.sc
-
-	- uni1EAB.sc
-
-	- uni1EAD.sc
-
-	- uni1EAF.sc
-
-	- uni1EB1.sc
-
-	- uni1EB3.sc
-
-	- uni1EB5.sc
-
-	- uni1EB7.sc
-
-	- uni1EB9.sc
-
-	- uni1EBB.sc
-
-	- uni1EBD.sc
-
-	- uni1EBF.sc
-
-	- uni1EC1.sc
-
-	- uni1EC3.sc
-
-	- uni1EC5.sc
-
-	- uni1EC7.sc
-
-	- uni1EC9.sc
-
-	- uni1ECB.sc
-
-	- uni1ECD.sc
-
-	- uni1ECF.sc
-
-	- uni1ED1.sc
-
-	- uni1ED3.sc
-
-	- uni1ED5.sc
-
-	- uni1ED7.sc
-
-	- uni1ED9.sc
-
-	- uni1EDB.sc
-
-	- uni1EDD.sc
-
-	- uni1EDF.sc
-
-	- uni1EE1.sc
-
-	- uni1EE3.sc
-
-	- uni1EE5.sc
-
-	- uni1EE7.sc
-
-	- uni1EE9.sc
-
-	- uni1EEB.sc
-
-	- uni1EED.sc
-
-	- uni1EEF.sc
-
-	- uni1EF1.sc
-
-	- uni1EF5.sc
-
-	- uni1EF7.sc
-
-	- uni1EF9.sc
 
 	- uni20B4.LP
 
@@ -2363,25 +957,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni2116.OT
 
-	- uogonek.sc
-
-	- uring.sc
-
-	- utilde.sc
-
-	- v.sc
-
 	- v.superior
 
 	- w.superior
-
-	- wacute.sc
-
-	- wcircumflex.sc
-
-	- wdieresis.sc
-
-	- wgrave.sc
 
 	- whitetriangle
 
@@ -2389,25 +967,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- y.superior
 
-	- yacute.sc
-
-	- ycircumflex.sc
-
-	- ydieresis.sc
-
 	- yen.LP
 
 	- yen.OP
 
-	- ygrave.sc
-
 	- z.superior
-
-	- zacute.sc
-
-	- zcaron.sc
-
-	- zdotaccent.sc
 
 	- zero.LP
 
@@ -2557,9 +1121,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] Mekorot-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2580,13 +1144,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- NULL
 
-	- i.loclTRK
+	- one.sups 
 
-	- one.sups
-
-	- three.sups 
-
-	- zero.sups
+	- three.sups
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2631,7 +1191,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni0122 (U+0122): L<<642.0,619.0>--<643.0,467.0>> 
 
 	* uni03BC (U+03BC): L<<78.0,-213.0>--<77.0,433.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "522" it should be 0 [code: bad-OS/2.sTypoLineGap]
@@ -2642,9 +1202,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̤̇ i̤̊ i̤̋ ǐ̤ i̤̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2683,6 +1243,26 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f 
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2698,155 +1278,45 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- Euro.OP
 
-	- T_h
-
 	- a.superior
-
-	- aacute.sc
-
-	- abreve.sc
-
-	- acircumflex.sc
-
-	- acute.case
 
 	- acutedotaccent
 
-	- acutedotaccent.case
-
-	- adieresis.sc
-
-	- aeacute.sc
-
-	- agrave.sc
-
-	- amacron.sc
-
-	- ampersand.sc
-
-	- aogonek.sc
-
-	- aring.sc
-
-	- aringacute.sc
-
-	- at.case
-
-	- at.sc
-
-	- atilde.sc
-
 	- b.superior
-
-	- backslash.case
 
 	- blacktriangle
 
-	- braceleft.case
-
-	- braceright.case
-
-	- bracketleft.case
-
-	- bracketright.case
-
-	- breve.case
-
 	- breveacute
-
-	- breveacute.case
 
 	- brevegrave
 
-	- brevegrave.case
-
 	- brevehookabove
-
-	- brevehookabove.case
 
 	- brevetilde
 
-	- brevetilde.case
-
 	- c.superior
 
-	- c_h
-
-	- c_t
-
-	- cacute.sc
-
-	- caron.case
-
 	- carondotaccent
-
-	- carondotaccent.case
-
-	- ccaron.sc
-
-	- ccedilla.sc
-
-	- ccircumflex.sc
-
-	- cdotaccent.sc
 
 	- cent.LP
 
 	- cent.OP
 
-	- circumflex.case
-
 	- circumflexhookabove
-
-	- circumflexhookabove.case
 
 	- circumflextilde
 
-	- circumflextilde.case
-
 	- d.superior
 
-	- dcaron.sc
-
-	- dcroat.sc
-
-	- dieresis.case
-
-	- dieresisacute.case
-
 	- dieresismacron
-
-	- dieresismacron.case
 
 	- dollar.LP
 
 	- dollar.OP
 
-	- dotaccent.case
-
 	- dotaccentmacron
 
-	- dotaccentmacron.case
-
-	- dotbelowcomb.case
-
-	- dotlessi.sc
-
 	- e.superior
-
-	- eacute.sc
-
-	- ebreve.sc
-
-	- ecaron.sc
-
-	- ecircumflex.sc
-
-	- edieresis.sc
-
-	- edotaccent.sc
-
-	- egrave.sc
 
 	- eight.LP
 
@@ -2856,47 +1326,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- eight.sups
 
-	- emacron.sc
-
-	- emdash.case
-
-	- endash.case
-
-	- eng.sc
-
-	- eogonek.sc
-
-	- eth.sc
-
-	- exclam.sc
-
-	- exclamdown.case
-
-	- exclamdown.sc
-
-	- f.sc
-
 	- f.superior
-
-	- f_b
-
-	- f_f_b
-
-	- f_f_h
-
-	- f_f_j
-
-	- f_f_k
-
-	- f_f_t
-
-	- f_h
-
-	- f_j
-
-	- f_k
-
-	- f_t
 
 	- five.LP
 
@@ -2920,95 +1350,21 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- g.superior
 
-	- gbreve.sc
-
-	- gcaron.sc
-
-	- gcircumflex.sc
-
-	- gdotaccent.sc
-
-	- germandbls.sc
-
-	- grave.case
-
-	- guillemotleft.case
-
-	- guillemotright.case
-
-	- guilsinglleft.case
-
-	- guilsinglright.case
-
 	- h.superior
-
-	- hbar.sc
-
-	- hcircumflex.sc
-
-	- hungarumlaut.case
-
-	- hyphen.case
-
-	- i.loclTRK
-
-	- i.loclTRK.sc
-
-	- iacute.sc
-
-	- ibreve.sc
-
-	- icircumflex.sc
-
-	- idieresis.sc
-
-	- igrave.sc
-
-	- ij.sc
-
-	- imacron.sc
-
-	- iogonek.sc
-
-	- itilde.sc
 
 	- j.superior
 
-	- jcircumflex.sc
-
 	- k.superior
-
-	- kgreenlandic.sc
 
 	- l.superior
 
-	- lacute.sc
-
-	- lcaron.sc
-
-	- ldot.sc
-
-	- lslash.sc
-
 	- m.superior
-
-	- macron.case
 
 	- macronacute
 
-	- macronacute.case
-
 	- macrondieresis
 
-	- macrondieresis.case
-
 	- macrongrave
-
-	- macrongrave.case
-
-	- nacute.sc
-
-	- ncaron.sc
 
 	- nine.LP
 
@@ -3018,29 +1374,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- nine.sups
 
-	- ntilde.sc
-
 	- numbersign.LP
 
 	- numbersign.OP
 
 	- o.superior
-
-	- oacute.sc
-
-	- obreve.sc
-
-	- ocircumflex.sc
-
-	- odieresis.sc
-
-	- oe.sc
-
-	- ograve.sc
-
-	- ohungarumlaut.sc
-
-	- omacron.sc
 
 	- one.LP
 
@@ -3052,67 +1390,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- one.sups
 
-	- oslashacute.sc
-
-	- otilde.sc
-
 	- p.superior
-
-	- parenleft.case
-
-	- parenright.case
-
-	- periodcentered.case
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- periodcentered.loclCAT.sc
-
-	- periodcentered.sc
-
-	- q.sc
 
 	- q.superior
 
-	- question.sc
-
-	- questiondown.case
-
-	- questiondown.sc
-
-	- quotedbl.sc
-
-	- quotedblleft.sc
-
-	- quotedblright.sc
-
-	- quoteleft.sc
-
-	- quoteright.sc
-
-	- quotesingle.sc
-
 	- r.superior
 
-	- racute.sc
-
-	- rcaron.sc
-
-	- ring.case
-
 	- s.superior
-
-	- s_p
-
-	- sacute.sc
-
-	- scaron.sc
-
-	- scedilla.sc
-
-	- scircumflex.sc
 
 	- seven.LP
 
@@ -3130,19 +1414,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- six.sups
 
-	- slash.case
-
 	- sterling.LP
 
 	- sterling.OP
 
 	- t.superior
-
-	- tbar.sc
-
-	- tcaron.sc
-
-	- thorn.sc
 
 	- three.LP
 
@@ -3152,19 +1428,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- three.sups
 
-	- tilde.case
-
 	- tildeacute
-
-	- tildeacute.case
 
 	- tildedieresis
 
-	- tildedieresis.case
-
 	- tildemacron
-
-	- tildemacron.case
 
 	- two.LP
 
@@ -3176,96 +1444,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- u.superior
 
-	- uacute.sc
-
-	- ubreve.sc
-
-	- ucircumflex.sc
-
-	- udieresis.sc
-
-	- ugrave.sc
-
-	- uhungarumlaut.sc
-
-	- umacron.sc
-
-	- uni004A0301
-
-	- uni006A0301
-
-	- uni006A0301.sc
-
-	- uni0123.sc
-
-	- uni0137.sc
-
-	- uni013C.sc
-
-	- uni0146.sc
-
-	- uni0157.sc
-
-	- uni0163.sc
-
-	- uni01C6.sc
-
-	- uni01C9.sc
-
-	- uni01CC.sc
-
-	- uni01EB.sc
-
-	- uni0201.sc
-
-	- uni0203.sc
-
-	- uni0205.sc
-
-	- uni0207.sc
-
-	- uni0209.sc
-
-	- uni020B.sc
-
-	- uni020D.sc
-
-	- uni020F.sc
-
-	- uni0211.sc
-
-	- uni0213.sc
-
-	- uni0215.sc
-
-	- uni0217.sc
-
-	- uni0219.sc
-
-	- uni021B.sc
-
-	- uni022B.sc
-
-	- uni022D.sc
-
-	- uni0231.sc
-
-	- uni0233.sc
-
-	- uni031B.case
-
-	- uni0324.case
-
-	- uni0326.case
-
-	- uni0327.case
-
-	- uni0328.case
-
-	- uni032E.case
-
-	- uni0331.case
-
 	- uni0414.bgr
 
 	- uni0416.bgr
@@ -3274,353 +1452,51 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni041B.bgr
 
-	- uni0430.sc
-
 	- uni0431.locl
-
-	- uni0431.locl.sc
 
 	- uni0432.bgr
 
-	- uni0432.bgr.sc
-
-	- uni0432.sc
-
 	- uni0433.bgr
-
-	- uni0433.bgr.sc
 
 	- uni0433.locl
 
-	- uni0433.locl.sc
-
-	- uni0434.bgr.sc
-
 	- uni0434.locl
-
-	- uni0434.locl.sc
-
-	- uni0435.sc
 
 	- uni0436.bgr
 
-	- uni0436.bgr.sc
-
 	- uni0437.bgr
-
-	- uni0437.bgr.sc
 
 	- uni0438.bgr
 
-	- uni0438.bgr.sc
-
 	- uni0439.bgr
-
-	- uni0439.bgr.sc
-
-	- uni0439.sc
 
 	- uni043A.bgr
 
-	- uni043A.bgr.sc
-
-	- uni043A.sc
-
 	- uni043B.bgr
-
-	- uni043B.bgr.sc
-
-	- uni043B.sc
-
-	- uni043C.sc
 
 	- uni043D.bgr
 
-	- uni043D.bgr.sc
-
-	- uni043D.sc
-
-	- uni043E.sc
-
 	- uni043F.bgr
-
-	- uni043F.bgr.sc
 
 	- uni043F.locl
 
-	- uni043F.locl.sc
-
-	- uni0440.sc
-
-	- uni0441.sc
-
 	- uni0442.bgr
-
-	- uni0442.bgr.sc
 
 	- uni0442.locl
 
-	- uni0442.locl.sc
-
-	- uni0442.sc
-
-	- uni0444.sc
-
-	- uni0445.sc
-
 	- uni0446.bgr
-
-	- uni0446.bgr.sc
 
 	- uni0447.bgr
 
-	- uni0447.bgr.sc
-
 	- uni0448.bgr
-
-	- uni0448.bgr.sc
 
 	- uni0449.bgr
 
-	- uni0449.bgr.sc
-
 	- uni044A.bgr
-
-	- uni044A.bgr.sc
-
-	- uni044B.sc
 
 	- uni044C.bgr
 
-	- uni044C.bgr.sc
-
-	- uni044D.sc
-
 	- uni044E.bgr
-
-	- uni044E.bgr.sc
-
-	- uni044F.sc
-
-	- uni0451.sc
-
-	- uni0452.sc
-
-	- uni0453.sc
-
-	- uni0454.sc
-
-	- uni0455.sc
-
-	- uni0456.sc
-
-	- uni0457.sc
-
-	- uni0458.sc
-
-	- uni0459.sc
-
-	- uni045A.sc
-
-	- uni045B.sc
-
-	- uni045C.sc
-
-	- uni045E.sc
-
-	- uni045F.sc
-
-	- uni0463.sc
-
-	- uni0473.sc
-
-	- uni0475.sc
-
-	- uni0491.sc
-
-	- uni0493.sc
-
-	- uni0497.sc
-
-	- uni049B.sc
-
-	- uni04A3.sc
-
-	- uni04AF.sc
-
-	- uni04B1.sc
-
-	- uni04B3.sc
-
-	- uni04B7.sc
-
-	- uni04BB.sc
-
-	- uni04CF.sc
-
-	- uni04D9.sc
-
-	- uni04E3.sc
-
-	- uni04E9.sc
-
-	- uni04EF.sc
-
-	- uni1E09.sc
-
-	- uni1E0D.sc
-
-	- uni1E0F.sc
-
-	- uni1E15.sc
-
-	- uni1E17.sc
-
-	- uni1E1D.sc
-
-	- uni1E21.sc
-
-	- uni1E25.sc
-
-	- uni1E2B.sc
-
-	- uni1E2F.sc
-
-	- uni1E37.sc
-
-	- uni1E3B.sc
-
-	- uni1E43.sc
-
-	- uni1E45.sc
-
-	- uni1E47.sc
-
-	- uni1E49.sc
-
-	- uni1E4D.sc
-
-	- uni1E4F.sc
-
-	- uni1E51.sc
-
-	- uni1E53.sc
-
-	- uni1E5B.sc
-
-	- uni1E5F.sc
-
-	- uni1E61.sc
-
-	- uni1E63.sc
-
-	- uni1E65.sc
-
-	- uni1E67.sc
-
-	- uni1E69.sc
-
-	- uni1E6D.sc
-
-	- uni1E6F.sc
-
-	- uni1E79.sc
-
-	- uni1E7B.sc
-
-	- uni1E8F.sc
-
-	- uni1E93.sc
-
-	- uni1E97.sc
-
-	- uni1EA1.sc
-
-	- uni1EA3.sc
-
-	- uni1EA5.sc
-
-	- uni1EA7.sc
-
-	- uni1EA9.sc
-
-	- uni1EAB.sc
-
-	- uni1EAD.sc
-
-	- uni1EAF.sc
-
-	- uni1EB1.sc
-
-	- uni1EB3.sc
-
-	- uni1EB5.sc
-
-	- uni1EB7.sc
-
-	- uni1EB9.sc
-
-	- uni1EBB.sc
-
-	- uni1EBD.sc
-
-	- uni1EBF.sc
-
-	- uni1EC1.sc
-
-	- uni1EC3.sc
-
-	- uni1EC5.sc
-
-	- uni1EC7.sc
-
-	- uni1EC9.sc
-
-	- uni1ECB.sc
-
-	- uni1ECD.sc
-
-	- uni1ECF.sc
-
-	- uni1ED1.sc
-
-	- uni1ED3.sc
-
-	- uni1ED5.sc
-
-	- uni1ED7.sc
-
-	- uni1ED9.sc
-
-	- uni1EDB.sc
-
-	- uni1EDD.sc
-
-	- uni1EDF.sc
-
-	- uni1EE1.sc
-
-	- uni1EE3.sc
-
-	- uni1EE5.sc
-
-	- uni1EE7.sc
-
-	- uni1EE9.sc
-
-	- uni1EEB.sc
-
-	- uni1EED.sc
-
-	- uni1EEF.sc
-
-	- uni1EF1.sc
-
-	- uni1EF5.sc
-
-	- uni1EF7.sc
-
-	- uni1EF9.sc
 
 	- uni20B4.LP
 
@@ -3642,25 +1518,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni2116.OT
 
-	- uogonek.sc
-
-	- uring.sc
-
-	- utilde.sc
-
-	- v.sc
-
 	- v.superior
 
 	- w.superior
-
-	- wacute.sc
-
-	- wcircumflex.sc
-
-	- wdieresis.sc
-
-	- wgrave.sc
 
 	- whitetriangle
 
@@ -3668,25 +1528,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- y.superior
 
-	- yacute.sc
-
-	- ycircumflex.sc
-
-	- ydieresis.sc
-
 	- yen.LP
 
 	- yen.OP
 
-	- ygrave.sc
-
 	- z.superior
-
-	- zacute.sc
-
-	- zcaron.sc
-
-	- zdotaccent.sc
 
 	- zero.LP
 
@@ -3770,9 +1616,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] Mekorot-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3793,13 +1639,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- NULL
 
-	- i.loclTRK
+	- one.sups 
 
-	- one.sups
-
-	- three.sups 
-
-	- zero.sups
+	- three.sups
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3855,9 +1697,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] Mekorot-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3878,13 +1720,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- NULL
 
-	- i.loclTRK
+	- one.sups 
 
-	- one.sups
-
-	- three.sups 
-
-	- zero.sups
+	- three.sups
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3939,7 +1777,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni00B5 (U+00B5): L<<64.0,-213.0>--<62.0,437.0>> 
 
 	* uni03BC (U+03BC): L<<64.0,-213.0>--<62.0,437.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "522" it should be 0 [code: bad-OS/2.sTypoLineGap]
@@ -3950,9 +1788,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̤̇ i̤̊ i̤̋ ǐ̤ i̤̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3991,6 +1829,26 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f 
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4006,155 +1864,45 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- Euro.OP
 
-	- T_h
-
 	- a.superior
-
-	- aacute.sc
-
-	- abreve.sc
-
-	- acircumflex.sc
-
-	- acute.case
 
 	- acutedotaccent
 
-	- acutedotaccent.case
-
-	- adieresis.sc
-
-	- aeacute.sc
-
-	- agrave.sc
-
-	- amacron.sc
-
-	- ampersand.sc
-
-	- aogonek.sc
-
-	- aring.sc
-
-	- aringacute.sc
-
-	- at.case
-
-	- at.sc
-
-	- atilde.sc
-
 	- b.superior
-
-	- backslash.case
 
 	- blacktriangle
 
-	- braceleft.case
-
-	- braceright.case
-
-	- bracketleft.case
-
-	- bracketright.case
-
-	- breve.case
-
 	- breveacute
-
-	- breveacute.case
 
 	- brevegrave
 
-	- brevegrave.case
-
 	- brevehookabove
-
-	- brevehookabove.case
 
 	- brevetilde
 
-	- brevetilde.case
-
 	- c.superior
 
-	- c_h
-
-	- c_t
-
-	- cacute.sc
-
-	- caron.case
-
 	- carondotaccent
-
-	- carondotaccent.case
-
-	- ccaron.sc
-
-	- ccedilla.sc
-
-	- ccircumflex.sc
-
-	- cdotaccent.sc
 
 	- cent.LP
 
 	- cent.OP
 
-	- circumflex.case
-
 	- circumflexhookabove
-
-	- circumflexhookabove.case
 
 	- circumflextilde
 
-	- circumflextilde.case
-
 	- d.superior
 
-	- dcaron.sc
-
-	- dcroat.sc
-
-	- dieresis.case
-
-	- dieresisacute.case
-
 	- dieresismacron
-
-	- dieresismacron.case
 
 	- dollar.LP
 
 	- dollar.OP
 
-	- dotaccent.case
-
 	- dotaccentmacron
 
-	- dotaccentmacron.case
-
-	- dotbelowcomb.case
-
-	- dotlessi.sc
-
 	- e.superior
-
-	- eacute.sc
-
-	- ebreve.sc
-
-	- ecaron.sc
-
-	- ecircumflex.sc
-
-	- edieresis.sc
-
-	- edotaccent.sc
-
-	- egrave.sc
 
 	- eight.LP
 
@@ -4164,47 +1912,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- eight.sups
 
-	- emacron.sc
-
-	- emdash.case
-
-	- endash.case
-
-	- eng.sc
-
-	- eogonek.sc
-
-	- eth.sc
-
-	- exclam.sc
-
-	- exclamdown.case
-
-	- exclamdown.sc
-
-	- f.sc
-
 	- f.superior
-
-	- f_b
-
-	- f_f_b
-
-	- f_f_h
-
-	- f_f_j
-
-	- f_f_k
-
-	- f_f_t
-
-	- f_h
-
-	- f_j
-
-	- f_k
-
-	- f_t
 
 	- five.LP
 
@@ -4228,95 +1936,21 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- g.superior
 
-	- gbreve.sc
-
-	- gcaron.sc
-
-	- gcircumflex.sc
-
-	- gdotaccent.sc
-
-	- germandbls.sc
-
-	- grave.case
-
-	- guillemotleft.case
-
-	- guillemotright.case
-
-	- guilsinglleft.case
-
-	- guilsinglright.case
-
 	- h.superior
-
-	- hbar.sc
-
-	- hcircumflex.sc
-
-	- hungarumlaut.case
-
-	- hyphen.case
-
-	- i.loclTRK
-
-	- i.loclTRK.sc
-
-	- iacute.sc
-
-	- ibreve.sc
-
-	- icircumflex.sc
-
-	- idieresis.sc
-
-	- igrave.sc
-
-	- ij.sc
-
-	- imacron.sc
-
-	- iogonek.sc
-
-	- itilde.sc
 
 	- j.superior
 
-	- jcircumflex.sc
-
 	- k.superior
-
-	- kgreenlandic.sc
 
 	- l.superior
 
-	- lacute.sc
-
-	- lcaron.sc
-
-	- ldot.sc
-
-	- lslash.sc
-
 	- m.superior
-
-	- macron.case
 
 	- macronacute
 
-	- macronacute.case
-
 	- macrondieresis
 
-	- macrondieresis.case
-
 	- macrongrave
-
-	- macrongrave.case
-
-	- nacute.sc
-
-	- ncaron.sc
 
 	- nine.LP
 
@@ -4326,29 +1960,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- nine.sups
 
-	- ntilde.sc
-
 	- numbersign.LP
 
 	- numbersign.OP
 
 	- o.superior
-
-	- oacute.sc
-
-	- obreve.sc
-
-	- ocircumflex.sc
-
-	- odieresis.sc
-
-	- oe.sc
-
-	- ograve.sc
-
-	- ohungarumlaut.sc
-
-	- omacron.sc
 
 	- one.LP
 
@@ -4360,67 +1976,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- one.sups
 
-	- oslashacute.sc
-
-	- otilde.sc
-
 	- p.superior
-
-	- parenleft.case
-
-	- parenright.case
-
-	- periodcentered.case
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- periodcentered.loclCAT.sc
-
-	- periodcentered.sc
-
-	- q.sc
 
 	- q.superior
 
-	- question.sc
-
-	- questiondown.case
-
-	- questiondown.sc
-
-	- quotedbl.sc
-
-	- quotedblleft.sc
-
-	- quotedblright.sc
-
-	- quoteleft.sc
-
-	- quoteright.sc
-
-	- quotesingle.sc
-
 	- r.superior
 
-	- racute.sc
-
-	- rcaron.sc
-
-	- ring.case
-
 	- s.superior
-
-	- s_p
-
-	- sacute.sc
-
-	- scaron.sc
-
-	- scedilla.sc
-
-	- scircumflex.sc
 
 	- seven.LP
 
@@ -4438,19 +2000,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- six.sups
 
-	- slash.case
-
 	- sterling.LP
 
 	- sterling.OP
 
 	- t.superior
-
-	- tbar.sc
-
-	- tcaron.sc
-
-	- thorn.sc
 
 	- three.LP
 
@@ -4460,19 +2014,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- three.sups
 
-	- tilde.case
-
 	- tildeacute
-
-	- tildeacute.case
 
 	- tildedieresis
 
-	- tildedieresis.case
-
 	- tildemacron
-
-	- tildemacron.case
 
 	- two.LP
 
@@ -4484,96 +2030,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- u.superior
 
-	- uacute.sc
-
-	- ubreve.sc
-
-	- ucircumflex.sc
-
-	- udieresis.sc
-
-	- ugrave.sc
-
-	- uhungarumlaut.sc
-
-	- umacron.sc
-
-	- uni004A0301
-
-	- uni006A0301
-
-	- uni006A0301.sc
-
-	- uni0123.sc
-
-	- uni0137.sc
-
-	- uni013C.sc
-
-	- uni0146.sc
-
-	- uni0157.sc
-
-	- uni0163.sc
-
-	- uni01C6.sc
-
-	- uni01C9.sc
-
-	- uni01CC.sc
-
-	- uni01EB.sc
-
-	- uni0201.sc
-
-	- uni0203.sc
-
-	- uni0205.sc
-
-	- uni0207.sc
-
-	- uni0209.sc
-
-	- uni020B.sc
-
-	- uni020D.sc
-
-	- uni020F.sc
-
-	- uni0211.sc
-
-	- uni0213.sc
-
-	- uni0215.sc
-
-	- uni0217.sc
-
-	- uni0219.sc
-
-	- uni021B.sc
-
-	- uni022B.sc
-
-	- uni022D.sc
-
-	- uni0231.sc
-
-	- uni0233.sc
-
-	- uni031B.case
-
-	- uni0324.case
-
-	- uni0326.case
-
-	- uni0327.case
-
-	- uni0328.case
-
-	- uni032E.case
-
-	- uni0331.case
-
 	- uni0414.bgr
 
 	- uni0416.bgr
@@ -4582,353 +2038,51 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni041B.bgr
 
-	- uni0430.sc
-
 	- uni0431.locl
-
-	- uni0431.locl.sc
 
 	- uni0432.bgr
 
-	- uni0432.bgr.sc
-
-	- uni0432.sc
-
 	- uni0433.bgr
-
-	- uni0433.bgr.sc
 
 	- uni0433.locl
 
-	- uni0433.locl.sc
-
-	- uni0434.bgr.sc
-
 	- uni0434.locl
-
-	- uni0434.locl.sc
-
-	- uni0435.sc
 
 	- uni0436.bgr
 
-	- uni0436.bgr.sc
-
 	- uni0437.bgr
-
-	- uni0437.bgr.sc
 
 	- uni0438.bgr
 
-	- uni0438.bgr.sc
-
 	- uni0439.bgr
-
-	- uni0439.bgr.sc
-
-	- uni0439.sc
 
 	- uni043A.bgr
 
-	- uni043A.bgr.sc
-
-	- uni043A.sc
-
 	- uni043B.bgr
-
-	- uni043B.bgr.sc
-
-	- uni043B.sc
-
-	- uni043C.sc
 
 	- uni043D.bgr
 
-	- uni043D.bgr.sc
-
-	- uni043D.sc
-
-	- uni043E.sc
-
 	- uni043F.bgr
-
-	- uni043F.bgr.sc
 
 	- uni043F.locl
 
-	- uni043F.locl.sc
-
-	- uni0440.sc
-
-	- uni0441.sc
-
 	- uni0442.bgr
-
-	- uni0442.bgr.sc
 
 	- uni0442.locl
 
-	- uni0442.locl.sc
-
-	- uni0442.sc
-
-	- uni0444.sc
-
-	- uni0445.sc
-
 	- uni0446.bgr
-
-	- uni0446.bgr.sc
 
 	- uni0447.bgr
 
-	- uni0447.bgr.sc
-
 	- uni0448.bgr
-
-	- uni0448.bgr.sc
 
 	- uni0449.bgr
 
-	- uni0449.bgr.sc
-
 	- uni044A.bgr
-
-	- uni044A.bgr.sc
-
-	- uni044B.sc
 
 	- uni044C.bgr
 
-	- uni044C.bgr.sc
-
-	- uni044D.sc
-
 	- uni044E.bgr
-
-	- uni044E.bgr.sc
-
-	- uni044F.sc
-
-	- uni0451.sc
-
-	- uni0452.sc
-
-	- uni0453.sc
-
-	- uni0454.sc
-
-	- uni0455.sc
-
-	- uni0456.sc
-
-	- uni0457.sc
-
-	- uni0458.sc
-
-	- uni0459.sc
-
-	- uni045A.sc
-
-	- uni045B.sc
-
-	- uni045C.sc
-
-	- uni045E.sc
-
-	- uni045F.sc
-
-	- uni0463.sc
-
-	- uni0473.sc
-
-	- uni0475.sc
-
-	- uni0491.sc
-
-	- uni0493.sc
-
-	- uni0497.sc
-
-	- uni049B.sc
-
-	- uni04A3.sc
-
-	- uni04AF.sc
-
-	- uni04B1.sc
-
-	- uni04B3.sc
-
-	- uni04B7.sc
-
-	- uni04BB.sc
-
-	- uni04CF.sc
-
-	- uni04D9.sc
-
-	- uni04E3.sc
-
-	- uni04E9.sc
-
-	- uni04EF.sc
-
-	- uni1E09.sc
-
-	- uni1E0D.sc
-
-	- uni1E0F.sc
-
-	- uni1E15.sc
-
-	- uni1E17.sc
-
-	- uni1E1D.sc
-
-	- uni1E21.sc
-
-	- uni1E25.sc
-
-	- uni1E2B.sc
-
-	- uni1E2F.sc
-
-	- uni1E37.sc
-
-	- uni1E3B.sc
-
-	- uni1E43.sc
-
-	- uni1E45.sc
-
-	- uni1E47.sc
-
-	- uni1E49.sc
-
-	- uni1E4D.sc
-
-	- uni1E4F.sc
-
-	- uni1E51.sc
-
-	- uni1E53.sc
-
-	- uni1E5B.sc
-
-	- uni1E5F.sc
-
-	- uni1E61.sc
-
-	- uni1E63.sc
-
-	- uni1E65.sc
-
-	- uni1E67.sc
-
-	- uni1E69.sc
-
-	- uni1E6D.sc
-
-	- uni1E6F.sc
-
-	- uni1E79.sc
-
-	- uni1E7B.sc
-
-	- uni1E8F.sc
-
-	- uni1E93.sc
-
-	- uni1E97.sc
-
-	- uni1EA1.sc
-
-	- uni1EA3.sc
-
-	- uni1EA5.sc
-
-	- uni1EA7.sc
-
-	- uni1EA9.sc
-
-	- uni1EAB.sc
-
-	- uni1EAD.sc
-
-	- uni1EAF.sc
-
-	- uni1EB1.sc
-
-	- uni1EB3.sc
-
-	- uni1EB5.sc
-
-	- uni1EB7.sc
-
-	- uni1EB9.sc
-
-	- uni1EBB.sc
-
-	- uni1EBD.sc
-
-	- uni1EBF.sc
-
-	- uni1EC1.sc
-
-	- uni1EC3.sc
-
-	- uni1EC5.sc
-
-	- uni1EC7.sc
-
-	- uni1EC9.sc
-
-	- uni1ECB.sc
-
-	- uni1ECD.sc
-
-	- uni1ECF.sc
-
-	- uni1ED1.sc
-
-	- uni1ED3.sc
-
-	- uni1ED5.sc
-
-	- uni1ED7.sc
-
-	- uni1ED9.sc
-
-	- uni1EDB.sc
-
-	- uni1EDD.sc
-
-	- uni1EDF.sc
-
-	- uni1EE1.sc
-
-	- uni1EE3.sc
-
-	- uni1EE5.sc
-
-	- uni1EE7.sc
-
-	- uni1EE9.sc
-
-	- uni1EEB.sc
-
-	- uni1EED.sc
-
-	- uni1EEF.sc
-
-	- uni1EF1.sc
-
-	- uni1EF5.sc
-
-	- uni1EF7.sc
-
-	- uni1EF9.sc
 
 	- uni20B4.LP
 
@@ -4950,25 +2104,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni2116.OT
 
-	- uogonek.sc
-
-	- uring.sc
-
-	- utilde.sc
-
-	- v.sc
-
 	- v.superior
 
 	- w.superior
-
-	- wacute.sc
-
-	- wcircumflex.sc
-
-	- wdieresis.sc
-
-	- wgrave.sc
 
 	- whitetriangle
 
@@ -4976,25 +2114,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- y.superior
 
-	- yacute.sc
-
-	- ycircumflex.sc
-
-	- ydieresis.sc
-
 	- yen.LP
 
 	- yen.OP
 
-	- ygrave.sc
-
 	- z.superior
-
-	- zacute.sc
-
-	- zcaron.sc
-
-	- zdotaccent.sc
 
 	- zero.LP
 
@@ -5083,7 +2207,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni2782 (U+2782): B<<557.5,421.5>-<518.0,396.0>-<460.0,390.0>>/B<<460.0,390.0>-<525.0,384.0>-<554.5,361.5>> = 11.180037071122237 
 
 	* uni278C (U+278C): B<<554.5,361.5>-<525.0,384.0>-<460.0,390.0>>/B<<460.0,390.0>-<518.0,396.0>-<557.5,421.5>> = 11.180037071122237 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "522" it should be 0 [code: bad-OS/2.sTypoLineGap]
@@ -5094,9 +2218,9 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̛̇ i̛̊ i̛̋ ǐ̛ i̛̒ i̤̇ i̤̊ i̤̋ ǐ̤ i̤̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̉ į̊ į̋ į̏ į̑ į̒ і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5135,6 +2259,26 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- i + f
+
+	- f + l
+
+	- l + f 
+
+	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5150,155 +2294,45 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- Euro.OP
 
-	- T_h
-
 	- a.superior
-
-	- aacute.sc
-
-	- abreve.sc
-
-	- acircumflex.sc
-
-	- acute.case
 
 	- acutedotaccent
 
-	- acutedotaccent.case
-
-	- adieresis.sc
-
-	- aeacute.sc
-
-	- agrave.sc
-
-	- amacron.sc
-
-	- ampersand.sc
-
-	- aogonek.sc
-
-	- aring.sc
-
-	- aringacute.sc
-
-	- at.case
-
-	- at.sc
-
-	- atilde.sc
-
 	- b.superior
-
-	- backslash.case
 
 	- blacktriangle
 
-	- braceleft.case
-
-	- braceright.case
-
-	- bracketleft.case
-
-	- bracketright.case
-
-	- breve.case
-
 	- breveacute
-
-	- breveacute.case
 
 	- brevegrave
 
-	- brevegrave.case
-
 	- brevehookabove
-
-	- brevehookabove.case
 
 	- brevetilde
 
-	- brevetilde.case
-
 	- c.superior
 
-	- c_h
-
-	- c_t
-
-	- cacute.sc
-
-	- caron.case
-
 	- carondotaccent
-
-	- carondotaccent.case
-
-	- ccaron.sc
-
-	- ccedilla.sc
-
-	- ccircumflex.sc
-
-	- cdotaccent.sc
 
 	- cent.LP
 
 	- cent.OP
 
-	- circumflex.case
-
 	- circumflexhookabove
-
-	- circumflexhookabove.case
 
 	- circumflextilde
 
-	- circumflextilde.case
-
 	- d.superior
 
-	- dcaron.sc
-
-	- dcroat.sc
-
-	- dieresis.case
-
-	- dieresisacute.case
-
 	- dieresismacron
-
-	- dieresismacron.case
 
 	- dollar.LP
 
 	- dollar.OP
 
-	- dotaccent.case
-
 	- dotaccentmacron
 
-	- dotaccentmacron.case
-
-	- dotbelowcomb.case
-
-	- dotlessi.sc
-
 	- e.superior
-
-	- eacute.sc
-
-	- ebreve.sc
-
-	- ecaron.sc
-
-	- ecircumflex.sc
-
-	- edieresis.sc
-
-	- edotaccent.sc
-
-	- egrave.sc
 
 	- eight.LP
 
@@ -5308,47 +2342,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- eight.sups
 
-	- emacron.sc
-
-	- emdash.case
-
-	- endash.case
-
-	- eng.sc
-
-	- eogonek.sc
-
-	- eth.sc
-
-	- exclam.sc
-
-	- exclamdown.case
-
-	- exclamdown.sc
-
-	- f.sc
-
 	- f.superior
-
-	- f_b
-
-	- f_f_b
-
-	- f_f_h
-
-	- f_f_j
-
-	- f_f_k
-
-	- f_f_t
-
-	- f_h
-
-	- f_j
-
-	- f_k
-
-	- f_t
 
 	- five.LP
 
@@ -5372,95 +2366,21 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- g.superior
 
-	- gbreve.sc
-
-	- gcaron.sc
-
-	- gcircumflex.sc
-
-	- gdotaccent.sc
-
-	- germandbls.sc
-
-	- grave.case
-
-	- guillemotleft.case
-
-	- guillemotright.case
-
-	- guilsinglleft.case
-
-	- guilsinglright.case
-
 	- h.superior
-
-	- hbar.sc
-
-	- hcircumflex.sc
-
-	- hungarumlaut.case
-
-	- hyphen.case
-
-	- i.loclTRK
-
-	- i.loclTRK.sc
-
-	- iacute.sc
-
-	- ibreve.sc
-
-	- icircumflex.sc
-
-	- idieresis.sc
-
-	- igrave.sc
-
-	- ij.sc
-
-	- imacron.sc
-
-	- iogonek.sc
-
-	- itilde.sc
 
 	- j.superior
 
-	- jcircumflex.sc
-
 	- k.superior
-
-	- kgreenlandic.sc
 
 	- l.superior
 
-	- lacute.sc
-
-	- lcaron.sc
-
-	- ldot.sc
-
-	- lslash.sc
-
 	- m.superior
-
-	- macron.case
 
 	- macronacute
 
-	- macronacute.case
-
 	- macrondieresis
 
-	- macrondieresis.case
-
 	- macrongrave
-
-	- macrongrave.case
-
-	- nacute.sc
-
-	- ncaron.sc
 
 	- nine.LP
 
@@ -5470,29 +2390,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- nine.sups
 
-	- ntilde.sc
-
 	- numbersign.LP
 
 	- numbersign.OP
 
 	- o.superior
-
-	- oacute.sc
-
-	- obreve.sc
-
-	- ocircumflex.sc
-
-	- odieresis.sc
-
-	- oe.sc
-
-	- ograve.sc
-
-	- ohungarumlaut.sc
-
-	- omacron.sc
 
 	- one.LP
 
@@ -5504,67 +2406,13 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- one.sups
 
-	- oslashacute.sc
-
-	- otilde.sc
-
 	- p.superior
-
-	- parenleft.case
-
-	- parenright.case
-
-	- periodcentered.case
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- periodcentered.loclCAT.sc
-
-	- periodcentered.sc
-
-	- q.sc
 
 	- q.superior
 
-	- question.sc
-
-	- questiondown.case
-
-	- questiondown.sc
-
-	- quotedbl.sc
-
-	- quotedblleft.sc
-
-	- quotedblright.sc
-
-	- quoteleft.sc
-
-	- quoteright.sc
-
-	- quotesingle.sc
-
 	- r.superior
 
-	- racute.sc
-
-	- rcaron.sc
-
-	- ring.case
-
 	- s.superior
-
-	- s_p
-
-	- sacute.sc
-
-	- scaron.sc
-
-	- scedilla.sc
-
-	- scircumflex.sc
 
 	- seven.LP
 
@@ -5582,19 +2430,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- six.sups
 
-	- slash.case
-
 	- sterling.LP
 
 	- sterling.OP
 
 	- t.superior
-
-	- tbar.sc
-
-	- tcaron.sc
-
-	- thorn.sc
 
 	- three.LP
 
@@ -5604,19 +2444,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- three.sups
 
-	- tilde.case
-
 	- tildeacute
-
-	- tildeacute.case
 
 	- tildedieresis
 
-	- tildedieresis.case
-
 	- tildemacron
-
-	- tildemacron.case
 
 	- two.LP
 
@@ -5628,96 +2460,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- u.superior
 
-	- uacute.sc
-
-	- ubreve.sc
-
-	- ucircumflex.sc
-
-	- udieresis.sc
-
-	- ugrave.sc
-
-	- uhungarumlaut.sc
-
-	- umacron.sc
-
-	- uni004A0301
-
-	- uni006A0301
-
-	- uni006A0301.sc
-
-	- uni0123.sc
-
-	- uni0137.sc
-
-	- uni013C.sc
-
-	- uni0146.sc
-
-	- uni0157.sc
-
-	- uni0163.sc
-
-	- uni01C6.sc
-
-	- uni01C9.sc
-
-	- uni01CC.sc
-
-	- uni01EB.sc
-
-	- uni0201.sc
-
-	- uni0203.sc
-
-	- uni0205.sc
-
-	- uni0207.sc
-
-	- uni0209.sc
-
-	- uni020B.sc
-
-	- uni020D.sc
-
-	- uni020F.sc
-
-	- uni0211.sc
-
-	- uni0213.sc
-
-	- uni0215.sc
-
-	- uni0217.sc
-
-	- uni0219.sc
-
-	- uni021B.sc
-
-	- uni022B.sc
-
-	- uni022D.sc
-
-	- uni0231.sc
-
-	- uni0233.sc
-
-	- uni031B.case
-
-	- uni0324.case
-
-	- uni0326.case
-
-	- uni0327.case
-
-	- uni0328.case
-
-	- uni032E.case
-
-	- uni0331.case
-
 	- uni0414.bgr
 
 	- uni0416.bgr
@@ -5726,353 +2468,51 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni041B.bgr
 
-	- uni0430.sc
-
 	- uni0431.locl
-
-	- uni0431.locl.sc
 
 	- uni0432.bgr
 
-	- uni0432.bgr.sc
-
-	- uni0432.sc
-
 	- uni0433.bgr
-
-	- uni0433.bgr.sc
 
 	- uni0433.locl
 
-	- uni0433.locl.sc
-
-	- uni0434.bgr.sc
-
 	- uni0434.locl
-
-	- uni0434.locl.sc
-
-	- uni0435.sc
 
 	- uni0436.bgr
 
-	- uni0436.bgr.sc
-
 	- uni0437.bgr
-
-	- uni0437.bgr.sc
 
 	- uni0438.bgr
 
-	- uni0438.bgr.sc
-
 	- uni0439.bgr
-
-	- uni0439.bgr.sc
-
-	- uni0439.sc
 
 	- uni043A.bgr
 
-	- uni043A.bgr.sc
-
-	- uni043A.sc
-
 	- uni043B.bgr
-
-	- uni043B.bgr.sc
-
-	- uni043B.sc
-
-	- uni043C.sc
 
 	- uni043D.bgr
 
-	- uni043D.bgr.sc
-
-	- uni043D.sc
-
-	- uni043E.sc
-
 	- uni043F.bgr
-
-	- uni043F.bgr.sc
 
 	- uni043F.locl
 
-	- uni043F.locl.sc
-
-	- uni0440.sc
-
-	- uni0441.sc
-
 	- uni0442.bgr
-
-	- uni0442.bgr.sc
 
 	- uni0442.locl
 
-	- uni0442.locl.sc
-
-	- uni0442.sc
-
-	- uni0444.sc
-
-	- uni0445.sc
-
 	- uni0446.bgr
-
-	- uni0446.bgr.sc
 
 	- uni0447.bgr
 
-	- uni0447.bgr.sc
-
 	- uni0448.bgr
-
-	- uni0448.bgr.sc
 
 	- uni0449.bgr
 
-	- uni0449.bgr.sc
-
 	- uni044A.bgr
-
-	- uni044A.bgr.sc
-
-	- uni044B.sc
 
 	- uni044C.bgr
 
-	- uni044C.bgr.sc
-
-	- uni044D.sc
-
 	- uni044E.bgr
-
-	- uni044E.bgr.sc
-
-	- uni044F.sc
-
-	- uni0451.sc
-
-	- uni0452.sc
-
-	- uni0453.sc
-
-	- uni0454.sc
-
-	- uni0455.sc
-
-	- uni0456.sc
-
-	- uni0457.sc
-
-	- uni0458.sc
-
-	- uni0459.sc
-
-	- uni045A.sc
-
-	- uni045B.sc
-
-	- uni045C.sc
-
-	- uni045E.sc
-
-	- uni045F.sc
-
-	- uni0463.sc
-
-	- uni0473.sc
-
-	- uni0475.sc
-
-	- uni0491.sc
-
-	- uni0493.sc
-
-	- uni0497.sc
-
-	- uni049B.sc
-
-	- uni04A3.sc
-
-	- uni04AF.sc
-
-	- uni04B1.sc
-
-	- uni04B3.sc
-
-	- uni04B7.sc
-
-	- uni04BB.sc
-
-	- uni04CF.sc
-
-	- uni04D9.sc
-
-	- uni04E3.sc
-
-	- uni04E9.sc
-
-	- uni04EF.sc
-
-	- uni1E09.sc
-
-	- uni1E0D.sc
-
-	- uni1E0F.sc
-
-	- uni1E15.sc
-
-	- uni1E17.sc
-
-	- uni1E1D.sc
-
-	- uni1E21.sc
-
-	- uni1E25.sc
-
-	- uni1E2B.sc
-
-	- uni1E2F.sc
-
-	- uni1E37.sc
-
-	- uni1E3B.sc
-
-	- uni1E43.sc
-
-	- uni1E45.sc
-
-	- uni1E47.sc
-
-	- uni1E49.sc
-
-	- uni1E4D.sc
-
-	- uni1E4F.sc
-
-	- uni1E51.sc
-
-	- uni1E53.sc
-
-	- uni1E5B.sc
-
-	- uni1E5F.sc
-
-	- uni1E61.sc
-
-	- uni1E63.sc
-
-	- uni1E65.sc
-
-	- uni1E67.sc
-
-	- uni1E69.sc
-
-	- uni1E6D.sc
-
-	- uni1E6F.sc
-
-	- uni1E79.sc
-
-	- uni1E7B.sc
-
-	- uni1E8F.sc
-
-	- uni1E93.sc
-
-	- uni1E97.sc
-
-	- uni1EA1.sc
-
-	- uni1EA3.sc
-
-	- uni1EA5.sc
-
-	- uni1EA7.sc
-
-	- uni1EA9.sc
-
-	- uni1EAB.sc
-
-	- uni1EAD.sc
-
-	- uni1EAF.sc
-
-	- uni1EB1.sc
-
-	- uni1EB3.sc
-
-	- uni1EB5.sc
-
-	- uni1EB7.sc
-
-	- uni1EB9.sc
-
-	- uni1EBB.sc
-
-	- uni1EBD.sc
-
-	- uni1EBF.sc
-
-	- uni1EC1.sc
-
-	- uni1EC3.sc
-
-	- uni1EC5.sc
-
-	- uni1EC7.sc
-
-	- uni1EC9.sc
-
-	- uni1ECB.sc
-
-	- uni1ECD.sc
-
-	- uni1ECF.sc
-
-	- uni1ED1.sc
-
-	- uni1ED3.sc
-
-	- uni1ED5.sc
-
-	- uni1ED7.sc
-
-	- uni1ED9.sc
-
-	- uni1EDB.sc
-
-	- uni1EDD.sc
-
-	- uni1EDF.sc
-
-	- uni1EE1.sc
-
-	- uni1EE3.sc
-
-	- uni1EE5.sc
-
-	- uni1EE7.sc
-
-	- uni1EE9.sc
-
-	- uni1EEB.sc
-
-	- uni1EED.sc
-
-	- uni1EEF.sc
-
-	- uni1EF1.sc
-
-	- uni1EF5.sc
-
-	- uni1EF7.sc
-
-	- uni1EF9.sc
 
 	- uni20B4.LP
 
@@ -6094,25 +2534,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- uni2116.OT
 
-	- uogonek.sc
-
-	- uring.sc
-
-	- utilde.sc
-
-	- v.sc
-
 	- v.superior
 
 	- w.superior
-
-	- wacute.sc
-
-	- wcircumflex.sc
-
-	- wdieresis.sc
-
-	- wgrave.sc
 
 	- whitetriangle
 
@@ -6120,25 +2544,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- y.superior
 
-	- yacute.sc
-
-	- ycircumflex.sc
-
-	- ydieresis.sc
-
 	- yen.LP
 
 	- yen.OP
 
-	- ygrave.sc
-
 	- z.superior
-
-	- zacute.sc
-
-	- zcaron.sc
-
-	- zdotaccent.sc
 
 	- zero.LP
 
@@ -6229,8 +2639,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 21 | 92 | 1192 | 61 | 941 | 0 |
-| 0% | 1% | 4% | 52% | 3% | 41% | 0% |
+| 0 | 21 | 102 | 1182 | 61 | 941 | 0 |
+| 0% | 1% | 4% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
