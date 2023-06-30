@@ -54830,19 +54830,6 @@ twosuperior = {
 };
 };
 };
-kerningRTL = {
-m01 = {
-"ayin-hb" = {
-"shin-hb" = -30;
-};
-"lamed-hb" = {
-"ayin-hb" = -30;
-};
-"mem-hb" = {
-"vav-hb" = -10;
-};
-};
-};
 metrics = (
 {
 type = ascender;
