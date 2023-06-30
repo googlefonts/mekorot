@@ -38,7 +38,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 104 | 1182 | 61 | 955 | 0 |
+| 0 | 5 | 107 | 1182 | 61 | 952 | 0 |
 | 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
