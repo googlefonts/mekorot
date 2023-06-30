@@ -11039,7 +11039,7 @@ width = 488;
 unicode = 231;
 },
 {
-color = 5;
+color = 4;
 glyphname = cdotaccent;
 layers = (
 {
@@ -11756,7 +11756,7 @@ width = 557;
 unicode = 240;
 },
 {
-color = 5;
+color = 4;
 glyphname = dcaron;
 layers = (
 {
@@ -54827,6 +54827,19 @@ threesuperior = {
 twosuperior = {
 "@MMK_R_kern_comma3" = -70;
 "@MMK_R_kern_period3" = -70;
+};
+};
+};
+kerningRTL = {
+m01 = {
+"ayin-hb" = {
+"shin-hb" = -30;
+};
+"lamed-hb" = {
+"ayin-hb" = -30;
+};
+"mem-hb" = {
+"vav-hb" = -10;
 };
 };
 };
