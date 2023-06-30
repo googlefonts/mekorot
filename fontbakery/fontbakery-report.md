@@ -2,44 +2,14 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[1] Mekorot-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: і́
-
-The dot of soft dotted characters should disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ і̑ і̒ ј̀ ј́ ј̂ ј̃ ј̄ ј̆ ј̇ [code: soft-dotted]
-</div></details><br></div></details><details><summary><b>[1] Mekorot-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: і́
-
-The dot of soft dotted characters should disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ і̑ і̒ ј̀ ј́ ј̂ ј̃ ј̄ ј̆ ј̇ [code: soft-dotted]
-</div></details><br></div></details><details><summary><b>[1] Mekorot-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: і́
-
-The dot of soft dotted characters should disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ і̑ і̒ ј̀ ј́ ј̂ ј̃ ј̄ ј̆ ј̇ [code: soft-dotted]
-</div></details><br></div></details><details><summary><b>[1] Mekorot-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: і́
-
-The dot of soft dotted characters should disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ і̑ і̒ ј̀ ј́ ј̂ ј̃ ј̄ ј̆ ј̇ [code: soft-dotted]
-</div></details><br></div></details><details><summary><b>[1] Mekorot-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: і́
-
-The dot of soft dotted characters should disappear in other cases, for example: і̀ і̂ і̃ і̄ і̆ і̇ і̉ і̊ і̋ і̌ і̏ і̑ і̒ ј̀ ј́ ј̂ ј̃ ј̄ ј̆ ј̇ [code: soft-dotted]
-</div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 107 | 1182 | 61 | 952 | 0 |
-| 0% | 0% | 5% | 51% | 3% | 41% | 0% |
+| 0 | 0 | 106 | 1182 | 61 | 958 | 0 |
+| 0% | 0% | 5% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **WARN**
