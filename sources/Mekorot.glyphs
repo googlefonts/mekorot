@@ -147,39 +147,60 @@ tag = locl;
 },
 {
 automatic = 1;
-code = "sub zero by zero.sinf;
-sub one by one.sinf;
-sub two by two.sinf;
-sub three by three.sinf;
-sub four by four.sinf;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
 ";
 tag = subs;
 },
 {
 automatic = 1;
-code = "sub zero by zero.sinf;
-sub one by one.sinf;
-sub two by two.sinf;
-sub three by three.sinf;
-sub four by four.sinf;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
 ";
 tag = sinf;
 },
 {
 automatic = 1;
-code = "sub one by onesuperior;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
 sub four by foursuperior;
-sub zero by zero.sups;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
 ";
 tag = sups;
 },
 {
 automatic = 1;
-code = "sub one slash four by onequarter;
+code = "sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
 sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
 sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+sub one slash three by onethird;
+sub two slash three by twothirds;
 ";
 tag = frac;
 },
@@ -203,6 +224,49 @@ sub brevecomb by brevecomb.case;
 sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
+sub hookabovecomb by hookabovecomb.case;
+sub dblgravecomb by dblgravecomb.case;
+sub breveinvertedcomb by breveinvertedcomb.case;
+sub commaturnedabovecomb by commaturnedabovecomb.case;
+sub horncomb by horncomb.case;
+sub dotbelowcomb by dotbelowcomb.case;
+sub dieresisbelowcomb by dieresisbelowcomb.case;
+sub commaaccentcomb by commaaccentcomb.case;
+sub cedillacomb by cedillacomb.case;
+sub ogonekcomb by ogonekcomb.case;
+sub brevebelowcomb by brevebelowcomb.case;
+sub macronbelowcomb by macronbelowcomb.case;
+sub dieresis by dieresis.case;
+sub dotaccent by dotaccent.case;
+sub grave by grave.case;
+sub acute by acute.case;
+sub hungarumlaut by hungarumlaut.case;
+sub circumflex by circumflex.case;
+sub caron by caron.case;
+sub breve by breve.case;
+sub ring by ring.case;
+sub tilde by tilde.case;
+sub macron by macron.case;
+sub acutedotaccent by acutedotaccent.case;
+sub breveacute by breveacute.case;
+sub brevegrave by brevegrave.case;
+sub brevehookabove by brevehookabove.case;
+sub brevetilde by brevetilde.case;
+sub carondotaccent by carondotaccent.case;
+sub circumflexacute by circumflexacute.case;
+sub circumflexgrave by circumflexgrave.case;
+sub circumflexhookabove by circumflexhookabove.case;
+sub circumflextilde by circumflextilde.case;
+sub cyrbreve by cyrbreve.case;
+sub dieresisacute by dieresisacute.case;
+sub dieresismacron by dieresismacron.case;
+sub dotaccentmacron by dotaccentmacron.case;
+sub macronacute by macronacute.case;
+sub macrondieresis by macrondieresis.case;
+sub macrongrave by macrongrave.case;
+sub tildeacute by tildeacute.case;
+sub tildedieresis by tildedieresis.case;
+sub tildemacron by tildemacron.case;
 ";
 tag = case;
 },
@@ -2533,6 +2597,41 @@ width = 700;
 }
 );
 unicode = 278;
+},
+{
+color = 4;
+glyphname = Edotbelow;
+kernLeft = kern_H2;
+kernRight = kern_E1;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (350,0);
+ref = dotbelowcomb.case;
+}
+);
+width = 652;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (366,0);
+ref = dotbelowcomb.case;
+}
+);
+width = 700;
+}
+);
+unicode = 7864;
 },
 {
 color = 4;
