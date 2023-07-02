@@ -1,13 +1,6 @@
 {
 .appVersion = "3150";
 .formatVersion = 3;
-DisplayStrings = (
-"/zero.tf",
-"/one.tf",
-"/nine.tf",
-"/nine.dnom",
-"/nine.numr"
-);
 axes = (
 {
 name = Weight;
