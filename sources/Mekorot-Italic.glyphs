@@ -384253,38 +384253,6 @@ uni20B8.OP = 10;
 };
 };
 };
-kerningRTL = {
-master01 = {
-"@MMK_R_gimel-hb" = {
-"@MMK_L_dalet-hb" = -60;
-};
-"@MMK_R_gimeldagesh-hb" = {
-"@MMK_L_dalet-hb" = -80;
-};
-"@MMK_R_mem-hb" = {
-"@MMK_L_dalet-hb" = -30;
-"@MMK_L_nunFinal-hb" = -50;
-};
-"@MMK_R_zayin-hb" = {
-"@MMK_L_het-hb" = 80;
-};
-"@MMK_R_zayindagesh-hb" = {
-"@MMK_L_het-hb" = 70;
-};
-};
-"48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB" = {
-"@MMK_R_gimeldagesh-hb" = {
-"@MMK_L_dalet-hb" = -80;
-};
-"@MMK_R_mem-hb" = {
-"@MMK_L_dalet-hb" = -30;
-"@MMK_L_nunFinal-hb" = -50;
-};
-"@MMK_R_zayin-hb" = {
-"@MMK_L_het-hb" = 80;
-};
-};
-};
 metrics = (
 {
 type = ascender;

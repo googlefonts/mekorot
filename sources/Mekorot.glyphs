@@ -55450,13 +55450,6 @@ m002 = {
 };
 };
 };
-kerningRTL = {
-m01 = {
-"@MMK_R_zayindagesh-hb" = {
-"@MMK_L_het-hb" = 50;
-};
-};
-};
 metrics = (
 {
 type = ascender;
