@@ -379103,8 +379103,6 @@ uni20B8.OP = -40;
 "@MMK_R_kernLC_l2" = 30;
 "@MMK_R_kern_CYR_afii10099" = 30;
 };
-"@MMK_L_kern_braceright1" = {
-};
 "@MMK_L_kern_bullet3" = {
 "@MMK_R_kernLC_v3" = -30;
 "@MMK_R_kernLC_y3" = -20;
