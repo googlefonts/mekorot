@@ -21007,6 +21007,8 @@ unicode = 960;
 {
 color = 5;
 glyphname = "alef-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 anchors = (
@@ -21212,6 +21214,8 @@ unicode = 1488;
 {
 color = 4;
 glyphname = "alefpatah-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = m01;
@@ -21245,6 +21249,8 @@ unicode = 64302;
 {
 color = 4;
 glyphname = "alefqamats-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = m01;
@@ -21278,6 +21284,8 @@ unicode = 64303;
 {
 color = 4;
 glyphname = "alefdagesh-hb";
+kernLeft = "alef-hb";
+kernRight = "alef-hb";
 layers = (
 {
 layerId = m01;
@@ -21311,6 +21319,8 @@ unicode = 64304;
 {
 color = 5;
 glyphname = "bet-hb";
+kernLeft = "bet-hb";
+kernRight = "bet-hb";
 layers = (
 {
 anchors = (
@@ -21462,6 +21472,8 @@ unicode = 1489;
 {
 color = 4;
 glyphname = "betdagesh-hb";
+kernLeft = "bet-hb";
+kernRight = "bet-hb";
 layers = (
 {
 layerId = m01;
@@ -21495,6 +21507,8 @@ unicode = 64305;
 {
 color = 5;
 glyphname = "gimel-hb";
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 anchors = (
@@ -21634,6 +21648,8 @@ unicode = 1490;
 {
 color = 4;
 glyphname = "gimeldagesh-hb";
+kernLeft = "gimel-hb";
+kernRight = "gimel-hb";
 layers = (
 {
 layerId = m01;
@@ -21667,6 +21683,8 @@ unicode = 64306;
 {
 color = 5;
 glyphname = "dalet-hb";
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 anchors = (
@@ -21788,6 +21806,8 @@ unicode = 1491;
 {
 color = 4;
 glyphname = "daletdagesh-hb";
+kernLeft = "dalet-hb";
+kernRight = "dalet-hb";
 layers = (
 {
 layerId = m01;
@@ -21821,6 +21841,8 @@ unicode = 64307;
 {
 color = 5;
 glyphname = "he-hb";
+kernLeft = "he-hb";
+kernRight = "he-hb";
 layers = (
 {
 anchors = (
@@ -21982,6 +22004,8 @@ unicode = 1492;
 {
 color = 4;
 glyphname = "hedagesh-hb";
+kernLeft = "he-hb";
+kernRight = "he-hb";
 layers = (
 {
 layerId = m01;
@@ -22015,6 +22039,8 @@ unicode = 64308;
 {
 color = 5;
 glyphname = "vav-hb";
+kernLeft = "vav-hb";
+kernRight = "vav-hb";
 layers = (
 {
 anchors = (
@@ -22130,6 +22156,8 @@ unicode = 1493;
 {
 color = 4;
 glyphname = "vavdagesh-hb";
+kernLeft = "vavdagesh-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = m01;
@@ -22163,6 +22191,8 @@ unicode = 64309;
 {
 color = 4;
 glyphname = "vavholam-hb";
+kernLeft = "vav-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = m01;
@@ -22196,6 +22226,8 @@ unicode = 64331;
 {
 color = 5;
 glyphname = "zayin-hb";
+kernLeft = "zayin-hb";
+kernRight = "zayin-hb";
 layers = (
 {
 anchors = (
@@ -22317,6 +22349,8 @@ unicode = 1494;
 {
 color = 4;
 glyphname = "zayindagesh-hb";
+kernLeft = "zayindagesh-hb";
+kernRight = "zayin-hb";
 layers = (
 {
 layerId = m01;
@@ -22350,6 +22384,8 @@ unicode = 64310;
 {
 color = 5;
 glyphname = "het-hb";
+kernLeft = "het-hb";
+kernRight = "het-hb";
 layers = (
 {
 anchors = (
@@ -22493,6 +22529,8 @@ unicode = 1495;
 {
 color = 5;
 glyphname = "tet-hb";
+kernLeft = "tet-hb";
+kernRight = "tet-hb";
 layers = (
 {
 anchors = (
@@ -22638,6 +22676,8 @@ unicode = 1496;
 {
 color = 4;
 glyphname = "tetdagesh-hb";
+kernLeft = "tet-hb";
+kernRight = "tet-hb";
 layers = (
 {
 layerId = m01;
@@ -22671,6 +22711,8 @@ unicode = 64312;
 {
 color = 5;
 glyphname = "yod-hb";
+kernLeft = "yod-hb";
+kernRight = "yod-hb";
 layers = (
 {
 anchors = (
@@ -22780,6 +22822,8 @@ unicode = 1497;
 {
 color = 4;
 glyphname = "yoddagesh-hb";
+kernLeft = "yoddagesh-hb";
+kernRight = "yod-hb";
 layers = (
 {
 layerId = m01;
@@ -22813,6 +22857,8 @@ unicode = 64313;
 {
 color = 5;
 glyphname = "kafFinal-hb";
+kernLeft = "kafFinal-hb";
+kernRight = "kafFinal-hb";
 layers = (
 {
 anchors = (
@@ -22952,6 +22998,8 @@ unicode = 1498;
 {
 color = 4;
 glyphname = "kafdageshFinal-hb";
+kernLeft = "kafdageshFinal-hb";
+kernRight = "kafFinal-hb";
 layers = (
 {
 layerId = m01;
@@ -22985,6 +23033,8 @@ unicode = 64314;
 {
 color = 5;
 glyphname = "kaf-hb";
+kernLeft = "kaf-hb";
+kernRight = "kaf-hb";
 layers = (
 {
 anchors = (
@@ -23112,6 +23162,8 @@ unicode = 1499;
 {
 color = 4;
 glyphname = "kafdagesh-hb";
+kernLeft = "kaf-hb";
+kernRight = "kaf-hb";
 layers = (
 {
 layerId = m01;
@@ -23145,6 +23197,8 @@ unicode = 64315;
 {
 color = 5;
 glyphname = "lamed-hb";
+kernLeft = "lamed-hb";
+kernRight = "lamed-hb";
 layers = (
 {
 anchors = (
@@ -23272,6 +23326,8 @@ unicode = 1500;
 {
 color = 4;
 glyphname = "lameddagesh-hb";
+kernLeft = "lamed-hb";
+kernRight = "lamed-hb";
 layers = (
 {
 layerId = m01;
@@ -23305,6 +23361,8 @@ unicode = 64316;
 {
 color = 5;
 glyphname = "memFinal-hb";
+kernLeft = "memFinal-hb";
+kernRight = "memFinal-hb";
 layers = (
 {
 anchors = (
@@ -23440,6 +23498,8 @@ unicode = 1501;
 {
 color = 5;
 glyphname = "mem-hb";
+kernLeft = "mem-hb";
+kernRight = "mem-hb";
 layers = (
 {
 anchors = (
@@ -23579,6 +23639,8 @@ unicode = 1502;
 {
 color = 4;
 glyphname = "memdagesh-hb";
+kernLeft = "mem-hb";
+kernRight = "mem-hb";
 layers = (
 {
 layerId = m01;
@@ -23612,6 +23674,8 @@ unicode = 64318;
 {
 color = 5;
 glyphname = "nunFinal-hb";
+kernLeft = "nunFinal-hb";
+kernRight = "nunFinal-hb";
 layers = (
 {
 anchors = (
@@ -23731,6 +23795,8 @@ unicode = 1503;
 {
 color = 5;
 glyphname = "nun-hb";
+kernLeft = "nun-hb";
+kernRight = "nun-hb";
 layers = (
 {
 anchors = (
@@ -23828,6 +23894,8 @@ unicode = 1504;
 {
 color = 4;
 glyphname = "nundagesh-hb";
+kernLeft = "nun-hb";
+kernRight = "nun-hb";
 layers = (
 {
 layerId = m01;
@@ -23861,6 +23929,8 @@ unicode = 64320;
 {
 color = 5;
 glyphname = "samekh-hb";
+kernLeft = "samekh-hb";
+kernRight = "samekh-hb";
 layers = (
 {
 anchors = (
@@ -24034,6 +24104,8 @@ unicode = 1505;
 {
 color = 4;
 glyphname = "samekhdagesh-hb";
+kernLeft = "samekh-hb";
+kernRight = "samekh-hb";
 layers = (
 {
 layerId = m01;
@@ -24067,6 +24139,8 @@ unicode = 64321;
 {
 color = 5;
 glyphname = "ayin-hb";
+kernLeft = "ayin-hb";
+kernRight = "ayin-hb";
 layers = (
 {
 anchors = (
@@ -24204,6 +24278,8 @@ unicode = 1506;
 {
 color = 5;
 glyphname = "peFinal-hb";
+kernLeft = "peFinal-hb";
+kernRight = "peFinal-hb";
 layers = (
 {
 anchors = (
@@ -24337,6 +24413,8 @@ unicode = 1507;
 {
 color = 4;
 glyphname = "pedageshFinal-hb";
+kernLeft = "peFinal-hb";
+kernRight = "peFinal-hb";
 layers = (
 {
 layerId = m01;
@@ -24370,6 +24448,8 @@ unicode = 64323;
 {
 color = 5;
 glyphname = "pe-hb";
+kernLeft = "pe-hb";
+kernRight = "pe-hb";
 layers = (
 {
 anchors = (
@@ -24521,6 +24601,8 @@ unicode = 1508;
 {
 color = 4;
 glyphname = "pedagesh-hb";
+kernLeft = "pe-hb";
+kernRight = "pe-hb";
 layers = (
 {
 layerId = m01;
@@ -24554,6 +24636,8 @@ unicode = 64324;
 {
 color = 5;
 glyphname = "tsadiFinal-hb";
+kernLeft = "tsadiFinal-hb";
+kernRight = "tsadiFinal-hb";
 layers = (
 {
 anchors = (
@@ -24673,6 +24757,8 @@ unicode = 1509;
 {
 color = 5;
 glyphname = "tsadi-hb";
+kernLeft = "tsadi-hb";
+kernRight = "tsadi-hb";
 layers = (
 {
 anchors = (
@@ -24800,6 +24886,8 @@ unicode = 1510;
 {
 color = 4;
 glyphname = "tsadidagesh-hb";
+kernLeft = "tsadi-hb";
+kernRight = "tsadi-hb";
 layers = (
 {
 layerId = m01;
@@ -24833,6 +24921,8 @@ unicode = 64326;
 {
 color = 5;
 glyphname = "qof-hb";
+kernLeft = "qof-hb";
+kernRight = "qof-hb";
 layers = (
 {
 anchors = (
@@ -25012,6 +25102,8 @@ unicode = 1511;
 {
 color = 4;
 glyphname = "qofdagesh-hb";
+kernLeft = "qof-hb";
+kernRight = "qof-hb";
 layers = (
 {
 layerId = m01;
@@ -25045,6 +25137,8 @@ unicode = 64327;
 {
 color = 5;
 glyphname = "resh-hb";
+kernLeft = "resh-hb";
+kernRight = "resh-hb";
 layers = (
 {
 anchors = (
@@ -25172,6 +25266,8 @@ unicode = 1512;
 {
 color = 4;
 glyphname = "reshdagesh-hb";
+kernLeft = "resh-hb";
+kernRight = "resh-hb";
 layers = (
 {
 layerId = m01;
@@ -25205,6 +25301,8 @@ unicode = 64328;
 {
 color = 5;
 glyphname = "shin-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 anchors = (
@@ -25424,6 +25522,8 @@ unicode = 1513;
 {
 color = 4;
 glyphname = "shinshindot-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = m01;
@@ -25457,6 +25557,8 @@ unicode = 64298;
 {
 color = 4;
 glyphname = "shinsindot-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = m01;
@@ -25490,6 +25592,8 @@ unicode = 64299;
 {
 color = 4;
 glyphname = "shindageshshindot-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = m01;
@@ -25531,6 +25635,8 @@ unicode = 64300;
 {
 color = 4;
 glyphname = "shindageshsindot-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = m01;
@@ -25572,6 +25678,8 @@ unicode = 64301;
 {
 color = 4;
 glyphname = "shindagesh-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
 layers = (
 {
 layerId = m01;
@@ -25605,6 +25713,8 @@ unicode = 64329;
 {
 color = 5;
 glyphname = "tav-hb";
+kernLeft = "tav-hb";
+kernRight = "tav-hb";
 layers = (
 {
 anchors = (
@@ -25774,6 +25884,8 @@ unicode = 1514;
 {
 color = 4;
 glyphname = "tavdagesh-hb";
+kernLeft = "tav-hb";
+kernRight = "tav-hb";
 layers = (
 {
 layerId = m01;
@@ -25807,6 +25919,8 @@ unicode = 64330;
 {
 color = 4;
 glyphname = "yodhiriq-hb";
+kernLeft = "yod-hb";
+kernRight = "yod-hb";
 layers = (
 {
 layerId = m01;
@@ -25928,6 +26042,8 @@ unicode = 64285;
 {
 color = 4;
 glyphname = "yodyodpatah-hb";
+kernLeft = "yod-hb";
+kernRight = "yod-hb";
 layers = (
 {
 layerId = m01;
@@ -25962,6 +26078,8 @@ unicode = 64287;
 {
 color = 4;
 glyphname = "vavvav-hb";
+kernLeft = "vav-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = m01;
@@ -25997,6 +26115,8 @@ unicode = 1520;
 {
 color = 4;
 glyphname = "vavyod-hb";
+kernLeft = "yod-hb";
+kernRight = "vav-hb";
 layers = (
 {
 layerId = m01;
@@ -26030,6 +26150,8 @@ unicode = 1521;
 {
 color = 4;
 glyphname = "yodyod-hb";
+kernLeft = "yod-hb";
+kernRight = "yod-hb";
 layers = (
 {
 anchors = (
