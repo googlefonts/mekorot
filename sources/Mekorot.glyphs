@@ -351,13 +351,14 @@ sub yod-hb yod-hb by yodyod-hb;
 tag = dlig;
 },
 {
-automatic = 1;
 code = "lookupflag IgnoreMarks;
 sub f f i by f_f_i;
 sub f f l by f_f_l;
 sub f f by f_f;
 sub f i by fi;
 sub f l by fl;
+sub f j by f_j;
+sub f t by f_t;
 ";
 tag = liga;
 },
@@ -52848,6 +52849,7 @@ m01 = {
 "@MMK_L_kernLC_e1" = {
 "@MMK_R_kernLC_a2" = 5;
 "@MMK_R_kernLC_x3" = -10;
+"@MMK_R_kern_Y3" = -70;
 "@MMK_R_kern_hyphen3" = 10;
 "@MMK_R_kern_period3" = -10;
 "@MMK_R_kern_quotedblleft3" = -30;
@@ -52965,6 +52967,8 @@ m01 = {
 "@MMK_R_kernLC_o2" = 5;
 "@MMK_R_kernLC_x3" = -10;
 "@MMK_R_kernLC_z3" = -10;
+"@MMK_R_kern_T2" = -50;
+"@MMK_R_kern_V3" = -70;
 "@MMK_R_kern_b2" = -5;
 "@MMK_R_kern_backslash3" = -20;
 "@MMK_R_kern_colon3" = -10;
@@ -53022,6 +53026,7 @@ m01 = {
 };
 "@MMK_L_kernLC_v3" = {
 "@MMK_R_kernLC_t2" = 10;
+"@MMK_R_kern_A3" = -60;
 "@MMK_R_kern_at3" = -10;
 "@MMK_R_kern_comma3" = -40;
 "@MMK_R_kern_guillemotright3" = 20;
@@ -53583,7 +53588,7 @@ m01 = {
 "@MMK_R_kern_O2" = -30;
 "@MMK_R_kern_T2" = -30;
 "@MMK_R_kern_U2" = -40;
-"@MMK_R_kern_V3" = -140;
+"@MMK_R_kern_V3" = -220;
 "@MMK_R_kern_W3" = -40;
 "@MMK_R_kern_X3" = -20;
 "@MMK_R_kern_Y3" = -80;
@@ -54859,7 +54864,7 @@ m01 = {
 "@MMK_R_kernSC_A3" = -70;
 "@MMK_R_kernSC_AE2" = -70;
 "@MMK_R_kernSC_Z3" = -20;
-"@MMK_R_kern_A3" = -80;
+"@MMK_R_kern_A3" = -100;
 "@MMK_R_kern_AE2" = -70;
 "@MMK_R_kern_O2" = -20;
 "@MMK_R_kern_Z3" = -10;
@@ -55610,6 +55615,7 @@ m002 = {
 "@MMK_L_kernLC_e1" = {
 "@MMK_R_kernLC_a2" = 5;
 "@MMK_R_kernLC_x3" = -10;
+"@MMK_R_kern_Y3" = -60;
 "@MMK_R_kern_hyphen3" = 10;
 "@MMK_R_kern_period3" = -10;
 "@MMK_R_kern_quotedblleft3" = -30;
@@ -55727,6 +55733,8 @@ m002 = {
 "@MMK_R_kernLC_o2" = 5;
 "@MMK_R_kernLC_x3" = -10;
 "@MMK_R_kernLC_z3" = -10;
+"@MMK_R_kern_T2" = -30;
+"@MMK_R_kern_V3" = -60;
 "@MMK_R_kern_b2" = -5;
 "@MMK_R_kern_backslash3" = -20;
 "@MMK_R_kern_colon3" = -10;
@@ -55784,6 +55792,7 @@ m002 = {
 };
 "@MMK_L_kernLC_v3" = {
 "@MMK_R_kernLC_t2" = 10;
+"@MMK_R_kern_A3" = -50;
 "@MMK_R_kern_at3" = -10;
 "@MMK_R_kern_comma3" = -40;
 "@MMK_R_kern_guillemotright3" = 20;
@@ -56345,7 +56354,7 @@ m002 = {
 "@MMK_R_kern_O2" = -30;
 "@MMK_R_kern_T2" = -30;
 "@MMK_R_kern_U2" = -40;
-"@MMK_R_kern_V3" = -180;
+"@MMK_R_kern_V3" = -200;
 "@MMK_R_kern_W3" = -40;
 "@MMK_R_kern_X3" = -20;
 "@MMK_R_kern_Y3" = -80;
@@ -57309,7 +57318,7 @@ m002 = {
 "@MMK_R_kernLC_v3" = -20;
 "@MMK_R_kernLC_w3" = -20;
 "@MMK_R_kernLC_x3" = -10;
-"@MMK_R_kernLC_y3" = -30;
+"@MMK_R_kernLC_y3" = -50;
 "@MMK_R_kernLC_z3" = -30;
 "@MMK_R_kernSC_A3" = -20;
 "@MMK_R_kernSC_AE2" = -20;
@@ -57621,7 +57630,7 @@ m002 = {
 "@MMK_R_kernSC_A3" = -70;
 "@MMK_R_kernSC_AE2" = -70;
 "@MMK_R_kernSC_Z3" = -20;
-"@MMK_R_kern_A3" = -90;
+"@MMK_R_kern_A3" = -100;
 "@MMK_R_kern_AE2" = -70;
 "@MMK_R_kern_O2" = -20;
 "@MMK_R_kern_Z3" = -10;
