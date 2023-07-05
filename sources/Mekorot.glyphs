@@ -55408,10 +55408,12 @@ m01 = {
 "@MMK_R_bet-hb" = {
 "@MMK_L_lamed-hb" = -30;
 "@MMK_L_pe-hb" = -20;
+"@MMK_L_tet-hb" = -20;
 };
 "@MMK_R_dalet-hb" = {
 "@MMK_L_kern_comma3" = -200;
 "@MMK_L_kern_period3" = -160;
+"@MMK_L_tav-hb" = -20;
 };
 "@MMK_R_gimel-hb" = {
 "@MMK_L_nun-hb" = -40;
@@ -55447,6 +55449,9 @@ m01 = {
 "@MMK_L_kern_comma3" = -80;
 "@MMK_L_kern_period3" = -100;
 };
+"@MMK_R_tsadi-hb" = {
+"@MMK_L_pe-hb" = -40;
+};
 "@MMK_R_tsadiFinal-hb" = {
 "@MMK_L_kern_comma3" = -100;
 };
@@ -55457,6 +55462,7 @@ m01 = {
 "@MMK_R_yod-hb" = {
 "@MMK_L_kern_comma3" = -100;
 "@MMK_L_kern_period3" = -100;
+"@MMK_L_resh-hb" = -20;
 };
 "@MMK_R_zayindagesh-hb" = {
 "@MMK_L_het-hb" = 60;
@@ -55465,6 +55471,9 @@ m01 = {
 };
 };
 m002 = {
+"@MMK_R_ayin-hb" = {
+"@MMK_L_yod-hb" = -20;
+};
 "@MMK_R_dalet-hb" = {
 "@MMK_L_kern_comma3" = -160;
 "@MMK_L_kern_period3" = -150;
@@ -55513,8 +55522,9 @@ m002 = {
 "@MMK_L_kern_period3" = -150;
 };
 "@MMK_R_yod-hb" = {
-"@MMK_L_kern_comma3" = -100;
+"@MMK_L_kern_comma3" = -150;
 "@MMK_L_kern_period3" = -70;
+"@MMK_L_nunFinal-hb" = -20;
 };
 "@MMK_R_zayindagesh-hb" = {
 "@MMK_L_ayin-hb" = 60;
