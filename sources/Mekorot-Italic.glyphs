@@ -349150,10 +349150,16 @@ uni20B8 = 10;
 kerningRTL = {
 master01 = {
 "@MMK_R_ayin-hb" = {
+"@MMK_L_he-hb" = -40;
 "@MMK_L_lamed-hb" = -40;
+"@MMK_L_vav-hb" = -40;
+"@MMK_L_yod-hb" = -60;
 };
 "@MMK_R_bet-hb" = {
+"@MMK_L_alef-hb" = -30;
+"@MMK_L_he-hb" = -30;
 "@MMK_L_kaf-hb" = -40;
+"@MMK_L_pe-hb" = -30;
 "@MMK_L_resh-hb" = -50;
 "@MMK_L_tet-hb" = -60;
 "@MMK_L_vav-hb" = -40;
@@ -349180,6 +349186,12 @@ master01 = {
 "@MMK_L_shin-hb" = -40;
 "@MMK_L_yod-hb" = -40;
 };
+"@MMK_R_memFinal-hb" = {
+"@MMK_L_kern_comma3" = -40;
+};
+"@MMK_R_nun-hb" = {
+"@MMK_L_yod-hb" = -30;
+};
 "@MMK_R_resh-hb" = {
 "@MMK_L_he-hb" = -40;
 "@MMK_L_vav-hb" = -40;
@@ -349191,8 +349203,9 @@ master01 = {
 "@MMK_L_he-hb" = -40;
 };
 "@MMK_R_tav-hb" = {
+"@MMK_L_alef-hb" = -30;
 "@MMK_L_pe-hb" = -40;
-"@MMK_L_yod-hb" = -40;
+"@MMK_L_yod-hb" = -50;
 };
 "@MMK_R_tsadi-hb" = {
 "@MMK_L_resh-hb" = -40;
@@ -349202,7 +349215,7 @@ master01 = {
 "@MMK_L_kern_comma3" = -70;
 };
 "@MMK_R_yod-hb" = {
-"@MMK_L_kern_comma3" = -60;
+"@MMK_L_kern_comma3" = -80;
 };
 "@MMK_R_zayin-hb" = {
 "@MMK_L_het-hb" = 80;
@@ -349212,12 +349225,60 @@ master01 = {
 };
 };
 "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB" = {
+"@MMK_R_ayin-hb" = {
+"@MMK_L_he-hb" = -30;
+"@MMK_L_lamed-hb" = -60;
+"@MMK_L_vav-hb" = -30;
+"@MMK_L_yod-hb" = -60;
+};
+"@MMK_R_bet-hb" = {
+"@MMK_L_dalet-hb" = -40;
+"@MMK_L_he-hb" = -30;
+"@MMK_L_kaf-hb" = -30;
+"@MMK_L_pe-hb" = -30;
+"@MMK_L_resh-hb" = -40;
+"@MMK_L_yod-hb" = -30;
+};
+"@MMK_R_gimel-hb" = {
+"@MMK_L_yod-hb" = -80;
+};
 "@MMK_R_gimeldagesh-hb" = {
 "@MMK_L_dalet-hb" = -80;
+};
+"@MMK_R_kaf-hb" = {
+"@MMK_L_alef-hb" = -30;
+};
+"@MMK_R_lamed-hb" = {
+"@MMK_L_yod-hb" = -30;
 };
 "@MMK_R_mem-hb" = {
 "@MMK_L_dalet-hb" = -30;
 "@MMK_L_nunFinal-hb" = -50;
+"@MMK_L_tsadiFinal-hb" = -40;
+"@MMK_L_yod-hb" = -20;
+};
+"@MMK_R_nun-hb" = {
+"@MMK_L_yod-hb" = -30;
+};
+"@MMK_R_pe-hb" = {
+"@MMK_L_resh-hb" = -30;
+};
+"@MMK_R_resh-hb" = {
+"@MMK_L_kern_comma3" = -100;
+};
+"@MMK_R_tav-hb" = {
+"@MMK_L_yod-hb" = -20;
+};
+"@MMK_R_tsadi-hb" = {
+"@MMK_L_yod-hb" = -40;
+};
+"@MMK_R_vav-hb" = {
+"@MMK_L_kern_comma3" = -70;
+};
+"@MMK_R_yod-hb" = {
+"@MMK_L_ayin-hb" = 20;
+"@MMK_L_kern_comma3" = -80;
+"@MMK_L_qof-hb" = 30;
 };
 "@MMK_R_zayin-hb" = {
 "@MMK_L_het-hb" = 80;
