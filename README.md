@@ -1,5 +1,5 @@
 # Mekorot
-A Hebrew typeface in the Rashi style. Originally this project was part of an attempt to create a free version of the Hebrew Talmud, as PDF files, while keeping the page shape known as Tzurat Hadaf.
+A Hebrew typeface in the Rashi style. Originally this project was part of an attempt to create a free version of the Hebrew Talmud, as PDF files, while keeping the page layout known as Tzurat Hadaf.
 
 This project has been adapted from a previous [SourceForge archive](https://sourceforge.net/projects/mekorot/), based on the [original work by Dr. Alan Hoenig](https://ctan.org/tex-archive/language/hebrew/makor/).
 
