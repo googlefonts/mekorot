@@ -1,5 +1,5 @@
 {
-.appVersion = "3150";
+.appVersion = "3208";
 .formatVersion = 3;
 axes = (
 {
@@ -52,16 +52,8 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-400 = 90;
-500 = 110;
-600 = 130;
-700 = 140;
-800 = 150;
-};
-};
+name = "Variable Font Origin";
+value = master01;
 }
 );
 date = "2023-06-08 18:31:24 +0000";
@@ -122,7 +114,66 @@ lookup ccmp_Other_2 {
 } ccmp_Other_2;
 
 script latn;";
-notes = "# I removed this:\012\012\012\012\012\012lookupflag UseMarkFilteringSet @CombiningTopAccents;\012\012sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012\012@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012\012\012# Glyphs generated code:\012\012lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_latn_1 {\012	sub fi by f i;\012	sub fl by f l;\012	sub Ldot by L periodcentered.loclCAT.case;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012\012\012\012\012\012# Examples from: https://googlefonts.github.io/gf-guide/diacritics.html#soft-dotted-glyphs\012\012lookup ccmp_soft_dotted {\012    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb];\012    lookupflag UseMarkFilteringSet @CombiningTopAccents;\012    sub [i j]' @CombiningTopAccents by [idotless jdotless];\012} ccmp_soft_dotted;\012\012\012lookup ccmp_soft_dotted {\012    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb];\012    lookupflag UseMarkFilteringSet @CombiningTopAccents;\012    sub [i j idotbelow iogonek itildebelow istroke jstroke i-cy je-cy]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb idotless_tildebelowcomb istroke.dotless jstroke.dotless idotless jdotless];\012} ccmp_soft_dotted;\012\012";
+notes = "# I removed this:
+
+
+
+
+
+lookupflag UseMarkFilteringSet @CombiningTopAccents;
+
+sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+
+@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+
+
+# Glyphs generated code:
+
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+
+
+
+
+
+# Examples from: https://googlefonts.github.io/gf-guide/diacritics.html#soft-dotted-glyphs
+
+lookup ccmp_soft_dotted {
+    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb];
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub [i j]' @CombiningTopAccents by [idotless jdotless];
+} ccmp_soft_dotted;
+
+
+lookup ccmp_soft_dotted {
+    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb];
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub [i j idotbelow iogonek itildebelow istroke jstroke i-cy je-cy]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb idotless_tildebelowcomb istroke.dotless jstroke.dotless idotless jdotless];
+} ccmp_soft_dotted;
+
+";
 tag = ccmp;
 },
 {
@@ -446,8 +497,8 @@ pos = 740;
 size = 10;
 },
 {
-pos = "-230";
-size = "-10";
+pos = -230;
+size = -10;
 }
 );
 }
@@ -556,8 +607,8 @@ pos = 740;
 size = 10;
 },
 {
-pos = "-230";
-size = "-10";
+pos = -230;
+size = -10;
 }
 );
 }
@@ -279321,7 +279372,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (0,35);
+pos = (6,35);
 ref = periodcentered;
 }
 );
@@ -279417,7 +279468,7 @@ width = 250;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (0,35);
+pos = (6,35);
 ref = periodcentered;
 }
 );
@@ -339182,7 +339233,7 @@ pos = (12,0);
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (-3,-8);
+pos = (-1,-8);
 ref = brevebelowcomb;
 }
 );
@@ -342863,7 +342914,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (245.329,0);
+alignment = -1;
+pos = (245,0);
 ref = dieresiscomb.case;
 }
 );
@@ -343027,7 +343079,8 @@ width = 360;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (257.183,0);
+alignment = -1;
+pos = (257,0);
 ref = dieresiscomb.case;
 }
 );
@@ -343197,7 +343250,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (171.271,0);
+alignment = -1;
+pos = (171,0);
 ref = dotaccentcomb.case;
 }
 );
@@ -343293,7 +343347,8 @@ width = 214;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (174.508,0);
+alignment = -1;
+pos = (175,0);
 ref = dotaccentcomb.case;
 }
 );
@@ -343395,7 +343450,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (193.596,0);
+alignment = -1;
+pos = (194,0);
 ref = gravecomb.case;
 }
 );
@@ -343467,7 +343523,8 @@ width = 262;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (197.596,0);
+alignment = -1;
+pos = (198,0);
 ref = gravecomb.case;
 }
 );
@@ -343545,7 +343602,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (204.596,0);
+alignment = -1;
+pos = (205,0);
 ref = acutecomb.case;
 }
 );
@@ -343617,7 +343675,8 @@ width = 284;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (206.596,0);
+alignment = -1;
+pos = (207,0);
 ref = acutecomb.case;
 }
 );
@@ -343695,7 +343754,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (245.596,0);
+alignment = -1;
+pos = (246,0);
 ref = hungarumlautcomb.case;
 }
 );
@@ -343811,7 +343871,8 @@ width = 366;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (269.596,0);
+alignment = -1;
+pos = (270,0);
 ref = hungarumlautcomb.case;
 }
 );
@@ -343933,7 +343994,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (252.596,0);
+alignment = -1;
+pos = (253,0);
 ref = circumflexcomb.case;
 }
 );
@@ -344013,7 +344075,8 @@ width = 380;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (254.596,0);
+alignment = -1;
+pos = (255,0);
 ref = circumflexcomb.case;
 }
 );
@@ -344099,7 +344162,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (252.596,0);
+alignment = -1;
+pos = (253,0);
 ref = caroncomb.case;
 }
 );
@@ -344179,7 +344243,8 @@ width = 380;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (254.596,0);
+alignment = -1;
+pos = (255,0);
 ref = caroncomb.case;
 }
 );
@@ -344265,7 +344330,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (251.596,0);
+alignment = -1;
+pos = (252,0);
 ref = brevecomb.case;
 }
 );
@@ -344373,7 +344439,8 @@ width = 378;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (263.596,0);
+alignment = -1;
+pos = (264,0);
 ref = brevecomb.case;
 }
 );
@@ -344487,7 +344554,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (194.596,0);
+alignment = -1;
+pos = (195,0);
 ref = ringcomb.case;
 }
 );
@@ -344651,7 +344719,8 @@ width = 263;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (182.596,0);
+alignment = -1;
+pos = (183,0);
 ref = ringcomb.case;
 }
 );
@@ -344821,7 +344890,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (270.007,0);
+alignment = -1;
+pos = (270,0);
 ref = tildecomb.case;
 }
 );
@@ -344961,7 +345031,8 @@ width = 411;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (272.39,0);
+alignment = -1;
+pos = (272,0);
 ref = tildecomb.case;
 }
 );
@@ -345107,7 +345178,8 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (248.621,0);
+alignment = -1;
+pos = (249,0);
 ref = macroncomb.case;
 }
 );
@@ -345163,7 +345235,8 @@ width = 361;
 layerId = "48B243E4-A9BC-4CE2-9E97-0DBF8BE24EDB";
 shapes = (
 {
-pos = (260.299,0);
+alignment = -1;
+pos = (260,0);
 ref = macroncomb.case;
 }
 );
