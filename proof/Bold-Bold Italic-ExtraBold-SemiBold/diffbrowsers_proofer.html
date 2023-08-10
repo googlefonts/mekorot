@@ -146,22 +146,6 @@
 
 	  
 	    @font-face{
-    src: url(Mekorot-ExtraBoldItalic.ttf);
-    font-family: "Mekorot";
-    font-weight: 800;
-    
-    font-style: italic;
-}
-	  
-	    @font-face{
-    src: url(Mekorot-Medium.ttf);
-    font-family: "Mekorot";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url(Mekorot-BoldItalic.ttf);
     font-family: "Mekorot";
     font-weight: 700;
@@ -170,9 +154,41 @@
 }
 	  
 	    @font-face{
-    src: url(Mekorot-MediumItalic.ttf);
+    src: url(Mekorot-SemiBold.ttf);
     font-family: "Mekorot";
-    font-weight: 500;
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(Mekorot-Bold.ttf);
+    font-family: "Mekorot";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(Mekorot-ExtraBold.ttf);
+    font-family: "Mekorot";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(Mekorot-SemiBoldItalic.ttf);
+    font-family: "Mekorot";
+    font-weight: 600;
+    
+    font-style: italic;
+}
+	  
+	    @font-face{
+    src: url(Mekorot-ExtraBoldItalic.ttf);
+    font-family: "Mekorot";
+    font-weight: 800;
     
     font-style: italic;
 }
@@ -182,6 +198,14 @@
 
 	  
 
+	  
+	    .Bold{
+    font-family: "Mekorot", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700;
+}
 	  
 	    .Bold-Italic{
     font-family: "Mekorot", "Adobe NotDef";
@@ -191,20 +215,20 @@
     font-variation-settings: "wght" 700;
 }
 	  
-	    .Medium{
+	    .ExtraBold{
     font-family: "Mekorot", "Adobe NotDef";
-    font-weight: 500;
+    font-weight: 800;
     
     font-style: normal;
-    font-variation-settings: "wght" 500;
+    font-variation-settings: "wght" 800;
 }
 	  
-	    .Medium-Italic{
+	    .SemiBold{
     font-family: "Mekorot", "Adobe NotDef";
-    font-weight: 500;
+    font-weight: 600;
     
-    font-style: italic;
-    font-variation-settings: "wght" 500;
+    font-style: normal;
+    font-variation-settings: "wght" 600;
 }
 	  
 	    .ExtraBold-Italic{
@@ -213,6 +237,14 @@
     
     font-style: italic;
     font-variation-settings: "wght" 800;
+}
+	  
+	    .SemiBold-Italic{
+    font-family: "Mekorot", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 600;
 }
 	  
 	
@@ -245,11 +277,22 @@
     max-width: 500px;
 }
 
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
     <div id="nav">
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
     <div class="nav-item" id="view-button">Line by line</div>
     <div class="nav-item" id="pt-dropdown">
@@ -276,15 +319,19 @@
             <div class="box-title">Letter Groups</div>
             
             
+                <div class="box-text Bold" style="font-size: 20pt">
+                    EFHIJLTU<br>
+                </div>
+            
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     EFHIJLTU<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     EFHIJLTU<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     EFHIJLTU<br>
                 </div>
             
@@ -292,18 +339,26 @@
                     EFHIJLTU<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    EFHIJLTU<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    AVWXZ<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     AVWXZ<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     AVWXZ<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     AVWXZ<br>
                 </div>
             
@@ -311,18 +366,26 @@
                     AVWXZ<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    AVWXZ<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    KMNY<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     KMNY<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     KMNY<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     KMNY<br>
                 </div>
             
@@ -330,18 +393,26 @@
                     KMNY<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    KMNY<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    COQS<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     COQS<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     COQS<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     COQS<br>
                 </div>
             
@@ -349,18 +420,26 @@
                     COQS<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    COQS<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    BPRDG<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     BPRDG<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     BPRDG<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     BPRDG<br>
                 </div>
             
@@ -368,18 +447,26 @@
                     BPRDG<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    BPRDG<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    fijltr<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     fijltr<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     fijltr<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     fijltr<br>
                 </div>
             
@@ -387,18 +474,26 @@
                     fijltr<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    fijltr<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    kvwxyz<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     kvwxyz<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     kvwxyz<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     kvwxyz<br>
                 </div>
             
@@ -406,18 +501,26 @@
                     kvwxyz<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    kvwxyz<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    hmnu<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     hmnu<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     hmnu<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     hmnu<br>
                 </div>
             
@@ -425,18 +528,26 @@
                     hmnu<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    hmnu<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    ceogs<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     ceogs<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     ceogs<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     ceogs<br>
                 </div>
             
@@ -444,22 +555,34 @@
                     ceogs<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    ceogs<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    abdpq<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     abdpq<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     abdpq<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     abdpq<br>
                 </div>
             
                 <div class="box-text ExtraBold-Italic" style="font-size: 20pt">
+                    abdpq<br>
+                </div>
+            
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
                     abdpq<br>
                 </div>
             
@@ -471,57 +594,81 @@
             <div class="box-title">Spacing</div>
             
             
+                <div class="box-text Bold" style="font-size: 20pt">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
                 <div class="box-text ExtraBold-Italic" style="font-size: 20pt">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
             <br>
             
             
+                <div class="box-text Bold" style="font-size: 20pt">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
                 <div class="box-text ExtraBold-Italic" style="font-size: 20pt">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
             <br>
             
             
+                <div class="box-text Bold" style="font-size: 20pt">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     010 080 030 020 050 060 070<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     010 080 030 020 050 060 070<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     010 080 030 020 050 060 070<br>
                 </div>
             
                 <div class="box-text ExtraBold-Italic" style="font-size: 20pt">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
                     010 080 030 020 050 060 070<br>
                 </div>
             
@@ -533,15 +680,19 @@
             <div class="box-title">Kerning</div>
             
             
+                <div class="box-text Bold" style="font-size: 20pt">
+                    HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
+                </div>
+            
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
                 </div>
             
@@ -549,18 +700,26 @@
                     HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
@@ -568,18 +727,26 @@
                     TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
                 </div>
             
@@ -587,18 +754,26 @@
                     HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    HHTan oTo yTy vAv oVo eYe Ly Ky Ac<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
@@ -606,18 +781,26 @@
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
@@ -625,18 +808,26 @@
                     ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
@@ -644,18 +835,26 @@
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
@@ -663,18 +862,26 @@
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    080 076 474 973 94 7078<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     080 076 474 973 94 7078<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     080 076 474 973 94 7078<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     080 076 474 973 94 7078<br>
                 </div>
             
@@ -682,18 +889,26 @@
                     080 076 474 973 94 7078<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    080 076 474 973 94 7078<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    P4T47A .47,9.7-»4<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     P4T47A .47,9.7-»4<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     P4T47A .47,9.7-»4<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     P4T47A .47,9.7-»4<br>
                 </div>
             
@@ -701,18 +916,26 @@
                     P4T47A .47,9.7-»4<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
@@ -720,18 +943,26 @@
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    d² m³ 15°C/26°F<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     d² m³ 15°C/26°F<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     d² m³ 15°C/26°F<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     d² m³ 15°C/26°F<br>
                 </div>
             
@@ -739,22 +970,34 @@
                     d² m³ 15°C/26°F<br>
                 </div>
             
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
             <br>
             
+            
+                <div class="box-text Bold" style="font-size: 20pt">
+                    0/0\0<br>
+                </div>
             
                 <div class="box-text Bold-Italic" style="font-size: 20pt">
                     0/0\0<br>
                 </div>
             
-                <div class="box-text Medium" style="font-size: 20pt">
+                <div class="box-text ExtraBold" style="font-size: 20pt">
                     0/0\0<br>
                 </div>
             
-                <div class="box-text Medium-Italic" style="font-size: 20pt">
+                <div class="box-text SemiBold" style="font-size: 20pt">
                     0/0\0<br>
                 </div>
             
                 <div class="box-text ExtraBold-Italic" style="font-size: 20pt">
+                    0/0\0<br>
+                </div>
+            
+                <div class="box-text SemiBold-Italic" style="font-size: 20pt">
                     0/0\0<br>
                 </div>
             
@@ -770,6 +1013,74 @@
 <div id="font-by-font" style="display: none;">
 
     <h3>Glyphset: GF_Latin_Kernel</h3>
+    
+        <div class="box-title">Bold 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">EFHIJLTU</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">AVWXZ</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">KMNY</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">COQS</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">BPRDG</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">fijltr</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">kvwxyz</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">hmnu</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">ceogs</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">abdpq</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Bold" style="font-size: 20pt">0/0\0</div>
+                
+            </div>
+        
     
         <div class="box-title">Bold-Italic 20pt</div>
         
@@ -839,138 +1150,138 @@
             </div>
         
     
-        <div class="box-title">Medium 20pt</div>
+        <div class="box-title">ExtraBold 20pt</div>
         
             <div class="box">
                 <div class="box-title">Letter Groups</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">EFHIJLTU</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">EFHIJLTU</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">AVWXZ</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">AVWXZ</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">KMNY</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">KMNY</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">COQS</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">COQS</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">BPRDG</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">BPRDG</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">fijltr</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">fijltr</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">kvwxyz</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">kvwxyz</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">hmnu</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">hmnu</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">ceogs</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">ceogs</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">abdpq</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">abdpq</div>
                 
             </div>
         
             <div class="box">
                 <div class="box-title">Spacing</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">010 080 030 020 050 060 070</div>
                 
             </div>
         
             <div class="box">
                 <div class="box-title">Kerning</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">080 076 474 973 94 7078</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">d² m³ 15°C/26°F</div>
                 
-                    <div class="box-text Medium" style="font-size: 20pt">0/0\0</div>
+                    <div class="box-text ExtraBold" style="font-size: 20pt">0/0\0</div>
                 
             </div>
         
     
-        <div class="box-title">Medium-Italic 20pt</div>
+        <div class="box-title">SemiBold 20pt</div>
         
             <div class="box">
                 <div class="box-title">Letter Groups</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">EFHIJLTU</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">EFHIJLTU</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">AVWXZ</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">AVWXZ</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">KMNY</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">KMNY</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">COQS</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">COQS</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">BPRDG</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">BPRDG</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">fijltr</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">fijltr</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">kvwxyz</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">kvwxyz</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">hmnu</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">hmnu</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">ceogs</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">ceogs</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">abdpq</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">abdpq</div>
                 
             </div>
         
             <div class="box">
                 <div class="box-title">Spacing</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">010 080 030 020 050 060 070</div>
                 
             </div>
         
             <div class="box">
                 <div class="box-title">Kerning</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">080 076 474 973 94 7078</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">d² m³ 15°C/26°F</div>
                 
-                    <div class="box-text Medium-Italic" style="font-size: 20pt">0/0\0</div>
+                    <div class="box-text SemiBold" style="font-size: 20pt">0/0\0</div>
                 
             </div>
         
@@ -1043,6 +1354,74 @@
             </div>
         
     
+        <div class="box-title">SemiBold-Italic 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">EFHIJLTU</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">AVWXZ</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">KMNY</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">COQS</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">BPRDG</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">fijltr</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">kvwxyz</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">hmnu</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">ceogs</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">abdpq</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text SemiBold-Italic" style="font-size: 20pt">0/0\0</div>
+                
+            </div>
+        
+    
  
 </div>
 
@@ -1050,6 +1429,76 @@
 <div id="side-by-side" style="display: none;">
 
     <h3>Glyphset: GF_Latin_Kernel</h3>
+    
+        <div class="box-side-by-side">
+            <div class="box-title">Bold 20pt</div>
+            
+                <div class="box">
+                    <div class="box-title">Letter Groups</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">EFHIJLTU</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">AVWXZ</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">KMNY</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">COQS</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">BPRDG</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">fijltr</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">kvwxyz</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">hmnu</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">ceogs</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">abdpq</div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Spacing</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Kerning</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                    
+                        <div class="box-text Bold box-text" style="font-size: 20pt">0/0\0</div>
+                    
+                </div>
+            
+        </div>
     
         <div class="box-side-by-side">
             <div class="box-title">Bold-Italic 20pt</div>
@@ -1122,140 +1571,140 @@
         </div>
     
         <div class="box-side-by-side">
-            <div class="box-title">Medium 20pt</div>
+            <div class="box-title">ExtraBold 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">EFHIJLTU</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">EFHIJLTU</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">AVWXZ</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">AVWXZ</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">KMNY</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">KMNY</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">COQS</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">COQS</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">BPRDG</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">BPRDG</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">fijltr</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">fijltr</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">kvwxyz</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">kvwxyz</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">hmnu</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">hmnu</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">ceogs</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">ceogs</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">abdpq</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">abdpq</div>
                     
                 </div>
             
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
                     
                 </div>
             
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
                     
-                        <div class="box-text Medium box-text" style="font-size: 20pt">0/0\0</div>
+                        <div class="box-text ExtraBold box-text" style="font-size: 20pt">0/0\0</div>
                     
                 </div>
             
         </div>
     
         <div class="box-side-by-side">
-            <div class="box-title">Medium-Italic 20pt</div>
+            <div class="box-title">SemiBold 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">EFHIJLTU</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">EFHIJLTU</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">AVWXZ</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">AVWXZ</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">KMNY</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">KMNY</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">COQS</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">COQS</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">BPRDG</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">BPRDG</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">fijltr</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">fijltr</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">kvwxyz</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">kvwxyz</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">hmnu</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">hmnu</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">ceogs</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">ceogs</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">abdpq</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">abdpq</div>
                     
                 </div>
             
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
                     
                 </div>
             
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
                     
-                        <div class="box-text Medium-Italic box-text" style="font-size: 20pt">0/0\0</div>
+                        <div class="box-text SemiBold box-text" style="font-size: 20pt">0/0\0</div>
                     
                 </div>
             
@@ -1331,6 +1780,76 @@
             
         </div>
     
+        <div class="box-side-by-side">
+            <div class="box-title">SemiBold-Italic 20pt</div>
+            
+                <div class="box">
+                    <div class="box-title">Letter Groups</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">EFHIJLTU</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">AVWXZ</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">KMNY</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">COQS</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">BPRDG</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">fijltr</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">kvwxyz</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">hmnu</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">ceogs</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">abdpq</div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Spacing</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">HHOHHOOHOO HIHOIO</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">uuonouonoo ninoioolonlniuo</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">010 080 030 020 050 060 070</div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Kerning</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">HHAVAHH WAFAPATAUAYALYTJĿLVÆ HH</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">TiTíTîTïTìTĭTīTĩT Vă Tä Tü Tõ Tŭ Tř</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">HHTan oTo yTy vAv oVo eYe Ly Ky Ac</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">ďá ďu ŀl gj ľk włw yły ółr fħ ílïlîl</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">080 076 474 973 94 7078</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">P4T47A .47,9.7-»4</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">42°21′29″N 71°03′49″W</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">d² m³ 15°C/26°F</div>
+                    
+                        <div class="box-text SemiBold-Italic box-text" style="font-size: 20pt">0/0\0</div>
+                    
+                </div>
+            
+        </div>
+    
  
 </div>
 
@@ -1371,6 +1890,81 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'frac', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
     
     
 state = "line-by-line"
