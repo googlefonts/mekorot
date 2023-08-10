@@ -1,5 +1,5 @@
 {
-.appVersion = "3150";
+.appVersion = "3208";
 .formatVersion = 3;
 axes = (
 {
@@ -52,16 +52,8 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-400 = 90;
-500 = 110;
-600 = 130;
-700 = 140;
-800 = 150;
-};
-};
+name = "Variable Font Origin";
+value = m01;
 }
 );
 date = "2021-07-16 04:59:07 +0000";
@@ -447,8 +439,8 @@ pos = 530;
 size = 10;
 },
 {
-pos = "-230";
-size = "-10";
+pos = -230;
+size = -10;
 }
 );
 }
@@ -560,8 +552,8 @@ pos = 530;
 size = 10;
 },
 {
-pos = "-230";
-size = "-10";
+pos = -230;
+size = -10;
 }
 );
 }
@@ -49312,6 +49304,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (191,0);
 ref = dieresiscomb.case;
 }
@@ -49322,6 +49315,7 @@ width = 382;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (203,0);
 ref = dieresiscomb.case;
 }
@@ -49338,6 +49332,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (110,0);
 ref = dotaccentcomb.case;
 }
@@ -49348,6 +49343,7 @@ width = 220;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (116,0);
 ref = dotaccentcomb.case;
 }
@@ -49364,6 +49360,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (135,0);
 ref = gravecomb.case;
 }
@@ -49374,6 +49371,7 @@ width = 269;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (139,0);
 ref = gravecomb.case;
 }
@@ -49390,6 +49388,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (135,0);
 ref = acutecomb.case;
 }
@@ -49400,6 +49399,7 @@ width = 269;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (139,0);
 ref = acutecomb.case;
 }
@@ -49416,6 +49416,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (170,0);
 ref = hungarumlautcomb.case;
 }
@@ -49426,6 +49427,7 @@ width = 340;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (192,0);
 ref = hungarumlautcomb.case;
 }
@@ -49442,6 +49444,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (197,0);
 ref = circumflexcomb.case;
 }
@@ -49452,6 +49455,7 @@ width = 394;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (203,0);
 ref = circumflexcomb.case;
 }
@@ -49468,6 +49472,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (197,0);
 ref = caroncomb.case;
 }
@@ -49478,6 +49483,7 @@ width = 394;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (203,0);
 ref = caroncomb.case;
 }
@@ -49494,6 +49500,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (196,0);
 ref = brevecomb.case;
 }
@@ -49504,6 +49511,7 @@ width = 392;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (203,0);
 ref = brevecomb.case;
 }
@@ -49520,6 +49528,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (136,0);
 ref = ringcomb.case;
 }
@@ -49530,6 +49539,7 @@ width = 272;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (126,0);
 ref = ringcomb.case;
 }
@@ -49546,6 +49556,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (202,0);
 ref = tildecomb.case;
 }
@@ -49556,6 +49567,7 @@ width = 404;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (208,0);
 ref = tildecomb.case;
 }
@@ -49572,6 +49584,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 pos = (183,0);
 ref = macroncomb.case;
 }
@@ -49582,6 +49595,7 @@ width = 366;
 layerId = m002;
 shapes = (
 {
+alignment = -1;
 pos = (188,0);
 ref = macroncomb.case;
 }
