@@ -362507,6 +362507,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = ExtraBold;
 name = "ExtraBold Italic";
+weightClass = 800;
 }
 );
 kerningLTR = {
